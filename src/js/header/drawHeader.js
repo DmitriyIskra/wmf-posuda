@@ -35,10 +35,11 @@ export default class DrawHeader {
         let index = el.dataset.index;
 
         let heightMain = this.main.offsetHeight
+
         // открытие подменю, если еще не было открыто
         if(!this.lastSubMenu) {
 
-            // Если при открытии подменю был открыт GJBCR, он должен закрыться
+            // Если при открытии подменю был открыт поиск, он должен закрыться
             if(this.activeIconSearch) {
                 // сбрасываем активность иконки поиска и очищаем элемент
                 this.activeIconSearch.classList.remove('header__icon-search_active');
@@ -66,7 +67,7 @@ export default class DrawHeader {
             // активируем короткую линию, которая служит подчеркиванием
             this.lastShortLine.classList.add('short-line-active');
             // задаем высоту маске подменю для main
-            this.maskSubMenu.style.height = `${heightMain}px`;
+            this.maskSubMenu.style.height = `${heightMain}px`; 
             // удаляем маску с активнокого, кликнутого элемента
             this.removeMask();
             
