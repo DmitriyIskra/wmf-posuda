@@ -1,0 +1,234 @@
+.header {
+    display: flex;
+    padding-top: 22px;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__wr-content {
+    max-width: 1650px;
+    width: 100%;
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 92px;
+    width: 61px;
+}
+
+.logo-link {
+    background: no-repeat url(../svg/logo.svg);
+    background-position: center;
+}
+
+.nav {
+    width: 84%;
+}
+
+.header__nav-list {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.header__nav-item {
+    position: relative;
+}
+
+.header__nav-link {
+    font-family: 'WMFRotis-Regular';
+    font-size: 22px;
+}
+
+.header__short-line {
+    position: absolute;
+    left: 0;
+    top: 34px;
+
+    display: none;
+    width: 100%;
+    height: 3px;
+}
+
+.short-line-lifestyle,
+ .short-line-serve {
+    background: no-repeat url(../svg/short-line-life-serve.svg);
+    background-position: center;
+    background-size: 100% 3px;
+}
+
+.short-line-tableware,
+ .short-line-swedish {
+    background: no-repeat url(../svg/short-line-canteens-swedish.svg);
+    background-position: center;
+    background-size: 100% 3px;
+}
+
+.short-line-tabletop,
+ .short-line-contacts {
+    background: no-repeat url(../svg/short-line-table-contacts.svg);
+    background-position: center;
+    background-size: 100% 3px;
+}
+
+.short-line-active {
+    display: block;
+}
+
+.hover-nav-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: linear-gradient(to left, rgb(255, 255, 255, 0.6) 30%, rgba(255, 255, 255, 0));
+
+    pointer-events: none;
+}
+
+.header__icon-search {
+    width: 35px;
+    height: 35px;
+
+    background: no-repeat url(../svg/search.svg);
+
+    cursor: pointer;
+}
+
+.header__icon-search_active {
+    background: no-repeat url(../svg/close=search.svg);
+    background-position-y: bottom;
+}
+
+.header__long-underline {
+    height: 3px;
+    width: 95%;
+    margin-top: 9px;
+
+    background: no-repeat url(../svg/long-line-nav.svg);
+    background-position: center;
+    background-size: 100% 3px;
+}
+
+
+.header__wr-place-search {
+    display: flex;
+    height: 35px;
+    width: 86%;
+
+    align-items: center;
+}
+
+.header__form-search {
+    width: 100%;
+}
+
+.header__place-search {
+    display: none;
+    width: 100%;
+    margin-left: 8px;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 20px;
+
+    border: 0;
+    outline: 0;
+}
+
+.place-search_active {
+    display: block;
+}
+
+
+
+
+/* _________SUBMENU__________ */
+
+.mask-sub-menu {
+    position: absolute;
+    top: 161px;
+    left: 0;
+    right: 0;
+
+
+    background: rgb(0, 0, 0, 0.4);
+
+    justify-content: center;
+    z-index: 999;
+}
+
+
+
+.wr-sub-menu {
+    display: flex;
+    width: 100%;
+    background: #ffffff;
+
+    justify-content: center;
+}
+
+.submenu {
+    display: flex;
+    width: 84.8rem;
+    /* width: 85rem; */
+    min-height: 442px;
+
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.unactive-sub {
+    display: none;
+}
+
+.submenu-columns {
+    display: flex;
+    gap: 119px;
+}
+
+.columns-item {
+    display: flex;
+    max-width: 344px;
+    gap: 24px;
+
+    flex-direction: column;
+}
+
+.submenu-list {
+    display: flex;
+    gap: 18px;
+
+    flex-direction: column;
+}
+
+
+
+.submenu-link {
+    font-family: 'WMFRotis-Regular';
+    font-size: 20px;
+}
+
+.submenu-link_title {
+    font-family: 'WMFRotis-Bold';
+}
+
+.submenu-link_tab {
+    margin-left: 13px;
+}
+
+.close-submenu {
+    width: 35px;
+    height: 35px;
+    margin-right: -146px;
+
+    background: no-repeat url(../svg/close-submenu.svg);
+    background-position: center;
+
+    cursor: pointer;
+}

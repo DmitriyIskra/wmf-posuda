@@ -1,0 +1,30 @@
+@font-face { 
+    font-family: 'WMFRotis-Bold'; /*700*/
+    src: url('../fonts/WMFRotis-Bold.otf');
+    /* font-weight: 700; */
+}
+
+@font-face { 
+    font-family: 'WMFRotis-Italic'; 
+    src: url('../fonts/WMFRotis-Italic.otf');
+}
+
+@font-face { 
+    font-family: 'WMFRotis-Light'; /*300*/
+    src: url('../fonts/WMFRotis-Light.otf');
+}
+
+@font-face { 
+    font-family: 'WMFRotis-LightItalic';
+    src: url('../fonts/WMFRotis-LightItalic.otf');
+}
+
+@font-face { 
+    font-family: 'WMFRotis-Medium'; /*500*/
+    src: url('../fonts/WMFRotis-Medium.otf');
+}
+
+@font-face { 
+    font-family: 'WMFRotis-Regular'; /*400*/
+    src: url('../fonts/WMFRotis-Regular.otf');
+}

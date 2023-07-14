@@ -1,0 +1,209 @@
+.footer {
+    display: flex;
+    padding-top: 2.97vw;
+
+    background: #333333;
+
+    justify-content: center;
+}
+
+.footer__wr-content {
+    display: flex;
+    max-width: 85.94vw;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__wr-nav {
+    width: 70%;
+}
+
+.footer__nav-list {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.footer__nav-item {
+    width: 12.55vw;
+}
+
+.footer__nav-link {
+    position: relative;
+
+    display: inline;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.15vw;
+
+    color: #D9D9D9;
+    transition: all 3s linear;
+}
+
+.footer__nav-link::after {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(to left, rgba(51, 51, 51, 0.6), rgba(255, 255, 255, 0));
+
+    transition: opacity 40ms linear;
+
+    opacity: 0;
+}
+
+.footer__nav-link:hover::after {
+    opacity: 1;
+}
+
+.footer__long-underline {
+    width: 100%;
+    height: 3px;
+    margin-top: 0.83vw;
+
+    background: no-repeat url(../svg/long-line-footer.svg);
+    background-position: center;
+    background-size: 100% 3px;
+}
+
+
+.footer__content {
+    display: flex;
+    width: 70%;
+    margin-top: 2.29vw;
+    margin-bottom: 1.51vw;
+
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__wr-logo {
+    width: 12.55vw;
+}
+
+.footer__logo-mf {
+    width: 3.59vw;
+    height: 5.99vw;
+}
+
+.footer__logo-mf-link {
+    background: no-repeat url(../svg/logo-footer.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.footer__logo-ist {
+    width: 11.04vw;
+    height: 3.70vw;
+    margin-top: 1.20vw;
+}
+
+.footer__logo-ist-link {
+    background: no-repeat url(../svg/logo-ist.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.footer__info-list {
+    display: flex;
+    width: 12.55vw;
+
+    flex-direction: column;
+    gap: 1.56vw;
+}
+
+.footer__info-link {
+    display: inline;
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.15vw;
+
+    color: #D9D9D9;
+}
+
+.address {
+    width: 12.55vw;
+
+    color: #D9D9D9;
+}
+
+.address__location {
+    display: flex;
+    gap: 0.21vw;
+
+    flex-direction: column;
+}
+
+.location-text {
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.15vw;
+}
+
+.address__phone-numbers {
+    margin-top: 1.82vw;
+}
+
+.address__title-phone-number {
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.15vw;
+}
+
+.address__phone-number-list {
+    display: flex;
+    margin-top: 0.21vw;
+    gap: 0.21vw;
+
+    flex-direction: column;
+}
+
+.address__phone-number-link {
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.15vw;
+
+    color: inherit;
+}
+
+.address__social-icons-list {
+    display: flex;
+    margin-top: 1.25vw;
+    gap: 1.46vw;
+}
+
+.address__social-icon-link {
+    width: 2.60vw;
+    height: 2.60vw;
+}
+
+.social-icon-telegram {
+    background: no-repeat url(../svg/icon-telegram.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.social-icon-whatsapp {
+    background: no-repeat url(../svg/icon-whatsapp.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.footer__copyright {
+    display: flex;
+    margin: 0.36vw 0;
+
+    justify-content: center;
+}
+
+.footer__copyright-link {
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.15vw;
+
+    color: #D9D9D9;
+}

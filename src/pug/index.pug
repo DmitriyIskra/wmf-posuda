@@ -1,0 +1,42 @@
+- var t = 'Главная страница'
+
+include layout/head
+
+include modules/header
+
+main.main 
+    .main__wrapper-article
+        .main__line-top
+        .main__wr-article-text-img 
+            .main__wr-article-text 
+                header.main__article-header
+                    h2.main__erticle-title 
+                        | Культура питания.
+                        | Удовольствие. Опыт.
+                .main__wr-article-text
+                    p.main__article-text-item
+                        | — это квинтэссенция WMF Professional. Мы дополняем сенсорные впечатления ваших гостей нашим опытом в создании идеально сервированного стола. Пока вы создаете неповторимый вкус и аромат своего меню, мы обеспечиваем его всем необходимым для отличного внешнего вида: стильными бокалами, столовыми приборами и фарфором. Мы предлагаем подходящую «подсветку» для всех гастрономических концепций: будь то изысканная, деревенская, средиземноморская, минималистичная или авангардная концепция.
+                    p.main__article-text-item
+                        | Наш творческий ассортимент варьируется от элегантных столовых приборов и стекла до высококачественных коллекций посуды категории Table Top и гибких систем фуршетов - в первую очередь это новейшее изобретение в линейке фуршетных презентаций WMF QUADRO. Система "шведский стол" в вашем собственном стиле. Наслаждайтесь мировым опытом WMF Professional.
+            .main__wr-article-img 
+                img(class='main__article-img' src='../img/set-table.png')
+        .main__line-bottom
+
+    .main__wrapper-cards 
+        ul.main__cards-list 
+            li.main__cards-item.cards-item-finishing
+                .main__cards-description 
+                    .main__cards-description-text Специальная отделка
+                .main__cards-arrow 
+                    a(class="main__cards-arrow-link" href="#")
+            li.main__cards-item.cards-item-serve
+                .main__cards-description 
+                        .main__cards-description-text Обслуживание апартаментов
+                .main__cards-arrow 
+                    a(class="main__cards-arrow-link" href="#")
+            li.main__cards-item.cards-item-quadro
+                .main__cards-description 
+                    .main__cards-description-text WMF Quadro
+                .main__cards-arrow 
+                    a(class="main__cards-arrow-link" href="#")
+include modules/footer 

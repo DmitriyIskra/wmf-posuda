@@ -1,0 +1,162 @@
+.main {
+    padding-bottom: 12.19vw;
+}
+
+.main__wrapper-article {
+    display: flex;
+    padding: 4.69vw 0;
+
+    background: no-repeat url(../svg/logo-article-index.svg);
+    background-size: 11.82vw 14.01vw;
+    background-position: left 3.5% top 4.69vw;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__line-top {
+    width: 72.5%;
+    height: 2px;
+ 
+    background-color: #777777;
+
+    align-self: flex-end;
+}
+
+.main__wr-article-text-img {
+    display: flex;
+    max-width: 1650px;
+    width: 100%;
+    margin-top: 2.60vw;
+    gap: 3.65vw;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__wr-article-text {
+    width: 52.08vw;
+}
+
+.main__erticle-title {
+    width: 28.65vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.13vw;
+}
+
+.main__wr-article-text {
+    display: flex;
+    gap: 1.93vw;
+
+    flex-direction: column;
+}
+
+.main__article-text-item {
+    
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.46vw;
+
+    color: #333;
+}
+
+.main__wr-article-img {
+    display: flex;
+    height: 38.65vw;
+    width: 26.61vw;
+    margin-top: 0.68vw;
+
+    align-items: flex-end;
+}
+
+.main__article-img {
+    height: auto;
+    width: 100%;
+}
+
+
+.main__line-bottom {
+    width: 66.5%;
+    height: 2px;
+    margin-top: 3.33vw;
+
+    background-color: #777777;
+
+    align-self: flex-start;
+}
+
+
+
+.main__cards-list {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.main__cards-item {
+    display: flex;
+    height: 40.21vw;
+    width: 33.333%;
+    gap: 1.09vw;
+}
+
+.cards-item-finishing {
+    background: no-repeat url(../img/finishing-index.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.cards-item-serve {
+    background: no-repeat url(../img/serve-apartments.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.cards-item-quadro {
+    background: no-repeat url(../img/serve-apartments.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.main__cards-description {
+    height: 40.21vw;
+    width: 5.73vw;
+
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.main__cards-description-text {
+    display: flex;
+    width: 40.21vw;
+    padding-right: 65px;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 2.60vw;
+
+    color: #333;
+
+    transform: rotate(-0.25turn) translate(-42.35%, -16.5vw);
+
+    justify-content: flex-end;
+}
+
+.main__cards-arrow {
+    height: 6.09vw;
+    width: 6.09vw;
+    margin-bottom: 21px;
+
+    border-radius: 50%;
+
+    align-self: flex-end;
+}
+
+.main__cards-arrow-link {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+
+    background:  no-repeat url(../svg/arrow-cards-index.svg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 50%;
+}
