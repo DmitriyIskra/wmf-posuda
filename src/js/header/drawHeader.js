@@ -2,6 +2,7 @@ export default class DrawHeader {
     constructor(header) {
         this.header = header;
 
+        this.wrPlaceSearch = this.header.querySelector('.header__wr-place-search');
         this.placeSearch = this.header.querySelector('.header__place-search');
         this.main = document.querySelector('.main');
         this.maskSubMenu = document.querySelector('.mask-sub-menu')
@@ -34,22 +35,23 @@ export default class DrawHeader {
     openSubMenu(el) {
         let index = el.dataset.index;
 
+        // Если при открытии подменю был открыт поиск, он должен закрыться
+        if(this.activeIconSearch) {
+            // сбрасываем активность иконки поиска и очищаем элемент
+            this.activeIconSearch.classList.remove('header__icon-search_active');
+            this.activeIconSearch = null;
+            
+            // у строки ввода удаляем класс активности и сбрасываем форму
+            this.wrPlaceSearch.classList.add('place-search_unactive');
+            this.placeSearch.parentElement.reset();
+        }
+
+        // определяем высоту блока main
         let heightMain = this.main.offsetHeight
+
 
         // открытие подменю, если еще не было открыто
         if(!this.lastSubMenu) {
-
-            // Если при открытии подменю был открыт поиск, он должен закрыться
-            if(this.activeIconSearch) {
-                // сбрасываем активность иконки поиска и очищаем элемент
-                this.activeIconSearch.classList.remove('header__icon-search_active');
-                this.activeIconSearch = null;
-                
-                // у строки ввода удаляем класс активности и сбрасываем форму
-                this.placeSearch.classList.remove('place-search_active');
-                this.placeSearch.parentElement.reset();
-            }
-
 
             // сохраняем весь элемент меню по которому был клик
             this.lastActiveNavElement = el;
@@ -66,6 +68,8 @@ export default class DrawHeader {
             this.lastSubMenu.classList.remove('unactive-sub');
             // активируем короткую линию, которая служит подчеркиванием
             this.lastShortLine.classList.add('short-line-active');
+            
+            
             // задаем высоту маске подменю для main
             this.maskSubMenu.style.height = `${heightMain}px`; 
             // удаляем маску с активнокого, кликнутого элемента
@@ -148,12 +152,12 @@ export default class DrawHeader {
 
     // активация поля для ввода поиска
     redrawPlaceSearch() {
-        if(this.placeSearch.matches('.place-search_active')) {
-            this.placeSearch.classList.remove('place-search_active');
+        if(this.wrPlaceSearch.matches('.place-search_unactive')) {
+            this.wrPlaceSearch.classList.remove('place-search_unactive');
             return;
         }
 
-        this.placeSearch.classList.add('place-search_active');
+        this.wrPlaceSearch.classList.add('place-search_unactive');
         this.placeSearch.parentElement.reset();
     }
 }

@@ -7,7 +7,7 @@
 }
 
 .header__wr-content {
-    max-width: 85.94vw;
+    max-width: 76.1vw;
     width: 100%;
     display: flex;
 
@@ -129,12 +129,15 @@
     align-items: center;
 }
 
+.place-search_unactive {
+    display: none;
+}
+
 .header__form-search {
     width: 100%;
 }
 
 .header__place-search {
-    display: none;
     width: 100%;
     margin-left: 0.42vw;
 
@@ -145,9 +148,7 @@
     outline: 0;
 }
 
-.place-search_active {
-    display: block;
-}
+
 
 
 
@@ -156,7 +157,7 @@
 
 .mask-sub-menu {
     position: absolute;
-    top: 8.39vw;
+    top: 6.57vw;
     left: 0;
     right: 0;
 
@@ -179,7 +180,7 @@
 
 .submenu {
     display: flex;
-    width: 70.78vw;
+    width: 62.58vw;
     min-height: 23.02vw;
 
     align-items: flex-start;
@@ -228,7 +229,7 @@
 .close-submenu {
     width: 1.82vw;
     height: 1.82vw;
-    margin-right: -7.60vw;
+    margin-right: -6.75vw;
 
     background: no-repeat url(../svg/close-submenu.svg);
     background-position: center;
