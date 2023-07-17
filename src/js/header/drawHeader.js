@@ -4,11 +4,17 @@ export default class DrawHeader {
 
         this.wrPlaceSearch = this.header.querySelector('.header__wr-place-search');
         this.placeSearch = this.header.querySelector('.header__place-search');
+        this.longLine = this.header.querySelector('.header__long-underline');
+
+        this.wrMobileMenu = this.header.querySelector('.wr-mobile-sub-menu');
+        this.mobileList1 = this.wrMobileMenu.querySelector('.mobile-menu-main-list');
+        this.mobileMenuActive = null;
+        
         this.main = document.querySelector('.main');
         this.maskSubMenu = document.querySelector('.mask-sub-menu')
         this.arrSubMenu = null;
         this.arrShortLine = null;
-        this.longLine = this.header.querySelector('.header__long-underline');
+        
 
         this.lastOverElement = null;
         this.lastActiveMask = null;
@@ -137,6 +143,12 @@ export default class DrawHeader {
         if(target.matches('.header__icon-search_active')) {
             target.classList.remove('header__icon-search_active');
             this.activeIconSearch = null;
+
+            // если иконка поиска активна и активно мобильное меню закрываем мобилльное меню
+            if(this.mobileMenuActive) {
+                this.closeMobileMenu();
+            }
+
             return;
         }
 
@@ -152,12 +164,62 @@ export default class DrawHeader {
 
     // активация поля для ввода поиска
     redrawPlaceSearch() {
+        console.log('this.mobileMenuActive', this.mobileMenuActive)
+        // так как кнопка одна и на поиск и на мобильное меню здесь срабатывает
+        // просто обнуляем моб меню в этом блоке и не пускаем срабатывать
+        if(this.mobileMenuActive) {
+            // Убираем отметку что меню открыто
+            this.mobileMenuActive = null;
+
+            return;
+        }
+
+        // открываем поиск если стоит класс деактивации
         if(this.wrPlaceSearch.matches('.place-search_unactive')) {
             this.wrPlaceSearch.classList.remove('place-search_unactive');
             return;
         }
 
+        // если класс деактивации не стоит пройдет сюда и закроет
         this.wrPlaceSearch.classList.add('place-search_unactive');
         this.placeSearch.parentElement.reset();
+    }
+
+
+
+
+    openMobileMenu() {
+        this.wrMobileMenu.classList.remove('unactive-sub');
+
+        setTimeout(() => {
+            this.openMobileLevelMain();
+        },0)
+    }
+
+    openMobileLevelMain() {
+        // колличество эллементов
+        const amount = this.mobileList1.children.length;
+        // высота элемента
+        const height = this.mobileList1.children[0].offsetHeight;
+  
+        this.mobileList1.style.height = `${amount * height}px`;
+        // отметка что меню открыто
+        this.mobileMenuActive = true;
+
+        // меняем иконку поиска на крестик
+        this.redrawIconSearch(document.querySelector('.header__icon-search'));
+        
+    }
+
+    closeMobileMenu() {
+        console.log('closeMobileMenu')
+        // сворачиваем меню
+        this.mobileList1.style.height = `0px`;
+        // скрываем обертку и меню на странице
+        this.mobileList1.addEventListener('transitionend', () => {
+            this.wrMobileMenu.classList.add('unactive-sub');
+            console.log('transitionend')
+        }, {once: true})
+        
     }
 }

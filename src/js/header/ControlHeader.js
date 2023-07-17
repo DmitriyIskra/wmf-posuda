@@ -1,6 +1,6 @@
 export default class ControlHeader {
     constructor(draw) {
-        this.draw = draw;
+        this.draw = draw; 
 
         this.onClick = this.onClick.bind(this);
         this.onMouseOver = this.onMouseOver.bind(this);
@@ -15,12 +15,16 @@ export default class ControlHeader {
 
         // собираем массивчик подменюшек
         this.draw.arrSubMenu = [...this.draw.header.querySelectorAll('.wr-sub-menu')];
+        
     }
 
     registerEvents() {
+
         this.draw.header.addEventListener('click', this.onClick);
         this.draw.header.addEventListener('mouseover', this.onMouseOver);
         this.draw.header.addEventListener('mouseout', this.onMouseOut);
+
+        
     }
 
     onClick(e) {
@@ -41,13 +45,17 @@ export default class ControlHeader {
 
         // РАБОТА КНОПКИ ПОИСК СТАРТ
         if(e.target.matches('.header__icon-search')) {
-
             // активируем строку поиска и перерисовываем лупу
             this.draw.redrawIconSearch(e.target);
             this.draw.redrawPlaceSearch();
         }
 
         // РАБОТА КНОПКИ ПОИСК ФИНИШ
+
+        if(e.target.matches('.header__icon-mobile-nav')) {
+            console.log('work')
+            this.draw.openMobileMenu();
+        }
     }
 
     onMouseOver(e) {
