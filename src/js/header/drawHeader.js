@@ -3,6 +3,7 @@ export default class DrawHeader {
         this.header = header;
 
         this.formSearch = this.header.querySelector('.header__form-search');
+        this.wrPlaceSearch = this.header.querySelector('.header__wr-place-search');
         this.placeSearch = this.header.querySelector('.header__place-search');
         this.maskSearch = this.header.querySelector('.mask-search')
         this.longLine = this.header.querySelector('.header__long-underline');
@@ -49,10 +50,10 @@ export default class DrawHeader {
             this.activeIconSearch = null;
             
             // у строки ввода удаляем класс активности и сбрасываем форму
-            this.formSearch.classList.add('place-search_unactive');
+            this.wrPlaceSearch.classList.add('place-search_unactive');
             this.maskSearch.style.top = '';
             this.maskSearch.style.height = '';
-            this.placeSearch.parentElement.reset();
+            this.formSearch.reset();
         }
 
         // определяем высоту блока main
@@ -177,14 +178,19 @@ export default class DrawHeader {
         }
 
         // открываем поиск если стоит класс деактивации
-        if(this.formSearch.matches('.place-search_unactive')) {
+        if(this.wrPlaceSearch.matches('.place-search_unactive')) {
+            this.wrPlaceSearch.classList.remove('place-search_unactive');
+
             const heightMain = this.main.offsetHeight;
             const topMask = this.header.getBoundingClientRect().bottom;
             
             this.maskSearch.style.top = `${topMask}px`;
             this.maskSearch.style.height = `${heightMain}px`;
 
-            this.formSearch.classList.remove('place-search_unactive');
+            // setTimeout(() => {
+                
+            // })
+            
             return;
         }
 
@@ -192,8 +198,8 @@ export default class DrawHeader {
         this.maskSearch.style.top = '';
         this.maskSearch.style.height = '';
 
-        this.formSearch.classList.add('place-search_unactive');
-        this.placeSearch.parentElement.reset();
+        this.wrPlaceSearch.classList.add('place-search_unactive');
+        this.formSearch.reset();
     }
 
 

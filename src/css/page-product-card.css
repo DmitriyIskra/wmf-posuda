@@ -15,6 +15,7 @@
 .bread-crumbs-list {
     display: flex;
     width: 76vw;
+    margin-top: 1.15vw;
     gap: 0.26vw;
 
     cursor: pointer;
