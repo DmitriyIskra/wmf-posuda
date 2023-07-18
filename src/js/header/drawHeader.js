@@ -2,8 +2,9 @@ export default class DrawHeader {
     constructor(header) {
         this.header = header;
 
-        this.wrPlaceSearch = this.header.querySelector('.header__wr-place-search');
+        this.formSearch = this.header.querySelector('.header__form-search');
         this.placeSearch = this.header.querySelector('.header__place-search');
+        this.maskSearch = this.header.querySelector('.mask-search')
         this.longLine = this.header.querySelector('.header__long-underline');
 
         this.wrMobileMenu = this.header.querySelector('.wr-mobile-sub-menu');
@@ -48,7 +49,9 @@ export default class DrawHeader {
             this.activeIconSearch = null;
             
             // у строки ввода удаляем класс активности и сбрасываем форму
-            this.wrPlaceSearch.classList.add('place-search_unactive');
+            this.formSearch.classList.add('place-search_unactive');
+            this.maskSearch.style.top = '';
+            this.maskSearch.style.height = '';
             this.placeSearch.parentElement.reset();
         }
 
@@ -164,7 +167,6 @@ export default class DrawHeader {
 
     // активация поля для ввода поиска
     redrawPlaceSearch() {
-        console.log('this.mobileMenuActive', this.mobileMenuActive)
         // так как кнопка одна и на поиск и на мобильное меню здесь срабатывает
         // просто обнуляем моб меню в этом блоке и не пускаем срабатывать
         if(this.mobileMenuActive) {
@@ -175,13 +177,22 @@ export default class DrawHeader {
         }
 
         // открываем поиск если стоит класс деактивации
-        if(this.wrPlaceSearch.matches('.place-search_unactive')) {
-            this.wrPlaceSearch.classList.remove('place-search_unactive');
+        if(this.formSearch.matches('.place-search_unactive')) {
+            const heightMain = this.main.offsetHeight;
+            const topMask = this.header.getBoundingClientRect().bottom;
+            
+            this.maskSearch.style.top = `${topMask}px`;
+            this.maskSearch.style.height = `${heightMain}px`;
+
+            this.formSearch.classList.remove('place-search_unactive');
             return;
         }
 
         // если класс деактивации не стоит пройдет сюда и закроет
-        this.wrPlaceSearch.classList.add('place-search_unactive');
+        this.maskSearch.style.top = '';
+        this.maskSearch.style.height = '';
+
+        this.formSearch.classList.add('place-search_unactive');
         this.placeSearch.parentElement.reset();
     }
 

@@ -14,9 +14,8 @@
 
 .bread-crumbs-list {
     display: flex;
+    width: 76vw;
     gap: 0.26vw;
-
-    align-self: flex-start;
 
     cursor: pointer;
 }
@@ -163,7 +162,7 @@
     min-height: 18.39vw;
 
     margin-top: 2.60vw;
-    padding-left: 3.13vw;
+    padding-left: 5.13vw;
 }
 
 
@@ -190,7 +189,7 @@
 }
 
 .tech-haracteristic {
-    padding-left: 6.82vw;
+    padding-left: 5.2vw;
    
     border-right: 0.10vw dashed #777777;
 

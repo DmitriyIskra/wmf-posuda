@@ -133,18 +133,18 @@
 
 .header__wr-place-search {
     display: flex;
-    height: 1.82vw;
-    width: 86%;
+    height: 1.60vw;
+    width: 76.9vw;
 
     align-items: center;
 }
 
-.place-search_unactive {
-    display: none;
-}
-
 .header__form-search {
     width: 100%;
+}
+
+.place-search_unactive {
+    display: none;
 }
 
 .header__place-search {
@@ -159,7 +159,15 @@
 }
 
 
+.mask-search {
+    position: absolute;
+    left: 0;
+    right: 0;
 
+    background: rgb(0, 0, 0, 0.4);
+
+    z-index: 998;
+}
 
 
 
