@@ -4,6 +4,12 @@ import DrawHeader from './header/drawHeader.js';
 import ControlSliderIndex from './sliderIndex/ControlSliderIndex.js';
 import DrawSliderIndex from './sliderIndex/DrawSliderIndex.js';
 
+import ControlSlider from './slider-product-card/ControlSlider.js';
+import DrawSlider from './slider-product-card/DrawSlider.js';
+
+import ControlTech from './tech-info-product/ControlTech.js';
+import DrawInfo from './tech-info-product/drawTech.js';
+
 // START HEADER
 
 const header = document.querySelector('.header');
@@ -19,8 +25,39 @@ controlHeader.init();
 
 const sliderIndex = document.querySelector('.main_wrapper-slider');
 
-const drawSliderIndex = new DrawSliderIndex(sliderIndex);
-const controlSliderIndex = new ControlSliderIndex(drawSliderIndex);
-controlSliderIndex.init();
+if(sliderIndex) {
+    const drawSliderIndex = new DrawSliderIndex(sliderIndex);
+    const controlSliderIndex = new ControlSliderIndex(drawSliderIndex);
+    controlSliderIndex.init();
+}
+
 
 // END SLIDER MAIN PAGE
+
+
+// START SLIDER PAGE PRODUCT
+
+const slider = document.querySelector('.slider');
+
+if(slider) {
+    const drawSlider = new DrawSlider(slider);
+    const controlSlider = new ControlSlider(drawSlider);
+    controlSlider.init();
+}
+
+// SLIDER PAGE PRODUCT FINISH
+
+
+
+// START TECH-INFO
+
+const techInfo = document.querySelector('.main__wr-tech-info');
+
+if(techInfo) {
+    const drawInfo = new DrawInfo(techInfo);
+    const controlTech = new ControlTech(drawInfo);
+    controlTech.init();
+}
+
+
+// FINISH TECH-INFO

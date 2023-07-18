@@ -10,7 +10,7 @@ export default class DrawHeader {
         this.mobileList1 = this.wrMobileMenu.querySelector('.mobile-menu-main-list');
         this.mobileMenuActive = null;
         
-        this.main = document.querySelector('.main');
+        this.main = document.querySelector('main');
         this.maskSubMenu = document.querySelector('.mask-sub-menu')
         this.arrSubMenu = null;
         this.arrShortLine = null;

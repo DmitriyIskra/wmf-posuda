@@ -1,0 +1,309 @@
+
+
+
+
+
+/* ________ MAIN ________ */
+
+.main-product-card {
+    display: flex;
+    padding-bottom: 9.95vw;
+
+    justify-content: center;
+}
+
+.bread-crumbs-list {
+    display: flex;
+    gap: 0.26vw;
+
+    align-self: flex-start;
+
+    cursor: pointer;
+}
+
+.crumbs-item-slash {
+    cursor: default;
+}
+
+.bread-crumbs-item {
+    font-family: 'WMFRotis-Light', sans-serif;
+    font-size: 0.83vw;
+    color: #333333;
+}
+
+.crumbs-item_active {
+    font-family: 'WMFRotis-Regular', sans-serif;
+    font-size: 0.83vw;
+    color: #333333;
+}
+
+.main__wr-content {
+    display: flex;
+    max-width: 85.94vw;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__wr-content-product {
+    display: flex;
+    width: 82%;
+    margin-top: 5.21vw;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__slider-container {
+    /* display: flex; */
+
+    width: 34.58vw;
+}
+
+.main__wr-description-product {
+    position: relative;
+
+    width: 34.58vw;
+}
+
+.main__title-description-card {
+    font-family: 'WMFRotis-Bold', sans-serif;
+    /* font-weight: 700; */
+    font-size: 2.08vw;
+}
+
+.main__wr-text-description-card {
+    display: flex;
+    margin-top: 2.60vw;
+    gap: 2.60vw;
+
+    flex-direction: column;
+}
+
+.main__text-description-card {
+    font-family: 'WMFRotis-Light', sans-serif;
+    font-size: 1.25vw;
+
+    color: #333333;
+}
+
+.main__article-number {
+    margin-top: 2.60vw;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.25vw;
+}
+
+.main__wr-button-feedback {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main__button-feedback {
+    position: relative;
+
+    width: 100%;
+    height: 2.86vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.25vw;
+
+    color: #ffffff;
+    background-color: #333333;
+    /* background: linear-gradient(76deg, #333 28.65%, #999 100%); */
+    border: 0;
+    border-radius: 0.42vw;
+    cursor: pointer;
+}
+
+.main__button-feedback::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 100%;
+    bottom: 0;
+
+    display: flex;
+    
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.25vw;
+
+    color: #ffffff;
+    border: 0;
+    border-radius: 0.42vw;
+    background: linear-gradient(76deg, rgba(51, 51, 51, 0) 28.65%, #999 100%);
+
+    transition: all 0.2s ease-in-out;
+
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    /* opacity: 0; */
+    cursor: pointer;
+}
+
+.main__button-feedback:hover:after {
+    left: 0;
+    /* opacity: 1; */
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+/* Т Е Х Н И Ч Е С К А Я  И Н Ф О Р М А Ц И Я */
+
+/* Контейнер */
+.main__tech-info-container {
+    display: flex;
+    min-height: 18.39vw;
+
+    margin-top: 2.60vw;
+    padding-left: 3.13vw;
+}
+
+
+/* управление блоком информации */
+.main__wr-tech-info {
+    width: 100%;
+    padding-top: 4.17vw;
+}
+
+.main__nav-tech-info {
+    display: flex;
+
+    border-bottom: 0.10vw dashed #777777;
+}
+
+.main__nav-tech-info-item {
+    margin-bottom: -0.10vw;
+    padding: 0.83vw 2.19vw;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.56vw;
+
+    cursor: pointer;
+}
+
+.tech-haracteristic {
+    padding-left: 6.82vw;
+   
+    border-right: 0.10vw dashed #777777;
+
+    cursor: pointer;
+}
+
+.active-tech-info {
+    background: #ffffff;
+    border-top: 0.10vw dashed #777777;
+
+    cursor: default
+}
+/* --------------------------------- */
+
+
+/* Таблица */
+
+.main__table-tech-list {
+    border: 1px solid #777;
+    border-radius: 0.42vw;
+}
+
+.main__table-tech-item {
+    display: flex;
+    height: 2.60vw;
+
+    border-bottom: 1px solid #777;
+}
+
+.main__table-tech-item:last-child {
+    border: 0;
+}
+
+.main__tech-title-text {
+    display: flex;
+    width: 14.32vw;
+    padding-left: 1.41vw;
+
+    font-family: 'WMFRotis-Bold', sans-serif;
+    font-size: 1.04vw;
+
+    border-right: 1px solid #777;
+
+    align-items: center;
+}
+
+.main__tech-text {
+    display: flex;
+    padding-left: 0.73vw;
+    padding-right: 1.51vw;
+
+    font-family: 'WMFRotis-Regular', sans-serif;
+    font-size: 0.94vw;
+
+    border-left: 1px solid #777;
+
+    align-items: center;
+}
+
+/* Таблица капец какая классная */
+
+/* PDF Files */
+
+.main__info-files-list {
+    display: flex;
+    gap: 3.13vw;
+}
+
+.main__info-files-item {
+    position: relative;
+
+    display: flex;
+    gap: 0.26vw;
+}
+
+.main__info-file-icon {
+    width: 3.13vw;
+    height: 3.13vw;
+
+    background: no-repeat url(../svg/icon-pdf.svg);
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.main__info-file-text {
+    width: 4.90vw;
+    font-family: 'WMFRotis-Regular', sans-serif;
+    font-size: 0.83vw;
+}
+
+.main__info-file-link {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+}
+
+/* PDF Files finish*/
+
+/* Скрытие элемента */
+
+.unactive-tech-info {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

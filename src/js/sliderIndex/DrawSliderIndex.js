@@ -8,7 +8,7 @@ export default class DrawSliderIndex {
 
         this.counter = 0
     }
-
+ 
     moveRight() {
         this.counter += 1
 

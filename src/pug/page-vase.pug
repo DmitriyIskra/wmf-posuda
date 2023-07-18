@@ -1,0 +1,116 @@
+- var t = 'Ваза Urban'
+
+include layout/head
+
+include modules/header
+
+
+main.main-product-card
+  .main__wr-content
+    ul.bread-crumbs-list
+      li.bread-crumbs-item Хлебные крошки
+      li.bread-crumbs-item.crumbs-item-slash /
+      li.bread-crumbs-item.crumbs-item_active Хлебные крошки
+    .main__wr-content-product
+      .main__slider-container
+        .slider
+          .slider__slider-container
+            .slider__wr-img-list.slider__wr-img-list_transition
+              ul.slider__img-list
+                li.slider__img-item
+                  img.slider-img(src='../img/img_slider_1.png' alt='Ваза Urban')
+                li.slider__img-item
+                  img.slider-img(src='../img/img_slider_2.png' alt='Ваза Urban')
+                li.slider__img-item
+                  img.slider-img(src='../img/img_slider_3.png' alt='Ваза Urban')
+            ul.slider__wr-arrows
+              li.slider__arrow-left.slider__arrow-size
+              li.slider__arrow-right.slider__arrow-size
+            ul.slider__point-list
+              li.slider__point-item.slider__point-item_active(data-index='0')
+              li.slider__point-item(data-index='1')
+              li.slider__point-item(data-index='2')
+          .slider__wrapper-zoom-container
+            .slider__wr-ctlr-img
+              .close-zoom CLOSE
+              .slider__wrapper-zoom-slider
+                .slider__zoom-slider
+                  ul.slider__zoom-img-list
+                    li.slider__zoom-img-item
+                      img.slider-zoom-img(src='../img/img_slider_1.png' alt='Ваза Urban')
+                    li.slider__zoom-img-item
+                      img.slider-zoom-img(src='../img/img_slider_2.png' alt='Ваза Urban')
+                    li.slider__zoom-img-item
+                      img.slider-zoom-img(src='../img/img_slider_3.png' alt='Ваза Urban')
+              ul.slider__wr-zoom-arrows
+                li.slider__zoom-arrow-left.slider__zoom-arrow-size
+                li.slider__zoom-arrow-right.slider__zoom-arrow-size
+              ul.slider__zoom-point-list
+                li.slider__zoom-point-item(data-index='0')
+                li.slider__zoom-point-item(data-index='1')
+                li.slider__zoom-point-item(data-index='2')
+      section.main__wr-description-product
+        header.main__header-description-card
+          h2.main__title-description-card Ваза для цветов Urban
+        article.main__wr-text-description-card
+          p.main__text-description-card
+            | Цветы - одно из самых популярных и эффектных украшений стола как в сфере общественного питания, так и в гостиничном бизнесе. В зависимости от общего стиля заведения, используемые цветочные вазы могут усилить общее великолепие цветов.
+          p.main__text-description-card
+            | Изготовленные из Cromargan®, стекла или комбинации материалов, хорошо подобранные вазы для цветов подчеркнут красоту любого декора и придадут вашему пространству что-то особенное.
+        .main__article-number
+          | Артикул: 00.1111.2222
+        .main__wr-button-feedback
+          button.main__button-feedback Обратная связь
+    article.main__wr-tech-info
+      ul.main__nav-tech-info
+        li.main__nav-tech-info-item.tech-haracteristic.active-tech-info Технические характеристики
+        li.main__nav-tech-info-item.info-files Информационные материалы
+      .main__tech-info-container
+        ul.main__table-tech-list
+          li.main__table-tech-item
+            .main__tech-title-text Дизайнер
+            .main__tech-text WMF Atelier (Volker Baurle)
+          li.main__table-tech-item
+            .main__tech-title-text Уход
+            .main__tech-text Можно мыть в посудомоечной машине
+          li.main__table-tech-item
+            .main__tech-title-text Материал
+            .main__tech-text Сromargan
+          li.main__table-tech-item
+            .main__tech-title-text Коллекция
+            .main__tech-text Urban
+          li.main__table-tech-item
+            .main__tech-title-text Единица упаковки (шт.)
+            .main__tech-text 1
+          li.main__table-tech-item
+            .main__tech-title-text Диаметр (см.)
+            .main__tech-text 7
+          li.main__table-tech-item
+            .main__tech-title-text Высота (см.)
+            .main__tech-text 17.5
+        ul.main__info-files-list.unactive-tech-info
+          li.main__info-files-item
+            .main__info-file-icon
+            .main__info-file-text Brochure WMF Urban (DE)
+            a.main__info-file-link(href='#')
+          li.main__info-files-item
+            .main__info-file-icon
+            .main__info-file-text Брошюра WMF Urban (RU)
+            a.main__info-file-link(href='#')
+          li.main__info-files-item
+            .main__info-file-icon
+            .main__info-file-text Каталог WMF Urban (DE)
+            a.main__info-file-link(href='#')
+          li.main__info-files-item
+            .main__info-file-icon
+            .main__info-file-text Общий каталог (RU)
+            a.main__info-file-link(href='#')
+          li.main__info-files-item
+            .main__info-file-icon
+            .main__info-file-text Прайс-лист WMF Urban (RU)
+            a.main__info-file-link(href='#')
+  .main__mask
+
+
+
+include modules/footer
