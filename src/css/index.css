@@ -192,7 +192,7 @@
 
 .main__article-text-item {
     
-    font-family: 'WMFRotis-Bold';
+    font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 
     color: #333;
@@ -254,7 +254,7 @@
 }
 
 .cards-item-quadro {
-    background: no-repeat url(../img/serve-apartments.png);
+    background: no-repeat url(../img/WMFQuattro.png);
     background-size: 100%;
     background-position: center;
 }

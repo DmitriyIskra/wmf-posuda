@@ -37,10 +37,6 @@ export default class ControlSlider {
             this.drawSlider.openZoom()
         }
 
-        if(e.target.matches('.close-zoom')) {
-            this.drawSlider.closeZoom(); 
-        }
-
         if(e.target.matches('.slider__zoom-arrow-right')) {
             this.drawSlider.moveZoomRight();
         }
@@ -53,6 +49,10 @@ export default class ControlSlider {
             const index = e.target.dataset.index;
 
             this.drawSlider.moveZoomWithPoint(index);
+        }
+
+        if(e.target.matches('.slider__wrapper-zoom-container')) {
+            this.drawSlider.closeZoom();
         }
     }
 }
