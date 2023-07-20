@@ -10,7 +10,11 @@ export default class DrawHeader {
 
         this.wrMobileMenu = this.header.querySelector('.wr-mobile-sub-menu');
         this.mobileList1 = this.wrMobileMenu.querySelector('.mobile-menu-main-list');
+        // Отмечаем активно ли мобильное меню
         this.mobileMenuActive = null;
+        // сюда сохраняем крайние открытые подменюшки в обратном порядке
+        // т.е. третий уровень будет под 0 индексом чтоб закрывать в обратном порядке
+        this.lastItemMobileMenu = [];
         
         this.main = document.querySelector('main');
         this.maskSubMenu = document.querySelector('.mask-sub-menu')
@@ -59,7 +63,7 @@ export default class DrawHeader {
         // определяем высоту блока main
         let heightMain = this.main.offsetHeight
 
-
+ 
         // открытие подменю, если еще не было открыто
         if(!this.lastSubMenu) {
 
@@ -223,13 +227,33 @@ export default class DrawHeader {
         // отметка что меню открыто
         this.mobileMenuActive = true;
 
+
+        // Вычисляем высоту main для отрисовки mask
+        const mainHeight = this.main.offsetHeight;
+        // Присваиваем высоту маске
+        this.maskSubMenu.style.height = `${mainHeight}px`;
+
         // меняем иконку поиска на крестик
         this.redrawIconSearch(document.querySelector('.header__icon-search'));
         
     }
 
+    openUnderItemMenu(target, elForOpen) {
+        // ОТКРЫВАЕМ ПОДМЕНЮШКИ
+
+        // как то нужно проверить это третий уровень или пользоватьль открыть новый второй
+        // от этого чистить или нет this.lastItemUnderMenu
+
+        // Сохраняем elForOpen в this.lastItemUnderMenu - это будет массив так как подменю может быть два (добавлять последний в начало)
+
+        // Определяем колличество дочерних элементов
+
+        // Определяем высоту таргета
+
+        // Вычисляем высоту для elForOpen
+    }
+
     closeMobileMenu() {
-        console.log('closeMobileMenu')
         // сворачиваем меню
         this.mobileList1.style.height = `0px`;
         // скрываем обертку и меню на странице
@@ -237,6 +261,9 @@ export default class DrawHeader {
             this.wrMobileMenu.classList.add('unactive-sub');
             console.log('transitionend')
         }, {once: true})
+
+        // Убираем высоту маске
+        this.maskSubMenu.style.height = ``;
         
     }
 }

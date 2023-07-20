@@ -29,6 +29,7 @@ main.main
             li.main__slider-arrows-item.slider-arrows-item-right 
 
     .main__wrapper-article
+        .dotted-line-corner
         .main__line-top
         .main__wr-article-text-img 
             .main__wr-article-full-text
@@ -42,8 +43,13 @@ main.main
                     p.main__article-text-item
                         | Наш творческий ассортимент варьируется от элегантных столовых приборов и стекла до высококачественных коллекций посуды категории Table Top и гибких систем фуршетов - в первую очередь это новейшее изобретение в линейке фуршетных презентаций WMF QUADRO. Система "шведский стол" в вашем собственном стиле. Наслаждайтесь мировым опытом WMF Professional.
             .main__wr-article-img 
-                img(class='main__article-img' src='../img/set-table.png')
+                picture.main__article-img 
+                    source(srcset="../img/set-table-mobile.png" media="(max-width: 375px)")
+                    source(srcset="../img/set-table.png" media="(min-width: 376px)")
+                    img(src='../img/set-table.png' alt="Сервированный обеденный стол")
         .main__line-bottom
+
+    .line-dotted
 
     .main__wrapper-cards 
         ul.main__cards-list 
@@ -51,15 +57,18 @@ main.main
                 .main__cards-description 
                     .main__cards-description-text Специальная отделка
                 .main__cards-arrow 
+                    .main__cards-swipe-circle
                     a(class="main__cards-arrow-link" href="#")
             li.main__cards-item.cards-item-serve
                 .main__cards-description 
                         .main__cards-description-text Обслуживание апартаментов
                 .main__cards-arrow 
+                    .main__cards-swipe-circle
                     a(class="main__cards-arrow-link" href="#")
             li.main__cards-item.cards-item-quadro
                 .main__cards-description 
                     .main__cards-description-text WMF Quadro
                 .main__cards-arrow 
+                    .main__cards-swipe-circle
                     a(class="main__cards-arrow-link" href="#")
 include modules/footer 

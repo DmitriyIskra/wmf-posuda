@@ -49,12 +49,19 @@ export default class ControlHeader {
             this.draw.redrawIconSearch(e.target);
             this.draw.redrawPlaceSearch();
         }
-
+ 
         // РАБОТА КНОПКИ ПОИСК ФИНИШ
 
+
+        // РАБОТА МОБИЛЬНОГО МЕНЮ
         if(e.target.matches('.header__icon-mobile-nav')) {
-            console.log('work')
             this.draw.openMobileMenu();
+        }
+
+        if(e.target.matches('.upper-item-menu')) {
+            console.log('upper item menu')
+            console.log(e.target.nextElementSibling.children.length)
+            console.log(e.target.offsetHeight)
         }
     }
 

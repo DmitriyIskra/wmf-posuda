@@ -170,7 +170,7 @@
 }
 
 
-
+ 
 /* _________SUBMENU__________ */
 
 .mask-sub-menu {
@@ -311,13 +311,13 @@
     color: #ffffff;
 }
 
-.wr-mobile-menu-level2-list {
+.wr-mobile-menu-level-list {
     height: 0;
 
     overflow: hidden;
 }
 
-.wr-mobile-menu-level2-item {
+.wr-mobile-menu-level-item {
     height: 15.73vw;
 
     font-family: 'WMFRotis-Bold';
@@ -337,21 +337,6 @@
     background-size: 6.40vw;
 
     align-items: center;
-}
-
-.wr-mobile-menu-level3-list {
-    height: 0;
-
-    overflow: hidden;
-}
-
-.wr-mobile-menu-level3-item {
-    height: 15.73vw;
-
-    font-family: 'WMFRotis-Regular';
-    font-size: 16px;
-
-    border-bottom: 1px solid #333;
 }
 
 .mobile-menu-level-item_last {
