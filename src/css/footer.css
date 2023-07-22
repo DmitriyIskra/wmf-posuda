@@ -28,7 +28,7 @@
 }
 
 .footer__nav-item {
-    width: 12.9vw;
+    width: 13.2vw;
 }
 
 .footer__nav-link {
@@ -86,7 +86,7 @@
 }
 
 .footer__wr-logo {
-    width: 12.9vw;
+    width: 13.2vw;
 }
 
 .footer__logo-mf {
@@ -115,7 +115,7 @@
 
 .footer__info-list {
     display: flex;
-    width: 12.9vw;
+    width: 13.2vw;
 
     flex-direction: column;
     gap: 1.56vw;
@@ -130,7 +130,7 @@
 }
 
 .address {
-    width: 12.9vw;
+    width: 13.2vw;
 
     color: #D9D9D9;
 }

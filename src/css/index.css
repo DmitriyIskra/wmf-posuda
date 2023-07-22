@@ -214,10 +214,18 @@
 }
 
 .main__article-img {
-    height: auto;
+    height: 100%;
     width: 100%;
+
+    object-fit: cover;
 }
 
+.main__article-img > img {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
 
 .main__line-bottom {
     width: 66.5%;
@@ -238,7 +246,7 @@
 
 
 /* Н А Ч А Л О  К А Р Т О Ч К И */
-.main__cards-list {
+/* .main__cards-list {
     display: flex;
 
     flex-wrap: wrap;
@@ -310,7 +318,7 @@
     background-size: 100%;
     background-position: center;
     border-radius: 50%;
-}
+} */
 
 /* К О Н Е Ц  К А Р Т О Ч К И */
 
@@ -414,7 +422,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+/* @media( max-width: 375px ) {
     .main__cards-list {
         gap: 3px;
     }
@@ -483,7 +491,7 @@
         height: 0;
         width: 0;
     }
-}
+} */
 
 
 

@@ -35,9 +35,10 @@ header.header
     .header__wr-icon-search
       .header__icon-search
   .header__long-underline
-  .header__wr-place-search.place-search_unactive
-    form.header__form-search
-      input.header__place-search(type='text' placeholder='Что вы ищете?')
+  .mask-search.place-search_unactive
+    .header__wr-place-search 
+      form.header__form-search
+        input.header__place-search(type='text' placeholder='Что вы ищете?')
   .mask-sub-menu
     .wr-sub-menu.unactive-sub(data-index='0')
       // unactive-sub
@@ -176,7 +177,7 @@ header.header
 
         li.mobile-menu-main-item.upper-item-menu
           .mobile-menu-item_title.upper-item-menu Фарфор & Линейка Lifestyle
-          ul.wr-mobile-menu-level-list
+          ul.wr-mobile-menu-level-list.list-level-2
             li.wr-mobile-menu-level-item 
               <a href="#" class="mobile-menu-item_link">SYNERGY & STYLE LIGHTS</a>
             li.wr-mobile-menu-level-item 
@@ -186,16 +187,16 @@ header.header
 
         li.mobile-menu-main-item 
           .mobile-menu-item_title.upper-item-menu Столовые приборы
-          ul.wr-mobile-menu-level-list
+          ul.wr-mobile-menu-level-list.list-level-2
             li.wr-mobile-menu-level-item 
               .mobile-menu-item_title.upper-item-menu THE NEW EASY
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item.mobile-menu-level-item_last
                   a(href="#").mobile-menu-item_link Все коллекции
 
             li.wr-mobile-menu-level-item 
               .mobile-menu-item_title.upper-item-menu Столовые приборы
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item
                   a(href="#").mobile-menu-item_link Все столовые приборы
                 li.wr-mobile-menu-level-item
@@ -205,7 +206,7 @@ header.header
 
             li.wr-mobile-menu-level-item 
               .mobile-menu-item_title.upper-item-menu Специальные сервировочные приборы 
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item
                   a(href="#").mobile-menu-item_link Все коллекции
                 li.wr-mobile-menu-level-item
@@ -215,16 +216,16 @@ header.header
 
             li.wr-mobile-menu-level-item.mobile-menu-level-item_last 
               .mobile-menu-item_title.upper-item-menu Специальная отделка приборов
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item.mobile-menu-level-item_last
                   a(href="#").mobile-menu-item_link Все коллекции
 
         li.mobile-menu-main-item 
           .mobile-menu-item_title.upper-item-menu Table Top
-          ul.wr-mobile-menu-level-list
+          ul.wr-mobile-menu-level-list.list-level-2
             li.wr-mobile-menu-level-item 
               .mobile-menu-item_title.upper-item-menu Напитки
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item
                   a(href="#").mobile-menu-item_link True Flavour: хрустальное стекло
                 li.wr-mobile-menu-level-item
@@ -240,7 +241,7 @@ header.header
 
             li.wr-mobile-menu-level-item 
               .mobile-menu-item_title.upper-item-menu Сервировка 
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item
                   a(href="#").mobile-menu-item_link Все позиции
                 li.wr-mobile-menu-level-item.mobile-menu-level-item_last
@@ -248,7 +249,7 @@ header.header
 
             li.wr-mobile-menu-level-item 
               .mobile-menu-item_title.upper-item-menu Столовый декор
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item
                   a(href="#").mobile-menu-item_link Все позиции
                 li.wr-mobile-menu-level-item.mobile-menu-level-item_last
@@ -256,7 +257,7 @@ header.header
                   
             li.wr-mobile-menu-level-item.mobile-menu-level-item_last 
               .mobile-menu-item_title.upper-item-menu Специи
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item
                   a(href="#").mobile-menu-item_link Все позиции
                 li.wr-mobile-menu-level-item.mobile-menu-level-item_last
@@ -264,10 +265,10 @@ header.header
 
         li.mobile-menu-main-item 
           .mobile-menu-item_title.upper-item-menu Шведская линия
-          ul.wr-mobile-menu-level-list
+          ul.wr-mobile-menu-level-list.list-level-2
             li.wr-mobile-menu-level-item 
               .mobile-menu-item_title.upper-item-menu WMF Quadro
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item
                   a(href="#").mobile-menu-item_link Все позиции
                 li.wr-mobile-menu-level-item
@@ -280,7 +281,7 @@ header.header
 
             li.wr-mobile-menu-level-item 
               .mobile-menu-item_title.upper-item-menu Мармиты и термоемкости
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item
                   a(href="#").mobile-menu-item_link Все позиции
                 li.wr-mobile-menu-level-item
@@ -290,13 +291,13 @@ header.header
 
             li.wr-mobile-menu-level-item 
               .mobile-menu-item_title.upper-item-menu Диспенсеры
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item.mobile-menu-level-item_last
                   a(href="#").mobile-menu-item_link Все позиции
 
             li.wr-mobile-menu-level-item.mobile-menu-level-item_last 
               .mobile-menu-item_title.upper-item-menu Подача блюд и напитков
-              ul.wr-mobile-menu-level-list
+              ul.wr-mobile-menu-level-list.list-level-3
                 li.wr-mobile-menu-level-item.mobile-menu-level-item_last
                   a(href="#").mobile-menu-item_link Все позиции
 
@@ -304,4 +305,4 @@ header.header
           a(href="#").mobile-menu-main-item-link Обслуживание апартаментов
         li.mobile-menu-main-item.mobile-menu-main-item_last 
           a(href="#").mobile-menu-main-item-link Контакты
-  .mask-search
+  

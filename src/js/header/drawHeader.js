@@ -10,11 +10,17 @@ export default class DrawHeader {
 
         this.wrMobileMenu = this.header.querySelector('.wr-mobile-sub-menu');
         this.mobileList1 = this.wrMobileMenu.querySelector('.mobile-menu-main-list');
+        this.lastMobileList2 = null;
+        this.lastMobileList3 = null;
+        this.lastTargetLevel1 = null;
+        this.lastTargetLevel2 = null;
+
         // Отмечаем активно ли мобильное меню
         this.mobileMenuActive = null;
         // сюда сохраняем крайние открытые подменюшки в обратном порядке
         // т.е. третий уровень будет под 0 индексом чтоб закрывать в обратном порядке
         this.lastItemMobileMenu = [];
+        this.openMobileLevel = 0;
         
         this.main = document.querySelector('main');
         this.maskSubMenu = document.querySelector('.mask-sub-menu')
@@ -54,7 +60,7 @@ export default class DrawHeader {
             this.activeIconSearch = null;
             
             // у строки ввода удаляем класс активности и сбрасываем форму
-            this.wrPlaceSearch.classList.add('place-search_unactive');
+            this.maskSearch.classList.add('place-search_unactive');
             this.maskSearch.style.top = '';
             this.maskSearch.style.height = '';
             this.formSearch.reset();
@@ -169,7 +175,7 @@ export default class DrawHeader {
         // сохраняем элемент, если не пусто значит активен
         this.activeIconSearch = target;
     }
-
+ 
     // активация поля для ввода поиска
     redrawPlaceSearch() {
         // так как кнопка одна и на поиск и на мобильное меню здесь срабатывает
@@ -182,8 +188,8 @@ export default class DrawHeader {
         }
 
         // открываем поиск если стоит класс деактивации
-        if(this.wrPlaceSearch.matches('.place-search_unactive')) {
-            this.wrPlaceSearch.classList.remove('place-search_unactive');
+        if(this.maskSearch.matches('.place-search_unactive')) {
+            this.maskSearch.classList.remove('place-search_unactive');
 
             const heightMain = this.main.offsetHeight;
             const topMask = this.header.getBoundingClientRect().bottom;
@@ -191,10 +197,6 @@ export default class DrawHeader {
             this.maskSearch.style.top = `${topMask}px`;
             this.maskSearch.style.height = `${heightMain}px`;
 
-            // setTimeout(() => {
-                
-            // })
-            
             return;
         }
 
@@ -202,7 +204,7 @@ export default class DrawHeader {
         this.maskSearch.style.top = '';
         this.maskSearch.style.height = '';
 
-        this.wrPlaceSearch.classList.add('place-search_unactive');
+        this.maskSearch.classList.add('place-search_unactive');
         this.formSearch.reset();
     }
 
@@ -218,52 +220,225 @@ export default class DrawHeader {
     }
 
     openMobileLevelMain() {
-        // колличество эллементов
-        const amount = this.mobileList1.children.length;
-        // высота элемента
-        const height = this.mobileList1.children[0].offsetHeight;
-  
-        this.mobileList1.style.height = `${amount * height}px`;
-        // отметка что меню открыто
-        this.mobileMenuActive = true;
+        if(!this.mobileMenuActive) {
+            // колличество эллементов
+            const amount = this.mobileList1.children.length;
+            // высота элемента
+            const height = this.mobileList1.children[0].offsetHeight;
+
+            this.mobileList1.style.height = `${amount * height}px`;
+
+            // отметка что меню открыто
+            this.mobileMenuActive = true;
 
 
-        // Вычисляем высоту main для отрисовки mask
-        const mainHeight = this.main.offsetHeight;
-        // Присваиваем высоту маске
-        this.maskSubMenu.style.height = `${mainHeight}px`;
+            // Вычисляем высоту main для отрисовки mask
+            const mainHeight = this.main.offsetHeight;
+            // Присваиваем высоту маске
+            this.maskSubMenu.style.height = `${mainHeight}px`;
 
-        // меняем иконку поиска на крестик
-        this.redrawIconSearch(document.querySelector('.header__icon-search'));
+            // меняем иконку поиска на крестик
+            this.redrawIconSearch(document.querySelector('.header__icon-search'));
+        }
+        
         
     }
 
-    openUnderItemMenu(target, elForOpen) {
-        // ОТКРЫВАЕМ ПОДМЕНЮШКИ
+    controlUnderItemsMenu(target, elForOpen) {
+         // ОТКРЫВАЕМ ПОДМЕНЮШКИ
 
-        // как то нужно проверить это третий уровень или пользоватьль открыть новый второй
-        // от этого чистить или нет this.lastItemUnderMenu
+        if(elForOpen.matches('.list-level-2')) {
+            this.controlLevelMenu2(target, elForOpen);
+        }
 
-        // Сохраняем elForOpen в this.lastItemUnderMenu - это будет массив так как подменю может быть два (добавлять последний в начало)
-
-        // Определяем колличество дочерних элементов
-
-        // Определяем высоту таргета
-
-        // Вычисляем высоту для elForOpen
+        if(elForOpen.matches('.list-level-3')) {
+            this.controlLevelMenu3(target, elForOpen);
+        }
+ 
     }
+
+    controlLevelMenu2(target, elForOpen) {
+        if(!this.lastMobileList2) {
+            this.lastMobileList2 = elForOpen;
+            this.lastTargetLevel1 = target
+
+            // Определяем колличество дочерних элементов
+            let amountChildrenElements = elForOpen.children.length;
+            // Определяем высоту таргета
+            let heightTarget = target.offsetHeight;
+    
+            // Вычисляем высоту для подэлемента
+            let heightElOpen = heightTarget * amountChildrenElements;
+    
+            
+            this.mobileList1.style.height = 'min-content';
+            
+            // Открываем нижний элемент
+            elForOpen.style.height = `${heightElOpen}px`;
+            // Меняем стрелку
+            this.lastTargetLevel1.classList.add('level-active');
+
+            elForOpen.addEventListener('transitionend', (e) => {
+                let heightList1 = this.mobileList1.offsetHeight;
+                this.mobileList1.style.height = `${heightList1}px`;
+            }, {once: true})
+
+            return;
+        } 
+
+        // если повторный клик по элементу уровня 2 закрываем
+        if(this.lastMobileList2 && elForOpen === this.lastMobileList2) {
+            this.mobileList1.style.height = 'min-content';
+
+            // если третий левел открыт закрываем
+            if(this.lastMobileList3) {
+                this.controlLevelMenu3();
+            }
+
+            // Открываем нижний элемент
+            this.lastMobileList2.style.height = ``;
+
+            this.lastMobileList2.addEventListener('transitionend', (e) => {
+                let heightList1 = this.mobileList1.offsetHeight;
+                this.mobileList1.style.height = `${heightList1}px`;
+
+                this.lastMobileList2 = null;
+                this.lastTargetLevel = null;
+            }, {once: true})
+
+            this.lastTargetLevel1.classList.remove('level-active');
+
+            return;
+        }
+
+        // если какой то из уровней 2 открыт, а клик по другому элементу уровня 2 
+        if(this.lastMobileList2 && elForOpen !== this.lastMobileList2) {
+            // подменяем свойство у самой верхней обертки
+            this.mobileList1.style.height = 'min-content';
+
+            // если третий левел открыт закрываем
+            if(this.lastMobileList3) {
+                this.controlLevelMenu3();
+            }
+
+            // обнуляем высоту у прошлого элемента второго уровня
+            this.lastMobileList2.style.height = '';
+            this.lastTargetLevel1.classList.remove('level-active');
+            // обнуляем историю о прошлом элементе 2 уровня
+            setTimeout(() => {
+                this.lastMobileList2 = null;
+                this.lastTargetLevel1 = null;
+            }, 0);
+
+            // перезапускаем метод чтоб открыть новый элемент второго уровня с нуля
+            setTimeout(() => this.controlLevelMenu2(target, elForOpen), 0);
+            
+            return;
+        }
+    }
+
+    controlLevelMenu3(target, elForOpen) {
+        if(!this.lastMobileList3) {
+            this.lastMobileList3 = elForOpen;
+            this.lastTargetLevel2 = target;
+            // Определяем колличество дочерних элементов
+            let amountChildrenElements = elForOpen.children.length;
+            // Определяем высоту таргета
+            let heightTarget = target.offsetHeight;
+    
+            // Вычисляем высоту для подэлемента
+            let heightElOpen = heightTarget * amountChildrenElements;
+    
+            
+            this.mobileList1.style.height = 'min-content';
+            this.lastMobileList2.style.height = 'min-content';
+            this.lastMobileList3.parentElement.style.height = 'min-content'; // 15.73vw;
+            
+            // Открываем нижний элемент
+            this.lastMobileList3.style.height = `${heightElOpen}px`;
+            // меняем стрелку
+            this.lastTargetLevel2.classList.add('level-active');
+
+            this.lastMobileList3.addEventListener('transitionend', (e) => {
+                let heightList1 = this.mobileList1.offsetHeight;
+                this.mobileList1.style.height = `${heightList1}px`;
+            
+                let heightMobileList2 = this.lastMobileList2.offsetHeight;
+                this.lastMobileList2.style.height = `${heightMobileList2}px`;
+
+                let heightParentEl = this.lastMobileList3.parentElement.offsetHeight;
+                this.lastMobileList3.parentElement.style.height = `${heightParentEl}px`
+            }, {once: true})
+
+            return;
+        } 
+
+        this.mobileList1.style.height = 'min-content';
+        this.lastMobileList2.style.height = 'min-content';
+        this.lastMobileList3.parentElement.style.height = 'min-content'; // 15.73vw;
+
+        // Закрываем третий уровень
+        this.lastMobileList3.style.height = ``;
+
+        // меняем стрелку
+        this.lastTargetLevel2.classList.remove('level-active');
+
+        this.lastMobileList3.addEventListener('transitionend', (e) => {
+            let heightList1 = this.mobileList1.offsetHeight;
+            this.mobileList1.style.height = `${heightList1}px`;
+            
+            if(this.lastMobileList2) {
+                let heightMobileList2 = this.lastMobileList2.offsetHeight;
+                this.lastMobileList2.style.height = `${heightMobileList2}px`;
+            }
+            
+            let heightParentEl = this.lastMobileList3.parentElement.offsetHeight;
+            this.lastMobileList3.parentElement.style.height = `${heightParentEl}px`;
+
+            // обнуляем последний активный левел 3
+            this.lastMobileList3 = null;
+            this.lastTargetLevel2 = null;
+        }, {once: true})
+
+        
+    }
+    
 
     closeMobileMenu() {
         // сворачиваем меню
-        this.mobileList1.style.height = `0px`;
+        // если третий левел открыт закрываем
+        if(this.lastMobileList3) {
+            this.lastMobileList3.style.height = '';
+            this.lastMobileList3.parentElement.style.height = '15.73vw';
+            this.lastMobileList2.style.height = '';
+            this.lastTargetLevel1.classList.remove('level-active');
+            this.lastTargetLevel2.classList.remove('level-active');
+        }
+        
+        // если открыто меню левел 2 без левел 3 закрываем
+        if(this.lastMobileList2 && !this.lastMobileList3) {
+            this.lastMobileList2.style.height = '';
+            this.lastMobileList2 = null;
+            this.lastTargetLevel1.classList.remove('level-active');
+        }
+
+        setTimeout(() => this.mobileList1.style.height = ``, 0);
+
+
         // скрываем обертку и меню на странице
         this.mobileList1.addEventListener('transitionend', () => {
             this.wrMobileMenu.classList.add('unactive-sub');
-            console.log('transitionend')
+            this.mobileMenuActive = null;
+
+            this.lastMobileList3 = null;
+            this.lastMobileList2 = null;
+
+            this.lastTargetLevel1 = null;
+            this.lastTargetLevel2 = null
         }, {once: true})
 
         // Убираем высоту маске
-        this.maskSubMenu.style.height = ``;
+        this.maskSubMenu.style.height = ``;  
         
     }
 }

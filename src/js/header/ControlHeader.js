@@ -59,9 +59,7 @@ export default class ControlHeader {
         }
 
         if(e.target.matches('.upper-item-menu')) {
-            console.log('upper item menu')
-            console.log(e.target.nextElementSibling.children.length)
-            console.log(e.target.offsetHeight)
+            this.draw.controlUnderItemsMenu(e.target, e.target.nextElementSibling);
         }
     }
 
