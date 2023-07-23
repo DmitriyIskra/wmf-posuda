@@ -10,6 +10,10 @@ import DrawSlider from './slider-product-card/DrawSlider.js';
 import ControlTech from './tech-info-product/ControlTech.js';
 import DrawInfo from './tech-info-product/drawTech.js';
 
+import ControllCards from './sw-cards/controllCards.js';
+import RedrawCards from './sw-cards/redrawCards.js';
+
+
 // START HEADER
 
 const header = document.querySelector('.header');
@@ -61,3 +65,15 @@ if(techInfo) {
 
 
 // FINISH TECH-INFO
+
+
+// START SWIPE-CARDS
+
+const cards = document.querySelector('.sw-cards__cards-list');
+
+if(cards) {
+    const redrawCards = new RedrawCards(cards);
+    const controllCards = new ControllCards(redrawCards);
+
+    controllCards.init();
+}
