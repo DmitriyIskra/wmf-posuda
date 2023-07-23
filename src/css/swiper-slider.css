@@ -1,0 +1,15 @@
+
+
+@media( max-width: 375px ) {
+    .main__wr-slider-scroll-line {
+        display: none;
+    }
+
+    .main__slider-arrows-list {
+        display: none;
+    }
+
+    .swiper {
+        display: block;
+    }
+}

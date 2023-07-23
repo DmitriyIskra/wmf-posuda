@@ -10,6 +10,100 @@
 
 /* Н А Ч А Л О  С Л А Й Д Е Р */
 
+/* Свайпер */
+.swiper {
+    display: none;
+    height: 80vw;
+    width: 100vw;
+}
+
+.swiper-slide1 {
+    background: no-repeat url(../img/mobile-slider-index-img-1.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.swiper-slide2 {
+    background: no-repeat url(../img/mobile-slider-index-img-1.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.swiper-slide3 {
+    background: no-repeat url(../img/mobile-slider-index-img-1.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.swiper-slide4 {
+    background: no-repeat url(../img/mobile-slider-index-img-1.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.wrapper-swiper-slide-content {
+    display: inline-block;
+    margin-top: 102px;
+    margin-left: 20px;/*20px*/
+}
+
+.swiper-slide-title {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 24px;
+
+    flex-direction: column;
+}
+
+.swiper-slide-text {
+    display: flex;
+
+    font-family: 'WMFRotis-LightItalic';
+    font-size: 13px;
+
+    flex-direction: column;
+}
+
+.wrapper-slide-button {
+    display: flex;
+    width: 175px;
+    height: 40px;
+    margin-top: 31px;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 20px;
+
+    border: 0;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper div.swiper-pagination {
+    bottom: 3.73vw; /*3.73vw .wrapper-swiper-slide-content*/
+    left: 17.60vw;
+
+    display: flex;
+    gap: 1.60vw;
+}
+
+.swiper span.swiper-pagination-bullet {
+    border: 1px solid #000000;
+
+    background-color: #ffffff00;
+    opacity: 1;
+}
+
+.swiper span.swiper-pagination-bullet-active {
+    background-color: #000000;
+}
+
+/* Свайпер */
+
 .main_wrapper-slider {
     position: relative;
     overflow: hidden;
@@ -251,6 +345,8 @@
 /* М О Б И Л Ь Н А Я  В Е Р С И Я */
 
 
+
+
 @media( max-width: 375px ) {
     .main__wrapper-article {
         position: relative;
@@ -323,7 +419,7 @@
     .main__wr-article-text {
         margin-top: 2.07vw;
     }
-}
+} 
 
 @media( max-width: 375px ) {
     .main__article-text-item {

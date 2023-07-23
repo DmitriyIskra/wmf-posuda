@@ -44,6 +44,7 @@ export default class RedrawCards {
         if(result) {
             this.activeLink.click();
 
+            target.style.marginLeft = '4px';
             return;
         }
 

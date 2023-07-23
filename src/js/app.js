@@ -13,6 +13,14 @@ import DrawInfo from './tech-info-product/drawTech.js';
 import ControllCards from './sw-cards/controllCards.js';
 import RedrawCards from './sw-cards/redrawCards.js';
 
+import Swiper from 'swiper';
+import { Pagination } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
+
 
 // START HEADER
 
@@ -77,3 +85,20 @@ if(cards) {
 
     controllCards.init();
 }
+
+
+// S T A R T  S L I D E R  S WI P E R
+
+const swiper = new Swiper('.swiper', {
+    modules: [Pagination],
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination', 
+      clickable: true
+    },
+
+});
+
+// E N D  S L I D E R  S WI P E R
