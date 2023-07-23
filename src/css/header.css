@@ -385,7 +385,7 @@
 
 /* М О Б И Л Ь Н А Я  В Е Р С И Я */
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .header__wr-content {
         max-width: 86.67vw;
 
@@ -393,39 +393,39 @@
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .header__icon-mobile-nav {
         display: block;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .nav {
         display: none;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .logo {
         height: 10.93vw;
         width: 9.33vw;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .header__icon-search {
         height: 8vw;
         width: 8vw;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .header__wr-content {
         align-items: center;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .header__long-underline {
         height: 3px;
         width: 95%;
@@ -437,113 +437,34 @@
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .header__wr-place-search {
         padding-top: 4.80vw;
         padding-bottom: 3.47vw;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .header__form-search {
         width: 86.5%;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .header__place-search {
         font-size: 4.27vw;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .close-submenu {
         display: none;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .mask-sub-menu {
         top: 13.45vw;
     }
 }
 
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 375px) {
-    
-}

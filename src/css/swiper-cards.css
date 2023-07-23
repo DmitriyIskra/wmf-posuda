@@ -75,13 +75,13 @@
 
 /* К О Н Е Ц  К А Р Т О Ч К И   D E S C T O P*/
 
-@media( max-width: 375px ) {
+@media( max-width: 425px ) {
     .sw-cards__cards-list {
         gap: 3px;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 425px ) {
     .sw-cards__cards-item {
         height: 112vw;
         width: 100vw;
@@ -90,14 +90,14 @@
 
 
 
-@media( max-width: 375px ) {
+@media( max-width: 425px ) {
     .sw-cards__cards-description {
         height: 112vw;
         width: 16.80vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 425px ) {
     .sw-cards__cards-description-text {
         width: 97.21vw;
         padding: 0;
@@ -110,7 +110,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 425px ) {
     .sw-cards__cards-arrow {
         display: flex;
         height: 18.67vw;
@@ -127,7 +127,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 425px ) {
     .sw-cards__cards-swipe-circle {
         height: 16.67vw;
         width: 16.67vw;
@@ -139,7 +139,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 425px ) {
     .sw-cards__cards-arrow-link {
         height: 0;
         width: 0;
