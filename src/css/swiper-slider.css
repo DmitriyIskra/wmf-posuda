@@ -1,14 +1,8 @@
-
+.swiper {
+    display: none;
+}
 
 @media( max-width: 425px ) {
-    .main__wr-slider-scroll-line {
-        display: none;
-    }
-
-    .main__slider-arrows-list {
-        display: none;
-    }
-
     .swiper {
         display: block;
     }

@@ -11,8 +11,7 @@
 /* Н А Ч А Л О  С Л А Й Д Е Р */
 
 /* Свайпер */
-.swiper {
-    display: none;
+.swiper-index {
     height: 80vw;
     width: 100vw;
 }
@@ -344,7 +343,15 @@
 
 /* М О Б И Л Ь Н А Я  В Е Р С И Я */
 
+@media( max-width: 425px ) {
+    .main__wr-slider-scroll-line {
+        display: none;
+    }
 
+    .main__slider-arrows-list {
+        display: none;
+    }
+}
 
 
 @media( max-width: 425px ) {
@@ -366,12 +373,12 @@
         right: 0;
 
         display: block;
-        height: 7.73vw;
-        width: 97.07vw;
+        height: 1px;
+        width: 65.07vw;
 
-        background: no-repeat url(../svg/dotted-line-corner.svg);
-        background-position: left top;
-        background-size: 100%;
+        background-color: #777777;
+        /* background-position: left top;
+        background-size: 100%; */
     }
 }
 
@@ -432,12 +439,12 @@
 @media( max-width: 425px ) {
     .line-dotted {
         display: block;
-        height: 2px;
-        width: 94.07vw;
+        height: 1px;
+        width: 66.07vw;
         margin-top: 6.40vw;
         margin-bottom: 6.40vw;
 
-        background: no-repeat url(../svg/dotted-line.svg);
+        background-color: #777777;
         background-position: center top;
         background-size: 100%;
     }

@@ -61,6 +61,29 @@
     width: 34.58vw;
 }
 
+.swiper-page-product {
+    height: 66.40vw;
+    width: 100%;
+}
+
+.swiper-slide-card1 {
+    background: no-repeat url(../img/img_slider_1.png);
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.swiper-slide-card2 {
+    background: no-repeat url(../img/img_slider_2.png);
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.swiper-slide-card3 {
+    background: no-repeat url(../img/img_slider_3.png);
+    background-size: auto 100%;
+    background-position: center;
+}
+
 .main__wr-description-product {
     position: relative;
 
@@ -153,6 +176,16 @@
 }
 
 
+.main__line-page-product {
+    position: relative;
+
+    display: none;
+    height: 1px;
+    width: 100vw;
+    margin: 6.67vw 0;
+
+    background-color: #666666;
+}
 
 
 /* Т Е Х Н И Ч Е С К А Я  И Н Ф О Р М А Ц И Я */
@@ -167,7 +200,7 @@
 }
 
 
-/* управление блоком информации */
+/* управление блоком информации */ 
 .main__wr-tech-info {
     width: 100%;
     padding-top: 4.17vw;
@@ -297,6 +330,225 @@
 }
 
 
+/* М О Б И Л Ь Н А Я  В Е Р С И Я */
+
+@media( max-width: 375px ) {
+    .bread-crumbs-list {
+        display: none;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__wr-content-product {
+        width: 100%;
+        margin-top: 15.73vw;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__slider-container {
+        width: 100%;
+    }
+}
+
+
+@media( max-width: 375px ) {
+    .slider {
+        display: none;
+    }
+}
+
+@media( max-width: 375px ) {
+    .swiper-page-product {
+        display: block;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__wr-description-product {
+        width: 100%;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__title-description-card {
+        font-family: 'WMFRotis-Bold';
+        font-size: 8.53vw;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__wr-text-description-card {
+        gap: 5.6vw;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__text-description-card {
+        font-family: 'WMFRotis-Light';
+        font-size: 3.73vw;
+        color: #333;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__article-number {
+        margin-top: 5.33vw;
+
+        font-family: 'WMFRotis-Regular';
+        font-size: 4.27vw;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__wr-button-feedback {
+        position: static;
+
+        margin-top: 8vw;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__button-feedback {
+        height: 13.33vw;
+        width: 100%;
+
+        font-family: 'WMFRotis-Bold';
+        font-size: 5.33vw;
+
+        border-radius: 1.33vw;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__button-feedback::after {
+        display: none;
+    }
+}
+
+
+@media( max-width: 375px ) {
+    .main__line-page-product {
+        display: block;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__wr-tech-info {
+        padding-top: 0;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__nav-tech-info {
+        border-bottom: 0;
+        gap: 5px;
+
+        flex-direction: column;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__nav-tech-info-item {
+        display: flex;
+        height: 13.33vw;
+        width: 100%;
+        margin-bottom: 0;
+        padding: 0;
+
+        font-family: 'WMFRotis-Bold';
+        font-size: 5.33vw;
+
+        border-radius: 1.33vw;
+        border: 1px solid #777;
+        color: #333333;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tech-haracteristic {
+        padding-left: 0;
+    }
+
+    .active-tech-info {
+        border: 0;
+        background: #666666;
+        color: #ffffff;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__tech-info-container {
+        margin-top: 10.67vw;
+        padding-left: 0;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__table-tech-list {
+        width: 100%;
+
+        border-radius: 1.33vw;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__table-tech-item {
+        height: 13.33vw;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__tech-title-text {
+        width: 50%;
+        padding-left: 2.33vw;
+        padding-bottom: 2.33vw;
+
+        font-family: 'WMFRotis-Bold';
+        font-size: 3.73vw;
+
+        align-items: flex-end;
+    }
+
+    .main__tech-text {
+        width: 50%;
+        padding-left: 2.33vw;
+        padding-bottom: 2.33vw;
+        padding-right: 0;
+
+        font-family: 'WMFRotis-Regular';
+        font-size: 3.73vw;
+
+        align-items: flex-end;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__info-files-list {
+        gap: 8vw;
+
+        flex-direction: column;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__info-files-item {
+        gap: 2.67vw;
+    }
+}
+
+@media( max-width: 375px ) {
+    .main__info-file-icon {
+        height: 21.33vw;
+        width: 21.33vw;
+    }
+
+    .main__info-file-text {
+        width: 26.9vw;
+        font-size: 5.33vw;
+    }
+}
 
 
 

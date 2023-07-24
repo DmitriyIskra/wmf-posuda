@@ -43,8 +43,7 @@ export default class RedrawCards {
         console.log('this.lastActiveWr.offsetWidth / 2', this.lastActiveWr.offsetWidth / 2)
         if(result) {
             this.activeLink.click();
-
-            target.style.marginLeft = '4px';
+            setTimeout( () => target.style.marginLeft = '4px', 2000 );
             return;
         }
 

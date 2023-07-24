@@ -11,7 +11,7 @@ import ControlTech from './tech-info-product/ControlTech.js';
 import DrawInfo from './tech-info-product/drawTech.js';
 
 import ControllCards from './sw-cards/controllCards.js';
-import RedrawCards from './sw-cards/redrawCards.js';
+import RedrawCards from './sw-cards/RedrawCards.js';
 
 import Swiper from 'swiper';
 import { Pagination } from 'swiper/modules';
