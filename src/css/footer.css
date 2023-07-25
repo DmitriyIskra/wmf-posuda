@@ -266,11 +266,18 @@
     }
 }
 
+@media( max-width: 435px ) {
+    .item-mobile-menu {
+        text-align: center;
+    }
+}
+
 @media( max-width: 425px ) {
     .item-mobile-menu-link {
         display: inline;
         font-family: 'WMFRotis-Bold';
         font-size: 5.87vw;
+
         color: #D9D9D9;
     }
 }
@@ -383,7 +390,7 @@
     }
 }
 
-@media( max-width: 425px ) {
+@media( max-width: 425px ) { 
     .footer__copyright-link {
         font-family: 'WMFRotis-Bold';
         font-size: 5.87vw;

@@ -59,7 +59,7 @@ export default class ControlHeader {
         }
 
         if(e.target.matches('.upper-item-menu')) {
-            this.draw.controlUnderItemsMenu(e.target, e.target.nextElementSibling);
+            this.draw.controlUnderItemsMenu(e.target, e.target.nextElementSibling); 
         }
     }
 

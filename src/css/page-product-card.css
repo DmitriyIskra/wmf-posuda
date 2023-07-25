@@ -260,7 +260,7 @@
 .main__tech-title-text {
     display: flex;
     width: 14.32vw;
-    padding-left: 1.41vw;
+    padding-left: 1.41vw; 
 
     font-family: 'WMFRotis-Bold', sans-serif;
     font-size: 1.04vw;
@@ -526,6 +526,7 @@
 
 @media( max-width: 375px ) {
     .main__info-files-list {
+        margin-left: 3.73vw;
         gap: 8vw;
 
         flex-direction: column;

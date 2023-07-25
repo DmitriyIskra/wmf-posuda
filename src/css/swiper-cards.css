@@ -76,6 +76,12 @@
 /* К О Н Е Ц  К А Р Т О Ч К И   D E S C T O P*/
 
 @media( max-width: 425px ) {
+    .main__wrapper-cards {
+        padding: 0 5.6vw;
+    }
+}
+
+@media( max-width: 425px ) {
     .sw-cards__cards-list {
         gap: 3px;
     }
@@ -84,7 +90,7 @@
 @media( max-width: 425px ) {
     .sw-cards__cards-item {
         height: 112vw;
-        width: 100vw;
+        width: 100%;
     }
 }
 
@@ -114,7 +120,7 @@
     .sw-cards__cards-arrow {
         display: flex;
         height: 18.67vw;
-        width: 72.53vw;
+        width: 62.53vw;
         margin-left: 16px;
         margin-bottom: 6.40vw;
 
@@ -129,8 +135,8 @@
 
 @media( max-width: 425px ) {
     .sw-cards__cards-swipe-circle {
-        height: 16.67vw;
-        width: 16.67vw;
+        height: 14.67vw;
+        width: 14.67vw;
         margin-left: 1.07vw;
 
         background: no-repeat url(../svg/arrow-cards-index.svg);
@@ -144,4 +150,17 @@
         height: 0;
         width: 0;
     }
+}
+
+
+@media( max-width: 425px ) {
+    
+}
+
+@media( max-width: 425px ) {
+    
+}
+
+@media( max-width: 425px ) {
+    
 }

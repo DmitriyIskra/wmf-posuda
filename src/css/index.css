@@ -10,7 +10,7 @@
 
 /* Н А Ч А Л О  С Л А Й Д Е Р */
 
-/* Свайпер */
+/* Свайпер */ 
 .swiper-index {
     height: 80vw;
     width: 100vw;
@@ -411,6 +411,7 @@
         height: 80vw;
         width: 100%;
         margin-top: 6.40vw;
+        padding: 0 5.6vw;
     }
 }
 
@@ -449,6 +450,8 @@
         background-size: 100%;
     }
 }
+
+
 
 
 

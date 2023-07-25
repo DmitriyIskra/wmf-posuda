@@ -9,6 +9,7 @@ export default class DrawHeader {
         this.longLine = this.header.querySelector('.header__long-underline');
 
         this.wrMobileMenu = this.header.querySelector('.wr-mobile-sub-menu');
+        // первый, главный уровень меню
         this.mobileList1 = this.wrMobileMenu.querySelector('.mobile-menu-main-list');
         this.lastMobileList2 = null;
         this.lastMobileList3 = null;
@@ -276,7 +277,7 @@ export default class DrawHeader {
             // Открываем нижний элемент
             elForOpen.style.height = `${heightElOpen}px`;
             // Меняем стрелку
-            this.lastTargetLevel1.classList.add('level-active');
+            this.lastTargetLevel1.classList.add('mobile-menu-main-item_title_active');  // openmain
 
             elForOpen.addEventListener('transitionend', (e) => {
                 let heightList1 = this.mobileList1.offsetHeight;
@@ -306,7 +307,7 @@ export default class DrawHeader {
                 this.lastTargetLevel = null;
             }, {once: true})
 
-            this.lastTargetLevel1.classList.remove('level-active');
+            this.lastTargetLevel1.classList.remove('mobile-menu-main-item_title_active'); // closemain
 
             return;
         }
@@ -323,7 +324,7 @@ export default class DrawHeader {
 
             // обнуляем высоту у прошлого элемента второго уровня
             this.lastMobileList2.style.height = '';
-            this.lastTargetLevel1.classList.remove('level-active');
+            this.lastTargetLevel1.classList.remove('mobile-menu-main-item_title_active'); // closemain
             // обнуляем историю о прошлом элементе 2 уровня
             setTimeout(() => {
                 this.lastMobileList2 = null;
@@ -411,7 +412,7 @@ export default class DrawHeader {
             this.lastMobileList3.style.height = '';
             this.lastMobileList3.parentElement.style.height = '15.73vw';
             this.lastMobileList2.style.height = '';
-            this.lastTargetLevel1.classList.remove('level-active');
+            this.lastTargetLevel1.classList.remove('mobile-menu-main-item_title_active'); //closemain
             this.lastTargetLevel2.classList.remove('level-active');
         }
         
@@ -419,10 +420,10 @@ export default class DrawHeader {
         if(this.lastMobileList2 && !this.lastMobileList3) {
             this.lastMobileList2.style.height = '';
             this.lastMobileList2 = null;
-            this.lastTargetLevel1.classList.remove('level-active');
+            this.lastTargetLevel1.classList.remove('mobile-menu-main-item_title_active'); //closemain
         }
 
-        setTimeout(() => this.mobileList1.style.height = ``, 0);
+        setTimeout(() => this.mobileList1.style.height = ``, 0); 
 
 
         // скрываем обертку и меню на странице
