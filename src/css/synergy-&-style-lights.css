@@ -1,0 +1,106 @@
+.wr-bread-crumbs {
+    width: 76vw;
+    margin: 0 auto;
+}
+
+.ssl {
+    display: flex;
+
+    align-items: center;    
+    flex-direction: column;
+}
+
+.ssl__wr-banner {
+    width: 100vw;
+    height: 37.50vw;
+    padding-top: 7.66vw;
+    margin-top: 3.02vw;
+
+    background: no-repeat url(../img/banner-ssl.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.ssl__wr-banner-text {
+    margin-left: 11.15vw;
+}
+
+.ssl__wr-banner-title-top {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 5vw;
+
+    flex-direction: column;
+}
+
+.ssl__wr-banner-title-bottom {
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.33vw;
+
+    color: #333333;
+}
+
+
+
+.ssl__wr-description {
+    display: flex;
+    width: 100vw;
+    margin-top: 6.51vw;
+    padding-bottom: 3.39vw;
+
+    background: no-repeat url(../svg/logo-article-index.svg);
+    background-position: top right 11.7vw;
+    background-size: auto 100%;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.ssl__description-line-top {
+    height: 2px;
+    width: 62%;
+
+    background-color: #777777;
+
+    align-self: flex-end;
+}
+
+.ssl__description-content {
+    width: 78.13vw;
+    margin-top: 2.34vw;
+    margin-bottom: 3.85vw;
+}
+
+.ssl__description-title {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.13vw;
+
+    flex-direction: column;
+}
+
+.ssl__wr-description-text {
+    display: flex;
+    margin-top: 3.33vw;
+    gap: 2vw;
+
+    flex-direction: column;
+}
+
+.ssl__description-text {   
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.46vw;
+
+    color: #333333;
+}
+
+.ssl__description-line-bottom {
+    height: 2px;
+    width: 71%;
+
+    background-color: #777777;
+
+    align-self: flex-start;
+}

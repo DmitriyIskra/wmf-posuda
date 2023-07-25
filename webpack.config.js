@@ -102,9 +102,16 @@ module.exports = {
         html: false // отключаем минификацию html, еще есть версия minify: false
       },
     }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/synergy-&-style-lights.pug',
+      filename: './synergy-&-style-lights.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false
+      },
+    }),
     // new HtmlWebPackPlugin({
     //   template: './src/pug/page.pug',
-    //   filename: './page.html',   // куда компилировать
+    //   filename: './page.html',   // куда компилировать synergy-&-style-lights.pug
     //   minify: false,
     // }),
     

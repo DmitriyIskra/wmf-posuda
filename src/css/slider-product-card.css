@@ -238,3 +238,10 @@
 
     cursor: default;
 }
+
+
+@media( max-width: 435px ) {
+    .slider {
+        display: none;
+    }
+}

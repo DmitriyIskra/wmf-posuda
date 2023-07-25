@@ -1,0 +1,30 @@
+.bread-crumbs-list {
+    display: flex;
+    width: 76vw;
+    margin-top: 1.15vw;
+    gap: 0.26vw;
+
+    cursor: pointer;
+}
+
+.crumbs-item-slash {
+    cursor: default;
+}
+
+.bread-crumbs-item {
+    font-family: 'WMFRotis-Light', sans-serif;
+    font-size: 0.83vw;
+    color: #333333;
+}
+
+.crumbs-item_active {
+    font-family: 'WMFRotis-Regular', sans-serif;
+    font-size: 0.83vw;
+    color: #333333;
+}
+
+@media( max-width: 435px ) {
+    .bread-crumbs-list {
+        display: none;
+    }
+}

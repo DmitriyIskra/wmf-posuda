@@ -5,12 +5,9 @@ include layout/head
 include modules/header
 
 
-main.main-product-card
-  .main__wr-content
-    ul.bread-crumbs-list
-      li.bread-crumbs-item Хлебные крошки
-      li.bread-crumbs-item.crumbs-item-slash /
-      li.bread-crumbs-item.crumbs-item_active Хлебные крошки
+main.main-product-card  
+  .main__wr-content-product-card
+    include modules/bread-crumbs
     .main__wr-content-product
       .main__slider-container
         .swiper.swiper-page-product
