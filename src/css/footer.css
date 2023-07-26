@@ -219,7 +219,7 @@
 
 
 @media( max-width: 435px ) {
-    .footer__wr-nav {
+    .footer__wr-nav { 
         display: none;
     }
 }
@@ -284,9 +284,13 @@
 
 @media( max-width: 435px ) {
     .footer__wr-logo {
+        display: flex;
         width: 89%;
         margin-top: 5.33vw;
         margin-bottom: 5.33vw;
+
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -300,17 +304,31 @@
 @media( max-width: 435px ) {
     .footer__logo-ist {
         height: 25.87vw;
-        width: 54.93vw;
+        width: 30.93vw;
+        margin-top: 5.87vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .footer__logo-ist-link {
+        background: no-repeat url(../svg/logo-ist-footer-mobile.svg);
+        background-position: center;
+        background-size: auto 100%;
     }
 }
 
 @media( max-width: 435px ) {
     .footer__info-list {
         width: 100%;
-        margin-left: 10vw;
         margin-top: 5.33vw;
         margin-bottom: 10.33vw;
         gap: 4.56vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .footer__info-item {
+        text-align: center;
     }
 }
 
@@ -328,12 +346,11 @@
         display: flex;
         width: 100%;
         margin-top: 5.33vw;
-        margin-left: 10vw;
         margin-bottom: 7.33vw;
         gap: 8.33vw;        
 
         flex-direction: column;
-
+        align-items: center;
     }
 }
 
@@ -350,6 +367,7 @@
     .location-text {
         font-family: 'WMFRotis-Regular';
         font-size: 5.87vw;
+        text-align: center;
 
         color: #D9D9D9;
     }
@@ -359,8 +377,13 @@
     .address__title-phone-number {
         font-family: 'WMFRotis-Regular';
         font-size: 5.87vw;
+        text-align: center;
 
         color: #D9D9D9;
+    }
+
+    .address__phone-number-list {
+        text-align: center;
     }
 
     .address__phone-number-link {

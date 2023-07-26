@@ -9,6 +9,5 @@ import './css/footer.css';
 import './css/page-product-card.css';
 import './css/synergy-&-style-lights.css';
 import './css/slider-product-card.css';
-import './css/swiper-cards.css';
 import './css/swiper-slider.css'
 
