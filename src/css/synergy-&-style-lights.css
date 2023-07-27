@@ -68,7 +68,7 @@
 }
 
 .ssl__description-content {
-    width: 78.13vw;
+    width: 76.13vw;
     margin-top: 2.34vw;
     margin-bottom: 3.85vw;
 }
@@ -114,7 +114,7 @@
 
 .ssl__cards-atmosphere-list {
     display: flex;
-    width: 78.13vw;
+    width: 76.13vw;
     margin-top: 2.92vw;
     gap: 2px;
 
@@ -154,7 +154,7 @@
 
 
 .ssl__wr-collections {
-    width: 78.13vw;
+    width: 76.13vw;
     margin-top: 5.21vw;
 }
 
@@ -258,7 +258,7 @@
 
 .ssl__catalog-content {
     display: flex;
-    width: 78.13vw;
+    width: 76.13vw;
     margin-top: 3.13vw;
 
     flex-direction: column;
@@ -314,14 +314,14 @@
 
 /* МОБИЛЬНАЯ ВЕРСИЯ */
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl {
         padding-bottom: 24vw;
     }
 }
     
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-banner {
         margin-top: 0;
         height: 80vw;
@@ -333,13 +333,13 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-banner-text {
         margin-left: 4.4vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-banner-title-top {
         font-family: 'WMFRotis-Bold';
         font-size: 8.53vw;
@@ -354,7 +354,7 @@
 
 
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-description {
         margin-top: 3.47vw;
         padding-top: 5.07vw;
@@ -362,13 +362,13 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__description-line-top {
         width: 63%;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__description-content {
         display: flex;
         width: 86.67vw;
@@ -379,7 +379,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__description-title {
         font-size: 6.67vw;
     }
@@ -404,7 +404,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__description-line-bottom {
         width: 66%;
     }
@@ -415,21 +415,21 @@
 
 
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__cards-atmosphere-list {
         width: 86.67vw;
         margin-top: 6.67vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__cards-atmosphere-item {
         width: 100%;
         height: 78.67vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .cards-atmosphere-vogue {
         background: no-repeat url(../img/en-vogue-mobile.png);
         background-position: center;
@@ -459,39 +459,39 @@
 
 
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-collections {
         width: 86.67vw;
         margin-top: 17.33vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-collections-title {
         font-size: 6.67vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-collections-cards {
         margin-top: 6.67vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__cards-list {
         gap: 2px;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__cards-item {
         width: 100%;
         height: 112vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .cards-item-breakfast {
         background: no-repeat url(../img/breakfast-mobile.png);
         background-position: center;
@@ -523,7 +523,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 435px ) { 
     .ssl__cards-arrow {
         display: flex;
         height: 18.67vw;
@@ -563,32 +563,32 @@
 
 
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-catalog {
         margin-top: 6.67vw; 
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-catalog-line-top {
         width: 93.4vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__catalog-content {
         width: 86.67vw;
         margin-top: 8vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__catalog-title {
         font-size: 6.67vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__catalog-card {
         position: relative;
 
@@ -598,7 +598,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__catalog-link {
         position: absolute;
         left: 0;
@@ -612,7 +612,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl__wr-catalog-line-bottom {
         width: 93.5vw;
         margin-top: 21.07vw;
@@ -623,70 +623,70 @@
 
 
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
 
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
 
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
 
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }

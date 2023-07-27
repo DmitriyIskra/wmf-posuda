@@ -106,7 +106,14 @@ module.exports = {
       template: './src/pug/synergy-&-style-lights.pug',
       filename: './synergy-&-style-lights.html',   // куда компилировать
       minify: {
-        html: false // отключаем минификацию html, еще есть версия minify: false
+        html: false // отключаем минификацию html, еще есть версия minify: false 
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/ssl-collections-breakfast.pug',
+      filename: './ssl-collections-breakfast.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false 
       },
     }),
     // new HtmlWebPackPlugin({

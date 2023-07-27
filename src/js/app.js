@@ -73,14 +73,22 @@ if(techInfo) {
 
 
 // FINISH TECH-INFO
-
+ 
 
 // START SWIPE-CARDS
 
-const cards = document.querySelector('.sw-cards__cards-list');
+const cardsIndex = document.querySelector('.sw-cards__cards-list');
+const cardsSynergy = document.querySelector('.ssl__cards-list');
 
-if(cards) {
-    const redrawCards = new RedrawCards(cards);
+if(cardsSynergy) {
+    const redrawCards = new RedrawCards(cardsSynergy);
+    const controllCards = new ControllCards(redrawCards);
+
+    controllCards.init();
+}
+
+if(cardsIndex) {
+    const redrawCards = new RedrawCards(cardsIndex);
     const controllCards = new ControllCards(redrawCards);
 
     controllCards.init();

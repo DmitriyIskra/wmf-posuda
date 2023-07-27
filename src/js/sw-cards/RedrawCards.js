@@ -14,7 +14,7 @@ export default class RedrawCards {
     touchStart(targetEl, touchePosition) {
         this.lastActiveWr = targetEl.parentElement;
         this.activeCircle = targetEl;
-        this.activeLink = this.activeCircle.nextElementSibling
+        this.activeLink = this.activeCircle.nextElementSibling;
 
         // расщитываем максимальный margin
         this.maxMargin = this.lastActiveWr.offsetWidth - this.activeCircle.offsetWidth - 2;
@@ -38,7 +38,7 @@ export default class RedrawCards {
     }
 
     endTouch(target) {
-
+        console.log('end')
         // смотрим на каком месте отпустили круг, до куда дотянули
         const result = parseInt(target.style.marginLeft) > this.lastActiveWr.offsetWidth / 2;
         // если больше половины переходим по ссылке
