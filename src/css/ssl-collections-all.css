@@ -272,7 +272,7 @@
 /* М О Б И Л К А */
 
 @media( max-width: 375px ) {
-    .ssl-breakfast {
+    .ssl-collection {
         padding-bottom: 24vw;
     }
 }
@@ -320,6 +320,12 @@
         color: #333333;
 
         flex-direction: column;
+    }
+}
+
+@media( max-width: 375px ) {
+    .ssl-collection__wr-line-top {
+        width: 63vw;
     }
 }
 
@@ -415,20 +421,50 @@
 
 @media( max-width: 375px ) {
     .ssl-collection__link-description {
+        height: 13.33vw;
+        margin-top: 8vw;
+
         font-size: 5.33vw;
+
+        border-radius: 1.33vw;
     }
 }
 
 @media( max-width: 375px ) {
-    
+    .ssl-collection__wr-collection-line-bottom {
+        width: 69vw;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
 }
 
 @media( max-width: 375px ) {
-    
+    .breakfast__img-combi1 {
+        background: no-repeat url(../img/collection-combi-img-1-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .breakfast__img-combi2 {
+        background: no-repeat url(../img/collection-combi-img-2-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .breakfast__img-combi3 {
+        background: no-repeat url(../img/collection-combi-img-3-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
 }
 
 @media( max-width: 375px ) {
-    
+    .ssl-collection__wr-combi-line-bottom {
+        margin-top: 8vw;
+        width: 96vw;
+
+        align-self: center;
+    }
 }
 
 @media( max-width: 375px ) {
