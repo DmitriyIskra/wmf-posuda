@@ -51,8 +51,8 @@
     padding-bottom: 3.39vw;
 
     background: no-repeat url(../svg/logo-article-index.svg);
-    background-position: top right 11.7vw;
-    background-size: auto 100%;
+    background-position: top right 13.9%;
+    background-size: auto 91.6%;
 
     align-items: center;
     flex-direction: column;
@@ -271,7 +271,6 @@
 }
 
 .ssl__catalog-card {
-    display: flex;
     width: 17.60vw;
     height: 24.90vw;
     margin-top: 2.08vw;
@@ -279,15 +278,13 @@
     background: no-repeat url(../img/catalog-SYNERGY_STYLE_LIGHTS_ES-11.png);
     background-position: center;
     background-size: auto 100%;
-
-    align-items: flex-end;
 }
 
 .ssl__catalog-link {
     display: flex;
     height: 2.86vw;
-    width: 100%;
-    margin-bottom: 5px;
+    width: 17.60vw;
+    margin-top: 1.04vw;
 
     font-family: 'WMFRotis-Bold';
     font-size: 1.25vw;
@@ -303,7 +300,7 @@
 .ssl__wr-catalog-line-bottom {
     height: 2px;
     width: 89.1vw;
-    margin-top: 8.07vw;
+    margin-top: 4.17vw;
 
     background-color: #777777;
 
@@ -359,6 +356,9 @@
         margin-top: 3.47vw;
         padding-top: 5.07vw;
         padding-bottom: 0;
+
+        background-size: auto 61.3vw;
+        background-position: top left;
     }
 }
 
@@ -369,7 +369,7 @@
 }
 
 @media( max-width: 435px ) {
-    .ssl__description-content {
+    .ssl__description-content { 
         display: flex;
         width: 86.67vw;
         margin-top: 1.87vw;
@@ -381,7 +381,7 @@
 
 @media( max-width: 435px ) {
     .ssl__description-title {
-        font-size: 6.67vw;
+        font-size: 6.4vw;
     }
 
     .ssl__wr-description-text {
@@ -590,8 +590,6 @@
 
 @media( max-width: 435px ) {
     .ssl__catalog-card {
-        position: relative;
-
         width: 53.87vw;
         height: 76.27vw;
         margin-top: 5.33vw;
@@ -600,11 +598,9 @@
 
 @media( max-width: 435px ) {
     .ssl__catalog-link {
-        position: absolute;
-        left: 0;
-        bottom: -14.67vw;
-
+        width: 53.87vw;
         height: 10.67vw;
+        margin-top: 4vw;
 
         font-size: 20px;
 
@@ -615,7 +611,7 @@
 @media( max-width: 435px ) {
     .ssl__wr-catalog-line-bottom {
         width: 93.5vw;
-        margin-top: 21.07vw;
+        margin-top: 8vw;
     }
 }
 

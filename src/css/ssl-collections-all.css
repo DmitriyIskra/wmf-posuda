@@ -96,7 +96,10 @@
 }
 
 .ssl-collection__wr-description {
+    display: flex;
     width: 47vw;
+
+    flex-direction: column;
 }
 
 .ssl-collection__wr-description-title {
@@ -120,16 +123,21 @@
 .ssl-collection__wr-description-images-list {
     display: flex;
     width: 100%;
-    margin-top: 3.85vw;
+    /* margin-top: 3.85vw; */
 
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: flex-end;
+
+    flex-grow: 1;
 }
 
 .ssl-collection__wr-description-image-item {
     position: relative;
     width: 32.9%;
-    height: 15.63vw;
+    height: 15.5vw;
+
+    overflow: hidden;
 }
 
 .ssl-collection__description-image {
@@ -142,7 +150,7 @@
 
 .ssl-collection__wr-description-image-text {
     position: absolute;
-    bottom: 1.5vw;
+    bottom: 1.3vw;
     left: 0;
     right: 0;
 
@@ -271,14 +279,14 @@
 
 /* М О Б И Л К А */
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection {
         padding-bottom: 24vw;
     }
 }
     
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-banner {
         margin-top: 0;
         height: 80vw;
@@ -290,13 +298,13 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-banner-text {
         margin-left: 5.2vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-banner-title-top {
         font-family: 'WMFRotis-Bold';
         font-size: 6.40vw;
@@ -323,63 +331,63 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-line-top {
         width: 63vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-content {
         width: 87vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-description {
         width: 100%;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-description-title {
         font-size: 6.67vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-description-text {
         font-size: 3.73vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-description-images-list {
         gap: 5px;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-description-image-item {
         width: 100%;
         height: 88vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-description-image-text {
         top: 59.47vw;
         bottom: auto;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-description-image-text span {
         font-size: 4.27vw;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__img-vertical {
         width: 100%;
         height: 112vw;
@@ -393,14 +401,14 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-description-block-bottom {
         margin-top: 6px;
         gap: 6px;
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__img-horizontal {
         width: 100%;
         height: 78.67vw;
@@ -419,7 +427,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__link-description {
         height: 13.33vw;
         margin-top: 8vw;
@@ -430,7 +438,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-collection-line-bottom {
         width: 69vw;
         margin-top: 8vw;
@@ -438,7 +446,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .breakfast__img-combi1 {
         background: no-repeat url(../img/collection-combi-img-1-mobile.png);
         background-position: center;
@@ -458,7 +466,7 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     .ssl-collection__wr-combi-line-bottom {
         margin-top: 8vw;
         width: 96vw;
@@ -467,42 +475,42 @@
     }
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
 
-@media( max-width: 375px ) {
+@media( max-width: 435px ) {
     
 }
