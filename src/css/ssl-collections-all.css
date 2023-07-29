@@ -42,6 +42,12 @@
     background-size: 100%;
 }
 
+.ssl-banquet-banner {
+    background: no-repeat url(../img/ssl-collections-banner-banquet.png);
+    background-position: center;
+    background-size: 100%;
+}
+
 .ssl-collection__wr-banner-text {
     margin-left: 11.15vw;
 }
@@ -138,6 +144,10 @@
     font-size: 3.13vw;
 
     flex-direction: column;
+}
+
+.wr-description-title_banquet {
+    font-size: 3.1vw;
 }
 
 .ssl-collection__wr-description-title_mobile {
@@ -238,6 +248,14 @@
     background-size: 100% auto;
 }
 
+.banquet__img-porcelain1 {
+    background: no-repeat url(../img/collection-banquet-img-1.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+
+
 .ssl-collection__img-horizontal {
     width: 48.7%;
     height: 22.29vw;
@@ -267,6 +285,13 @@
     background-size: 100% auto;
 }
 
+.banquet__img-porcelain2 {
+    background: no-repeat url(../img/collection-banquet-img-2.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+
 .breakfast__img-porcelain3 {
     background: no-repeat url(../img/collection-breakfast-img-3.png);
     background-position: center;
@@ -287,6 +312,12 @@
 
 .furshet__img-porcelain3 {
     background: no-repeat url(../img/collection-furshet-img-3.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.banquet__img-porcelain3 {
+    background: no-repeat url(../img/collection-banquet-img-3.png);
     background-position: center;
     background-size: 100% auto;
 }
@@ -339,6 +370,15 @@
     background-size: 100% auto;
 }
 
+.banquet__img-combi1 {
+    height: 29.53vw;
+
+    background: no-repeat url(../img/collection-combi-banquet-img-1.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+
 .breakfast__img-combi2 {
     background: no-repeat url(../img/collection-combi-img-2.png);
     background-position: center;
@@ -363,6 +403,13 @@
     background-size: 100% auto;
 }
 
+.banquet__img-combi2 {
+    background: no-repeat url(../img/collection-combi-banquet-img-2.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+
 .breakfast__img-combi3 { 
     background: no-repeat url(../img/collection-combi-img-3.png);
     background-position: center;
@@ -383,6 +430,12 @@
 
 .furshet__img-combi3 {
     background: no-repeat url(../img/collection-combi-furshet-img-3.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.banquet__img-combi3 {
+    background: no-repeat url(../img/collection-combi-banquet-img-3.png);
     background-position: center;
     background-size: 100% auto;
 }
@@ -473,6 +526,12 @@
         background-position: center;
         background-size: auto 100%;
     }
+
+    .ssl-banquet-banner {
+        background: no-repeat url(../img/ssl-collections-banner-banquet-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
 }
 
 @media( max-width: 435px ) {
@@ -544,7 +603,7 @@
 
 @media( max-width: 435px ) {
     .ssl-collection__wr-description-title {
-        font-size: 6.67vw;
+        font-size: 5.7vw;
     }
 
     .wr-description-title-cuisine {
@@ -634,6 +693,12 @@
         background-position: center;
         background-size: auto 100%;
     }
+
+    .banquet__img-porcelain1 {
+        background: no-repeat url(../img/collection-banquet-img-1-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
 }
 
 @media( max-width: 435px ) {
@@ -673,6 +738,12 @@
         background-size: auto 100%;
     }
 
+    .banquet__img-porcelain2 {
+        background: no-repeat url(../img/collection-banquet-img-2-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
 
 
     .breakfast__img-porcelain3 {
@@ -695,6 +766,12 @@
 
     .furshet__img-porcelain3 {
         background: no-repeat url(../img/collection-furshet-img-3-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .banquet__img-porcelain3 {
+        background: no-repeat url(../img/collection-banquet-img-3-mobile.png);
         background-position: center;
         background-size: auto 100%;
     }
@@ -744,6 +821,12 @@
         background-size: auto 100%;
     }
 
+    .banquet__img-combi1 {
+        background: no-repeat url(../img/collection-combi-banquet-img-1-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
 
 
     .breakfast__img-combi2 {
@@ -770,6 +853,12 @@
         background-size: auto 100%;
     }
 
+    .banquet__img-combi2 {
+        background: no-repeat url(../img/collection-combi-banquet-img-2-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
 
 
     .breakfast__img-combi3 {
@@ -792,6 +881,12 @@
 
     .furshet__img-combi3 {
         background: no-repeat url(../img/collection-combi-furshet-img-3-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .banquet__img-combi3 {
+        background: no-repeat url(../img/collection-combi-banquet-img-3-mobile.png);
         background-position: center;
         background-size: auto 100%;
     }
