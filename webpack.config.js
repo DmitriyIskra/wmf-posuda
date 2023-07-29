@@ -116,19 +116,28 @@ module.exports = {
         html: false // отключаем минификацию html, еще есть версия minify: false 
       },
     }),
-    // new HtmlWebPackPlugin({
-    //   template: './src/pug/page.pug',
-    //   filename: './page.html',   // куда компилировать synergy-&-style-lights.pug
-    //   minify: false,
-    // }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/ssl-collections-supper.pug',
+      filename: './ssl-collections-supper.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false 
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/ssl-collections-cuisine.pug',
+      filename: './ssl-collections-cuisine.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/ssl-collections-furshet.pug',
+      filename: './ssl-collections-furshet.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
     
-    // new HtmlWebPackPlugin({
-    //   template: './src/page.html',
-    //   filename: './page.html',
-    //   minify: {
-    //     html: false // отключаем минификацию html, еще есть версия minify: false
-    //   },
-    // }),
     new MiniCssExtractPlugin({
       filename: 'css/[hash].css', // куда компилировать
       chunkFilename: '[id].css',
