@@ -308,7 +308,7 @@ export default class DrawHeader {
             }, {once: true})
 
             this.lastTargetLevel1.classList.remove('mobile-menu-main-item_title_active'); // closemain
-
+ 
             return;
         }
 
