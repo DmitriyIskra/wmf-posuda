@@ -1,0 +1,47 @@
+.main-porcelain {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-bread-crumbs {
+    width: 76vw;
+    margin: 0 auto;
+}
+
+.porcelain__banner {
+    width: 100%;
+    height: 37.50vw;
+    margin-top: 3.02vw;
+
+    background: no-repeat url(../img/banner-porcelain-synergy.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.wr-number-pages {
+    display: flex;
+    width: 76vw;
+    margin-top: 2.71vw;
+
+    justify-content: flex-end;
+}
+
+.porcelain__wrapper-main-content {
+    display: flex;
+    width: 76vw;
+}
+
+.porcelain__filter {
+    width: 22vw;
+}
+
+.porcelain__wr-filter {
+    width: 100%;
+}
+
+
+.porcelain__wr-content {
+    flex-grow: 1;
+}

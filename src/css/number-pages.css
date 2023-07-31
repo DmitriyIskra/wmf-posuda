@@ -1,0 +1,43 @@
+.number-pages {
+    display: flex;
+    gap: 0.78vw;
+
+    align-items: center;
+}
+
+.number-pages__arrow-left {
+    height: 16px;
+    width: 8px;
+
+    background: no-repeat url(../svg/number-pages-arrow-left_.png);
+    background-size: auto 100%;
+    background-position: center;
+
+    cursor: pointer;
+}
+
+.number-pages-list {
+    display: flex;
+    gap: 1.04vw;
+}
+
+.number-page-item {
+    font-family: 'WMFRotis-Bold';
+    font-size: 24px;
+
+    color: #777;
+
+    cursor: pointer;
+}
+
+.number-pages__arrow-right {
+    height: 16px;
+    width: 8px;
+
+    background: no-repeat url(../svg/number-pages-arrow-right_.png);
+    background-size: auto 100%;
+    background-position: center;
+
+    cursor: pointer;
+}
+

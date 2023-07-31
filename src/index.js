@@ -11,4 +11,6 @@ import './css/synergy-&-style-lights.css';
 import './css/slider-product-card.css';
 import './css/swiper-slider.css';
 import './css/ssl-collections-all.css';
-
+import './css/porcelain-synergy.css'; 
+import './css/aside-filter.css';
+import './css/number-pages.css'

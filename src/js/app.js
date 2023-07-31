@@ -13,11 +13,16 @@ import DrawInfo from './tech-info-product/drawTech.js';
 import ControllCards from './sw-cards/controllCards.js';
 import RedrawCards from './sw-cards/RedrawCards.js';
 
+import ControlAsideFilter from './aside-filter/controlAsideFilter.js';
+import RedrawAsideFilter from './aside-filter/RedrawAsideFilter.js';
+
 import Swiper from 'swiper';
 import { Pagination } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
+
+
 
 
 
@@ -95,7 +100,7 @@ if(cardsIndex) {
 }
 
 
-// S T A R T  S L I D E R  S WI P E R
+// S T A R T  S L I D E R  S W I P E R
 
 const swiper = new Swiper('.swiper', {
     modules: [Pagination],
@@ -110,3 +115,16 @@ const swiper = new Swiper('.swiper', {
 });
 
 // E N D  S L I D E R  S WI P E R
+
+
+// S T A R T  S L I D E R  F I L T E R
+
+const filter = document.querySelector('.filter');
+
+if(filter) {
+    const redrawAsideFilter = new RedrawAsideFilter(filter);
+    const controlAsideFilter = new ControlAsideFilter(redrawAsideFilter);
+    controlAsideFilter.init()
+}
+
+// E N D  S L I D E R  F I L T E R
