@@ -78,20 +78,15 @@ export default class RedrawAsideFilter {
         this.activeSubTitle = target.children[0];
         this.activeSubCheckboks = target.children[1];
 
-        this.activeSubCheckboks.classList.toggle('filter__sub-item-box_active');
-
-        // if(this.activeSubCheckboks.matches('filter__sub-item-box_active')) {
-        //     this.activeSubTitle.classList.remove('filter__sub-item-title_active');
-        // }
-        
+        this.activeSubCheckboks.classList.toggle('filter__sub-item-box_active');        
     }
 
     addDecorationTitle(target) {
-        
+        // получаем актуальные чекбокс и тайтл
         const currentBox = target.children[1];
         const currentTitle = target.children[0];
         
-
+        // если крайний элемент пуст значит наведение происходит впервые 
         if(!this.lastHover) {
             currentTitle.classList.add('filter__sub-item-title_active');
             this.lastItemHover = currentTitle;
@@ -101,7 +96,9 @@ export default class RedrawAsideFilter {
             return;
         }
 
+        // наведение происходит не впервые и элемент отличается от последнего
         if(this.lastHover || this.lastHover !== target) {
+            // если в наведенном элементе не выбран чекбокс можно на нем работать наведению
             if(!this.lastItemHoverBox.matches('.filter__sub-item-box_active')) {
                 this.lastItemHover.classList.remove('filter__sub-item-title_active');
             }
@@ -113,15 +110,17 @@ export default class RedrawAsideFilter {
         }
     }
 
-    removeDecorationTitle(relatedTarget) {
-        const currentTitle = relatedTarget.children[0];
-        const currentBox = relatedTarget.children[1];
-
-        if(currentBox.matches('.filter__sub-item-box_active')) {
+    // удаляем подчеркивание при уходе с фильтра или элемента
+    removeDecorationTitle() {
+        if(this.lastItemHoverBox  && this.lastItemHoverBox.matches('.filter__sub-item-box_active')) {
             return;
         }
 
-        currentTitle.classList.remove('filter__sub-item-title_active');
-
+        if(this.lastItemHover) {
+            this.lastItemHover.classList.remove('filter__sub-item-title_active');
+            this.lastItemHoverBox = null;
+            this.lastHover = null;
+            this.lastItemHover = null;
+        }
     }
 }

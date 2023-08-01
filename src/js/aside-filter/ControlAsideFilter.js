@@ -14,9 +14,9 @@ export default class ControlAsideFilter {
     }
 
     registerEvents() {
-        this.filter.addEventListener('click', this.onClick);
+        this.filter.addEventListener('click', this.onClick); // this.filter
         this.filter.addEventListener('mouseover', this.onMouseOver);
-        // this.filter.addEventListener('mouseout', this.onMouseOut);
+        this.filter.addEventListener('mouseout', this.onMouseOut);
     }
 
     onClick(e) {
@@ -34,12 +34,14 @@ export default class ControlAsideFilter {
             this.draw.addDecorationTitle(e.target.closest('.filter__sub-item-title-box'));
         }
 
-        // if(e.relatedTarget.matches('.filter__sub-item-title-box')) {
-        //     this.draw.removeDecorationTitle(e.relatedTarget);
-        // }
+        if(!e.target.closest('.filter__sub-item-title-box')) {
+            this.draw.removeDecorationTitle();
+        }
     }
 
     onMouseOut(e) {
-        
+        if(e.relatedTarget && !e.relatedTarget.closest('.filter')) {
+            this.draw.removeDecorationTitle();
+        }
     }
 }
