@@ -13,4 +13,7 @@ import './css/swiper-slider.css';
 import './css/ssl-collections-all.css';
 import './css/porcelain-synergy.css'; 
 import './css/aside-filter.css';
-import './css/number-pages.css'
+import './css/product-line-lifestyle.css';
+import './css/number-pages.css';
+import './css/pdf-catalog.css';
+import './css/decor.css';

@@ -151,6 +151,20 @@ module.exports = {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
     }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/product-line-lifestyle.pug',
+      filename: './product-line-lifestyle.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/decor.pug',
+      filename: './decor.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
     
     new MiniCssExtractPlugin({
       filename: 'css/[hash].css', // куда компилировать

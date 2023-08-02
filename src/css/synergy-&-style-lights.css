@@ -1,5 +1,5 @@
 .wr-bread-crumbs {
-    width: 76vw;
+    width: 76vw; 
     margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@
     width: 100%;
     height: 37.50vw;
     padding-top: 7.66vw;
-    margin-top: 3.02vw;
+    margin-top: 1.15vw;
 
     background: no-repeat url(../img/banner-ssl.png);
     background-position: center;
@@ -181,6 +181,8 @@
 }
 
 .ssl__cards-item {
+    position: relative;
+
     display: flex;
     height: 23.44vw;
     width: 20%;
@@ -225,7 +227,7 @@
     margin-bottom: 0.8vw;
 }
 
-.ssl__cards-swipe-circle {
+.ssl__cards-swipe-circle { 
     display: none;
 }
 
@@ -237,65 +239,24 @@
     border-radius: 50%;
 }
 
+.ssl__cards-link-card {
+    position: absolute;
 
-.ssl__wr-catalog {
-    display: flex;
+    height: 100%;
     width: 100%;
-    margin-top: 4.17vw;
-
-    flex-direction: column;
-    align-items: center;
 }
+
 
 .ssl__wr-catalog-line-top {
     height: 2px;
     width: 89.1vw;
+    margin-top: 4.17vw;
 
     background-color: #777777;
 
     align-self: flex-end;
 }
 
-.ssl__catalog-content {
-    display: flex;
-    width: 76.13vw;
-    margin-top: 3.13vw;
-
-    flex-direction: column;
-    align-items: center;
-}
-
-.ssl__catalog-title {
-    font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
-}
-
-.ssl__catalog-card {
-    width: 17.60vw;
-    height: 24.90vw;
-    margin-top: 2.08vw;
-
-    background: no-repeat url(../img/catalog-SYNERGY_STYLE_LIGHTS_ES-11.png);
-    background-position: center;
-    background-size: auto 100%;
-}
-
-.ssl__catalog-link {
-    display: flex;
-    height: 2.86vw;
-    width: 17.60vw;
-    margin-top: 1.04vw;
-
-    font-family: 'WMFRotis-Bold';
-    font-size: 1.25vw;
-    
-    background-color: #333333;
-    border-radius: 0.42vw;
-    color: #ffffff;
-
-    justify-content: center;
-    align-items: center;
-}
 
 .ssl__wr-catalog-line-bottom {
     height: 2px;
@@ -557,6 +518,12 @@
     .ssl__cards-arrow-link {
         height: 0;
         width: 0;
+    }
+}
+
+@media( max-width: 435px ) {
+    .ssl__cards-link-card {
+        display: none;
     }
 }
 

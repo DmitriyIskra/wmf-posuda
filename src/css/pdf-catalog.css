@@ -1,0 +1,48 @@
+.pdf__wr-catalog {
+    display: flex;
+    width: 100%;
+    margin-top: 3.13vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.pdf__catalog-content {
+    display: flex;
+    width: 76.13vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.pdf__catalog-title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.13vw;
+}
+
+.pdf__catalog-card {
+    width: 17.60vw;
+    height: 24.90vw;
+    margin-top: 2.08vw;
+
+    background: no-repeat url(../img/catalog-SYNERGY_STYLE_LIGHTS_ES-11.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.pdf__catalog-link {
+    display: flex;
+    height: 2.86vw;
+    width: 17.60vw;
+    margin-top: 1.04vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.25vw;
+    
+    background-color: #333333;
+    border-radius: 0.42vw;
+    color: #ffffff;
+
+    justify-content: center;
+    align-items: center;
+}

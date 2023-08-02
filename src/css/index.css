@@ -166,7 +166,7 @@
     border-radius: 8px;
     background: #333;
     color: #ffffff;
-
+ 
     justify-content: center;
     align-items: center;
 
@@ -345,6 +345,8 @@
 }
 
 .sw-cards__cards-item {
+    position: relative;
+
     display: flex;
     height: 40.21vw;
     width: 33.333%;
@@ -410,6 +412,12 @@
     background-size: 100%;
     background-position: center;
     border-radius: 50%;
+}
+
+.sw-cards__cards-link-card {
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 /* К О Н Е Ц  К А Р Т О Ч К И   D E S C T O P*/
@@ -602,6 +610,10 @@
     .sw-cards__cards-arrow-link {
         height: 0;
         width: 0;
+    }
+
+    .sw-cards__cards-link-card {
+        display: none;
     }
 }
 

@@ -463,7 +463,7 @@
     .close-submenu {
         display: none;
     }
-}
+} 
 
 @media(max-width: 435px) {
     .mask-sub-menu {

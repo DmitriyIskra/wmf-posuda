@@ -1,3 +1,11 @@
+.wr-number-pages {
+    display: flex;
+    width: 76vw;
+    margin-top: 2.71vw;
+
+    justify-content: flex-end;
+}
+
 .number-pages {
     display: flex;
     gap: 0.78vw;
@@ -9,7 +17,7 @@
     height: 0.83vw;
     width: 0.42vw;
 
-    background: no-repeat url(../svg/number-pages-arrow-left_.png);
+    background: no-repeat url(../svg/number-pages-arrow-left_.svg);
     background-size: auto 100%;
     background-position: center;
 
@@ -34,7 +42,7 @@
     height: 0.83vw;
     width: 0.42vw;
 
-    background: no-repeat url(../svg/number-pages-arrow-right_.png);
+    background: no-repeat url(../svg/number-pages-arrow-right_.svg);
     background-size: auto 100%;
     background-position: center;
 
@@ -46,6 +54,7 @@
 @media( max-width: 435px ) {
     .wr-number-pages {
         width: 87vw;
+        margin-top: 14.13vw;
     }
 }
 
