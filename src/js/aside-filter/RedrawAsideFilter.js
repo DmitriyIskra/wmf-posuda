@@ -81,12 +81,14 @@ export default class RedrawAsideFilter {
         this.activeSubCheckboks.classList.toggle('filter__sub-item-box_active');        
     }
 
+    // !!! Подчеркивание добавляется и удаляется всегда не по клику а по наведению
+    // если чекбокс не быбран, по клику отмечается чекбокс и подчеркивание тогда остается
     addDecorationTitle(target) {
         // получаем актуальные чекбокс и тайтл
         const currentBox = target.children[1];
         const currentTitle = target.children[0];
         
-        // если крайний элемент пуст значит наведение происходит впервые 
+        // если this.lastHover пуст значит наведение происходит впервые 
         if(!this.lastHover) {
             currentTitle.classList.add('filter__sub-item-title_active');
             this.lastItemHover = currentTitle;
@@ -98,7 +100,7 @@ export default class RedrawAsideFilter {
 
         // наведение происходит не впервые и элемент отличается от последнего
         if(this.lastHover || this.lastHover !== target) {
-            // если в наведенном элементе не выбран чекбокс можно на нем работать наведению
+            // если в наведенном элементе не выбран чекбокс можно ему добавить подчеркивание
             if(!this.lastItemHoverBox.matches('.filter__sub-item-box_active')) {
                 this.lastItemHover.classList.remove('filter__sub-item-title_active');
             }
@@ -110,12 +112,22 @@ export default class RedrawAsideFilter {
         }
     }
 
+    // так как на мобильных нет mouseover, то и подчеркивание по наведению как на 
+    // desctop не работает, нужно подчеркивать по касанию
+    redrawUnderLineForToch(el) {
+        console.log('work')
+        const title = el.children[0];
+
+        title.classList.toggle('filter__sub-item-title_active');
+
+    }
+
     // удаляем подчеркивание при уходе с фильтра или элемента
     removeDecorationTitle() {
         if(this.lastItemHoverBox  && this.lastItemHoverBox.matches('.filter__sub-item-box_active')) {
             return;
         }
-
+ 
         if(this.lastItemHover) {
             this.lastItemHover.classList.remove('filter__sub-item-title_active');
             this.lastItemHoverBox = null;
