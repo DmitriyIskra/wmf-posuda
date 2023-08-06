@@ -1,0 +1,69 @@
+.wr-description-card {
+    display: flex;
+    width: 78.39vw;
+    height: 32.71vw;
+
+    background-size: cover;
+    background-position: center;
+
+    justify-content: flex-start;
+}
+
+.wr-description-card__description {
+    display: flex;
+    width: 23.28vw;
+    padding-left: 2.34vw;
+    gap: 1.41vw;
+
+    background-color: #ffffff97;
+
+    flex-direction: column;
+}
+
+.wr-description-card__header {
+    display: flex;
+    padding-top: 2.03vw;
+    gap: 1.41vw;
+
+    flex-direction: column;
+}
+
+.wr-description-card__main-title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.65vw;
+}
+
+.wr-description-card__sub-title {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 2.50vw;
+
+    color: #333333;
+
+    flex-direction: column;
+}
+
+.wr-description-card__text {
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.46vw;
+}
+
+.wr-description-card__wr-link {
+    height: 2.86vw;
+    width: 17.97vw;
+}
+
+.wr-description-card__link {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.25vw;
+
+    border-radius: 0.42vw;
+    background: #333;
+    color: #ffffff;
+
+    justify-content: center;
+    align-items: center;
+}

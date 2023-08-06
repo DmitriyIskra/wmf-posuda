@@ -17,3 +17,8 @@ import './css/product-line-lifestyle.css';
 import './css/number-pages.css';
 import './css/pdf-catalog.css';
 import './css/decor.css';
+import './css/individual-decor.css';
+import './css/the-new-easy.css';
+import './css/line-left-right.css';
+import './css/description-card-with-background.css';
+import './css/good-cards.css';

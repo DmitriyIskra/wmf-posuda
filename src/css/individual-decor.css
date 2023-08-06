@@ -1,0 +1,259 @@
+.main-individual-decor {
+    display: flex;
+    padding-bottom: 9.27vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.individual-decor__wrapper-main-content {
+    display: flex;
+
+    width: 100%;
+    margin-top: 3.02vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* Н А Ч А Л О  С Т А Т Ь Я */
+
+.individual-decor__wr-description {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.individual-decor__description-line-top {
+    height: 0.10vw;
+    width: 62%;
+
+    background-color: #777777;
+
+    align-self: flex-end;
+}
+
+.individual-decor__description {
+    width: 76vw;
+    padding-top: 2.34vw;
+    padding-bottom: 4.69vw;
+
+    background: no-repeat url(../svg/logo-article-index.svg);
+    background-position: top right;
+    background-size: auto 83%;
+}
+
+.individual-decor__description-title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.13vw;
+}
+
+.individual-decor__description-title_mobile {
+    display: none;
+}
+
+.individual-decor__description-article {
+    margin-top: 3.33vw;
+}
+
+.individual-decor__description-wr-text {
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.46vw;
+
+    color: #333;
+}
+
+.individual-decor__description-line-bottom {
+    height: 0.10vw;
+    width: 76vw;
+
+    background-color: #777777;
+}
+/* К О Н Е Ц  С Т А Т Ь Я */
+
+/* Н А Ч А Л О  Т А Р Е Л К И */
+
+.individual-decor__plates-list {
+    width: 76vw;
+}
+
+.individual-decor__plates-item {
+    display: flex;
+    padding: 2.66vw 0;
+
+    border-bottom: 2px solid #777777;
+
+    align-items: center;
+}
+
+.individual-decor__plates-wr-description {
+    width: 25.1vw;
+}
+
+.individual-decor__plates-item-title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.5vw;
+}
+
+.individual-decor__pletes-item-text {
+    display: flex;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.5vw;
+
+    flex-direction: column;
+}
+
+.individual-decor__plates-list-img {
+    display: flex;
+
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.individual-decor__plates-item-img {
+    width: 12.34vw;
+    height: 12.34vw;
+}
+
+.individual-decor__plates-img {
+    height: 100%;
+    width: 100%;
+
+    object-fit: contain;
+    object-position: center;
+}
+
+/* К О Н Е Ц  Т А Р Е Л К И */
+
+
+
+@media ( max-width: 435px ) { 
+    .main-individual-decor {
+        padding-bottom: 38.67vw;
+    }
+}
+
+/* Н А Ч А Л О  С Т А Т Ь Я */
+
+@media ( max-width: 435px ) { 
+    .individual-decor__wrapper-main-content {
+        margin-top: 0;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__description-line-top {
+        margin-top: 13.07vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__description {
+        width: 87vw;
+        padding-top: 1.87vw;
+        padding-bottom: 8.80vw;
+
+        background-size: auto 88.5%;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__description-title {
+        display: none;
+    }
+
+    .individual-decor__description-title_mobile {
+        display: flex;
+
+        font-family: 'WMFRotis-Bold';
+        font-size: 6.67vw;
+
+        flex-direction: column;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__description-article {
+        margin-top: 6.93vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__description-wr-text {
+        font-size: 3.73vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__description-line-bottom {
+        width: 87vw;
+    }
+}
+
+/* К О Н Е Ц   С Т А Т Ь Я */
+
+@media ( max-width: 435px ) {
+    .individual-decor__plates-list {
+        width: 87vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__plates-item {
+        padding: 5.87vw 0;
+    
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__plates-wr-description {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__plates-item-title {
+        font-size: 6.40vw;
+        text-align: center;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__pletes-item-text_mobile {
+        text-align: center;
+    }
+
+    .individual-decor__pletes-item-text {
+        margin-top: 1.33vw;
+
+        font-size: 5.33vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__plates-list-img {
+        margin-top: 6.67vw;
+
+        gap: 6.67vw;
+        flex-wrap: wrap;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .individual-decor__plates-item-img {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    
+}

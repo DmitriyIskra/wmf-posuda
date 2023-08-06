@@ -1,0 +1,30 @@
+.line-right {
+    height: 0.10vw;
+    width: 62%;
+
+    background-color: #777777;
+
+    align-self: flex-end;
+}
+
+.line-left {
+    height: 0.10vw;
+    width: 76%;
+
+    background-color: #777777;
+
+    align-self: flex-start;
+}
+
+
+@media ( max-width: 435px ) {
+    .line-write {
+        margin-top: 13.07vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .line-left {
+        width: 87%;
+    }
+}
