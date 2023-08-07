@@ -18,13 +18,7 @@ export default class ControllCards {
     }
 
     onTouchStart(e) {
-        if(e.target.matches('.sw-cards__cards-swipe-circle')) {
-            this.draw.touchStart(e.target, e.targetTouches[0].clientX);
-
-            e.target.parentElement.addEventListener('touchmove', this.onTouchMove);
-        }
-
-        if(e.target.matches('.ssl__cards-swipe-circle')) {
+        if(e.target.matches('.swipe-lines__cards-swipe-circle')) {
             this.draw.touchStart(e.target, e.targetTouches[0].clientX);
 
             e.target.parentElement.addEventListener('touchmove', this.onTouchMove);
@@ -36,13 +30,7 @@ export default class ControllCards {
     }
 
     onTouchEnd(e) {
-        if(e.target.matches('.sw-cards__cards-swipe-circle')) {
-            e.target.parentElement.removeEventListener('touchmove', this.onTouchMove);
-
-            this.draw.endTouch(e.target);
-        }
-
-        if(e.target.matches('.ssl__cards-swipe-circle')) {
+        if(e.target.matches('.swipe-lines__cards-swipe-circle')) {
             e.target.parentElement.removeEventListener('touchmove', this.onTouchMove);
 
             this.draw.endTouch(e.target);

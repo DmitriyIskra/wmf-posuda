@@ -149,6 +149,10 @@
     width: 22.60vw;
 }
 
+.new-easy__tableware-text_mobile {
+    display: none;
+}
+
 .new-easy__tableware-text {
     display: flex;
 
@@ -189,9 +193,17 @@
 
 .new-easy__pdf-catalog-card {
     background: no-repeat url(../img/pdf-new-easy.png);
+    background-position: center;
+    background-size: auto 100%;
 }
 
 /* К О Н Е Ц  P D F  C A R D */
+
+.line-left_mobile-short {
+    display: none;
+}
+
+
 
 
 
@@ -204,12 +216,12 @@
 }
 
 @media ( max-width: 435px ) { 
-    .decor__banner {
+    .new-easy__banner {
         width: 100%;
         height: 80vw;
         margin-top: 0;
     
-        background: no-repeat url(../img/banner-decor-mobile.png); /* не забыть поменять */
+        background: no-repeat url(../img/banner-new-easy-mobile.png); /* не забыть поменять */
         background-position: center;
         background-size: 100%;
     }
@@ -227,12 +239,13 @@
 @media ( max-width: 435px ) { 
     .new-easy__wrapper-main-content {
         margin-top: 0;
+        gap: 6.67vw;
     }
 }
 
 @media ( max-width: 435px ) {
     .new-easy__description-line-top {
-        margin-top: 13.07vw;
+        margin-top: 8.53vw;
     }
 }
 
@@ -275,8 +288,132 @@
 
 @media ( max-width: 435px ) {
     .new-easy__description-line-bottom {
-        width: 87vw;
+        width: 60vw;
     }
 }
 
 /* К О Н Е Ц   С Т А Т Ь Я */
+
+
+/* Н А Ч А Л О  К А Р Т О Ч К И */
+
+@media ( max-width: 435px ) {
+    .wr-description-card__card-wmf-edita {
+        background: no-repeat url(../img/card-description-wmf-edita-mobile.png);
+    }
+    
+    .wr-description-card__card-wmf-elea {
+        background: no-repeat url(../img/card-description-wmf-elea-mobile.png);
+    }
+    
+    .wr-description-card__card-wmf-enia {
+        background: no-repeat url(../img/card-description-wmf-enia-mobile.png);
+    }
+    
+    .wr-description-card__card-wmf-sara {
+        background: no-repeat url(../img/card-description-wmf-sara-mobile.png);
+    }
+
+    .wr-description-card__card-wmf-sofia {
+        background: no-repeat url(../img/card-description-wmf-sofia-mobile.png);
+    }
+    
+    .wr-description-card__card-wmf-scala {
+        background: no-repeat url(../img/card-description-wmf-scala-mobile.png);
+    }
+}
+
+/* К О Н Е Ц  К А Р Т О Ч К И */
+
+/* Н А Ч А Л О  С Т О Л О В Ы Е  П Р И Б О Р Ы */
+
+@media ( max-width: 435px ) {
+    .new-easy__tableware-list {
+        width: 87vw;
+        gap: 2.67vw;
+
+        flex-direction: column;
+        justify-content: baseline;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .new-easy__tableware-item {
+        width: 100%;
+        min-height: 124.67vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .new-easy__wr-tableware-img {
+        width: 100%;
+        height: 89.33vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .new-easy__wr-tableware-text {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .new-easy__tableware-text_desctop {
+        display: none;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .new-easy__tableware-text_mobile {
+        display: flex;
+
+        font-family: 'WMFRotis-Regular';
+        font-size: 4.1vw;
+
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* К О Н Е Ц  С Т О Л О В Ы Е  П Р И Б О Р Ы */
+
+/* Н А Ч А Л О  P D F */
+
+@media ( max-width: 435px ) {
+    div.line-left_mobile-long {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .new-easy__pdf-catalog-content {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .new-easy__pdf-catalog-title {
+        font-size: 5.87vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .new-easy__pdf-catalog-card {
+        margin-top: 7.47vw;
+    }
+}
+
+@media ( max-width: 435px ) {
+    .line-left_mobile-short {
+        display: block;
+        height: 0.10vw;
+        width: 60%;
+        margin-top: 16vw;
+
+        background-color: #777777;
+
+        align-self: flex-start;
+    }
+}

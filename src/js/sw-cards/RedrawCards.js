@@ -38,7 +38,6 @@ export default class RedrawCards {
     }
 
     endTouch(target) {
-        console.log('end')
         // смотрим на каком месте отпустили круг, до куда дотянули
         const result = parseInt(target.style.marginLeft) > this.lastActiveWr.offsetWidth / 2;
         // если больше половины переходим по ссылке

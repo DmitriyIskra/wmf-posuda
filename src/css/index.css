@@ -393,17 +393,21 @@
     justify-content: flex-end;
 }
 
-.sw-cards__cards-arrow {
+div.sw-cards__cards-arrow {
+    position: static;
+
+    display: block;
     height: 6.09vw;
     width: 6.09vw;
     margin-bottom: 1.09vw;
+    margin-left: 0;
 
     border-radius: 50%;
 
     align-self: flex-end;
 }
 
-.sw-cards__cards-arrow-link {
+div.sw-cards__cards-arrow-link {
     display: inline-block;
     height: 100%;
     width: 100%;
@@ -578,7 +582,7 @@
 }
 
 @media( max-width: 435px ) {
-    .sw-cards__cards-arrow {
+    div.sw-cards__cards-arrow {
         display: flex;
         height: 18.67vw;
         width: 62.53vw;
@@ -595,7 +599,7 @@
 }
 
 @media( max-width: 435px ) {
-    .sw-cards__cards-swipe-circle {
+    div.sw-cards__cards-swipe-circle {
         height: 14.67vw;
         width: 14.67vw;
         margin-left: 1.07vw;
@@ -603,11 +607,11 @@
         background: no-repeat url(../svg/arrow-cards-index.svg);
         background-position: center;
         background-size: 100%;
-    }
+    } 
 }
 
 @media( max-width: 435px ) {
-    .sw-cards__cards-arrow-link {
+    div.sw-cards__cards-arrow-link {
         height: 0;
         width: 0;
     }

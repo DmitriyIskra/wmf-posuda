@@ -81,19 +81,12 @@ if(techInfo) {
  
 
 // START SWIPE-CARDS
+// блоку в котором находятся элементы свайпа присваиваем класс .swipe-lines__wrapper
 
-const cardsIndex = document.querySelector('.sw-cards__cards-list');
-const cardsSynergy = document.querySelector('.ssl__cards-list');
+const swipeLinesWrapper = document.querySelector('.swipe-lines__wrapper')
 
-if(cardsSynergy) {
-    const redrawCards = new RedrawCards(cardsSynergy);
-    const controllCards = new ControllCards(redrawCards);
-
-    controllCards.init();
-}
-
-if(cardsIndex) {
-    const redrawCards = new RedrawCards(cardsIndex);
+if(swipeLinesWrapper) {
+    const redrawCards = new RedrawCards(swipeLinesWrapper);
     const controllCards = new ControllCards(redrawCards);
 
     controllCards.init();
