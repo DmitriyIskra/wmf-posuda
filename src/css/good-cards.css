@@ -132,5 +132,7 @@
 @media( max-width: 435px ) {
     .good-card__card-link {
         font-size: 5.33vw;
+
+        border-radius: 2.13vw;
     }
 }

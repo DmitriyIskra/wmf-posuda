@@ -88,8 +88,24 @@
 
 @media( max-width: 435px ) {
     .porcelain__aside {
-        width: 87vw;
+        width: 100%;
         padding-right: 0;
+    }
+}
+
+@media( max-width: 435px ) {
+    .porcelain__wr-filter {
+        display: flex;
+        width: 100%;
+        padding-right: 0;
+
+        justify-content: center;
+    }
+}
+
+@media( max-width: 435px ) {
+    .porcelain__wr-content {
+        width: 87vw;
     }
 }
 

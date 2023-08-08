@@ -92,7 +92,8 @@
 
 @media( max-width: 435px ) {
     .line-lifestyle__aside {
-        width: 87vw;
+        width: 100%;
+        min-width: auto;
         padding-right: 0;
     }
 }

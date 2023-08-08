@@ -4,7 +4,7 @@
 
 .filter__main-item-title-box {
     display: flex; 
-    padding: 0.26vw 0.16vw 0.26vw 1.25vw;
+    padding: 0.5vw 0.16vw 0.5vw 1.25vw;
 
     border-bottom: 0.05vw solid #000;
 
@@ -99,8 +99,14 @@
 
 
 @media( max-width: 435px ) {
+    .filter {
+        width: 87vw;
+    }
+}
+
+@media( max-width: 435px ) {
     .filter__main-item-title-box {
-        padding: 0.52vw 2.13vw 0.52vw 6.40vw;
+        padding: 2vw 2.13vw 2vw 6.40vw;
     }
 }
 
