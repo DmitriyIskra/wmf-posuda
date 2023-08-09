@@ -179,6 +179,14 @@ module.exports = {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
     }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/about-tablewares.pug',
+      filename: './about-tablewares.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+
     
     new MiniCssExtractPlugin({
       filename: 'css/[hash].css', // куда компилировать

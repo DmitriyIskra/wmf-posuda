@@ -22,6 +22,9 @@ import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import ControlAdvantages from './controlAdvantages/controlAdvantages.js';
+import RedrawAdvantages from './controlAdvantages/redrawAdvantages.js';
+
 
 
 
@@ -121,3 +124,31 @@ if(filter) {
 }
 
 // E N D  S L I D E R  F I L T E R
+
+
+// S T A R T  A D V A N T A G E S
+
+const controlAdvantages = document.querySelector('.about-tablewares__control-list');
+
+if(controlAdvantages) {
+
+    const carrentActiveControl = document.querySelector('.about-tablewares__control_active');
+    const carrentActiveContent = document.querySelector('.about-tablewares__content_active');
+
+    const currentActiveElements = {
+        control: carrentActiveControl,
+        content: carrentActiveContent,
+    }
+
+    const knives = document.querySelector('.about-tablewares__advantages_knives');
+    const balancing = document.querySelector('.about-tablewares__advantages_balancing');
+    const individuality = document.querySelector('.about-tablewares__advantages_individuality');
+
+    const contents = {knives, balancing, individuality};
+
+    const redraw = new RedrawAdvantages(controlAdvantages, currentActiveElements, contents);
+    const control = new ControlAdvantages(redraw);
+    control.init();
+
+} 
+// E N D  A D V A N T A G E S

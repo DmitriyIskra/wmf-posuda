@@ -230,18 +230,13 @@
 @media ( max-width: 435px ) { 
     .new-easy__wrapper-main-content {
         margin-top: 0;
+        gap: 6.67vw;
     }
 }
 
 
 /* Н А Ч А Л О  С Т А Т Ь Я */
 
-@media ( max-width: 435px ) { 
-    .new-easy__wrapper-main-content {
-        margin-top: 0;
-        gap: 6.67vw;
-    }
-}
 
 @media ( max-width: 435px ) {
     .new-easy__description-line-top {
