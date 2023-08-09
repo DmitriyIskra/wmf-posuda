@@ -17,7 +17,7 @@
 }
 
 .about-tablewares__banner-text {
-    width: 24.58vw;
+    width: 22.58vw;
     margin-top: 15.78vw;
     margin-left: 9.95vw;
 
@@ -380,6 +380,7 @@
     .about-tablewares__banner-text {
         width: 51.58vw;
         margin-top: 25.78vw;
+        margin-left: 6.5vw;
 
         font-size: 3.73vw;
     }
