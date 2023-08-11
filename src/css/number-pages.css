@@ -8,7 +8,7 @@
 
 .number-pages {
     display: flex;
-    gap: 0.78vw;
+    gap: 1.1vw;
 
     align-items: center;
 }
@@ -31,7 +31,7 @@
 
 .number-page-item {
     font-family: 'WMFRotis-Bold';
-    font-size: 1.25vw;
+    font-size: 1.04vw;
 
     color: #777;
 

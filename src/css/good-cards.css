@@ -5,13 +5,14 @@
 
 .good-card__wr-card-list {
     display: flex;
+    padding-left: 6vw;
 
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .good-card__wr-card-item {
-    width: 14.38vw;
+    width: 13.02vw;
     margin-top: 2.60vw;
 }
 
@@ -51,7 +52,7 @@
 
 .good-card__card-title {
     font-family: 'WMFRotis-Regular';
-    font-size: 1.67vw;
+    font-size: 1.5vw;
     text-align: center;
 }
 
