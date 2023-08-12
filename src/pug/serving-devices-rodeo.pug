@@ -1,0 +1,69 @@
+- var t = 'Приборы для стейка RODEO'
+
+include layout/head
+ 
+include modules/header
+
+main(class="main main-sd-rodeo sd-rodeo")
+    .wr-bread-crumbs
+        include modules/bread-crumbs
+
+    .banner.sd-rodeo__banner
+
+    .wr-number-pages.wr-number-pages-top
+        include modules/number-pages
+
+    .sd-rodeo__wrapper-main-content
+        aside.aside.sd-rodeo__aside
+            .sd-rodeo__wr-filter
+                ul.filter
+                    li.filter__main-item-static
+                        .filter__main-item-static-title Категория
+                        ul.filter__static-sub-list
+                            li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
+                                a(href="#0").filter__sub-item-title.filter__sub-item-title_two-rows
+                                    span Все специальные 
+                                    span сервировочные приборы
+                                .filter__sub-item-box.filter__sub-item-box_two-rows
+                            li.filter__sub-item-title-box 
+                                a(href="#0").filter__sub-item-title Приборы для стейка RODEO
+                                .filter__sub-item-box
+
+        article.sd-rodeo__wr-content
+            ul.good-card__wr-card-list  
+                li.good-card__wr-card-item.catalog-good-first-line
+                    .good-card__card-content 
+                        .good-card__wr-card-img-line 
+                            .good-card__wr-card-img
+                                img(src="../img/rodeo-fork.png").good-card__card-img
+                            .good-card__wr-card-line
+                        .good-card__wr-card-title  
+                            h3.good-card__card-title Barista Cup 0.35l
+                    .good-card__wr-card-link 
+                        a.good-card__card-link Подробнее
+
+                li.good-card__wr-card-item.catalog-good-first-line
+                    .good-card__card-content 
+                        .good-card__wr-card-img-line 
+                            .good-card__wr-card-img
+                                img(src="../img/rodeo-knive.png").good-card__card-img
+                            .good-card__wr-card-line
+                        .good-card__wr-card-title 
+                            h3.good-card__card-title Barista Cup 0.35l
+                    .good-card__wr-card-link 
+                        a.good-card__card-link Подробнее
+
+                li.good-card__wr-card-item.catalog-good-first-line
+                    .good-card__card-content 
+                        .good-card__wr-card-img-line 
+                            .good-card__wr-card-img
+                                img(src="../img/rodeo-set.png").good-card__card-img
+                            .good-card__wr-card-line
+                        .good-card__wr-card-title 
+                            h3.good-card__card-title Barista Cup 0.35l
+                    .good-card__wr-card-link 
+                        a.good-card__card-link Подробнее
+
+                
+
+include modules/footer

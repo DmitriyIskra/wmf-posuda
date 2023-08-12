@@ -200,6 +200,41 @@ module.exports = {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
     }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/serving-devices-all-collections.pug',
+      filename: './serving-devices-all-collections.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/serving-devices-all-serving-devices.pug',
+      filename: './serving-devices-all-serving-devices.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/serving-devices-rodeo.pug',
+      filename: './serving-devices-rodeo.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/tablewares-special-finishing.pug',
+      filename: './tablewares-special-finishing.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/finishing-devices-all-collections.pug',
+      filename: './finishing-devices-all-collections.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
 
     
     new MiniCssExtractPlugin({

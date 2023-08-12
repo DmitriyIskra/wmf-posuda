@@ -1,179 +1,78 @@
-- var t = 'Все столовые приборы'
+- var t = 'Все сервировочные приборы'
 
 include layout/head
  
 include modules/header
 
-main(class="main main-all-tablewares all-tablewares")
+main(class="main main-sd-all-serving-devices sd-all-serving-devices")
     .wr-bread-crumbs
         include modules/bread-crumbs
 
-    .banner.all-tablewares__banner
+    .banner.sd-all-serving-devices__banner
 
     .wr-number-pages.wr-number-pages-top
         include modules/number-pages
 
-    .all-tablewares__wrapper-main-content
-        aside.aside.all-tablewares__aside
-            .all-tablewares__wr-filter
+    .sd-all-serving-devices__wrapper-main-content
+        aside.aside.sd-all-serving-devices__aside
+            .sd-all-serving-devices__wr-filter
                 ul.filter
                     li.filter__main-item-static
                         .filter__main-item-static-title Категория
                         ul.filter__static-sub-list
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки столовые
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Лопатки для торта
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки столовые
+                                a(href="#0").filter__sub-item-title Ложки для комплиментов
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Щипцы
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи столовые
+                                a(href="#0").filter__sub-item-title Сеты для стейка
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Сеты для морепродуктов
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки закусочные
+                                a(href="#0").filter__sub-item-title Сервировочные ножи
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Сервировочные ложки
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки закусочные
+                                a(href="#0").filter__sub-item-title Сервировочные вилки
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи закусочные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки чайно-кофейные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки для эспрессо
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки десертные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки “Гурмэ”
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки для рыбы
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для рыбы
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки устричные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки десертные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для масла
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки лимонадные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для стейка
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки круглые для супа
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для фруктов
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для пиццы
+                                a(href="#0").filter__sub-item-title Половники
                                 .filter__sub-item-box
 
                     li.filter__main-item
                         .filter__main-item-title-box 
-                            .filter__main-item-title The New Easy
+                            .filter__main-item-title Коллекция
                             .filter__main-item-box
                         ul.filter__sub-list
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Edita
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Enia
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Elea
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Sara
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Sofia
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Scala
-                                .filter__sub-item-box
-                    li.filter__main-item
-                        .filter__main-item-title-box 
-                            .filter__main-item-title The New Easy
-                            .filter__main-item-box
-                        ul.filter__sub-list
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Baguette
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Barock
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Base
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Bistro
+                                a(href="#0").filter__sub-item-title Asia
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box
                                 a(href="#0").filter__sub-item-title Casino
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Club
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Contour
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Epos
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Flair
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Gastro
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Juwel
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Metropolitan
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Mondial
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
                                 a(href="#0").filter__sub-item-title Neutral
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Nordic
+                                a(href="#0").filter__sub-item-title Nuova
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Residence
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
                                 a(href="#0").filter__sub-item-title Signum
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
                                 a(href="#0").filter__sub-item-title Sitello
                                 .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Solid
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Telos
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Unic
-                                .filter__sub-item-box
 
-        article.all-tablewares__wr-content
+        article.sd-all-serving-devices__wr-content
             ul.good-card__wr-card-list  
                 li.good-card__wr-card-item.catalog-good-first-line
                     .good-card__card-content 

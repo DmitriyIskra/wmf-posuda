@@ -1,0 +1,69 @@
+.main-fd-all-collections {
+    display: flex;
+    padding-bottom: 12.55vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.fd-all-collections__banner {
+    padding-top: 27.2vw;
+    padding-left: 18.2vw;
+
+    background: no-repeat url(../img/banner-fd-all-collections.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.fd-all-collections__line-right {
+    margin-top: 4.22vw;
+}
+
+.fd-all-collections__wrapper-main-content {
+    display: flex;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 3.75vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Н А Ч А Л О  К А Р Т О Ч К И  */
+
+
+
+/* К О Н Е Ц  К А Р Т О Ч К И  */
+
+
+@media ( max-width: 435px ) { 
+    .main-fd-all-collections {
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .fd-all-collections__banner { 
+        padding-top: 64.9vw; 
+        padding-left: 7.9vw;
+        
+        background: no-repeat url(../img/banner-fd-all-collections-mobile.png); 
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .fd-all-collections__line-right {
+        margin-top: 6.67vw; 
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .fd-all-collections__wrapper-main-content {
+        margin-top: 5.53vw;
+        padding-top: 0;
+        gap: 6.67vw;
+    }
+}

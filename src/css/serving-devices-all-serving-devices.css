@@ -1,0 +1,104 @@
+.main-sd-all-serving-devices {
+    display: flex;
+    padding-bottom: 8.07vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-bread-crumbs {
+    width: 76vw; 
+    margin: 0 auto;
+}
+
+.sd-all-serving-devices__banner {
+    background: no-repeat url(../img/banner-all-tablewares.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.sd-all-serving-devices__wrapper-main-content {
+    display: flex;
+    width: 76vw;
+    margin-top: 3.28vw;
+}
+
+.sd-all-serving-devices__aside {
+    min-width: 23vw;
+    padding-right: 1.82vw;
+}
+
+.sd-all-serving-devices__wr-filter {
+    width: 100%;
+}
+
+
+
+
+.sd-all-serving-devices__wr-content {
+    flex-grow: 1;
+}
+
+
+
+@media( max-width: 435px ) {
+    .wr-number-pages-top {
+        margin-top: 8.53vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .main-sd-all-serving-devices {
+        padding-bottom: 14.13vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .wr-bread-crumbs {
+        display: none;
+    }
+}
+
+@media( max-width: 435px ) {
+    .sd-all-serving-devices__banner {
+        padding-top: 13.66vw;
+
+        background: no-repeat url(../img/banner-all-tablewares-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media( max-width: 435px ) {
+    .sd-all-serving-devices__wrapper-main-content {
+        width: auto; 
+        gap: 16vw;
+        margin-top: 10.93vw;
+
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media( max-width: 435px ) {
+    .sd-all-serving-devices__aside {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+@media( max-width: 435px ) {
+    .sd-all-serving-devices__wr-filter {
+        display: flex;
+        width: 100%;
+        padding-right: 0;
+
+        justify-content: center;
+    }
+}
+
+@media( max-width: 435px ) {
+    .sd-all-serving-devices__wr-content {
+        width: 87vw;
+    }
+}

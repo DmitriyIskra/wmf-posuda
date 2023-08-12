@@ -144,7 +144,7 @@
 
 @media( max-width: 435px ) {
     .filter__sub-item-title-box { 
-        padding: 0.52vw 2.13vw 0.52vw 6.40vw;
+        padding: 1.7vw 2.13vw 0.52vw 6.40vw;
     }
 
     .filter__sub-item-title-box:last-child {

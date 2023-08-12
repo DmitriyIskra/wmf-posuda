@@ -26,4 +26,9 @@ import './css/good-cards.css';
 import './css/about-tablewares-sub.css';
 import './css/tablewares-collections.css';
 import './css/tablewares-all-tablewares.css';
+import './css/serving-devices-all-collections.css';
+import './css/serving-devices-all-serving-devices.css';
+import './css/serving-devices-rodeo.css';
+import './css/tablewares-special-finishing.css';
+import './css/finishing-devices-all-collections.css'
 import './css/banner.css';
