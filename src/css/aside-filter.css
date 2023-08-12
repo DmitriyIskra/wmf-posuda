@@ -2,6 +2,15 @@
     width: 100%;
 }
 
+.filter__main-item-static-title {
+    padding: 0.5vw 0.16vw 0.5vw 1.25vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.25vw;
+
+    border-bottom: 0.05vw solid #000;
+}
+
 .filter__main-item-title-box {
     display: flex; 
     padding: 0.5vw 0.16vw 0.5vw 1.25vw;
@@ -89,7 +98,7 @@
 }
 
 .filter__sub-item-box_active {
-    background-color: #D9D9D9;
+    background-color: #c4c1c1;
     background-image: url(../svg/filter-item-active.svg);
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -101,12 +110,20 @@
 @media( max-width: 435px ) {
     .filter {
         width: 87vw;
-    }
+    } 
 }
 
 @media( max-width: 435px ) {
     .filter__main-item-title-box {
         padding: 2vw 2.13vw 2vw 6.40vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .filter__main-item-static-title {
+        padding: 2vw 2.13vw 2vw 6.40vw;
+
+        font-size: 6.40vw;
     }
 }
 
