@@ -23,4 +23,6 @@ import './css/the-new-easy.css';
 import './css/line-left-right.css';
 import './css/description-card-with-background.css';
 import './css/good-cards.css';
-import './css/about-tablewares.css'
+import './css/about-tablewares-sub.css';
+import './css/tablewares-collections.css';
+import './css/banner.css';

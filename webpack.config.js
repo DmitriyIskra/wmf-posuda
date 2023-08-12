@@ -180,8 +180,15 @@ module.exports = {
       },
     }),
     new HtmlWebPackPlugin({
-      template: './src/pug/about-tablewares.pug',
-      filename: './about-tablewares.html',   // куда компилировать
+      template: './src/pug/about-tablewares-sub.pug',
+      filename: './about-tablewares-sub.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/tablewares-collections.pug',
+      filename: './tablewares-collections.html',   // куда компилировать
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },

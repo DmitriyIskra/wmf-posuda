@@ -12,10 +12,7 @@
 }
 
 .ssl__wr-banner { 
-    width: 100%;
-    height: 37.50vw;
     padding-top: 7.66vw;
-    margin-top: 1.15vw;
 
     background: no-repeat url(../img/banner-ssl.png);
     background-position: center;
@@ -282,8 +279,6 @@ div.ssl__cards-arrow-link {
 
 @media( max-width: 435px ) {
     .ssl__wr-banner {
-        margin-top: 0;
-        height: 80vw;
         padding-top: 16.66vw;
 
         background: no-repeat url(../img/banner-ssl-mobile.png);

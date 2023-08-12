@@ -12,10 +12,6 @@
 }
 
 .porcelain__banner {
-    width: 100%;
-    height: 37.50vw;
-    margin-top: 1.15vw;
-
     background: no-repeat url(../img/banner-porcelain-synergy.png);
     background-position: center;
     background-size: 100%;
@@ -65,8 +61,6 @@
 
 @media( max-width: 435px ) {
     .porcelain__banner {
-        margin-top: 0;
-        height: 80vw;
         padding-top: 13.66vw;
 
         background: no-repeat url(../img/banner-porcelain-synergy-mobile.png);

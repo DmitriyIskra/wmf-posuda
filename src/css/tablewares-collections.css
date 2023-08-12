@@ -1,0 +1,349 @@
+.main-tw-collections {
+    display: flex;
+    padding-bottom: 12.55vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.tw-collections__banner {
+    padding-top: 27.2vw;
+    padding-left: 18.2vw;
+
+    background: no-repeat url(../img/banner-tw-collections.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.tw-collections__banner-link {
+    display: flex;
+
+    height: 2.86vw;
+    width: 14.17vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.25vw;
+
+    color: #ffffff;
+    border-radius: 0.42vw;
+    background-color: #333333;
+
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.tw-collections__line-right {
+    margin-top: 4.22vw;
+}
+
+.tw-collections__wrapper-main-content {
+    display: flex;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 3.75vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Н А Ч А Л О  К А Р Т О Ч К И  */
+
+.tw-collections__card-title {
+    font-size: 3vw;
+}
+
+.wr-description-card__card-wmf-barock {
+    background: no-repeat url(../img/about-tablewares-two-wmf-barock.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-baguette {
+    background: no-repeat url(../img/about-tablewares-two-wmf-baguette.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-base {
+    background: no-repeat url(../img/about-tablewares-two-wmf-base.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-bistro {
+    background: no-repeat url(../img/about-tablewares-two-wmf-bistro.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-casino {
+    background: no-repeat url(../img/about-tablewares-two-wmf-casino.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-club {
+    background: no-repeat url(../img/about-tablewares-two-wmf-club.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-contour {
+    background: no-repeat url(../img/about-tablewares-two-wmf-contour.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-flair {
+    background: no-repeat url(../img/about-tablewares-two-wmf-flair.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-gastro {
+    background: no-repeat url(../img/about-tablewares-two-wmf-gastro.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-juwel {
+    background: no-repeat url(../img/about-tablewares-two-wmf-juwel.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-metropolitan {
+    background: no-repeat url(../img/about-tablewares-two-wmf-metropolitan.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-mondial {
+    background: no-repeat url(../img/about-tablewares-two-wmf-mondial.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-nordic {
+    background: no-repeat url(../img/about-tablewares-two-wmf-nordic.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-residence {
+    background: no-repeat url(../img/about-tablewares-two-wmf-residence.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-signum {
+    background: no-repeat url(../img/about-tablewares-two-wmf-signum.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-sitello {
+    background: no-repeat url(../img/about-tablewares-two-wmf-sitello.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-solid {
+    background: no-repeat url(../img/about-tablewares-two-wmf-solid.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-telos {
+    background: no-repeat url(../img/about-tablewares-two-wmf-telos.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-unic {
+    background: no-repeat url(../img/about-tablewares-two-wmf-unic.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-asia {
+    background: no-repeat url(../img/about-tablewares-two-wmf-asia.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+/* К О Н Е Ц  К А Р Т О Ч К И  */
+
+
+@media ( max-width: 435px ) { 
+    .main-about-tablewares {
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .tw-collections__banner { 
+        padding-top: 64.9vw; 
+        padding-left: 7.9vw;
+        
+        background: no-repeat url(../img/banner-tw-collections-mobile.png); 
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .tw-collections__banner-link {    
+        height: 10.67vw;
+        width: 52.53vw;
+
+        font-size: 5.33vw;
+
+        border-radius: 2.13vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .tw-collections__line-right {
+        margin-top: 6.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .tw-collections__wrapper-main-content {
+        margin-top: 5.53vw;
+        padding-top: 0;
+        gap: 6.67vw;
+
+        background-position: left 6.1vw top;
+        background-size: 46vw auto;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .wr-description-card__banner_mobile-barock {
+        background: no-repeat url(../img/about-tablewares-two-wmf-barock-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-baguette {
+        background: no-repeat url(../img/about-tablewares-two-wmf-baguette-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-base {
+        background: no-repeat url(../img/about-tablewares-two-wmf-base-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-bistro {
+        background: no-repeat url(../img/about-tablewares-two-wmf-base-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-casino {
+        background: no-repeat url(../img/about-tablewares-two-wmf-casino-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-club {
+        background: no-repeat url(../img/about-tablewares-two-wmf-club-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-contour {
+        background: no-repeat url(../img/about-tablewares-two-wmf-contour-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-flair {
+        background: no-repeat url(../img/about-tablewares-two-wmf-flair-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-gastro {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-juwel {
+        background: no-repeat url(../img/about-tablewares-two-wmf-juwel-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-metropolitan {
+        background: no-repeat url(../img/about-tablewares-two-wmf-metropolitan-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-mondial {
+        background: no-repeat url(../img/about-tablewares-two-wmf-mondial-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-nordic {
+        background: no-repeat url(../img/about-tablewares-two-wmf-nordic-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-residence {
+        background: no-repeat url(../img/about-tablewares-two-wmf-residence-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-signum {
+        background: no-repeat url(../img/about-tablewares-two-wmf-signum-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-sitello {
+        background: no-repeat url(../img/about-tablewares-two-wmf-sitello-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-solid {
+        background: no-repeat url(../img/about-tablewares-two-wmf-solid-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-telos {
+        background: no-repeat url(../img/about-tablewares-two-wmf-telos-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-unic {
+        background: no-repeat url(../img/about-tablewares-two-wmf-unic-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-asia {
+        background: no-repeat url(../img/about-tablewares-two-wmf-asia-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    
+
+   
+}
