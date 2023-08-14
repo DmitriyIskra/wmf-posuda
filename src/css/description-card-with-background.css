@@ -502,8 +502,84 @@
         background-size: auto 100%;
     }
 
-    
 }
 
 
 
+/*  S T A R T  T A B L E  T O P  S E R V I N G  C O L L E C T I O N S  */
+
+.wr-description-card__card-tt-classic {
+    background: no-repeat url(../img/table-top-serving-card-classic.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-tt-diva {
+    background: no-repeat url(../img/table-top-serving-card-diva.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-tt-pure {
+    background: no-repeat url(../img/table-top-serving-card-pure.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-tt-urban {
+    background: no-repeat url(../img/table-top-serving-card-urban.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-tt-bistro {
+    background: no-repeat url(../img/table-top-serving-card-bistro.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-tt-pure-exclusiv {
+    background: no-repeat url(../img/table-top-serving-card-pure-exclusiv.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+@media (max-width: 435px) {
+    .wr-description-card__banner_mobile-tt-classic {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-tt-diva {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-tt-pure {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-tt-urban {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-tt-bistro {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-tt-pure-exclusiv {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+/*  E N D  T A B L E  T O P  S E R V I N G  C O L L E C T I O N S  */

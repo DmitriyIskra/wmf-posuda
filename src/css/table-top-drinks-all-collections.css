@@ -11,7 +11,7 @@
 }
 
 .drinks-collections__banner {
-    background: no-repeat url(../img/banner-drinks-all-position.png);
+    background: no-repeat url(../img/banner-drinks-all-collection.png);
     background-position: center;
     background-size: 100%;
 }
@@ -37,7 +37,7 @@
     .drinks-collections__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-drinks-all-position-mobile.png);
+        background: no-repeat url(../img/banner-drinks-all-collection-mobile.png);
         background-position: center;
         background-size: auto 100%;
     }

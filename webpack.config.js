@@ -298,6 +298,62 @@ module.exports = {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
     }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/table-top-serving-collections.pug',
+      filename: './table-top-serving-collections.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/table-top-decor-all-positions.pug',
+      filename: './table-top-decor-all-positions.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/table-top-decor-collections.pug',
+      filename: './table-top-decor-collections.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/table-top-spices-all-positions.pug',
+      filename: './table-top-spices-all-positions.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/table-top-spices-collections.pug',
+      filename: './table-top-spices-collections.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/swedish-line-quadro-all-positions.pug',
+      filename: './swedish-line-quadro-all-positions.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/swedish-line-quadro-modules.pug',
+      filename: './swedish-line-quadro-modules.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/swedish-line-quadro-sets.pug',
+      filename: './swedish-line-quadro-sets.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
 
     
     new MiniCssExtractPlugin({

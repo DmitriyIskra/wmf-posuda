@@ -1,0 +1,80 @@
+.tt-spices-collections__main {
+    display: flex;
+    padding-bottom: 12.55vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.tt-spices-collections__line-right {
+    margin-top: 4.22vw;
+}
+
+.tt-spices-collections__banner {
+    background: no-repeat url(../img/banner-table-top-serving-all-collection.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.tt-spices-collections__wrapper-main-content {
+    display: flex;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 3.75vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-description-card__text-tt-pure-urban {
+    margin-top: -1.2vw;
+}
+
+.wr-description-card__text-tt-pure-exclusiv  {
+    font-size: 1vw;
+    margin-top: -1vw;
+    line-height: 1.09;
+}
+
+
+@media ( max-width: 435px ) { 
+    .tt-spices-collections__main {
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .tt-spices-collections__banner {
+        padding-top: 13.66vw;
+
+        background: no-repeat url(../img/banner-table-top-serving-all-collection-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .tt-spices-collections__line-right {
+        margin-top: 6.67vw; 
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .tt-spices-collections__wrapper-main-content {
+        margin-top: 5.53vw;
+        padding-top: 0;
+        gap: 6.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .wr-description-card__text-tt-pure-urban {
+        margin-top: 0;
+    }
+    
+    .wr-description-card__text-tt-pure-exclusiv  {
+        font-size: initial;
+        margin-top: 0;
+        line-height: initial;
+    }
+}

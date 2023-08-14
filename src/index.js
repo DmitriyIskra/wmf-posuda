@@ -41,4 +41,12 @@ import './css/coffee-culture-international.css';
 import './css/culture-cup.css';
 import './css/table-top-firstglass.css';
 import './css/table-top-serving-all-positions.css';
+import './css/table-top-serving-collections.css';
+import './css/table-top-decor-all-positions.css';
+import './css/table-top-decor-collections.css';
+import './css/table-top-spices-all-positions.css';
+import './css/table-top-spices-collections.css';
+import './css/swedish-line-quadro-all-positions.css';
+import './css/swedish-line-quadro-modules.css';
+import './css/swedish-line-quadro-sets.css'
 import './css/banner.css';

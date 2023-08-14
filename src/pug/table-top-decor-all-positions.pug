@@ -1,23 +1,68 @@
-- var t = 'Coffee Culture International'
-- path = '../img/international-culture-cup.png'
+- var t = 'Все позиции'
+- var path = '../img/table-top-decor-vase.png'
 
 include layout/head
  
 include modules/header 
 
-main(class="main goods-content__main c-c-international")
+main(class="main goods-content__main tt-decor-all-position")
     .wr-bread-crumbs
         include modules/bread-crumbs
 
-    .banner.c-c-international__banner
+    .banner.tt-decor-all-position__banner
 
     .wr-number-pages.wr-number-pages-top
         include modules/number-pages
 
     .goods-content__wrapper-main-content
-        
-        article.goods-content__wr-content.goods-content__wr-content_no-aside
-            ul.good-card__wr-card-list.good-card__wr-card-list_no-aside
+        aside.aside.goods-content__aside
+            .goods-content__wr-filter
+                ul.filter
+                    li.filter__main-item-static
+                        .filter__main-item-static-title Категория
+                        ul.filter__static-sub-list
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Настольные лампы с чайной свечой
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box 
+                                a(href="#0").filter__sub-item-title Вазы для цветов
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Подставки под номерок стола
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box 
+                                a(href="#0").filter__sub-item-title Подсвечники
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Держатели для меню
+                                .filter__sub-item-box
+
+                    li.filter__main-item
+                        .filter__main-item-title-box 
+                            .filter__main-item-title Коллекция
+                            .filter__main-item-box
+                        ul.filter__sub-list
+                            li.filter__sub-item-title-box 
+                                a(href="#0").filter__sub-item-title Classic
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Neutral
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box 
+                                a(href="#0").filter__sub-item-title Pure
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box 
+                                a(href="#0").filter__sub-item-title Pure Exclusive
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Pure Exclusive Nature
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box 
+                                a(href="#0").filter__sub-item-title Urban
+                                .filter__sub-item-box
+
+        article.goods-content__wr-content
+            ul.good-card__wr-card-list  
                 li.good-card__wr-card-item.catalog-good-first-line
                     a(href="#0").good-card__wrapper-link
                         .good-card__card-content 
@@ -51,28 +96,6 @@ main(class="main goods-content__main c-c-international")
                                 h3.good-card__card-title Barista Cup 0.35l
                         .good-card__card-link-button
 
-                li.good-card__wr-card-item.catalog-good-first-line
-                    a(href="#0").good-card__wrapper-link
-                        .good-card__card-content 
-                            .good-card__wr-card-img-line 
-                                .good-card__wr-card-img
-                                    img(src=path).good-card__card-img
-                                .good-card__wr-card-line
-                            .good-card__wr-card-title  
-                                h3.good-card__card-title Barista Cup 0.35l
-                        .good-card__card-link-button
-
-                li.good-card__wr-card-item
-                    a(href="#0").good-card__wrapper-link
-                        .good-card__card-content 
-                            .good-card__wr-card-img-line 
-                                .good-card__wr-card-img
-                                    img(src=path).good-card__card-img
-                                .good-card__wr-card-line
-                            .good-card__wr-card-title  
-                                h3.good-card__card-title Barista Cup 0.35l
-                        .good-card__card-link-button
-
                 li.good-card__wr-card-item 
                     a(href="#0").good-card__wrapper-link
                         .good-card__card-content 
@@ -194,7 +217,7 @@ main(class="main goods-content__main c-c-international")
                                 h3.good-card__card-title Barista Cup 0.35l
                         .good-card__card-link-button
 
-                li.good-card__wr-card-item  
+                li.good-card__wr-card-item 
                     a(href="#0").good-card__wrapper-link
                         .good-card__card-content 
                             .good-card__wr-card-img-line 
