@@ -1,7 +1,6 @@
 
-
-.sd-all-collections__banner {
-    background: no-repeat url(../img/banner-all-tablewares.png);
+.coffee-tea__banner {
+    background: no-repeat url(../img/banner-coffee-tea.png);
     background-position: center;
     background-size: 100%;
 }
@@ -9,10 +8,10 @@
 
 
 @media( max-width: 435px ) {
-    .sd-all-collections__banner {
+    .coffee-tea__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-all-tablewares-mobile.png);
+        background: no-repeat url(../img/banner-coffee-tea-mobile.png);
         background-position: center;
         background-size: auto 100%;
     }

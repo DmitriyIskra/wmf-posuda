@@ -389,5 +389,121 @@
 }
 
 
+/* К А Р Т О Ч К И  T A B L E - T O P */
+
+.wr-description-card__card-wmf-divine {
+    background: no-repeat url(../img/table-top-drinks-collections-divine.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-flavour {
+    background: no-repeat url(../img/table-top-drinks-collections-flavour.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-royal {
+    background: no-repeat url(../img/table-top-drinks-collections-royal.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-smart {
+    background: no-repeat url(../img/table-top-drinks-collections-smart.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-manhattan {
+    background: no-repeat url(../img/table-top-drinks-collections-manhattan.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-diva {
+    background: no-repeat url(../img/table-top-drinks-collections-diva.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-compo {
+    background: no-repeat url(../img/table-top-drinks-collections-compo.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-international {
+    background: no-repeat url(../img/table-top-drinks-collections-international.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-wmf-culturecup {
+    background: no-repeat url(../img/table-top-drinks-collections-culture-cup.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+
+
+@media ( max-width: 435px ) { 
+    .wr-description-card__banner_mobile-divine {
+        background: no-repeat url(../img/about-tablewares-two-wmf-barock-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-flavour {
+        background: no-repeat url(../img/about-tablewares-two-wmf-baguette-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-royal {
+        background: no-repeat url(../img/about-tablewares-two-wmf-base-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-smart {
+        background: no-repeat url(../img/about-tablewares-two-wmf-base-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-manhattan {
+        background: no-repeat url(../img/about-tablewares-two-wmf-casino-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-diva {
+        background: no-repeat url(../img/about-tablewares-two-wmf-club-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-compo {
+        background: no-repeat url(../img/about-tablewares-two-wmf-contour-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-international {
+        background: no-repeat url(../img/about-tablewares-two-wmf-flair-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__banner_mobile-culturecup {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    
+}
+
 
 

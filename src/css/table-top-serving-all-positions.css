@@ -1,0 +1,17 @@
+.tt-serving-all-position__banner {
+    background: no-repeat url(../img/banner-table-top-serving-all-positions.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
+@media( max-width: 435px ) {
+    .tt-serving-all-position__banner {
+        padding-top: 13.66vw;
+
+        background: no-repeat url(../img/banner-table-top-serving-all-positions-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}

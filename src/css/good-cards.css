@@ -11,6 +11,24 @@
     flex-wrap: wrap;
 }
 
+/* если нет aside */
+.goods-content__wr-content_no-aside {
+    display: flex;
+
+    justify-content: center;
+}
+
+.good-card__wr-card-list_no-aside {
+    width: 80%;
+    padding-left: 0;
+
+    /* justify-content: baseline; */
+    /* gap: calc(100% - (14.48vw * 4)); */
+}
+
+/* -------------- */
+
+
 .good-card__wr-card-item {
     width: 13.02vw;
     margin-top: 2.60vw;

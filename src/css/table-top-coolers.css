@@ -1,24 +1,17 @@
-
-.porcelain__banner {
-    background: no-repeat url(../img/banner-porcelain-synergy.png);
+.coolers__banner {
+    background: no-repeat url(../img/banner-coolers.png);
     background-position: center;
     background-size: 100%;
 }
 
 
+
 @media( max-width: 435px ) {
-    .porcelain__banner {
+    .coolers__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-porcelain-synergy-mobile.png);
+        background: no-repeat url(../img/banner-coolers-mobile.png);
         background-position: center;
         background-size: auto 100%;
     }
 }
-
-
-
-
-
-
-

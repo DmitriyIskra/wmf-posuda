@@ -1,74 +1,40 @@
-- var t = 'Фарфор SYNERGY'
+- var t = 'Кофе и Чай'
 
 include layout/head
  
-include modules/header
+include modules/header 
 
-main(class="main goods-content__main porcelain")
+main(class="main goods-content__main coolers")
     .wr-bread-crumbs
         include modules/bread-crumbs
-    .banner.porcelain__banner
+
+    .banner.coolers__banner
+
     .wr-number-pages.wr-number-pages-top
         include modules/number-pages
+
     .goods-content__wrapper-main-content
         aside.aside.goods-content__aside
             .goods-content__wr-filter
                 ul.filter
-                    li.filter__main-item
-                        .filter__main-item-title-box 
-                            .filter__main-item-title Чашки и блюдца
-                            .filter__main-item-box
-                        ul.filter__sub-list
+                    li.filter__main-item-static
+                        .filter__main-item-static-title Категория
+                        ul.filter__static-sub-list
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Classic
+                                .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Barista & Чай
+                                a(href="#0").filter__sub-item-title Diva
                                 .filter__sub-item-box
-                            li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
-                                a(href="#0").filter__sub-item-title.filter__sub-item-title_two-rows 
-                                    span Штабелируемые чашки
-                                    span & кружки
-                                .filter__sub-item-box.filter__sub-item-box_two-rows
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Neutral
+                                .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Блюдца
+                                a(href="#0").filter__sub-item-title Pure
                                 .filter__sub-item-box
-
-                    
-                    li.filter__main-item
-                        .filter__main-item-title-box 
-                            .filter__main-item-title Тарелки
-                            .filter__main-item-box
-                        ul.filter__sub-list
-                            li.filter__sub-item-title-box 
-                                .filter__sub-item-title Тарелки мелкие
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Urban
                                 .filter__sub-item-box
-                            li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
-                                a(href="#0").filter__sub-item-title Тарелки мелкие чашеобразные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
-                                a(href="#0").filter__sub-item-title Тарелки глубокие
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
-                                a(href="#0").filter__sub-item-title Тарелки глубокие чашеобразные
-                                .filter__sub-item-box
-
-                    li.filter__main-item
-                        .filter__main-item-title-box 
-                            a(href="#0").filter__main-item-title Овальные блюда
-
-                    li.filter__main-item
-                        .filter__main-item-title-box 
-                            a(href="#0").filter__main-item-title Чаши
-
-                    li.filter__main-item
-                        .filter__main-item-title-box 
-                            a(href="#0").filter__main-item-title Фирменные изделия
-
-                    li.filter__main-item
-                        .filter__main-item-title-box 
-                            a(href="./decor.html").filter__main-item-title Декор
-
-                    li.filter__main-item
-                        .filter__main-item-title-box 
-                            a(href="./individual-decor.html").filter__main-item-title Индивидуальный дизайн
 
         article.goods-content__wr-content
             ul.good-card__wr-card-list  
@@ -76,7 +42,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title  
                             h3.good-card__card-title Barista Cup 0.35l
@@ -87,7 +53,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -98,7 +64,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -109,7 +75,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -120,7 +86,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -131,7 +97,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -142,7 +108,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -153,7 +119,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -164,7 +130,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -175,7 +141,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -186,7 +152,7 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
@@ -197,14 +163,78 @@ main(class="main goods-content__main porcelain")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/cup-for-catalog.png").good-card__card-img
+                                img(src="../img/coolers.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
                         a.good-card__card-link Подробнее
 
-                    
+                li.good-card__wr-card-item 
+                    .good-card__card-content 
+                        .good-card__wr-card-img-line 
+                            .good-card__wr-card-img
+                                img(src="../img/coolers.png").good-card__card-img
+                            .good-card__wr-card-line
+                        .good-card__wr-card-title 
+                            h3.good-card__card-title Barista Cup 0.35l
+                    .good-card__wr-card-link 
+                        a.good-card__card-link Подробнее
+
+                li.good-card__wr-card-item 
+                    .good-card__card-content 
+                        .good-card__wr-card-img-line 
+                            .good-card__wr-card-img
+                                img(src="../img/coolers.png").good-card__card-img
+                            .good-card__wr-card-line
+                        .good-card__wr-card-title 
+                            h3.good-card__card-title Barista Cup 0.35l
+                    .good-card__wr-card-link 
+                        a.good-card__card-link Подробнее
+
+                li.good-card__wr-card-item 
+                    .good-card__card-content 
+                        .good-card__wr-card-img-line 
+                            .good-card__wr-card-img
+                                img(src="../img/coolers.png").good-card__card-img
+                            .good-card__wr-card-line
+                        .good-card__wr-card-title 
+                            h3.good-card__card-title Barista Cup 0.35l
+                    .good-card__wr-card-link 
+                        a.good-card__card-link Подробнее
+
+                li.good-card__wr-card-item 
+                    .good-card__card-content 
+                        .good-card__wr-card-img-line 
+                            .good-card__wr-card-img
+                                img(src="../img/coolers.png").good-card__card-img
+                            .good-card__wr-card-line
+                        .good-card__wr-card-title 
+                            h3.good-card__card-title Barista Cup 0.35l
+                    .good-card__wr-card-link 
+                        a.good-card__card-link Подробнее
+
+                li.good-card__wr-card-item 
+                    .good-card__card-content 
+                        .good-card__wr-card-img-line 
+                            .good-card__wr-card-img
+                                img(src="../img/coolers.png").good-card__card-img
+                            .good-card__wr-card-line
+                        .good-card__wr-card-title 
+                            h3.good-card__card-title Barista Cup 0.35l
+                    .good-card__wr-card-link 
+                        a.good-card__card-link Подробнее
+
+                li.good-card__wr-card-item 
+                    .good-card__card-content 
+                        .good-card__wr-card-img-line 
+                            .good-card__wr-card-img
+                                img(src="../img/coolers.png").good-card__card-img
+                            .good-card__wr-card-line
+                        .good-card__wr-card-title 
+                            h3.good-card__card-title Barista Cup 0.35l
+                    .good-card__wr-card-link 
+                        a.good-card__card-link Подробнее
     .wr-number-pages
         include modules/number-pages
 

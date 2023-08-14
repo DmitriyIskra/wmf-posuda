@@ -1,14 +1,14 @@
-- var t = 'Все столовые приборы'
+- var t = 'Все позиции'
 
 include layout/head
  
-include modules/header
+include modules/header 
 
-main(class="main goods-content__main all-tablewares")
+main(class="main goods-content__main tt-serving-all-position")
     .wr-bread-crumbs
         include modules/bread-crumbs
 
-    .banner.all-tablewares__banner
+    .banner.tt-serving-all-position__banner
 
     .wr-number-pages.wr-number-pages-top
         include modules/number-pages
@@ -20,157 +20,83 @@ main(class="main goods-content__main all-tablewares")
                     li.filter__main-item-static
                         .filter__main-item-static-title Категория
                         ul.filter__static-sub-list
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки столовые
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Сахарницы
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки столовые
+                                a(href="#0").filter__sub-item-title Сеты для сахара и сливок
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Настольные аксессуары
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи столовые
+                                a(href="#0").filter__sub-item-title Соусники
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Держатели для вина
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Чаши для пунша
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки закусочные
+                                a(href="#0").filter__sub-item-title Подстановочные тарелки
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Блюда для овощей Legumier
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки закусочные
+                                a(href="#0").filter__sub-item-title Икорные кулеры
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Этажерки
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи закусочные
+                                a(href="#0").filter__sub-item-title Ведерки для льда
+                                .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Клоши для сервировочных тарелок
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки чайно-кофейные
+                                a(href="#0").filter__sub-item-title Масленки
                                 .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки для эспрессо
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки десертные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки “Гурмэ”
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки для рыбы
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для рыбы
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки устричные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Вилки десертные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для масла
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки лимонадные
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для стейка
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ложки круглые для супа
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для фруктов
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Ножи для пиццы
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Менажницы
                                 .filter__sub-item-box
 
                     li.filter__main-item
                         .filter__main-item-title-box 
-                            .filter__main-item-title The New Easy
+                            .filter__main-item-title Коллекция
                             .filter__main-item-box
                         ul.filter__sub-list
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Edita
+                                a(href="#0").filter__sub-item-title Bargeräte
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Enia
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Elea
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Sara
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Sofia
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Scala
-                                .filter__sub-item-box
-                    li.filter__main-item
-                        .filter__main-item-title-box 
-                            .filter__main-item-title The New Easy
-                            .filter__main-item-box
-                        ul.filter__sub-list
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Baguette
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Barock
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Base
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
                                 a(href="#0").filter__sub-item-title Bistro
                                 .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Casino
-                                .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Club
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Contour
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Epos
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Flair
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Gastro
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Juwel
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Metropolitan
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Mondial
+                                a(href="#0").filter__sub-item-title Classic
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
                                 a(href="#0").filter__sub-item-title Neutral
                                 .filter__sub-item-box
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Pure
+                                .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Nordic
+                                a(href="#0").filter__sub-item-title Pure Exclusive
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Residence
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Signum
-                                .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Sitello
+                                a(href="#0").filter__sub-item-title Pure Exclusive Nature
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box
-                                a(href="#0").filter__sub-item-title Solid
+                                a(href="#0").filter__sub-item-title Scala
                                 .filter__sub-item-box
                             li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Telos
+                                a(href="#0").filter__sub-item-title Urban
                                 .filter__sub-item-box
-                            li.filter__sub-item-title-box 
-                                a(href="#0").filter__sub-item-title Unic
+                            li.filter__sub-item-title-box
+                                a(href="#0").filter__sub-item-title Compo
                                 .filter__sub-item-box
 
         article.goods-content__wr-content
@@ -179,199 +105,199 @@ main(class="main goods-content__main all-tablewares")
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title  
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item.catalog-good-first-line
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item.catalog-good-first-line
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
 
                 li.good-card__wr-card-item 
                     .good-card__card-content 
                         .good-card__wr-card-img-line 
                             .good-card__wr-card-img
-                                img(src="../img/spoon.png").good-card__card-img
+                                img(src="../img/table-top-serving-all-positions-vase.png").good-card__card-img
                             .good-card__wr-card-line
                         .good-card__wr-card-title 
                             h3.good-card__card-title Barista Cup 0.35l
                     .good-card__wr-card-link 
-                        a.good-card__card-link Подробнее
+                        a.good-card__card-link(href="./page-vase.html") Подробнее
     .wr-number-pages
         include modules/number-pages
 

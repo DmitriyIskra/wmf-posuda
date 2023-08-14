@@ -1,0 +1,398 @@
+.main-crystal-glass {
+    display: flex;
+    padding-bottom: 12.55vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.crystal-glass__banner {
+    padding-top: 7.2vw;
+    padding-left: 11.2vw;
+
+    background: no-repeat url(../img/banner-crystal-glass.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.crystal-glass__banner-title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.33vw;
+}
+
+.crystal-glass__banner-text {
+    display: flex;
+    margin-top: 1.82vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 2.50vw;
+
+    color: #333333;
+
+    flex-direction: column;
+}
+
+.crystal-glass__banner-text_mobile {
+    display: none;
+    margin-top: 1.60vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 4.27vw;
+
+    flex-direction: column;
+}
+
+.crystal-glass__line-right {
+    margin-top: 4.22vw;
+}
+
+.crystal-glass__wrapper-main-content {
+    display: flex;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 3.75vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+/* К Р И С Т А Л Ь Н О  Ч И С Т Ы Й  А Р О М А Т */
+
+.crystal-glass__wr-smell{
+    display: flex;
+    width: 76vw;
+
+    justify-content: space-between;
+}
+
+.crystal-glass__wr-smell-left {
+    display: flex;
+    width: 48vw;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.crystal-glass__smell-title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.13vw;
+}
+
+.crystal-glass__smell-text {
+    display: flex;
+    margin-top: 1.77vw;
+    gap: 1.98vw;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.46vw;
+
+    color: #333333;
+
+    flex-direction: column;
+}
+
+.crystal-glass__wr-smell-small-img {
+    display: flex;
+    margin-top: 2.81vw;
+
+    justify-content: space-between;
+}
+
+.crystal-glass__smell-small-img {
+    width: 23.38vw;
+    height: 25.31vw;
+}
+
+.crystal-glass__smell-small-img_mobile {
+    display: none;
+}
+
+.crystal-glass__wr-smell-right-img {
+    width: 26.61vw;
+    height: 44.43vw;
+
+    background: no-repeat url(../img/crystal-glass__wr-smell-right-img.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.glass__smell-small-img1 {
+    background: no-repeat url(../img/crystal-glass__smell-small-img1.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.glass__smell-small-img2 {
+    background: no-repeat url(../img/crystal-glass__smell-small-img2.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+/* К О Н Е Ц  К Р И С Т А Л Ь Н О  Ч И С Т Ы Й  А Р О М А Т */
+
+/* Н А Ч А Л О  С Т А К А Н  */
+
+.crystal-glass__wr-glass {
+    width: 76vw;
+}
+
+.crystal-glass__wr-glass-content {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.crystal-glass__wr-glass-img {
+    width: 25.83vw;
+    height: 32.92vw;
+}
+
+.crystal-glass__glass-img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+    object-position: center;
+}
+
+.crystal-glass__glass-text-list {
+    display: flex;
+    margin-top: 3.3vw;
+    gap: 2.9vw;
+
+    flex-direction: column;
+}
+
+.crystal-glass__wr-glass-text-item {
+    display: flex;
+    gap: 1.04vw;
+}
+
+.crystal-glass__wr-glass-text-item::before {
+    content: "";
+
+    display: inline-block;
+    width: 2.60vw;
+    height: 2.60vw;
+
+    border-radius: 0.16vw;
+    background: #777;
+}
+
+.crystal-glass__glass-text {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.82vw;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.crystal-glass__wr-glass-links {
+    display: flex;
+    margin-top: 2vw;
+
+    justify-content: space-between;
+}
+
+.crystal-glass__link {
+    display: flex;
+    height: 2.86vw;
+    width: 37.28vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.25vw;
+
+    border-radius: 8px;
+    background: #333;
+    color: #ffffff;
+
+    align-items: center;
+    justify-content: center;
+}
+
+/* К О Н Е Ц  С Т А К А Н  */
+
+
+
+
+@media ( max-width: 435px ) { 
+    .main-crystal-glass {
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__banner { 
+        padding-top: 12.9vw; 
+        padding-left: 4.8vw;
+        
+        background: no-repeat url(../img/banner-crystal-glass-mobile.png); 
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__banner-title {
+        font-family: 'WMFRotis-Bold';
+        font-size: 8.53vw;
+    }
+
+    .crystal-glass__banner-text {
+        display: none;
+    }
+
+    .crystal-glass__banner-text_mobile {
+        display: flex;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__line-right {
+        margin-top: 6.67vw; 
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wrapper-main-content {
+        margin-top: 5.53vw;
+        padding-top: 0;
+        gap: 6.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-smell {
+        width: 87vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-smell-left {
+        width: 100%;
+        gap: 15.20vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__smell-title {
+        font-size: 6.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__smell-text {
+        margin-top: 4.80vw;
+        gap: 5.33vw;
+
+        font-size: 3.73vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-smell-small-img {
+        flex-direction: column;
+        gap: 2.67vw;
+    }
+
+    .crystal-glass__smell-small-img_mobile {
+        display: block;
+        width: 100%;
+        height: 112vw;
+
+        background: no-repeat url(../img/crystal-glass__smell-small-img_mobile.png); 
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .crystal-glass__smell-small-img {
+        width: 100%;
+        height: 71.20vw;
+    }
+
+    .glass__smell-small-img1 {
+        background: no-repeat url(../img/crystal-glass__smell-small-img1.png);
+        background-position: center;
+        background-size: 100%;
+    }
+    
+    .glass__smell-small-img2 {
+        background: no-repeat url(../img/crystal-glass__smell-small-img2.png);
+        background-position: center;
+        background-size: 100%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-smell-right-img {
+        display: none;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-glass {
+        width: 87%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-glass-content {
+        flex-direction: column;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-glass-img {
+        width: 100%;
+        height: 108.80vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__glass-text-list {
+        margin-top: 6.13vw;
+        gap: 10.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-glass-text-item {
+        gap: 2.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-glass-text-item::before {
+        width: 5.33vw;
+        height: 5.33vw;
+    
+        border-radius: 0.80vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__glass-text {
+        font-size: 4.04vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__wr-glass-links {
+        margin-top: 5.33vw;
+        gap: 2.67vw;
+
+        flex-direction: column;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .crystal-glass__link {
+        width: 100%;
+        height: 13.33vw;
+
+        font-size: 5.33vw;
+    }
+}
+

@@ -30,5 +30,15 @@ import './css/serving-devices-all-collections.css';
 import './css/serving-devices-all-serving-devices.css';
 import './css/serving-devices-rodeo.css';
 import './css/tablewares-special-finishing.css';
-import './css/finishing-devices-all-collections.css'
+import './css/finishing-devices-all-collections.css';
+import './css/table-top-crystal-glass.css';
+import './css/table-top-coffee-tea.css';
+import './css/goods-content.css';
+import './css/table-top-coolers.css';
+import './css/table-top-drinks-all-position.css';
+import './css/table-top-drinks-all-collections.css';
+import './css/coffee-culture-international.css';
+import './css/culture-cup.css';
+import './css/table-top-firstglass.css';
+import './css/table-top-serving-all-positions.css';
 import './css/banner.css';

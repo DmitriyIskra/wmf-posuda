@@ -1,15 +1,4 @@
-.main-line-lifestyle {
-    display: flex;
-    padding-bottom: 8.07vw;
 
-    flex-direction: column;
-    align-items: center;
-}
-
-.wr-bread-crumbs {
-    width: 76vw;
-    margin: 0 auto;
-}
 
 .line-lifestyle__banner {
     background: no-repeat url(../img/banner-line-product-lifestyle.png);
@@ -17,51 +6,7 @@
     background-size: 100%;
 }
 
-.line-lifestyle__wrapper-main-content {
-    display: flex;
-    width: 76vw;
-    margin-top: 3.28vw;
-}
 
-.line-lifestyle__aside {
-    min-width: 23vw;
-    padding-right: 1.82vw;
-}
-
-.line-lifestyle__wr-filter {
-    width: 100%;
-}
-
-
-/* Н А Ч А Л О   К А Р Т О Ч К И */
-
-.line-lifestyle__wr-content {
-    flex-grow: 1;
-}
-
-/* К О Н Е Ц    К А Р Т О Ч К И */
-
-
-
-
-
-@media( max-width: 435px ) {
-    .wr-number-pages-top {
-        margin-top: 8.53vw;
-    }
-}
-
-@media( max-width: 435px ) {
-    .main-porcelain {
-        padding-bottom: 14.13vw;
-    }
-}
-
-@media( max-width: 435px ) {
-    .wr-bread-crumbs {
-        display: none;
-    }
-}
 
 @media( max-width: 435px ) {
     .line-lifestyle__banner {
@@ -72,31 +17,5 @@
         background-size: auto 100%;
     }
 }
-
-@media( max-width: 435px ) {
-    .line-lifestyle__wrapper-main-content {
-        width: auto;
-        gap: 16vw;
-        margin-top: 10.93vw;
-
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
-@media( max-width: 435px ) {
-    .line-lifestyle__aside {
-        width: 100%;
-        min-width: auto;
-        padding-right: 0;
-    }
-}
-
-@media( max-width: 435px ) {
-    .line-lifestyle__wr-content {
-        width: 87vw;
-    }
-}
-
 
 

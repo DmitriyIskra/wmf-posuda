@@ -1,0 +1,98 @@
+.goods-content__main {
+    display: flex;
+    padding-bottom: 8.07vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-bread-crumbs {
+    width: 76vw; 
+    margin: 0 auto;
+}
+
+.goods-content__wrapper-main-content {
+    display: flex;
+    width: 76vw;
+    margin-top: 3.28vw;
+}
+
+.goods-content__aside {
+    min-width: 23vw;
+    padding-right: 1.82vw;
+}
+
+.goods-content__wr-filter {
+    width: 100%;
+}
+
+
+
+
+.goods-content__wr-content {
+    flex-grow: 1;
+}
+
+
+
+@media( max-width: 435px ) {
+    .wr-number-pages-top {
+        margin-top: 8.53vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .goods-content__main {
+        padding-bottom: 14.13vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .wr-bread-crumbs {
+        display: none;
+    }
+}
+
+@media( max-width: 435px ) {
+    .goods-content__banner {
+        padding-top: 13.66vw;
+
+        background: no-repeat url(../img/banner-coffee-tea-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media( max-width: 435px ) {
+    .goods-content__wrapper-main-content {
+        width: auto; 
+        gap: 16vw;
+        margin-top: 10.93vw;
+
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media( max-width: 435px ) {
+    .goods-content__aside {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+@media( max-width: 435px ) {
+    .goods-content__wr-filter {
+        display: flex;
+        width: 100%;
+        padding-right: 0;
+
+        justify-content: center;
+    }
+}
+
+@media( max-width: 435px ) {
+    .goods-content__wr-content {
+        width: 87vw;
+    }
+}
