@@ -48,5 +48,10 @@ import './css/table-top-spices-all-positions.css';
 import './css/table-top-spices-collections.css';
 import './css/swedish-line-quadro-all-positions.css';
 import './css/swedish-line-quadro-modules.css';
-import './css/swedish-line-quadro-sets.css'
+import './css/swedish-line-quadro-sets.css';
+import './css/swedish-line-marmites-all-position.css';
+import './css/swedish-line-marmites-collections.css';
+import './css/swedish-line-dispensers-all-position.css';
+import './css/swedish-line-serving-food-all-position.css';
+import './css/contacts.css';
 import './css/banner.css';

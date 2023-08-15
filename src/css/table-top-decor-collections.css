@@ -26,9 +26,6 @@
     align-items: center;
 }
 
-.wr-description-card__text-tt-pure-urban {
-    margin-top: -1.2vw;
-}
 
 .wr-description-card__text-tt-pure-exclusiv  {
     font-size: 1vw;
@@ -67,10 +64,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
-    .wr-description-card__text-tt-pure-urban {
-        margin-top: 0;
-    }
+@media ( max-width: 435px ) {
     
     .wr-description-card__text-tt-pure-exclusiv  {
         font-size: initial;

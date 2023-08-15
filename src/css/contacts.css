@@ -1,0 +1,93 @@
+.contacts__main {
+    display: flex;
+    padding-bottom: 12.55vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__line-right {
+    margin-top: 4.22vw;
+}
+
+.contacts__wrapper-main-content {
+    display: flex;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 3.75vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__wr-info {
+    display: flex;
+    width: 76vw;
+    margin-bottom: 2.08vw;
+
+    background: no-repeat url(../svg/logo-article-index.svg);
+    background-position: top left;
+    background-size: auto 100%;
+
+    justify-content: space-between;
+}
+
+.contacts__info-main-title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.13vw;
+}
+
+.contacts__info-title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.67vw;
+}
+
+.contacts__wr-info-address-text {
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.67vw;
+}
+
+.contacts__wr-social-links {
+    display: flex;
+    gap: 1.46vw;
+}
+
+.contacts__wr-social-icon {
+    width: 2.60vw;
+    height: 2.60vw;
+}
+
+.contacts__social-telegram-link {
+    background: no-repeat url(../svg/icon-telegram-nav-contacts.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.contacts__social-whatsapp-link {
+    background: no-repeat url(../svg/icon-whatsapp-nav-contacts.svg.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
+
+@media ( max-width: 435px ) { 
+    .contacts__main {
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__line-right {
+        margin-top: 6.67vw; 
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__wrapper-main-content {
+        margin-top: 5.53vw;
+        padding-top: 0;
+        gap: 6.67vw;
+    }
+}

@@ -144,7 +144,9 @@
 
 @media( max-width: 435px ) {
     .filter__sub-item-title-box { 
-        padding: 1.7vw 2.13vw 0.52vw 6.40vw;
+        padding: 1.7vw 2.13vw 1.52vw 6.40vw;
+
+        align-items: flex-start;
     }
 
     .filter__sub-item-title-box:last-child {
@@ -162,6 +164,7 @@
     .filter__sub-item-box {
         height: 5.33vw;
         width: 5.33vw;
+        margin-top: 2px;
 
         border-radius: 0.80vw;
     }

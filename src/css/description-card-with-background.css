@@ -17,7 +17,7 @@
     padding-bottom: 1vw;
     padding-right: 1vw;
     
-    background-color: #ffffff97;
+    background-color: rgba(255, 255, 255, 0.77);
 
     flex-grow: 1;
     flex-direction: column;
@@ -538,7 +538,7 @@
     background-size: auto 100%;
 }
 
-.wr-description-card__card-tt-pure-exclusiv {
+.wr-description-card__card-tt-pure-exclusive {
     background: no-repeat url(../img/table-top-serving-card-pure-exclusiv.png);
     background-position: center;
     background-size: auto 100%;
@@ -575,7 +575,7 @@
         background-size: auto 100%;
     }
 
-    .wr-description-card__banner_mobile-tt-pure-exclusiv {
+    .wr-description-card__banner_mobile-tt-pure-exclusive {
         background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
         background-position: center;
         background-size: auto 100%;
@@ -583,3 +583,35 @@
 }
 
 /*  E N D  T A B L E  T O P  S E R V I N G  C O L L E C T I O N S  */
+
+
+
+/*  S T A R T  S W E D I S H  L I N E  M A R M I T E S  */
+
+.wr-description-card__card-marmites-fresh {
+    background: no-repeat url(../img/marmites-wmf-hot-and-fresh.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.wr-description-card__card-marmites-economy {
+    background: no-repeat url(../img/marmites-wmf-hot-and-economy.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+@media (max-width: 435px) {
+    .wr-description-card__banner_mobile-marmites-fresh {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .wr-description-card__card-marmites-economy {
+        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+/*  E N D  S W E D I S H  L I N E  M A R M I T E S  */

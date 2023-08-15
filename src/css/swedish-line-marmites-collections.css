@@ -1,0 +1,65 @@
+.marmites-collections__main {
+    display: flex;
+    padding-bottom: 12.55vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.marmites-collections__line-right {
+    margin-top: 4.22vw;
+}
+
+.marmites-collections__banner {
+    background: no-repeat url(../img/banner-marmites-collections.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.marmites-collections__wrapper-main-content {
+    display: flex;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 3.75vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-description-card__description-marmites {
+    width: 37vw;
+}
+
+
+
+
+@media ( max-width: 435px ) { 
+    .marmites-collections__main {
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .marmites-collections__banner {
+        padding-top: 13.66vw;
+
+        background: no-repeat url(../img/banner-marmites-collections-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .marmites-collections__line-right {
+        margin-top: 6.67vw; 
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .marmites-collections__wrapper-main-content {
+        margin-top: 5.53vw;
+        padding-top: 0;
+        gap: 6.67vw;
+    }
+}
+

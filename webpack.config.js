@@ -354,7 +354,42 @@ module.exports = {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
     }),
-
+    new HtmlWebPackPlugin({
+      template: './src/pug/swedish-line-marmites-all-position.pug',
+      filename: './swedish-line-marmites-all-position.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/swedish-line-marmites-collections.pug',
+      filename: './swedish-line-marmites-collections.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/swedish-line-dispensers-all-position.pug',
+      filename: './swedish-line-dispensers-all-position.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/swedish-line-serving-food-all-position.pug',
+      filename: './swedish-line-serving-food-all-position.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/contacts.pug',
+      filename: './contacts.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    
     
     new MiniCssExtractPlugin({
       filename: 'css/[hash].css', // куда компилировать

@@ -1,0 +1,46 @@
+- var t = 'Контакты'
+
+include layout/head
+ 
+include modules/header 
+
+main(class="main contacts__main contacts")
+    .wr-bread-crumbs
+        include modules/bread-crumbs
+
+    .banner.contacts__banner
+
+    .line-right.contacts__line-right
+
+    .contacts__wrapper-main-content  
+        .contacts__wr-info 
+            .contacts__wr-info-text 
+                .contacts__wr-info-main-title 
+                    h2.contacts__info-main-title Контакты:
+                .contacts__wr-info-address 
+                    .contacts__wr-info-title 
+                        h3.contacts__info-title Адрес:
+                    .contacts__wr-info-address-text 
+                        span 123007, г. Москва,
+                        span Хорошевское шоссе, д. 32 А, подъезд 4, этаж 1
+
+                .contacts__wr-info-phone-numbers
+                    .contacts__wr-info-title 
+                        h3.contacts__info-title Телефон:
+                    .contacts__wr-info-address-text 
+                        span +7(499)-136-9-631 доб. 2056
+                        span +7(888)-888-88-88
+
+                .contacts__wr-social-links 
+                    .contacts__wr-social-icon
+                        a.contacts__social-telegram-link(href="#0")
+                    .contacts__wr-social-icon 
+                        a.contacts__social-whatsapp-link(href="#0")
+            .contacts__wr-info-map
+
+
+    .line-left
+
+
+
+include modules/footer
