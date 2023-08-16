@@ -1,32 +1,30 @@
 export default class RedrawAdvantages {
-    constructor(control, currentActiveElements, contents) {
+    constructor(control, carrentActiveControl, underlineList, cards) {
         this.control = control;
+        this.cards = cards;
+        this.underlineList = underlineList;
 
-        this.knives = contents.knives;
-        this.balancing = contents.balancing;
-        this.individuality = contents.individuality
-
-        this.currentActiveControl = currentActiveElements.control;
-        this.currentUnderline = currentActiveElements.control.children[1];
-        this.currentActiveContent = currentActiveElements.content;       
+        this.currentActiveControl = carrentActiveControl;
+        this.currentUnderline = this.underlineList[0];
+        this.currentActiveCard = this.cards[0];       
     }
 
     redraw(element) {
         const mark = element.dataset.type;
 
         // снимаем  активность с текущих элементов
-        this.currentActiveControl.classList.remove('about-tablewares__control_active');
-        this.currentUnderline.classList.remove('about-tablewares__underline_active');
-        this.currentActiveContent.classList.remove('about-tablewares__content_active');
+        this.currentActiveControl.classList.remove('advantages__control_active');
+        this.currentUnderline.classList.remove('advantages__underline_active');
+        this.currentActiveCard.classList.remove('advantages__content_active');
 
         // сохраняем текущие активные элементы
         this.currentActiveControl = element;
         this.currentUnderline = element.children[1];
-        this.currentActiveContent = this[mark];
+        this.currentActiveCard = this.cards[mark];
 
         // назначаем активным элементам класс активности
-        this.currentActiveControl.classList.add('about-tablewares__control_active');
-        this.currentUnderline.classList.add('about-tablewares__underline_active');
-        this.currentActiveContent.classList.add('about-tablewares__content_active');    
+        this.currentActiveControl.classList.add('advantages__control_active');
+        this.currentUnderline.classList.add('advantages__underline_active');
+        this.currentActiveCard.classList.add('advantages__content_active');    
     }
 }

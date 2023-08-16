@@ -8,7 +8,7 @@ import ControlSlider from './slider-product-card/ControlSlider.js';
 import DrawSlider from './slider-product-card/DrawSlider.js';
 
 import ControlTech from './tech-info-product/ControlTech.js';
-import DrawInfo from './tech-info-product/drawTech.js';
+import DrawInfo from './tech-info-product/drawTech.js'; 
 
 import ControllCards from './sw-cards/controllCards.js';
 import RedrawCards from './sw-cards/RedrawCards.js';
@@ -23,7 +23,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import ControlAdvantages from './controlAdvantages/controlAdvantages.js';
-import RedrawAdvantages from './controlAdvantages/redrawAdvantages.js';
+import RedrawAdvantages from './controlAdvantages/RedrawAdvantages.js';
 
 
 
@@ -128,25 +128,28 @@ if(filter) {
 
 // S T A R T  A D V A N T A G E S
 
-const controlAdvantages = document.querySelector('.about-tablewares__control-list');
+const advantages = document.querySelector('.advantages__wrapper')
 
-if(controlAdvantages) {
+if(advantages) {
 
-    const carrentActiveControl = document.querySelector('.about-tablewares__control_active');
-    const carrentActiveContent = document.querySelector('.about-tablewares__content_active');
+    const controlAdvantages = document.querySelector('.advantages__control-list');
+    const cards = document.querySelectorAll('.advantages__card');
+    const carrentActiveControl = document.querySelector('.advantages__control_active');
+    const underlineList = document.querySelectorAll('.advantages__underline')
+    // const carrentActiveContent = document.querySelector('.about-tablewares__content_active');
 
-    const currentActiveElements = {
-        control: carrentActiveControl,
-        content: carrentActiveContent,
-    }
+    // const currentActiveElements = {
+    //     control: carrentActiveControl,
+    //     content: carrentActiveContent,
+    // }
 
-    const knives = document.querySelector('.about-tablewares__advantages_knives');
-    const balancing = document.querySelector('.about-tablewares__advantages_balancing');
-    const individuality = document.querySelector('.about-tablewares__advantages_individuality');
+    // const knives = document.querySelector('.about-tablewares__advantages_knives');
+    // const balancing = document.querySelector('.about-tablewares__advantages_balancing');
+    // const individuality = document.querySelector('.about-tablewares__advantages_individuality');
 
-    const contents = {knives, balancing, individuality};
+    // const contents = {knives, balancing, individuality};
 
-    const redraw = new RedrawAdvantages(controlAdvantages, currentActiveElements, contents);
+    const redraw = new RedrawAdvantages(controlAdvantages, carrentActiveControl, underlineList, cards);
     const control = new ControlAdvantages(redraw);
     control.init();
 

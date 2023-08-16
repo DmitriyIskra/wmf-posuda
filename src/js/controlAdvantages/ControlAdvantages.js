@@ -5,7 +5,7 @@ export default class ControlAdvantages {
         this.onClick = this.onClick.bind(this);
     }
 
-    init() {
+    init() { 
         
         this.registerEvents();
     }
@@ -15,8 +15,8 @@ export default class ControlAdvantages {
     }
 
     onClick(e) {
-        if(e.target.closest('.about-tablewares__wr-advantages-control-item')) {
-            this.draw.redraw(e.target.closest('.about-tablewares__wr-advantages-control-item'));
+        if(e.target.closest('.advantages__wr-control-item')) {
+            this.draw.redraw(e.target.closest('.advantages__wr-control-item'));
         }
     }
 }

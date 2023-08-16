@@ -207,16 +207,7 @@
 
 /* Н А Ч А Л О  P D F  К А Т А Л О Г */
 
-.pdf__wr-catalog_decor {
-    gap: 3.13vw;
 
-    flex-direction: row;
-    justify-content: center;
-}
-
-.pdf__catalog-content_decor {
-    width: min-content;
-}
 
 .pdf__catalog-card_decor-collections {
     background: no-repeat url(../img/pdf-decor-collections.png);
@@ -228,10 +219,6 @@
     background: no-repeat url(../img/pdf-decor-collections-2.png);
     background-size: auto 100%;
     background-position: center;
-}
-
-.pdf_catalog-link_mobile {
-    display: none;
 }
 
 /* К О Н Е Ц  P D F  К А Т А Л О Г */
@@ -429,67 +416,5 @@
     }
 }
 
-@media ( max-width: 435px ) {
-    .pdf__wr-catalog_decor {
-        margin-top: 11.20vw;
-        gap: 8vw;
 
-        flex-direction: column;
-    }
-}
 
-@media ( max-width: 435px ) {
-    .pdf__catalog-card {
-        width: 53.87vw;
-        height: 76.27vw;
-    }
-}
-
-@media ( max-width: 435px ) {
-    .pdf__catalog-link {
-        width: 53.87vw;
-        height: 10.67vw;
-        margin-top: 4vw;
-
-        font-size: 5.33vw;
-
-        border-radius: 1.33vw;
-    }
-}
-
-@media ( max-width: 435px ) {
-    .pdf_catalog-link_desctop {
-        display: none;
-    }
-    .pdf_catalog-link_mobile {
-        display: inline-block;
-    }
-}
-
-@media ( max-width: 435px ) {
-    
-}
-
-@media ( max-width: 435px ) {
-    
-}
-
-@media ( max-width: 435px ) {
-    
-}
-
-@media ( max-width: 435px ) {
-    
-}
-
-@media ( max-width: 435px ) {
-    
-}
-
-@media ( max-width: 435px ) {
-    
-}
-
-@media ( max-width: 435px ) {
-    
-}

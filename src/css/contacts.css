@@ -7,34 +7,51 @@
 }
 
 .contacts__line-right {
-    margin-top: 4.22vw;
+    margin-top: 3.02vw;
 }
 
 .contacts__wrapper-main-content {
     display: flex;
     gap: 3.75vw;
     width: 100%;
-    padding-top: 3.75vw;
+    padding-top: 2.08vw;
 
     flex-direction: column;
     align-items: center;
 }
 
-.contacts__wr-info {
+.contacts__wrapper {
     display: flex;
-    width: 76vw;
-    margin-bottom: 2.08vw;
+    width: 100%;
 
     background: no-repeat url(../svg/logo-article-index.svg);
-    background-position: top left;
+    background-position: top left 9.3%;
     background-size: auto 100%;
 
+    justify-content: center;
+}
+
+.contacts__info {
+    display: flex;
+    width: 76vw;
+
     justify-content: space-between;
+}
+
+.contacts__wr-info-text {
+    display: flex;
+    width: 31.67vw;
+
+    flex-direction: column;
 }
 
 .contacts__info-main-title {
     font-family: 'WMFRotis-Bold';
     font-size: 3.13vw;
+}
+
+.contacts__wr-info-address {
+    margin-top: 1.67vw;
 }
 
 .contacts__info-title {
@@ -43,13 +60,25 @@
 }
 
 .contacts__wr-info-address-text {
+    display: flex;
+    margin-top: 1.04vw;
+
     font-family: 'WMFRotis-Regular';
-    font-size: 1.67vw;
+    font-size: 1.6vw;
+
+    flex-direction: column;
+}
+
+.contacts__wr-info-phone-numbers {
+    margin-top: 4.38vw;
 }
 
 .contacts__wr-social-links {
     display: flex;
     gap: 1.46vw;
+
+    flex-grow: 1;
+    align-items: flex-end;
 }
 
 .contacts__wr-social-icon {
@@ -69,7 +98,18 @@
     background-size: 100%;
 }
 
+.contacts__wr-info-map {
+    width: 42.92vw;
+    height: 27.50vw;
 
+    background: no-repeat url(../img/contacts-map.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.contacts__line-left {
+    margin-top: 2.08vw;
+}
 
 
 @media ( max-width: 435px ) { 

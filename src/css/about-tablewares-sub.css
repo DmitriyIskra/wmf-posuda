@@ -157,100 +157,26 @@
 /* К О Н Е Ц  К А Р Т О Ч К И */
 
 
-
 /* Н А Ч А Л О  П Р Е И М У Щ Е С Т В А */
 
-.about-tablewares-sub__wr-advantages {
-    width: 76vw;
-}
-
-.about-tablewares-sub__control-list {
-    display: flex;
-    gap: 3.75vw;
-}
-
-.about-tablewares-sub__wr-advantages-control-item {
-    display: flex;
-    font-family: 'WMFRotis-Bold';
-    font-size: 1.67vw;
-
-    flex-direction: column;
-
-    cursor: pointer;
-}
-
-.about-tablewares-sub__underline {
-    display: none;
-    height: 1px;
-    width: 100%;
-
-    background-color: #000000;
-}
-
-.about-tablewares-sub__underline_active {
-    display: block;
-}
-
-/* .about-tablewares-sub__control_active {
-    text-decoration: underline;
-} */
-
-
-
-.about-tablewares-sub__advantages {
-    display: none;
-    width: 100%;
-    margin-top: 3.28vw;
-
-    justify-content: space-between;
-}
-
-.about-tablewares-sub__content_active {
-    display: flex;
-}
-
-.about-tablewares-sub__advantages-img {
-    width: 28.91vw;
-    height: 21.77vw;
-
-    /* border: 1px solid #777; */
-}
-
-.about-tablewares-sub__advantages-img_knives {
+.advantages__img_knives {
     background: no-repeat url(../img/advantages-img_knives.png);
     background-size: 100%;
     background-position: center;
 }
 
-.about-tablewares-sub__advantages-img_balancing {
+.advantages__img_balancing {
     background: no-repeat url(../img/advantages-img_balancing.png);
     background-size: 100%;
     background-position: center;
 }
 
-.about-tablewares-sub__advantages-img_individuality {
+.advantages__img_individuality {
     background: no-repeat url(../img/advantages-img_individuality.png);
     background-size: 100%;
     background-position: center;
 }
 
-.about-tablewares-sub__advantages-wr-text {
-    width: 45.11vw;
-}
-
-.about-tablewares-sub__advantages-title {
-    font-family: 'WMFRotis-Bold';
-    font-size: 3.65vw;
-    line-height: 1;
-}
-
-.about-tablewares-sub__advantages-text {
-    margin-top: 1.35vw;
-    
-    font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
-    line-height: 1.05;
-}
 /* К О Н Е Ц  П Р Е И М У Щ Е С Т В А */
 
 
@@ -477,7 +403,7 @@
 
 @media ( max-width: 435px ) { 
     .about-tablewares-sub__wr-card-description-link_desctop {
-        display: none;
+        display: none; 
     }
 }
 
@@ -506,111 +432,29 @@
     }
 }
 
-@media ( max-width: 435px ) { 
-    .about-tablewares-sub__wr-advantages {
-        width: 87vw;
-    }
-}
 
-@media ( max-width: 435px ) { 
-    .about-tablewares-sub__control-list {
-        flex-direction: column;
-        gap: 0.75vw;
-    }
-}
-
-@media ( max-width: 435px ) { 
-    .about-tablewares-sub__wr-advantages-control-item {
-        display: flex;
-        width: 100%;
-        height: 13.33vw;
-        gap: 1.33vw;
-
-        font-size: 5.33vw;
-
-        border-radius: 1.33vw;
-        border: 1px solid #777;
-        color: #333;
-
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-@media ( max-width: 435px ) { 
-    .about-tablewares-sub__control_active {
-        text-decoration: none;
-
-        color: #ffffff;
-        background-color: #666;;
-    }
-
-    .about-tablewares-sub__underline_active {
-        display: none;
-    }
-}
-
-@media ( max-width: 435px ) { 
-    .about-tablewares-sub__advantages {
-        margin-top: 8vw;
-
-        flex-direction: column;
-    }
-}
-
-@media ( max-width: 435px ) { 
-    .about-tablewares-sub__advantages-img {
-        width: 100%;
-        height: 67.47vw;
-        margin-top: 8vw;
-
-        order: 2;
-    }
-}
-
-@media ( max-width: 435px ) { 
-    .about-tablewares-sub__advantages-wr-text {
-        width: 100%;
-
-        order: 1;
-    }
-}
-
-@media ( max-width: 435px ) { 
-    .about-tablewares-sub__advantages-title {
-        font-size: 6.67vw;
-        line-height: normal;
-    }
-}
-
-@media ( max-width: 435px ) { 
-    .about-tablewares-sub__advantages-text {
-        margin-top: 5.33vw;
-
-        font-size: 3.73vw;
-        line-height: normal;
-    }
-}
 
 @media ( max-width: 435px ) { 
     .about-tablewares-sub__advantages-img_knives {
         background: no-repeat url(../img/advantages-img_knives-mobile.png);
-        background-size: 100% auto;
+        background-size: 101% auto;
         background-position: center;
     }
 
     .about-tablewares-sub__advantages-img_balancing {
         background: no-repeat url(../img/advantages-img_balancing-mobile.png);
-        background-size: 100% auto;
+        background-size: 101% auto;
         background-position: center;
     }
 
     .about-tablewares-sub__advantages-img_individuality {
         background: no-repeat url(../img/advantages-img_individuality-mobile.png);
-        background-size: 100% auto;
+        background-size: 101% auto;
         background-position: center;
     }
 }
+
+
 
 @media ( max-width: 435px ) { 
     .about-tablewares-sub__wr-durability {

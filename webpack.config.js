@@ -389,6 +389,13 @@ module.exports = {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
     }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/swedish-line-about-quadro.pug',
+      filename: './swedish-line-about-quadro.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
     
     
     new MiniCssExtractPlugin({

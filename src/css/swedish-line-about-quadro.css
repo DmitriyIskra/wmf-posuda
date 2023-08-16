@@ -1,0 +1,247 @@
+.about-quadro__main {
+    display: flex;
+    padding-bottom: 12.55vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-quadro__line-right {
+    margin-top: 4.22vw;
+}
+
+.about-quadro__banner {
+    padding-top: 20.2vw;
+    padding-left: 12.3vw;
+
+    background: no-repeat url(../img/banner-about-quadro.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.about-quadro__banner-text {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.46vw;
+
+    color: #333333;
+
+    flex-direction: column;
+}
+
+.about-quadro__banner-text-mobile {
+    display: none;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.73vw;
+
+    color: #333333;
+
+    flex-direction: column;
+}
+
+.about-quadro__wrapper-main-content {
+    display: flex;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 3.75vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-description-card__description-marmites {
+    width: 37vw;
+}
+
+.presentation__wrapper {
+    display: flex;
+    width: 76vw;
+
+    justify-content: space-between;
+}
+
+.presentation__wr-info {
+    width: 39.46vw;
+}
+
+.presentation__title {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.13vw;
+
+    flex-direction: column;
+}
+
+.presentation__wr-text {
+    display: flex;
+    width: 38vw;
+    margin-top: 1.72vw;
+    gap: 2.34vw;
+
+    flex-direction: column;
+}
+
+.presentation__text {
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.46vw;
+
+    color: #333333;
+}
+
+.presentation__img {
+    width: 34.01vw;
+    height: 38.85vw;
+}
+
+.presentation__img-quadro-1 {
+    background: no-repeat url(../img/presentation-about-quadro-img-1.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.presentation__img-quadro-2 {
+    background: no-repeat url(../img/presentation-about-quadro-img-2.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+
+/* Н А Ч А Л О  П Р Е И М У Щ Е С Т В А */
+
+.about-quadro__advantages__card-text {
+    display: flex;
+    gap: 2.34vw;
+
+    flex-direction: column;
+}
+
+.advantages__img_skeleton {
+    background: no-repeat url(../img/advantages__img_skeleton.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.advantages__img_bridge {
+    background: no-repeat url(../img/advantages__img_bridge.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.advantages__img_stand {
+    background: no-repeat url(../img/advantages__img_stand.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.advantages__img_materials {
+    background: no-repeat url(../img/advantages__img_materials.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+/* К О Н Е Ц  П Р Е И М У Щ Е С Т В А */
+
+/* P D F */
+
+.pdf__catalog-card_quadro-instruction {
+    background: no-repeat url(../img/pdf-about-quadro-instruction.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.pdf__catalog-card_quadro-solution {
+    background: no-repeat url(../img/pdf-about-quadro-solution.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+/* К О Н Е Ц  P D F */
+
+
+
+@media ( max-width: 435px ) { 
+    .about-quadro__main {
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .about-quadro__banner {
+        padding-top: 13.66vw;
+
+        background: no-repeat url(../img/banner-about-quadro-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .about-quadro__line-right {
+        margin-top: 6.67vw; 
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .about-quadro__wrapper-main-content {
+        margin-top: 5.53vw;
+        padding-top: 0;
+        gap: 6.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .presentation__img-quadro-1 {
+        background: no-repeat url(../img/presentation-about-quadro-img-1-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .presentation__img-quadro-2 {
+        background: no-repeat url(../img/presentation-about-quadro-img-2-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .about-quadro__advantages__card-text {
+        gap: 5.07vw;
+    }
+}
+
+
+
+@media (max-width: 435px) {
+    .advantages__img_skeleton {
+        background: no-repeat url(../img/advantages__img_skeleton-mobile.png);
+        background-position: center;
+        background-size: auto 101%;
+    }
+    
+    .advantages__img_bridge {
+        background: no-repeat url(../img/advantages__img_bridge-mobile.png);
+        background-position: center;
+        background-size: auto 101%;
+    }
+    
+    .advantages__img_stand {
+        background: no-repeat url(../img/advantages__img_stand-mobile.png);
+        background-position: center;
+        background-size: auto 101%;
+    }
+    
+    .advantages__img_materials {
+        background: no-repeat url(../img/advantages__img_materials-mobile.png);
+        background-position: center;
+        background-size: auto 101%;
+    }
+}
+
+@media (max-width: 435px) {
+    .pdf_catalog-link_mobile-quadro {
+        font-size: 4.27vw;
+    }
+}
