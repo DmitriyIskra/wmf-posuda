@@ -1,0 +1,200 @@
+.about-marmites__main {
+    display: flex;
+    padding-bottom: 8.85vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-marmites__line-right {
+    margin-top: 4.22vw;
+}
+
+.about-marmites__banner {
+    padding-top: 13vw;
+    padding-left: 11.7vw;
+
+    background: no-repeat url(../img/banner-about-marmites.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.about-marmites__banner-text {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.46vw;
+
+    color: #333333;
+
+    flex-direction: column;
+}
+
+.about-marmites__banner-text-mobile {
+    display: none;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.5vw;
+
+    color: #333333;
+
+    flex-direction: column;
+}
+
+.about-marmites__wrapper-main-content {
+    display: flex;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 3.75vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-description-card__description-marmites {
+    width: 37vw;
+}
+
+.presentation__title_marmites {
+    font-size: 3vw;
+}
+
+@media ( min-width: 436px) {
+    .presentation__wr-info_marmites {
+        width: 40.46vw;
+    }
+
+    .presentation__text_mobile {
+        font-size: 1.382vw;
+    }
+}
+
+.presentation__img-marmites-1 {
+    background: no-repeat url(../img/presentation-about-marmites-img-1.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.presentation__img-marmites-2 {
+    background: no-repeat url(../img/presentation-about-marmites-img-2.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+
+
+
+
+/* Н А Ч А Л О  П Р Е И М У Щ Е С Т В А */
+
+
+.advantages__img_recycling {
+    background: no-repeat url(../img/advantages__img_recycling.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.advantages__img_door-closer {
+    background: no-repeat url(../img/advantages__img_door-closer.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.advantages__img_cap {
+    background: no-repeat url(../img/advantages__img_cap.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+
+
+
+@media ( max-width: 435px ) { 
+    .about-marmites__main {
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media( max-width: 435px ) {
+    .about-marmites__banner {
+        padding-left: 5vw;
+        padding-top: 16.66vw;
+
+        background: no-repeat url(../img/banner-about-marmites-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media( max-width: 435px ) {
+    .about-marmites__banner-text {
+        display: none;
+    }
+
+    .about-marmites__banner-text-mobile {
+        display: flex;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .about-marmites__line-right {
+        margin-top: 6.67vw; 
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .about-marmites__wrapper-main-content {
+        margin-top: 5.53vw;
+        padding-top: 0;
+        gap: 6.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .presentation__title_marmites {
+        font-size: 6.5vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .presentation__img-marmites-1 {
+        background: no-repeat url(../img/presentation-about-marmites-img-1-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .presentation__img-marmites-2 {
+        height: 68.53vw;
+
+        border: 1px solid #777777;
+
+        background: no-repeat url(../img/presentation-about-marmites-img-2-mobile.png);
+        background-position: center;
+        background-size: auto 101%;
+    }
+}
+
+
+
+
+
+@media (max-width: 435px) {
+    .advantages__img_recycling {
+        background: no-repeat url(../img/advantages__img_recycling-mobile.png);
+        background-position: center;
+        background-size: auto 101%;
+    }
+    
+    .advantages__img_door-closer {
+        background: no-repeat url(../img/advantages__img_door-closer-mobile.png);
+        background-position: center;
+        background-size: auto 101%;
+    }
+    
+    .advantages__img_cap {
+        background: no-repeat url(../img/advantages__img_cap-mobile.png);
+        background-position: center;
+        background-size: auto 101%;
+    }
+
+}

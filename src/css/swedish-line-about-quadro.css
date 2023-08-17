@@ -54,47 +54,9 @@
 .wr-description-card__description-marmites {
     width: 37vw;
 }
+ 
 
-.presentation__wrapper {
-    display: flex;
-    width: 76vw;
 
-    justify-content: space-between;
-}
-
-.presentation__wr-info {
-    width: 39.46vw;
-}
-
-.presentation__title {
-    display: flex;
-
-    font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
-
-    flex-direction: column;
-}
-
-.presentation__wr-text {
-    display: flex;
-    width: 38vw;
-    margin-top: 1.72vw;
-    gap: 2.34vw;
-
-    flex-direction: column;
-}
-
-.presentation__text {
-    font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
-
-    color: #333333;
-}
-
-.presentation__img {
-    width: 34.01vw;
-    height: 38.85vw;
-}
 
 .presentation__img-quadro-1 {
     background: no-repeat url(../img/presentation-about-quadro-img-1.png);
@@ -107,6 +69,8 @@
     background-position: center;
     background-size: auto 100%;
 }
+
+
 
 
 /* Н А Ч А Л О  П Р Е И М У Щ Е С Т В А */
@@ -264,11 +228,22 @@
 
 @media( max-width: 435px ) {
     .about-quadro__banner {
-        padding-top: 13.66vw;
+        padding-top: 31.66vw;
+        padding-left: 5.5vw;
 
         background: no-repeat url(../img/banner-about-quadro-mobile.png);
         background-position: center;
         background-size: auto 100%;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .about-quadro__banner-text {
+        display: none;
+    }
+
+    .about-quadro__banner-text-mobile {
+        display: flex;
     }
 }
 
@@ -394,7 +369,7 @@
         height: 10.67vw;
         width: 100%;
         margin-top: 5.33vw;
-        gap: 5.87vw;
+        gap: 2.67vw;
 
         flex-wrap: wrap;
     }
