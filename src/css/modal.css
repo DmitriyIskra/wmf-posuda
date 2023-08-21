@@ -4,16 +4,18 @@
     left: 0;
     right: 0;
 
-    /* временное решение */
-    height: 2147px;
     padding-top: 0.89vw;
 
     background: rgb(0, 0, 0, 0.4);
 }
 
+.modal-wrapper_unactive {
+    display: none;
+}
+
 .modal {
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
 
     width: 20.83vw;
@@ -25,7 +27,7 @@
     background: #ffffff;
     border-radius: 0.52vw;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 25%);
 }
 
 .modal__header {

@@ -403,6 +403,14 @@ module.exports = {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
     }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/modal-form.pug',
+      filename: './modal-form.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+    }),
+    
     
     
     new MiniCssExtractPlugin({

@@ -165,7 +165,7 @@ const getFormButton = document.querySelector('.main__button-feedback');
 
 if(getFormButton) {
     const redrawCallback = new RedrawCallback();
-    const http = new Http();
+    const http = new Http('../modal-form.html');
     const controlCallback = new ControlCallback(getFormButton, http, redrawCallback);
     controlCallback.init();
 }
