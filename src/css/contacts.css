@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
 }
-
+ 
 .contacts__line-right {
     margin-top: 3.02vw;
 }
@@ -69,6 +69,10 @@
     flex-direction: column;
 }
 
+.contacts__wr-info-address-text_mobile {
+    display: none;
+}
+
 .contacts__wr-info-phone-numbers {
     margin-top: 4.38vw;
 }
@@ -114,7 +118,18 @@
 
 @media ( max-width: 435px ) { 
     .contacts__main {
+        padding-top: 7.60vw;
         padding-bottom: 25.60vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__line-right {
+        display: none;
+    }
+
+    .contacts__line-left {
+        display: none;
     }
 }
 
@@ -130,4 +145,106 @@
         padding-top: 0;
         gap: 6.67vw;
     }
+}
+
+
+@media ( max-width: 435px ) { 
+    .contacts__wrapper {
+        background: none;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__info {
+        width: 87vw;
+
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__wr-info-text {
+        width: 100%;
+
+        align-items: center;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__info-main-title {
+        font-size: 6.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__info-title {
+        text-align: center;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__info-title {
+        font-size: 5.53vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__wr-info-address-text_desctop {
+        display: none;
+    }
+    
+    .contacts__wr-info-address-text_mobile {
+        display: flex;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__wr-info-address-text {
+        font-size: 5.53vw;
+
+        align-items: center;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__wr-social-links {
+        margin-top: 4vw;
+        gap: 6.46vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__wr-social-icon {
+        width: 8.6vw;
+        height: 8.6vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .contacts__wr-info-map {
+        width: 100%;
+        height: 55.65vw;
+        margin-top: 6vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    
+}
+
+@media ( max-width: 435px ) { 
+    
+}
+
+@media ( max-width: 435px ) { 
+    
+}
+
+@media ( max-width: 435px ) { 
+    
+}
+
+@media ( max-width: 435px ) { 
+    
 }

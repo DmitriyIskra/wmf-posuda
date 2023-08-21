@@ -54,7 +54,7 @@
 
 .tw-finishing__card-main-title {
     font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
+    font-size: 2.86vw;
 }
 
 .tw-finishing__card-text_big {
@@ -62,7 +62,7 @@
     margin-top: 1.15vw;
 
     font-family: 'WMFRotis-Regular';
-    font-size: 2.24vw;
+    font-size: 2.08vw;
 }
 
 .tw-finishing__card-text_two-rows {
@@ -164,7 +164,7 @@
 .tw-finishing__wr-dop-info-list {
     display: flex;
     width: 76vw;
-    gap: 3.13vw;
+    gap: 2.86vw;
 
     flex-direction: column;
 }
@@ -173,7 +173,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Regular';
-    font-size: 2.50vw;
+    font-size: 1.82vw;
 
     color: #333333;
 

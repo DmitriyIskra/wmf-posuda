@@ -1,95 +1,96 @@
-- var t = 'breakfast'
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        title breakfast
+    body
 
-include layout/head
+        include modules/header
 
-include modules/header
+        .wr-bread-crumbs
+            include modules/bread-crumbs
 
-.wr-bread-crumbs
-    include modules/bread-crumbs
+        main(class="main ssl-collection breakfast")
+            .banner.ssl-collection__wr-banner.ssl-breakfast-banner
+                .ssl-collection__wr-banner-text 
+                    h2.ssl-collection__wr-banner-title-top
+                        <span>WMF SYNERGY</span><span>и WMF STYLE LIGHTS</span><span class="title-last-item">делают утро идеальным.</span>
+                    h3.ssl-collection__wr-banner-title-bottom.wr-banner-title-bottom_add
+                        <span>Отличный день начинается</span><span>с отличного завтрака.</span>
+                    h3.ssl-collection__wr-banner-title-bottom_mobile
+                        <span>Отличный день</span><span>начинается с отличного</span><span>завтрака.</span>
 
-main(class="main ssl-collection breakfast")
-    .banner.ssl-collection__wr-banner.ssl-breakfast-banner
-        .ssl-collection__wr-banner-text 
-            h2.ssl-collection__wr-banner-title-top
-                <span>WMF SYNERGY</span><span>и WMF STYLE LIGHTS</span><span class="title-last-item">делают утро идеальным.</span>
-            h3.ssl-collection__wr-banner-title-bottom.wr-banner-title-bottom_add
-                <span>Отличный день начинается</span><span>с отличного завтрака.</span>
-            h3.ssl-collection__wr-banner-title-bottom_mobile
-                <span>Отличный день</span><span>начинается с отличного</span><span>завтрака.</span>
+            .ssl-collection__main-wrapper
 
-    .ssl-collection__main-wrapper
+                .ssl-collection__wr-line-top
 
-        .ssl-collection__wr-line-top
+                .ssl-collection__wr-content 
 
-        .ssl-collection__wr-content 
+                    .ssl-collection__wr-description-block-top
+                        .ssl-collection__wr-description 
+                            .ssl-collection__wr-description-header
+                                h2.ssl-collection__wr-description-title 
+                                    <span>Коллекция фарфора</span><span>для всех видов завтраков.</span>
+                            .ssl-collection__wr-description-article
+                                p.ssl-collection__wr-description-text Для удовлетворения индивидуальных предпочтений гостей, варьирующихся от перекусов до стильного завтрака, необходим широкий ассортимент продуктов. В ход идет множество различных фарфоровых изделий, будь то чашки для эспрессо и чайные чашки с блюдцами, или блюда и тарелки разных размеров. И для завтрака, и для фуршета. WMF SYNERGY предоставляет массу вариантов подачи первого приема пищи. Для экономии места и легкости в обращении все изделия могут быть сложены в стопку.
+                            ul.ssl-collection__wr-description-images-list
+                                li.ssl-collection__wr-description-image-item
+                                    .ssl-collection__wr-description-image
+                                        img(src='../img/cup-breakfast.png' alt="Чашка").ssl-collection__description-image
+                                    .ssl-collection__wr-description-image-text 
+                                        <span>Дизайн ручки чашки обеспечивает</span>
+                                        <span>оптимальный эргономичный</span>
+                                        <span>и надежный захват, особенно</span>
+                                        <span>для горячих напитков и больших объемов.</span>
+                                li.ssl-collection__wr-description-image-item
+                                    .ssl-collection__wr-description-image
+                                        img(src='../img/plate-breakfast.png' alt="Тарелка").ssl-collection__description-image
+                                    .ssl-collection__wr-description-image-text 
+                                        <span>Тарелки различных размеров позволяют</span>
+                                        <span>подавать блюда в различных вариациях.</span>
+                                li.ssl-collection__wr-description-image-item
+                                    .ssl-collection__wr-description-image
+                                        img(src='../img/platform-breakfast.png' alt="Платформа").ssl-collection__description-image
+                                    .ssl-collection__wr-description-image-text 
+                                        <span>Серия Vulcano позволяет подавать блюда на</span>
+                                        <span>двух уровнях. Идеальная творческая</span>
+                                        <span>платформа для шеф-поваров.</span>
+                        .ssl-collection__img-vertical.breakfast__img-porcelain1
 
-            .ssl-collection__wr-description-block-top
-                .ssl-collection__wr-description 
-                    .ssl-collection__wr-description-header
-                        h2.ssl-collection__wr-description-title 
-                            <span>Коллекция фарфора</span><span>для всех видов завтраков.</span>
-                    .ssl-collection__wr-description-article
-                        p.ssl-collection__wr-description-text Для удовлетворения индивидуальных предпочтений гостей, варьирующихся от перекусов до стильного завтрака, необходим широкий ассортимент продуктов. В ход идет множество различных фарфоровых изделий, будь то чашки для эспрессо и чайные чашки с блюдцами, или блюда и тарелки разных размеров. И для завтрака, и для фуршета. WMF SYNERGY предоставляет массу вариантов подачи первого приема пищи. Для экономии места и легкости в обращении все изделия могут быть сложены в стопку.
-                    ul.ssl-collection__wr-description-images-list
-                        li.ssl-collection__wr-description-image-item
-                            .ssl-collection__wr-description-image
-                                img(src='../img/cup-breakfast.png' alt="Чашка").ssl-collection__description-image
-                            .ssl-collection__wr-description-image-text 
-                                <span>Дизайн ручки чашки обеспечивает</span>
-                                <span>оптимальный эргономичный</span>
-                                <span>и надежный захват, особенно</span>
-                                <span>для горячих напитков и больших объемов.</span>
-                        li.ssl-collection__wr-description-image-item
-                            .ssl-collection__wr-description-image
-                                img(src='../img/plate-breakfast.png' alt="Тарелка").ssl-collection__description-image
-                            .ssl-collection__wr-description-image-text 
-                                <span>Тарелки различных размеров позволяют</span>
-                                <span>подавать блюда в различных вариациях.</span>
-                        li.ssl-collection__wr-description-image-item
-                            .ssl-collection__wr-description-image
-                                img(src='../img/platform-breakfast.png' alt="Платформа").ssl-collection__description-image
-                            .ssl-collection__wr-description-image-text 
-                                <span>Серия Vulcano позволяет подавать блюда на</span>
-                                <span>двух уровнях. Идеальная творческая</span>
-                                <span>платформа для шеф-поваров.</span>
-                .ssl-collection__img-vertical.breakfast__img-porcelain1
+                    .ssl-collection__wr-description-block-bottom 
+                        .ssl-collection__img-horizontal.breakfast__img-porcelain2
+                        .ssl-collection__img-horizontal.breakfast__img-porcelain3
+                    
+                    .ssl-collection__wr-link-description
+                        a(href="#0").ssl-collection__link-description Перейти к коллекции Synergy
 
-            .ssl-collection__wr-description-block-bottom 
-                .ssl-collection__img-horizontal.breakfast__img-porcelain2
-                .ssl-collection__img-horizontal.breakfast__img-porcelain3
-            
-            .ssl-collection__wr-link-description
-                a(href="#0").ssl-collection__link-description Перейти к коллекции Synergy
-
-        .ssl-collection__wr-collection-line-bottom
-
-
-
-
-    .ssl-collection__main-wrapper.main-wrapper
-
-        .ssl-collection__wr-content 
-
-            .ssl-collection__wr-description-block-top.wr-description-block-top
-                .ssl-collection__wr-description 
-                    .ssl-collection__wr-description-header
-                        h2.ssl-collection__wr-description-title 
-                            <span>Особые комбинации</span><span>для особенного завтрака.</span>
-                    .ssl-collection__wr-description-article
-                        p.ssl-collection__wr-description-text Сделайте утро восхитительным, с чувственными и яркими, привлекающими внимание элементами, такими как стеклянные чаши и натуральные материалы, например, дерево: коллекция бытовых принадлежностей WMF STYLE LIGHTS обеспечивает все необходимое для создания совершенно расслабленной атмосферы за завтраком.
-                .ssl-collection__img-vertical.breakfast__img-combi1
-
-            .ssl-collection__wr-description-block-bottom.ssl-collection__wr-description-combi-block-bottom
-                .ssl-collection__img-horizontal.breakfast__img-combi2
-                .ssl-collection__img-horizontal.breakfast__img-combi3
-            
-            .ssl-collection__wr-link-description
-                a(href="#0").ssl-collection__link-description Перейти к коллекции STYLE LIGHTS
-
-        .ssl-collection__wr-combi-line-bottom
+                .ssl-collection__wr-collection-line-bottom
 
 
-    
 
 
-include modules/footer
+            .ssl-collection__main-wrapper.main-wrapper
+
+                .ssl-collection__wr-content 
+
+                    .ssl-collection__wr-description-block-top.wr-description-block-top
+                        .ssl-collection__wr-description 
+                            .ssl-collection__wr-description-header
+                                h2.ssl-collection__wr-description-title 
+                                    <span>Особые комбинации</span><span>для особенного завтрака.</span>
+                            .ssl-collection__wr-description-article
+                                p.ssl-collection__wr-description-text Сделайте утро восхитительным, с чувственными и яркими, привлекающими внимание элементами, такими как стеклянные чаши и натуральные материалы, например, дерево: коллекция бытовых принадлежностей WMF STYLE LIGHTS обеспечивает все необходимое для создания совершенно расслабленной атмосферы за завтраком.
+                        .ssl-collection__img-vertical.breakfast__img-combi1
+
+                    .ssl-collection__wr-description-block-bottom.ssl-collection__wr-description-combi-block-bottom
+                        .ssl-collection__img-horizontal.breakfast__img-combi2
+                        .ssl-collection__img-horizontal.breakfast__img-combi3
+                    
+                    .ssl-collection__wr-link-description
+                        a(href="#0").ssl-collection__link-description Перейти к коллекции STYLE LIGHTS
+
+                .ssl-collection__wr-combi-line-bottom
+
+
+        include modules/footer

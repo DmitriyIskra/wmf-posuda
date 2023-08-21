@@ -1,32 +1,36 @@
-- var t = 'Коллекции'
-
-include layout/head
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        title Коллекции
+    body
  
-include modules/header 
+        include modules/header 
 
-main(class="main tt-decor-collections__main tt-decor-collections")
-    .wr-bread-crumbs
-        include modules/bread-crumbs
+        main(class="main tt-decor-collections__main tt-decor-collections")
+            .wr-bread-crumbs
+                include modules/bread-crumbs
 
-    .banner.tt-decor-collections__banner
+            .banner.tt-decor-collections__banner
 
-    .line-right.tt-decor-collections__line-right
+            .line-right.tt-decor-collections__line-right
 
-    .tt-decor-collections__wrapper-main-content       
+            .tt-decor-collections__wrapper-main-content       
 
-        .wr-description-card.wr-description-card__card-tt-pure-exclusive
-            .wr-description-card__description
-                .wr-description-card__description-text 
-                    .wr-description-card__header
-                        h2.wr-description-card__title PURE EXCLUSIVE NATURE
-                    .wr-description-card__wr-text 
-                        p.wr-description-card__text Коллекция PURE EXCLUSIVE – это специально разработанный дизайн, который открывает массу возможностей для комбинирования предметов и функциональности. Сочетание стали Cromargan®, дерева и фарфоровых деталей придаёт коллекции элегантность и практичность. На выбор 2 оттенка дерева, которые выгодно выделяет предметы коллекции при оформлении фуршета и сервировки стола.
-                .wr-description-card__banner_mobile.wr-description-card__banner_mobile-tt-pure-exclusive
-                .wr-description-card__wr-link
-                    a(href="#0").wr-description-card__link Перейти в каталог
+                .wr-description-card.wr-description-card__card-tt-pure-exclusive
+                    .wr-description-card__description
+                        .wr-description-card__description-text 
+                            .wr-description-card__header
+                                h2.wr-description-card__title PURE EXCLUSIVE NATURE
+                            .wr-description-card__wr-text 
+                                p.wr-description-card__text Коллекция PURE EXCLUSIVE – это специально разработанный дизайн, который открывает массу возможностей для комбинирования предметов и функциональности. Сочетание стали Cromargan®, дерева и фарфоровых деталей придаёт коллекции элегантность и практичность. На выбор 2 оттенка дерева, которые выгодно выделяет предметы коллекции при оформлении фуршета и сервировки стола.
+                        .wr-description-card__banner_mobile.wr-description-card__banner_mobile-tt-pure-exclusive
+                        .wr-description-card__wr-link
+                            a(href="#0").wr-description-card__link Перейти в каталог
 
-        .line-left
+                .line-left
 
 
 
-include modules/footer
+        include modules/footer

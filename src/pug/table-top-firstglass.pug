@@ -1,35 +1,41 @@
 - var t = 'WMF Firstglass'
 
-include layout/head
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        title WMF Firstglass
+    body
  
-include modules/header 
+        include modules/header 
 
-main(class="main firstglass__main firstglass")
-    .wr-bread-crumbs
-        include modules/bread-crumbs
+        main(class="main firstglass__main firstglass")
+            .wr-bread-crumbs
+                include modules/bread-crumbs
 
-    .banner.firstglass__banner
+            .banner.firstglass__banner
 
-    .line-right.firstglass__line-right
+            .line-right.firstglass__line-right
 
-    .firstglass__wrapper-main-content
+            .firstglass__wrapper-main-content
 
-        .firstglass__wr-card
-            .firstglass__wr-card-article
-                .firstglass__wr-article-text 
-                    .firstglass__wr-article-title 
-                        h2.firstglass__article-title
-                            span Делает наслаждение
-                            span кристально чистым.
-                    .firstglass-article__wr-text
-                        p.firstglass-article__text Бокалы идеальной формы необходимы для любого стола. Они создают точки соприкосновения и связывают самые яркие моменты веселья. Прозрачность, качество и высококлассное мастерство воплощают дух превосходства и демонстрируют его с максимальной выгодой, усиливая удовольствие от первого глотка.
-                        p.firstglass-article__text Каждый бокал выполняет уникальную функцию. Элегантные формы тюльпанов придают тон вышивке бисером в декоре. Расширяющиеся бокалы позволяют вину дышать большим количеством кислорода и декантироваться. Хороший набор барного стекла не обязательно должен быть обширным – мы будем рады проконсультировать вас по правильному выбору бокалов.
-                .firstglass__wr-article-img_mobile
-                .firstglass__wr-article-link 
-                    a.firstglass__article-link(href="#0") Перейти в коллекцию
-            .firstglass__wr-article-img
+                .firstglass__wr-card
+                    .firstglass__wr-card-article
+                        .firstglass__wr-article-text 
+                            .firstglass__wr-article-title 
+                                h2.firstglass__article-title
+                                    span Делает наслаждение
+                                    span кристально чистым.
+                            .firstglass-article__wr-text
+                                p.firstglass-article__text Бокалы идеальной формы необходимы для любого стола. Они создают точки соприкосновения и связывают самые яркие моменты веселья. Прозрачность, качество и высококлассное мастерство воплощают дух превосходства и демонстрируют его с максимальной выгодой, усиливая удовольствие от первого глотка.
+                                p.firstglass-article__text Каждый бокал выполняет уникальную функцию. Элегантные формы тюльпанов придают тон вышивке бисером в декоре. Расширяющиеся бокалы позволяют вину дышать большим количеством кислорода и декантироваться. Хороший набор барного стекла не обязательно должен быть обширным – мы будем рады проконсультировать вас по правильному выбору бокалов.
+                        .firstglass__wr-article-img_mobile
+                        .firstglass__wr-article-link 
+                            a.firstglass__article-link(href="#0") Перейти в коллекцию
+                    .firstglass__wr-article-img
 
 
-        .line-left
+                .line-left
 
-include modules/footer
+        include modules/footer

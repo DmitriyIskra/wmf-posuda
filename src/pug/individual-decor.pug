@@ -1,106 +1,110 @@
-- var t = 'Индивидуальный дизайн'
-
-include layout/head
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        title Индивидуальный дизайн
+    body
  
-include modules/header
+        include modules/header
 
-main(class="main main-individual-decor individual-decor")
-    .wr-bread-crumbs
-        include modules/bread-crumbs
-    
-    .individual-decor__wrapper-main-content
-        .individual-decor__wr-description
-            .individual-decor__description-line-top
-            section.individual-decor__description 
-                heaedr.individual-decor__description-header 
-                    h2.individual-decor__description-title SYNERGY. Ваш индивидуальный дизайн
-                    h2.individual-decor__description-title_mobile 
-                        span SYNERGY. 
-                        span Ваш индивидуальный дизайн 
-                article.individual-decor__description-article 
-                    p.individual-decor__description-wr-text Все изделия линии SYNERGY могут быть спроектированы в соответствии с индивидуальными предпочтениями. Вашему вниманию предлагаются четыре уровня для максимального дизайнерского творчества. От оттенков цвета или рельефного декора, дизайна каймы или всей поверхности изделия до использования драгоценных металлов. Каждый индивидуальный дизайн фиксируется в WMF Professional и может быть заказан повторно в любое время.
-            .individual-decor__description-line-bottom
+        main(class="main main-individual-decor individual-decor")
+            .wr-bread-crumbs
+                include modules/bread-crumbs
+            
+            .individual-decor__wrapper-main-content
+                .individual-decor__wr-description
+                    .individual-decor__description-line-top
+                    section.individual-decor__description 
+                        heaedr.individual-decor__description-header 
+                            h2.individual-decor__description-title SYNERGY. Ваш индивидуальный дизайн
+                            h2.individual-decor__description-title_mobile 
+                                span SYNERGY. 
+                                span Ваш индивидуальный дизайн 
+                        article.individual-decor__description-article 
+                            p.individual-decor__description-wr-text Все изделия линии SYNERGY могут быть спроектированы в соответствии с индивидуальными предпочтениями. Вашему вниманию предлагаются четыре уровня для максимального дизайнерского творчества. От оттенков цвета или рельефного декора, дизайна каймы или всей поверхности изделия до использования драгоценных металлов. Каждый индивидуальный дизайн фиксируется в WMF Professional и может быть заказан повторно в любое время.
+                    .individual-decor__description-line-bottom
 
-        ul.individual-decor__plates-list 
-            li.individual-decor__plates-item
-                .individual-decor__plates-wr-description 
-                    h2.individual-decor__plates-item-title Белый без декора
-                    p.individual-decor__pletes-item-text 
-                        span.individual-decor__pletes-item-text_mobile Твердый фарфор Белый
-                ul.individual-decor__plates-list-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-no-decor-img-1.png").individual-decor__plates-img
+                ul.individual-decor__plates-list 
+                    li.individual-decor__plates-item
+                        .individual-decor__plates-wr-description 
+                            h2.individual-decor__plates-item-title Белый без декора
+                            p.individual-decor__pletes-item-text 
+                                span.individual-decor__pletes-item-text_mobile Твердый фарфор Белый
+                        ul.individual-decor__plates-list-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-no-decor-img-1.png").individual-decor__plates-img
 
-            li.individual-decor__plates-item
-                .individual-decor__plates-wr-description 
-                    h2.individual-decor__plates-item-title Декор Base
-                    p.individual-decor__pletes-item-text 
-                        span Линия/полоса до 2 мм до 5 расцветок
-                        span цветной узор /
-                        span рельефный узор (до 3-х расцветок) /
-                        span пескоструйный узор (макс. 5 х 5 см)
-                ul.individual-decor__plates-list-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-base-img-1.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-base-img-2.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-base-img-3.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-base-img-4.png").individual-decor__plates-img
+                    li.individual-decor__plates-item
+                        .individual-decor__plates-wr-description 
+                            h2.individual-decor__plates-item-title Декор Base
+                            p.individual-decor__pletes-item-text 
+                                span Линия/полоса до 2 мм до 5 расцветок
+                                span цветной узор /
+                                span рельефный узор (до 3-х расцветок) /
+                                span пескоструйный узор (макс. 5 х 5 см)
+                        ul.individual-decor__plates-list-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-base-img-1.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-base-img-2.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-base-img-3.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-base-img-4.png").individual-decor__plates-img
 
-            li.individual-decor__plates-item
-                .individual-decor__plates-wr-description 
-                    h2.individual-decor__plates-item-title Декор Advanced
-                    p.individual-decor__pletes-item-text 
-                        span Линия/полоса от 2 мм до 5 расцветок
-                        span или декор каймы / декор всей
-                        span поверхности до 5 расцветок
-                ul.individual-decor__plates-list-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-advanced-img-1.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-advanced-img-2.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-advanced-img-3.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-advanced-img-4.png").individual-decor__plates-img
+                    li.individual-decor__plates-item
+                        .individual-decor__plates-wr-description 
+                            h2.individual-decor__plates-item-title Декор Advanced
+                            p.individual-decor__pletes-item-text 
+                                span Линия/полоса от 2 мм до 5 расцветок
+                                span или декор каймы / декор всей
+                                span поверхности до 5 расцветок
+                        ul.individual-decor__plates-list-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-advanced-img-1.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-advanced-img-2.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-advanced-img-3.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-advanced-img-4.png").individual-decor__plates-img
 
-            li.individual-decor__plates-item
-                .individual-decor__plates-wr-description 
-                    h2.individual-decor__plates-item-title Декор Premium
-                    p.individual-decor__pletes-item-text 
-                        span Линия/полоса от 2 мм, до 5 расцветок
-                        span или декор каймы или декор
-                        span всей поверхности с рельефным
-                        span узором или пескоструйный узор
-                        span до 5 расцветок
-                ul.individual-decor__plates-list-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-premium-img-1.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-premium-img-2.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-premium-img-3.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-premium-img-4.png").individual-decor__plates-img
+                    li.individual-decor__plates-item
+                        .individual-decor__plates-wr-description 
+                            h2.individual-decor__plates-item-title Декор Premium
+                            p.individual-decor__pletes-item-text 
+                                span Линия/полоса от 2 мм, до 5 расцветок
+                                span или декор каймы или декор
+                                span всей поверхности с рельефным
+                                span узором или пескоструйный узор
+                                span до 5 расцветок
+                        ul.individual-decor__plates-list-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-premium-img-1.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-premium-img-2.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-premium-img-3.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-premium-img-4.png").individual-decor__plates-img
 
-            li.individual-decor__plates-item
-                .individual-decor__plates-wr-description 
-                    h2.individual-decor__plates-item-title Декор Excellent
-                    p.individual-decor__pletes-item-text 
-                        span Линия/полоса от 2 мм от 6 расцветок
-                        span или декор каймы / декор всей
-                        span поверхности от 6 расцветок
-                ul.individual-decor__plates-list-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-excellent-img-1.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-excellent-img-2.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-excellent-img-3.png").individual-decor__plates-img
-                    li.individual-decor__plates-item-img 
-                        img(src="../img/individual-decor-excellent-img-4.png").individual-decor__plates-img
+                    li.individual-decor__plates-item
+                        .individual-decor__plates-wr-description 
+                            h2.individual-decor__plates-item-title Декор Excellent
+                            p.individual-decor__pletes-item-text 
+                                span Линия/полоса от 2 мм от 6 расцветок
+                                span или декор каймы / декор всей
+                                span поверхности от 6 расцветок
+                        ul.individual-decor__plates-list-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-excellent-img-1.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-excellent-img-2.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-excellent-img-3.png").individual-decor__plates-img
+                            li.individual-decor__plates-item-img 
+                                img(src="../img/individual-decor-excellent-img-4.png").individual-decor__plates-img
 
 
-include modules/footer
+        include modules/footer

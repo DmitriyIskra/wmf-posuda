@@ -1,81 +1,81 @@
-- var t = 'SYNERGY & STYLE LIGHTS'
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        title SYNERGY & STYLE LIGHTS
+    body
 
-include layout/head
+        include modules/header
 
-include modules/header
+        .wr-bread-crumbs
+            include modules/bread-crumbs
 
-.wr-bread-crumbs
-    include modules/bread-crumbs
+        main(class="main ssl")
+            .banner.ssl__wr-banner
+                .ssl__wr-banner-text 
+                    h2.ssl__wr-banner-title-top
+                        <span>Synergy</span><span>& Style Lights</span>
+                    h3.ssl__wr-banner-title-bottom lifestyle range
 
-main(class="main ssl")
-    .banner.ssl__wr-banner
-        .ssl__wr-banner-text 
-            h2.ssl__wr-banner-title-top
-                <span>Synergy</span><span>& Style Lights</span>
-            h3.ssl__wr-banner-title-bottom lifestyle range
+            .ssl__wr-description
+                .ssl__description-line-top 
+                .ssl__description-content
+                    .ssl__description-header 
+                        h2.ssl__description-title 
+                            <span>WMF Professional</span><span>– пожалуйста, присаживайтесь</span>
+                    .ssl__wr-description-text 
+                        p.ssl__description-text Коллекция фарфора и ассортимент бытовых принадлежностей для всех профессионалов индустрии гостеприимства: при разработке WMF SYNERGY и WMF STYLE LIGHTS были рассмотрены и опробованы в условиях симуляции ежедневной среды ресторана требования новейших концепций ресторанного бизнеса, широкие области применения продукции и разноплановые обстановки.
+                        p.ssl__description-text Для этого WMF Professional создали четыре базовых стиля, на основе которых могут работать все типы ресторанов. В этих условиях были тщательно продуманы и протестированы различные повседневные ситуации от завтрака до изысканного ужина и различные потоки посетителей для персонала от обслуживания фуршетов до индивидуальных заказов.
+                        p.ssl__description-text Полная коллекция фарфора WMF SYNERGY и линия бытовых принадлежностей WMF STYLE LIGHTS теперь сочетают в себе многофункциональность и гибкость с высочайшими стандартами качества. Лучшее для кулинарии и лучшее для гостей.
+                    .ssl__img
+                .ssl__description-line-bottom
 
-    .ssl__wr-description
-        .ssl__description-line-top 
-        .ssl__description-content
-            .ssl__description-header 
-                h2.ssl__description-title 
-                    <span>WMF Professional</span><span>– пожалуйста, присаживайтесь</span>
-            .ssl__wr-description-text 
-                p.ssl__description-text Коллекция фарфора и ассортимент бытовых принадлежностей для всех профессионалов индустрии гостеприимства: при разработке WMF SYNERGY и WMF STYLE LIGHTS были рассмотрены и опробованы в условиях симуляции ежедневной среды ресторана требования новейших концепций ресторанного бизнеса, широкие области применения продукции и разноплановые обстановки.
-                p.ssl__description-text Для этого WMF Professional создали четыре базовых стиля, на основе которых могут работать все типы ресторанов. В этих условиях были тщательно продуманы и протестированы различные повседневные ситуации от завтрака до изысканного ужина и различные потоки посетителей для персонала от обслуживания фуршетов до индивидуальных заказов.
-                p.ssl__description-text Полная коллекция фарфора WMF SYNERGY и линия бытовых принадлежностей WMF STYLE LIGHTS теперь сочетают в себе многофункциональность и гибкость с высочайшими стандартами качества. Лучшее для кулинарии и лучшее для гостей.
-            .ssl__img
-        .ssl__description-line-bottom
-
-    ul.ssl__cards-atmosphere-list
-        li.ssl__cards-atmosphere-item.cards-atmosphere-vogue
-        li.ssl__cards-atmosphere-item.cards-atmosphere-nature 
-        li.ssl__cards-atmosphere-item.cards-atmosphere-industrial
-        li.ssl__cards-atmosphere-item.cards-atmosphere-cozy 
-    
-    .ssl__wr-collections
-        .ssl__wr-collections-header 
-            h2.ssl__wr-collections-title <span>WMF Professional</span><span>5 областей применения</span> 
-        .ssl__wr-collections-cards
-            ul.ssl__cards-list.swipe-lines__wrapper
-                li.ssl__cards-item.cards-item-breakfast
-                    .swipe-lines__cards-arrow.ssl__cards-arrow 
-                        .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle
-                        a(href="./ssl-collections-breakfast.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
-                    a(href="./ssl-collections-breakfast.html").ssl__cards-link-card
-                li.ssl__cards-item.ssl__cards-item.cards-item-supper
-                    .swipe-lines__cards-arrow.ssl__cards-arrow 
-                        .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle 
-                        a(href="./ssl-collections-supper.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
-                    a(href="./ssl-collections-supper.html").ssl__cards-link-card
-                li.ssl__cards-item.ssl__cards-item.cards-item-haute-cuisine
-                    .swipe-lines__cards-arrow.ssl__cards-arrow 
-                        .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle
-                        a(href="./ssl-collections-cuisine.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
-                    a(href="./ssl-collections-cuisine.html").ssl__cards-link-card
-                li.ssl__cards-item.ssl__cards-item.cards-item-furshet
-                    .swipe-lines__cards-arrow.ssl__cards-arrow 
-                        .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle
-                        a(href="./ssl-collections-furshet.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
-                    a(href="./ssl-collections-furshet.html").ssl__cards-link-card
-                li.ssl__cards-item.ssl__cards-item.cards-item-banquet
-                    .swipe-lines__cards-arrow.ssl__cards-arrow 
-                        .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle
-                        a(href="./ssl-collections-banquet.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
-                    a(href="./ssl-collections-banquet.html").ssl__cards-link-card
-    
-    .ssl__wr-catalog-line-top
-    .pdf__wr-catalog        
-        .pdf__catalog-content
-            .pdf__catalog-header 
-                .pdf__catalog-title Просмотреть online-каталог
-            .pdf__catalog-card 
-            a(href="#0").pdf__catalog-link Скачать
-    .ssl__wr-catalog-line-bottom
-
-    
+            ul.ssl__cards-atmosphere-list
+                li.ssl__cards-atmosphere-item.cards-atmosphere-vogue
+                li.ssl__cards-atmosphere-item.cards-atmosphere-nature 
+                li.ssl__cards-atmosphere-item.cards-atmosphere-industrial
+                li.ssl__cards-atmosphere-item.cards-atmosphere-cozy 
+            
+            .ssl__wr-collections
+                .ssl__wr-collections-header 
+                    h2.ssl__wr-collections-title <span>WMF Professional</span><span>5 областей применения</span> 
+                .ssl__wr-collections-cards
+                    ul.ssl__cards-list.swipe-lines__wrapper
+                        li.ssl__cards-item.cards-item-breakfast
+                            .swipe-lines__cards-arrow.ssl__cards-arrow 
+                                .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle
+                                a(href="./ssl-collections-breakfast.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
+                            a(href="./ssl-collections-breakfast.html").ssl__cards-link-card
+                        li.ssl__cards-item.ssl__cards-item.cards-item-supper
+                            .swipe-lines__cards-arrow.ssl__cards-arrow 
+                                .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle 
+                                a(href="./ssl-collections-supper.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
+                            a(href="./ssl-collections-supper.html").ssl__cards-link-card
+                        li.ssl__cards-item.ssl__cards-item.cards-item-haute-cuisine
+                            .swipe-lines__cards-arrow.ssl__cards-arrow 
+                                .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle
+                                a(href="./ssl-collections-cuisine.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
+                            a(href="./ssl-collections-cuisine.html").ssl__cards-link-card
+                        li.ssl__cards-item.ssl__cards-item.cards-item-furshet
+                            .swipe-lines__cards-arrow.ssl__cards-arrow 
+                                .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle
+                                a(href="./ssl-collections-furshet.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
+                            a(href="./ssl-collections-furshet.html").ssl__cards-link-card
+                        li.ssl__cards-item.ssl__cards-item.cards-item-banquet
+                            .swipe-lines__cards-arrow.ssl__cards-arrow 
+                                .swipe-lines__cards-swipe-circle.ssl__cards-swipe-circle
+                                a(href="./ssl-collections-banquet.html").swipe-lines__cards-arrow-link.ssl__cards-arrow-link 
+                            a(href="./ssl-collections-banquet.html").ssl__cards-link-card
+            
+            .ssl__wr-catalog-line-top
+            .pdf__wr-catalog        
+                .pdf__catalog-content
+                    .pdf__catalog-header 
+                        .pdf__catalog-title Просмотреть online-каталог
+                    .pdf__catalog-card 
+                    a(href="#0").pdf__catalog-link Скачать
+            .ssl__wr-catalog-line-bottom
 
 
-
-
-include modules/footer
+        include modules/footer

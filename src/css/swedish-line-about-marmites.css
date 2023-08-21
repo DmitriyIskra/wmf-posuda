@@ -73,7 +73,7 @@
     background: no-repeat url(../img/presentation-about-marmites-img-1.png);
     background-position: center;
     background-size: auto 100%;
-}
+} 
 
 .presentation__img-marmites-2 {
     background: no-repeat url(../img/presentation-about-marmites-img-2.png);
@@ -105,6 +105,121 @@
     background-position: center;
     background-size: auto 100%;
 }
+
+
+
+/* Н А Ч А Л О  П Р Е И М У Щ Е С Т В А  Ч Е Р Н Ы Е  К А Р Т О Ч К И */
+
+.advantages-bc__wrapper {
+    width: 76vw;
+    margin-top: 0.52vw;
+}
+
+.advantages-bc__title {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.13vw;
+
+    flex-direction: column;
+}
+
+.advantages-bc__text {
+    margin-top: 2.40vw;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.46vw;
+}
+
+.advantages-bc__cards-wrapper {
+    display: flex;
+    margin-top: 2.35vw;
+    gap: 1.61vw;
+
+    flex-direction: column;
+}
+
+.advantages-bc__wr-card-list {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.advantages-bc__wr-card-item {
+    display: flex;
+    width: 37.85vw;
+    min-height: 24.84vw;
+    padding-left: 1.04vw;
+    padding-right: 1.04vw;
+    padding-bottom: 1.04vw;
+
+    background-color: #403B40;
+
+    flex-direction: column;
+}
+
+.advantages-bc__wr-card-header {
+    display: flex;
+    margin-top: 1.04vw;
+
+    justify-content: space-between;
+}
+
+.advantages-bc__wr-card-header_mobile {
+    display: none;
+}
+
+.advantages-bc__wr-card-title {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 3.12vw;
+
+    color: #ffffff;
+
+    flex-direction: column;
+}
+
+.advantages-bc__wr-card-icon {
+    height: 3.65vw;
+    width: 3.65vw;
+}
+
+.advantages-bc__wr-icon_handles {
+    background: no-repeat url(../svg/black-card-icon-handles.svg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.advantages-bc__wr-icon_cromargan {
+    background: no-repeat url(../svg/card-icon-letter.svg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.advantages-bc__wr-icon_wiring {
+    background: no-repeat url(../svg/black-card-icon-wiring.svg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.advantages-bc__wr-icon_washing {
+    background: no-repeat url(../svg/black-card-icon-washing.svg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.advantages-bc__wr-card-text {
+    margin-top: 0.94vw;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.36vw;
+
+    color: #ffffff;
+}
+
+/* К О Н Е Ц  П Р Е И М У Щ Е С Т В А  Ч Е Р Н Ы Е  К А Р Т О Ч К И */
+
 
 
 
@@ -198,3 +313,96 @@
     }
 
 }
+
+
+
+
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__wrapper {
+        width: 87vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__title {
+        font-size: 6.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__text {
+        font-size: 3.73vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__cards-wrapper {
+        margin-top: 6.67vw;
+        gap: 2.67vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__wr-card-list {
+        gap: 2.67vw;
+
+        flex-direction: column;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__wr-card-item {
+        width: 100%;
+        min-height: 71.20vw;
+        padding-top: 5.33vw;
+        padding-left: 5.3vw;
+        padding-right: 5.3vw;
+        padding-bottom: 5.33vw;
+
+        justify-content: normal;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__wr-card-header_desctop {
+        display: none;
+    }
+
+    .advantages-bc__wr-card-header_mobile {
+        display: block;
+    }
+} 
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__wr-card-title {
+        font-size: 6.45vw;
+    }
+}
+
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__wr-card-title_top-str {
+        display: flex;
+
+        justify-content: space-between;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__wr-card-icon {
+        height: 8vw;
+        width: 8vw;
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .advantages-bc__wr-card-text {
+        margin-top: 5.33vw;
+
+        font-size: 3.73vw;
+    }
+}
+
+
+

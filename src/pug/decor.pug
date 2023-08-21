@@ -1,85 +1,89 @@
-- var t = 'Decor'
-
-include layout/head
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        title Decor
+    body
  
-include modules/header
+        include modules/header
 
-main(class="main main-decor decor")
-    .wr-bread-crumbs
-        include modules/bread-crumbs
-    .banner.decor__banner
-    .decor__wrapper-main-content
-        .decor__wr-description
-            .decor__description-line-top
-            section.decor__description 
-                heaedr.decor__description-header 
-                    h2.decor__description-title Уникальное сочетание, идеальное оформление: элементы декора SYNERGY от WMF 
-                    h2.decor__description-title_mobile 
-                        span Уникальное сочетание, 
-                        span идеальное оформление: 
-                        span элементы декора 
-                        span SYNERGY от WMF
-                article.decor__description-article 
-                    p.decor__description-wr-text WMF Professional знает, как создавать уникальные коллекции декора для профессионально сервированного стола, как ни один другой бренд. Дизайн варьируется от выразительного до сдержанного, от естественного до геометрически вдохновленного. Настраиваемый и индивидуально комбинируемый. Чтобы идеально продемонстрировать ваш характер за накрытым столом.
-            .decor__description-line-bottom
+        main(class="main main-decor decor")
+            .wr-bread-crumbs
+                include modules/bread-crumbs
+            .banner.decor__banner
+            .decor__wrapper-main-content
+                .decor__wr-description
+                    .decor__description-line-top
+                    section.decor__description 
+                        heaedr.decor__description-header 
+                            h2.decor__description-title Уникальное сочетание, идеальное оформление: элементы декора SYNERGY от WMF 
+                            h2.decor__description-title_mobile 
+                                span Уникальное сочетание, 
+                                span идеальное оформление: 
+                                span элементы декора 
+                                span SYNERGY от WMF
+                        article.decor__description-article 
+                            p.decor__description-wr-text WMF Professional знает, как создавать уникальные коллекции декора для профессионально сервированного стола, как ни один другой бренд. Дизайн варьируется от выразительного до сдержанного, от естественного до геометрически вдохновленного. Настраиваемый и индивидуально комбинируемый. Чтобы идеально продемонстрировать ваш характер за накрытым столом.
+                    .decor__description-line-bottom
 
-        .decor__wr-cards-list
-            ul.decor__cards-list
-                li.decor__cards-item 
-                    section.decor__cards-description
-                        header.decor__cards-header 
-                            h2.decor__cards-title InNature
-                        article.decor__cards-article
-                            p.decor__cards-text Вдохновлен безусловной красотой природы. Органичный внешний вид в сочетании с тонами земли и мягкой рельефной структурой.
-                            p.decor__cards-text Это новая коллекция InNature.
-                    .decor__cards-img.decor__cards-img-innature
-                li.decor__cards-item 
-                    section.decor__cards-description
-                        header.decor__cards-header 
-                            h2.decor__cards-title Geometric
-                        article.decor__cards-article
-                            p.decor__cards-text.decor__cards-text_desctop
-                                span Современная.
-                                span Минималистичная.
-                                span Динамичная.
-                            p.decor__cards-text_mobile
-                                span Современная. Минималистичная.
-                                span Динамичная.
-                            p.decor__cards-text
-                                span Новая коллекция декора Geometric - это дань уважения простым геометрическим линиям и их динамичному языку дизайна.
-                    .decor__cards-img.decor__cards-img-geometric
-            ul.decor__cards-list
-                li.decor__cards-item 
-                    section.decor__cards-description
-                        header.decor__cards-header 
-                            h2.decor__cards-title Dark Rock
-                        article.decor__cards-article
-                            p.decor__cards-text
-                                span Чистая элегантность для стильных акцентов. Двенадцать изделий из фарфора WMF создадут на столе необычную структуру, похожую на камень, благодаря Dark Rock
-                    .decor__cards-img.decor__cards-img-darckrock
-                li.decor__cards-item 
-                    section.decor__cards-description
-                        header.decor__cards-header 
-                            h2.decor__cards-title Concrete
-                        article.decor__cards-article
-                            p.decor__cards-text
-                                span Пуританская, чарующая простотой красота, в ритме города
-                    .decor__cards-img.decor__cards-img-concrete
+                .decor__wr-cards-list
+                    ul.decor__cards-list
+                        li.decor__cards-item 
+                            section.decor__cards-description
+                                header.decor__cards-header 
+                                    h2.decor__cards-title InNature
+                                article.decor__cards-article
+                                    p.decor__cards-text Вдохновлен безусловной красотой природы. Органичный внешний вид в сочетании с тонами земли и мягкой рельефной структурой.
+                                    p.decor__cards-text Это новая коллекция InNature.
+                            .decor__cards-img.decor__cards-img-innature
+                        li.decor__cards-item 
+                            section.decor__cards-description
+                                header.decor__cards-header 
+                                    h2.decor__cards-title Geometric
+                                article.decor__cards-article
+                                    p.decor__cards-text.decor__cards-text_desctop
+                                        span Современная.
+                                        span Минималистичная.
+                                        span Динамичная.
+                                    p.decor__cards-text_mobile
+                                        span Современная. Минималистичная.
+                                        span Динамичная.
+                                    p.decor__cards-text
+                                        span Новая коллекция декора Geometric - это дань уважения простым геометрическим линиям и их динамичному языку дизайна.
+                            .decor__cards-img.decor__cards-img-geometric
+                    ul.decor__cards-list
+                        li.decor__cards-item 
+                            section.decor__cards-description
+                                header.decor__cards-header 
+                                    h2.decor__cards-title Dark Rock
+                                article.decor__cards-article
+                                    p.decor__cards-text
+                                        span Чистая элегантность для стильных акцентов. Двенадцать изделий из фарфора WMF создадут на столе необычную структуру, похожую на камень, благодаря Dark Rock
+                            .decor__cards-img.decor__cards-img-darckrock
+                        li.decor__cards-item 
+                            section.decor__cards-description
+                                header.decor__cards-header 
+                                    h2.decor__cards-title Concrete
+                                article.decor__cards-article
+                                    p.decor__cards-text
+                                        span Пуританская, чарующая простотой красота, в ритме города
+                            .decor__cards-img.decor__cards-img-concrete
 
-        .decor__wr-tink-to-collection
-            a.decor__tink-to-collection Перейти к коллекции Декора
+                .decor__wr-tink-to-collection
+                    a.decor__tink-to-collection Перейти к коллекции Декора
 
-        .pdf__wr-catalog.pdf__wr-catalog_two-cards  
-            .pdf__catalog-content.pdf__catalog-content_two-cards
-                .pdf__catalog-card.pdf__catalog-card_decor-collections
-                a(href="#0").pdf__catalog-link 
-                    span.pdf_catalog-link_desctop Скачать InNature & Geometric
-                    span.pdf_catalog-link_mobile Скачать
-            .pdf__catalog-content.pdf__catalog-content_two-cards
-                .pdf__catalog-card.pdf__catalog-card_decor-dark-rock
-                a(href="#0").pdf__catalog-link 
-                    span.pdf_catalog-link_desctop Скачать Dark Rock & Concrete
-                    span.pdf_catalog-link_mobile Скачать
+                .pdf__wr-catalog.pdf__wr-catalog_two-cards  
+                    .pdf__catalog-content.pdf__catalog-content_two-cards
+                        .pdf__catalog-card.pdf__catalog-card_decor-collections
+                        a(href="#0").pdf__catalog-link 
+                            span.pdf_catalog-link_desctop Скачать InNature & Geometric
+                            span.pdf_catalog-link_mobile Скачать
+                    .pdf__catalog-content.pdf__catalog-content_two-cards
+                        .pdf__catalog-card.pdf__catalog-card_decor-dark-rock
+                        a(href="#0").pdf__catalog-link 
+                            span.pdf_catalog-link_desctop Скачать Dark Rock & Concrete
+                            span.pdf_catalog-link_mobile Скачать
 
 
-include modules/footer
+        include modules/footer

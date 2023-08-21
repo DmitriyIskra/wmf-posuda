@@ -1,0 +1,176 @@
+.modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    /* временное решение */
+    height: 2147px;
+    padding-top: 0.89vw;
+
+    background: rgb(0, 0, 0, 0.4);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 20.83vw;
+    padding-top: 0.89vw;
+    padding-bottom: 4.01vw;
+    padding-left: 1.04vw;
+    padding-right: 1.04vw;
+
+    background: #ffffff;
+    border-radius: 0.52vw;
+
+    transform: translate(-50%, -50%);
+}
+
+.modal__header {
+    display: flex;
+
+    align-items: center;
+}
+
+.modal__title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.25vw;
+    text-align: center;
+
+    flex-grow: 1;
+}
+
+.modal__close {
+    height: 1.04vw;
+    width: 1.04vw;
+
+    background: no-repeat url(../svg/modal-close.svg);
+    background-position: center;
+    background-size: 100%;
+
+    cursor: pointer;
+}
+
+.modal__underline {
+    width: 100%;
+    height: 3px;
+    margin-top: 0.16vw;
+
+    background: no-repeat url(../svg/modal-underline.svg);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.modal__form {
+    margin-top: 1.98vw;
+}
+
+.modal__form-list {
+    display: flex;
+    gap: 0.52vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal__wr-form-item {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.modal__label {
+    display: none;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 0.83vw;
+}
+
+.modal__text-invalid {
+    display: none;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 0.83vw;
+
+    color: #FF0000;
+}
+
+.modal__label_active {
+    display: block;
+}
+
+.modal__form-element {
+    height: 2.60vw;
+    width: 15.63vw;
+    padding-left: 0.36vw;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.04vw;
+
+    border-radius: 0.42vw;
+    border: 1px solid #666666;
+    color: #666666;
+}
+
+.modal__form-element_invalid {
+    border: 1px solid #FF0000;
+}
+
+.modal__required {
+    background: no-repeat url(../svg/modal-required-element.svg);
+    background-position: top 0.31vw right 0.31vw;
+}
+
+.modal__wr-button {
+    display: flex;
+    margin-top: 1.56vw;
+
+    justify-content: center;
+}
+
+.modal__button {
+    width: 15.63vw;
+    height: 2.86vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 1.25vw;
+
+    border-radius: 0.42vw;
+    background: #333;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+.modal__social-list {
+    display: flex;
+    margin-top: 1.82vw;
+    gap: 0.89vw;
+
+    justify-content: center;
+}
+
+.modal__social-item {
+    width: 2.60vw;
+    height: 2.60vw;
+}
+
+.modal__social-link_whatsapp {
+    background: no-repeat url(../svg/modal-watsapp.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.modal__social-link_email {
+    background: no-repeat url(../svg/modal-email.svg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.modal__social-link_telegram {
+    background: no-repeat url(../svg/modal-telegram.svg);
+    background-position: center;
+    background-size: 100%;
+}
