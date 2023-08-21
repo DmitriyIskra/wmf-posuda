@@ -3,7 +3,7 @@
     padding-bottom: 8.85vw;
 
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
 }
 
 .about-marmites__line-right {
@@ -56,7 +56,7 @@
 }
 
 .presentation__title_marmites {
-    font-size: 3vw;
+    font-size: 2.59vw;
 }
 
 @media ( min-width: 436px) {
@@ -112,7 +112,7 @@
 
 .advantages-bc__wrapper {
     width: 76vw;
-    margin-top: 0.52vw;
+    margin-top: -1vw;
 }
 
 .advantages-bc__title {
@@ -134,7 +134,7 @@
 .advantages-bc__cards-wrapper {
     display: flex;
     margin-top: 2.35vw;
-    gap: 1.61vw;
+    gap: 0.55vw;
 
     flex-direction: column;
 }
@@ -147,7 +147,7 @@
 
 .advantages-bc__wr-card-item {
     display: flex;
-    width: 37.85vw;
+    width: 37.76vw;
     min-height: 24.84vw;
     padding-left: 1.04vw;
     padding-right: 1.04vw;
@@ -173,7 +173,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 3.12vw;
+    font-size: 2.59vw;
 
     color: #ffffff;
 

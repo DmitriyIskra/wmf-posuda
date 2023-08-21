@@ -59,5 +59,4 @@ import './css/presentation-quadro-marmites.css';
 import './css/swedish-line-about-marmites.css';
 import './css/advantages-cards.css';
 import './css/modal.css';
-import './css/open-callback-form.css'
 import './css/banner.css';

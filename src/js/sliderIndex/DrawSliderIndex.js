@@ -34,12 +34,12 @@ export default class DrawSliderIndex {
                 this.scrollLine.style.transform = `translateX(${0}px)`;
     
                 this.sliderList = this.slider.querySelector('.main__slider-list');
-            }, 299)
+            }, 499)
             
             this.counter = 0;
         }
 
-        this.scrollLine.style.transition = 'all 0.3s linear';
+        this.scrollLine.style.transition = 'all 0.5s linear';
 
         
     }
@@ -62,7 +62,7 @@ export default class DrawSliderIndex {
             this.counter = 2
 
             setTimeout(() => {
-                this.scrollLine.style.transition = 'all 0.3s linear';
+                this.scrollLine.style.transition = 'all 0.5s linear';
 
                 this.scrollLine.style.transform = `translateX(${(widthSlider * this.counter) * -1}px)`;
 
@@ -71,7 +71,7 @@ export default class DrawSliderIndex {
 
             setTimeout(() => {
                 this.scrollLine.children[1].remove();
-            }, 350)
+            }, 550)
             
             return;
         }

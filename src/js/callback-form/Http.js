@@ -4,6 +4,7 @@ export default class Http {
     }
 
     async getForm() {
-        const response = await fetch('../modal-form/modal-form.html');
+        const response = await fetch('../../modal-form/modal-form.html');
+        return response;
     }
 }

@@ -161,6 +161,13 @@ if(advantages) {
 
 // S T A R T  C A L B A C K  F O R M
 
+const getFormButton = document.querySelector('.main__button-feedback');
 
+if(getFormButton) {
+    const redrawCallback = new RedrawCallback();
+    const http = new Http();
+    const controlCallback = new ControlCallback(getFormButton, http, redrawCallback);
+    controlCallback.init();
+}
 
 // E N D  C A L B A C K  F O R M
