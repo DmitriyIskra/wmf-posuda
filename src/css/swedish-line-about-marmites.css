@@ -23,7 +23,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 1.46vw;
+    font-size: 1.35vw;
 
     color: #333333;
 
@@ -56,7 +56,7 @@
 }
 
 .presentation__title_marmites {
-    font-size: 2.59vw;
+    font-size: 2.08vw;
 }
 
 @media ( min-width: 436px) {
@@ -65,7 +65,7 @@
     }
 
     .presentation__text_mobile {
-        font-size: 1.382vw;
+        font-size: 1.15vw;
     }
 }
 
@@ -119,7 +119,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
+    font-size: 2.08vw;
 
     flex-direction: column;
 }
@@ -128,7 +128,7 @@
     margin-top: 2.40vw;
 
     font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
+    font-size: 1.15vw;
 }
 
 .advantages-bc__cards-wrapper {
@@ -148,7 +148,7 @@
 .advantages-bc__wr-card-item {
     display: flex;
     width: 37.76vw;
-    min-height: 24.84vw;
+    min-height: 17.84vw;
     padding-left: 1.04vw;
     padding-right: 1.04vw;
     padding-bottom: 1.04vw;
@@ -173,7 +173,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 2.59vw;
+    font-size: 2.08vw;
 
     color: #ffffff;
 
@@ -181,8 +181,8 @@
 }
 
 .advantages-bc__wr-card-icon {
-    height: 3.65vw;
-    width: 3.65vw;
+    height: 2.65vw;
+    width: 2.65vw;
 }
 
 .advantages-bc__wr-icon_handles {
@@ -213,7 +213,7 @@
     margin-top: 0.94vw;
 
     font-family: 'WMFRotis-Regular';
-    font-size: 1.36vw;
+    font-size: 1.15vw;
 
     color: #ffffff;
 }

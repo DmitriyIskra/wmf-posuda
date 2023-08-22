@@ -13,7 +13,7 @@
 .advantages__wr-control-item {
     display: flex;
     font-family: 'WMFRotis-Bold';
-    font-size: 1.67vw;
+    font-size: 1.46vw;
 
     flex-direction: column;
 
@@ -55,15 +55,15 @@
 
 .advantages__card-title {
     font-family: 'WMFRotis-Bold';
-    font-size: 2.59vw;
+    font-size: 2.08vw;
     line-height: 1;
 }
 
 .advantages__card-text {
-    margin-top: 1.35vw;
+    margin-top: 1.15vw;
     
     font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
+    font-size: 1.15vw;
     line-height: 1.05;
 }
 

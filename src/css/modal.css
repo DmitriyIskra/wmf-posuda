@@ -88,6 +88,8 @@
 
     font-family: 'WMFRotis-Regular';
     font-size: 0.83vw;
+
+    cursor: pointer;
 }
 
 .modal__text-invalid {

@@ -455,26 +455,38 @@
 @media ( max-width: 435px ) {
     .new-easy-card__card-wmf-edita {
         background: no-repeat url(../img/card-description-wmf-edita-mobile.png);
+        background-size: auto 100%;
+        background-position: center;
     }
     
     .new-easy-card__card-wmf-elea {
         background: no-repeat url(../img/card-description-wmf-elea-mobile.png);
+        background-size: auto 100%;
+        background-position: center;
     }
     
     .new-easy-card__card-wmf-enia {
         background: no-repeat url(../img/card-description-wmf-enia-mobile.png);
+        background-size: auto 100%;
+        background-position: center;
     }
     
     .new-easy-card__card-wmf-sara {
         background: no-repeat url(../img/card-description-wmf-sara-mobile.png);
+        background-size: auto 100%;
+        background-position: center;
     }
 
     .new-easy-card__card-wmf-sofia {
         background: no-repeat url(../img/card-description-wmf-sofia-mobile.png);
+        background-size: auto 100%;
+        background-position: center;
     }
     
     .new-easy-card__card-wmf-scala {
         background: no-repeat url(../img/card-description-wmf-scala-mobile.png);
+        background-size: auto 100%;
+        background-position: center;
     }
 }
 

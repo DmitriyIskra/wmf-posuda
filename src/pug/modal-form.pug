@@ -6,15 +6,15 @@
     form(name="modal-form").modal__form
         ul.modal__form-list
             li.modal__wr-form-item
-                label#name.modal__label.modal__label_active Ваше имя
+                label.modal__label.modal__label_active(for="name") Ваше имя
                 input#name.modal__form-element.modal__name(name="name" placeholder='Имя')
-            li.modal__wr-form-item
-                label#phone.modal__label.modal__label_active Ваш телефон
-                .modal__text-invalid.modal__invalid-phone Вы ввели некорректно телефон
+            li.modal__wr-form-item.modal__wr-form-item_phone
+                label.modal__label.modal__label_active(for="phone") Ваш телефон
+                span.modal__text-invalid.modal__invalid-phone Вы ввели некорректно телефон
                 input#phone.modal__form-element.modal__phone.modal__required-mark(name="phone" placeholder='+7 (000) 000-00-00')
-            li.modal__wr-form-item
-                label#email.modal__label.modal__label_active Ваша почта
-                .modal__text-invalid.modal__invalid-mail Введите корректно Ваш E-mail
+            li.modal__wr-form-item.modal__wr-form-item_email
+                label.modal__label.modal__label_active(for="email") Ваша почта
+                span.modal__text-invalid.modal__invalid-mail Введите корректно Ваш E-mail
                 input#email.modal__form-element.modal__email.modal__required-mark(name="email" placeholder='Почта')
         .modal__wr-button
             button.modal__button Отправить
