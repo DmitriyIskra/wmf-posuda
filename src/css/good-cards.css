@@ -5,9 +5,8 @@
 
 .good-card__wr-card-list {
     display: flex;
-    padding-left: 6vw;
+    padding-left: 2.3vw;
 
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -30,8 +29,15 @@
 
 
 .good-card__wr-card-item {
-    width: 13.02vw;
+    display: flex;
+    width: 33.333%;
     margin-top: 2.60vw;
+
+    justify-content: flex-end;
+}
+
+.good-card__wrapper-link {
+    width: 13.2vw;
 }
 
 .catalog-good-first-line {

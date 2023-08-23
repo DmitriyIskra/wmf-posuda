@@ -273,6 +273,7 @@
     position: relative;
 
     display: flex;
+    height: min-content;
     gap: 0.26vw;
 }
 

@@ -29,6 +29,7 @@ import ControlCallback from './callback-form/ControlCallback.js';
 import Http from './callback-form/Http.js';
 import RedrawCallback from './callback-form/RedrawCallback.js';
 import ValidationForm from './callback-form/Validation.js';
+import IMask from 'imask'
 
 
 
@@ -154,13 +155,13 @@ if(advantages) {
 const getFormButton = document.querySelector('.main__button-feedback');
 
 if(getFormButton) {
-    const regExpPhone = /^\+?(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/;
+    const regExpPhone = /^\+7\(\d{1,3}\)\d{3}-\d{2}-\d{2}$/ ///^\+7(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/;
     const regExpEmail = /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}/i;
 
     const validationForm = new ValidationForm(regExpPhone, regExpEmail)
     const redrawCallback = new RedrawCallback();
     const http = new Http('../modal-form.html');
-    const controlCallback = new ControlCallback(getFormButton, http, redrawCallback, validationForm);
+    const controlCallback = new ControlCallback(getFormButton, http, redrawCallback, validationForm, IMask);
     controlCallback.init();
 }
 

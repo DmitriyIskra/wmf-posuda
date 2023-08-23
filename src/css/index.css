@@ -135,7 +135,7 @@
     flex-direction: column;
 }
 
-.main__slider-content-header > span {
+.main__slider-content-header span {
     line-height: 1;
 }
 
@@ -149,7 +149,7 @@
     flex-direction: column;
 }
 
-.main__slider-content-text > span {
+.main__slider-content-text span {
     line-height: 1.1;
 }
 
@@ -313,7 +313,7 @@
     object-fit: cover;
 }
 
-.main__article-img > img {
+.main__article-img img {
     height: 100%;
     width: 100%;
 

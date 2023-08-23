@@ -2,13 +2,15 @@ export default class RedrawCallback {
     constructor() {
         this.modalWrapper = null;
 
+        this.modalWrapper = null;
         this.modal = null;
         
         this.form = null;
+        this.wrPhone = null;
         this.phone = null;
+        this.wrEmail = null;
         this.email = null;
-
-        this.counterInputNum = null;
+        this.modalUrl = null;
     }
 
     renderModal(text) {
@@ -41,6 +43,7 @@ export default class RedrawCallback {
         this.phone = this.form.phone;
         this.wrEmail = this.form.querySelector('.modal__wr-form-item_email');
         this.email = this.form.email;
+        this.modalUrl = this.form.querySelector('.modal__url');
     }
 
     openModal() {
@@ -67,6 +70,9 @@ export default class RedrawCallback {
 
         // забираем класс активности у модалки
         this.modalWrapper.classList.add('modal-wrapper_unactive');
+
+        // обнуляем каунтер
+        this.counterPhone = 3;
     }
 
     // задаем invalid ответственным элементам
@@ -81,9 +87,5 @@ export default class RedrawCallback {
         element.children[0].classList.add('modal__label_active');
         element.children[1].classList.remove('modal__label_active');
         element.children[2].classList.remove('modal__form-element_invalid');
-    }
-
-    maskPhone() {
-
     }
 }

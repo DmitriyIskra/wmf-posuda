@@ -11,11 +11,13 @@
             li.modal__wr-form-item.modal__wr-form-item_phone
                 label.modal__label.modal__label_active(for="phone") Ваш телефон
                 span.modal__text-invalid.modal__invalid-phone Вы ввели некорректно телефон
-                input#phone.modal__form-element.modal__phone.modal__required-mark(name="phone" placeholder='+7 (000) 000-00-00')
+                input#phone.modal__form-element.modal__phone.modal__required-mark(name="phone" placeholder='+7(000)000-00-00')
             li.modal__wr-form-item.modal__wr-form-item_email
                 label.modal__label.modal__label_active(for="email") Ваша почта
                 span.modal__text-invalid.modal__invalid-mail Введите корректно Ваш E-mail
                 input#email.modal__form-element.modal__email.modal__required-mark(name="email" placeholder='Почта')
+            li.modal__wr-form-item.modal__wr-form-item_url 
+                input.modal__form-element.modal__url(name="URL")
         .modal__wr-button
             button.modal__button Отправить
     ul.modal__social-list

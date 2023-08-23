@@ -100,7 +100,7 @@
 .filter__sub-item-box_active {
     background-color: #999999;
     background-image: url(../svg/filter-item-active.svg);
-    background-size: auto 100%;
+    background-size: auto 80%;
     background-repeat: no-repeat;
     background-position: center;
 }

@@ -2,7 +2,7 @@
     display: flex;
     padding-bottom: 8.85vw;
 
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
  
@@ -68,9 +68,7 @@
 
 .new-easy__description-article {
     margin-top: 3.33vw;
-}
 
-.new-easy__description-wr-text {
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 
@@ -148,7 +146,7 @@
     flex-direction: column;
 }
 
-.new-easy-card__text {
+.new-easy-card__wr-text {
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 }
@@ -234,7 +232,7 @@
 }
 
 @media( max-width: 435px ) {
-    .new-easy-card__text {
+    .new-easy-card__wr-text {
         width: 56vw;
 
         font-size: 3.73vw;
@@ -432,11 +430,7 @@
 @media ( max-width: 435px ) {
     .new-easy__description-article {
         margin-top: 6.93vw;
-    }
-}
 
-@media ( max-width: 435px ) {
-    .new-easy__description-wr-text {
         font-size: 3.73vw;
     }
 }

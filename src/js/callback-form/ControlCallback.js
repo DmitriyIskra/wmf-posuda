@@ -1,20 +1,21 @@
 export default class ControlCallback {
-    constructor(getFormButton, http, redrawCallback, validation) {
+    constructor(getFormButton, http, redrawCallback, validation, IMask) {
         this.buttonGetForm = getFormButton;
         this.redraw = redrawCallback;
         this.http = http;
         this.validation = validation;
+        this.Imask = IMask;
 
         this.modal = null;
         this.form = null;
         this.phone = null;
         this.email = null;
+        this.modalUrl = null;
 
         this.onClick = this.onClick.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
-        this.onInput = this.onInput.bind(this);
         this.onBlur = this.onBlur.bind(this);
-        this.onFocus = this.onFocus.bind(this)
+        this.onFocus = this.onFocus.bind(this);
     }
 
     init() {
@@ -31,8 +32,6 @@ export default class ControlCallback {
 
         this.modal.addEventListener('click', this.onClick);
         this.form.addEventListener('submit', this.onSubmit);
-        this.phone.addEventListener('input', this.onInput);
-        this.email.addEventListener('input', this.onInput);
         this.phone.addEventListener('blur', this.onBlur);
         this.email.addEventListener('blur', this.onBlur);
         this.phone.addEventListener('focus', this.onFocus);
@@ -55,9 +54,14 @@ export default class ControlCallback {
             this.form = this.redraw.form;
             this.phone = this.redraw.phone;
             this.email = this.redraw.email;
+            this.modalUrl = this.redraw.modalUrl;
 
             // регистрируем слушатели событий на форме
             this.registerEvents();
+
+            const mask = new this.Imask(this.phone, {
+                mask: '+{7}(000)000-00-00',
+            })
 
             return;
         }
@@ -72,12 +76,13 @@ export default class ControlCallback {
         
     }
 
-    onSubmit(e) {
+    async onSubmit(e) {
         e.preventDefault();
 
         const phone = this.phone.value;
         const email = this.email.value;
 
+        // если поля пустые будут проставлены классы invalid
         if(!phone) {
             this.redraw.invalid(this.phone.closest('.modal__wr-form-item'));
         }   
@@ -86,15 +91,21 @@ export default class ControlCallback {
             this.redraw.invalid(this.email.closest('.modal__wr-form-item')); 
         } 
 
-        console.log('submit')
+        // собираем значения на проверку присутствия невалидности
+        const validPhone = this.phone.matches('.modal__form-element_invalid');
+        const validEmail = this.email.matches('.modal__form-element_invalid');
+        // забираем url на котором была форма
+        this.modalUrl.value = window.location.href;
+
+        // если одно из значений true значит не отправляем данные
+        // так как одно из значений не валидно
+        if(validPhone || validEmail) return;
+
+        const formData = new FormData(this.form);
+
+        console.log(Array.from(formData)); 
     }
 
-    onInput(e) {
-        console.log(e)
-        if(e.target.matches('#phone') && parseInt(e.data)) {
-            const curentValue = e.target.value;
-        }
-    }
 
     // при фокусе все свойства невалидности сбрасываем, чтоб не раздражать
     // красным цветом
@@ -102,15 +113,6 @@ export default class ControlCallback {
         console.log('focus2')
         if(e.target.matches('.modal__form-element_invalid')) {
             this.redraw.resetInvalid(e.target.closest('.modal__wr-form-item'));
-        }
-
-        if(e.target.matches('#phone')) {
-            e.preventDefault();
-            e.target.value = '+7(__)___ __ __';
-            setTimeout(() => {
-                this.phone.selectionStart = this.phone.selectionEnd = 3;
-            })
-            
         }
     }
 
