@@ -115,12 +115,21 @@
 
 @media( max-width: 435px ) {
     .good-card__wr-card-list {
+        padding-left: 0;
         gap: 10vw;
     }
 }
 
 @media( max-width: 435px ) {
     .good-card__wr-card-item {
+        width: 100%;
+
+        justify-content: center;
+    }
+}
+
+@media( max-width: 435px ) {
+    .good-card__wrapper-link {
         width: 100%;
     }
 }

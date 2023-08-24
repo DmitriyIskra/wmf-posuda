@@ -27,7 +27,7 @@
     flex-direction: column;
 }
 
-.presentation__text {
+.presentation__wr-text p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.406vw;
 
@@ -62,15 +62,10 @@
 }
 
 @media (max-width: 435px) {
-    .presentation__wr-text {
+    .presentation__wr-text p {
         width: 100%;
         margin-top: 3.20vw;
-        gap: 5.07vw;
-    }
-}
 
-@media (max-width: 435px) {
-    .presentation__text {
         font-size: 3.73vw;
     }
 }

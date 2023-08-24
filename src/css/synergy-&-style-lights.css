@@ -6,7 +6,7 @@
 .ssl {
     display: flex;
     padding-bottom: 15.52vw;
-
+ 
     align-items: center;    
     flex-direction: column;
 }
@@ -84,14 +84,12 @@
     margin-top: 3.33vw;
     gap: 2vw;
 
-    flex-direction: column;
-}
-
-.ssl__description-text {   
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 
     color: #333333;
+
+    flex-direction: column;
 }
 
 .ssl__img {
@@ -343,9 +341,7 @@ div.ssl__cards-arrow-link {
 
     .ssl__wr-description-text {
         margin-top: 6.93vw;
-    }
 
-    .ssl__description-text {
         font-size: 3.73vw;
     }
 

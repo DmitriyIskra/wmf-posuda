@@ -2,7 +2,7 @@
     width: 76vw;
     margin: 0 auto;
 }
-
+ 
 .ssl-collection {
     display: flex;
     padding-bottom: 14.64vw;
@@ -153,7 +153,9 @@
 
 .ssl-collection__wr-description-text {
     margin-top: 1.93vw;
+}
 
+.ssl-collection__wr-description-text p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 
@@ -622,7 +624,9 @@
 @media( max-width: 435px ) {
     .ssl-collection__wr-description-text {
         margin-top: 6.93vw;
+    }
 
+    .ssl-collection__wr-description-text p {
         font-size: 3.73vw;
     }
 }

@@ -5,7 +5,7 @@
     margin-top: -0.36vw;
 }
 
-.advantages__control-list {
+.advantages__control-list { 
     display: flex;
     gap: 3.75vw;
 }
@@ -59,7 +59,7 @@
     line-height: 1;
 }
 
-.advantages__card-text {
+.advantages__wr-card-text p {
     margin-top: 1.15vw;
     
     font-family: 'WMFRotis-Regular';
@@ -144,13 +144,13 @@
 
 @media ( max-width: 435px ) { 
     .advantages__card-title {
-        font-size: 6.67vw;
-        line-height: normal;
+        font-size: 6.67vw; 
+        line-height: normal; 
     }
 }
 
 @media ( max-width: 435px ) { 
-    .advantages__card-text {
+    .advantages__wr-card-text p {
         margin-top: 5.33vw;
 
         font-size: 3.73vw;

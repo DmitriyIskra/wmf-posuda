@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.about-quadro__line-right {
+.about-quadro__line-right { 
     margin-top: 4.22vw;
 }
 
@@ -19,7 +19,7 @@
     background-size: 100%;
 }
 
-.about-quadro__banner-text {
+.about-quadro__banner-text p {
     display: flex;
 
     font-family: 'WMFRotis-Bold';
@@ -32,6 +32,10 @@
 
 .about-quadro__banner-text-mobile {
     display: none;
+}
+
+.about-quadro__banner-text-mobile p {
+    display: flex;
 
     font-family: 'WMFRotis-Bold';
     font-size: 3.73vw;
@@ -51,9 +55,6 @@
     align-items: center;
 }
 
-.wr-description-card__description-marmites {
-    width: 37vw;
-}
  
 
 
@@ -75,7 +76,7 @@
 
 /* Н А Ч А Л О  П Р Е И М У Щ Е С Т В А */
 
-.about-quadro__advantages__card-text {
+.about-quadro__advantages__card-text p {
     display: flex;
     gap: 2.34vw;
 
@@ -243,7 +244,7 @@
     }
 
     .about-quadro__banner-text-mobile {
-        display: flex;
+        display: block;
     }
 }
 
@@ -276,7 +277,7 @@
 }
 
 @media ( max-width: 435px ) { 
-    .about-quadro__advantages__card-text {
+    .about-quadro__advantages__card-text p {
         gap: 5.07vw;
     }
 }

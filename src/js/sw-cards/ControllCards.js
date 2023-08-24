@@ -8,7 +8,7 @@ export default class ControllCards {
         this.onTouchEnd = this.onTouchEnd.bind(this);
     }
 
-    init() {
+    init() { 
         this.registerEvents();
     }
 

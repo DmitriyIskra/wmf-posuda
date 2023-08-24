@@ -139,7 +139,7 @@
     line-height: 1;
 }
 
-.main__slider-content-text {
+.main__slider-content-text p {
     display: flex;
     margin-top: 1.82vw;
 
@@ -286,15 +286,12 @@
     margin-top: 3.07vw; 
     gap: 1.93vw;
 
-    flex-direction: column;
-}
-
-.main__article-text-item {
-    
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 
     color: #333;
+
+    flex-direction: column;
 }
 
 .main__wr-article-img {
@@ -308,7 +305,7 @@
 
 .main__article-img {
     height: 100%;
-    width: 100%;
+    width: 100%; 
 
     object-fit: cover;
 }
@@ -514,14 +511,10 @@ div.sw-cards__cards-arrow-link {
 @media( max-width: 435px ) {
     .main__wr-article-text {
         margin-top: 2.07vw;
-    }
-} 
 
-@media( max-width: 435px ) {
-    .main__article-text-item {
         font-size: 3.73vw;
     }
-}
+} 
 
 
 

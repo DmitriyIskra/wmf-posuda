@@ -309,13 +309,13 @@
 
 .new-easy__wr-tableware-text {
     width: 22.60vw;
-}
+} 
 
 .new-easy__tableware-text_mobile {
     display: none;
 }
 
-.new-easy__tableware-text {
+.new-easy__wr-tableware-text p {
     display: flex;
 
     font-family: 'WMFRotis-Regular';
@@ -526,6 +526,10 @@
 
 @media ( max-width: 435px ) {
     .new-easy__tableware-text_mobile {
+        display: block;
+    }
+
+    .new-easy__tableware-text_mobile p {
         display: flex;
 
         font-family: 'WMFRotis-Regular';

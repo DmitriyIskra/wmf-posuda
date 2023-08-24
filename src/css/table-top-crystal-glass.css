@@ -3,7 +3,7 @@
     padding-bottom: 8.85vw;
 
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
 }
 
 .crystal-glass__banner {
@@ -20,7 +20,7 @@
     font-size: 3.33vw;
 }
 
-.crystal-glass__banner-text {
+.crystal-glass__banner-text p {
     display: flex;
     margin-top: 1.82vw;
 
@@ -32,7 +32,7 @@
     flex-direction: column;
 }
 
-.crystal-glass__banner-text_mobile {
+.crystal-glass__banner-text_mobile p {
     display: none;
     margin-top: 1.60vw;
 
@@ -78,7 +78,7 @@
     font-size: 3.13vw;
 }
 
-.crystal-glass__smell-text {
+.crystal-glass__wr-smell-text p {
     display: flex;
     margin-top: 1.77vw;
     gap: 1.98vw;
@@ -240,11 +240,11 @@
         font-size: 8.53vw;
     }
 
-    .crystal-glass__banner-text {
+    .crystal-glass__banner-text p {
         display: none;
     }
 
-    .crystal-glass__banner-text_mobile {
+    .crystal-glass__banner-text_mobile p {
         display: flex;
     }
 }
@@ -283,7 +283,7 @@
 }
 
 @media ( max-width: 435px ) { 
-    .crystal-glass__smell-text {
+    .crystal-glass__wr-smell-text p {
         margin-top: 4.80vw;
         gap: 5.33vw;
 

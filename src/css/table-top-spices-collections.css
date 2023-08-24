@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.tt-spices-collections__line-right {
+.tt-spices-collections__line-right { 
     margin-top: 4.22vw;
 }
 
@@ -64,13 +64,11 @@
 }
 
 @media ( max-width: 435px ) { 
-    .wr-description-card__text-tt-pure-urban {
-        margin-top: 0;
-    }
-    
+
     .wr-description-card__text-tt-pure-exclusiv  {
         font-size: initial;
         margin-top: 0;
         line-height: initial;
     }
+    
 }

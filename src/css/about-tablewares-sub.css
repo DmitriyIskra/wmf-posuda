@@ -2,7 +2,7 @@
     display: flex;
     padding-bottom: 8.85vw;
 
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
 
@@ -12,7 +12,7 @@
     background-size: 100%;
 }
 
-.about-tablewares-sub__banner-text {
+.about-tablewares-sub__banner p {
     width: 22.58vw;
     margin-top: 15.78vw;
     margin-left: 9.95vw;
@@ -74,7 +74,9 @@
 .about-tablewares-sub__card-description-text {
     width: 46.5vw;
     margin-top: 0.52vw;
+}
 
+.about-tablewares-sub__card-description-text p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
     line-height: 1;
@@ -82,7 +84,7 @@
     color: #333333;
 }
 
-.about-tablewares-sub__card-text_first-article {
+.about-tablewares-sub__card-text_first-article p {
     line-height: normal;
 }
 
@@ -117,7 +119,7 @@
     line-height: 1;
 }
 
-.about-tablewares-sub__card-description-text_bottom {
+.about-tablewares-sub__card-description-text_bottom p {
     margin-top: 1.41vw;
 }
 
@@ -198,7 +200,9 @@
 
 .about-tablewares-sub__durability-text {
     margin-top: 2.40vw;
+}
 
+.about-tablewares-sub__durability-text p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 }
@@ -268,7 +272,9 @@
 
 .about-tablewares-sub__wr-durability-card-text {
     margin-top: 0.94vw;
+}
 
+.about-tablewares-sub__wr-durability-card-text p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.36vw;
 
@@ -295,7 +301,7 @@
 }
 
 @media ( max-width: 435px ) { 
-    .about-tablewares-sub__banner-text {
+    .about-tablewares-sub__banner p {
         width: 51.58vw;
         margin-top: 25.78vw;
         margin-left: 6.5vw;
@@ -353,7 +359,9 @@
     .about-tablewares-sub__card-description-text {
         width: 100%;
         margin-top: 2.93vw;
+    }
 
+    .about-tablewares-sub__card-description-text p {
         font-size: 3.73vw;
         line-height: normal;
     }
@@ -470,7 +478,7 @@
 }
 
 @media ( max-width: 435px ) { 
-    .about-tablewares-sub__durability-text {
+    .about-tablewares-sub__durability-text p {
         font-size: 3.73vw;
     }
 }
@@ -512,10 +520,12 @@
 @media ( max-width: 435px ) { 
     .about-tablewares-sub__wr-durability-card-text {
         margin-top: 5.33vw;
+    }
 
+    .about-tablewares-sub__wr-durability-card-text p {
         font-size: 3.73vw;
     }
-}
+} 
 
 @media ( max-width: 435px ) { 
     .about-tablewares-sub__wr-durability-card-text_knive {

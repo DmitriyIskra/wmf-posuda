@@ -4,7 +4,7 @@
     height: 32.71vw;
 
     background-size: cover;
-    background-position: center;
+    background-position: center; 
 
     flex-direction: column;
     align-items: flex-start;
@@ -45,7 +45,7 @@
     font-size: 3.65vw;
 }
 
-.wr-description-card__text {
+.wr-description-card__wr-text p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.4vw;
 
@@ -238,7 +238,7 @@
 }
 
 @media ( max-width: 435px ) {
-    .wr-description-card__text {
+    .wr-description-card__wr-text p {
         font-size: 3.73vw;
     }
 }
@@ -562,7 +562,7 @@
         background-position: center;
         background-size: auto 100%;
     }
-
+ 
     .wr-description-card__banner_mobile-tt-urban {
         background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
         background-position: center;
@@ -604,10 +604,10 @@
     .wr-description-card__banner_mobile-marmites-fresh {
         background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
         background-position: center;
-        background-size: auto 100%;
+        background-size: auto 100%; 
     }
 
-    .wr-description-card__card-marmites-economy {
+    .wr-description-card__banner_mobile-marmites-economy {
         background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.png);
         background-position: center;
         background-size: auto 100%;

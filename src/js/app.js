@@ -10,7 +10,7 @@ import DrawSlider from './slider-product-card/DrawSlider.js';
 import ControlTech from './tech-info-product/ControlTech.js';
 import DrawInfo from './tech-info-product/drawTech.js'; 
 
-import ControllCards from './sw-cards/controllCards.js';
+import ControllCards from './sw-cards/ControllCards.js';
 import RedrawCards from './sw-cards/RedrawCards.js';
 
 import ControlAsideFilter from './aside-filter/controlAsideFilter.js';
@@ -159,8 +159,8 @@ if(getFormButton) {
     const regExpEmail = /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}/i;
 
     const validationForm = new ValidationForm(regExpPhone, regExpEmail)
-    const redrawCallback = new RedrawCallback();
-    const http = new Http('../modal-form.html');
+    const redrawCallback = new RedrawCallback();// 
+    const http = new Http('https://dmitriyiskra.github.io/mf-proect-show/modal-form.html'); // ../modal-form.html
     const controlCallback = new ControlCallback(getFormButton, http, redrawCallback, validationForm, IMask);
     controlCallback.init();
 }

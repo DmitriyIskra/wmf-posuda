@@ -2,7 +2,7 @@
     display: flex;
     padding-bottom: 8.85vw;
 
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
 }
 
@@ -56,17 +56,14 @@
 .firstglass-article__wr-text {
     display: flex;
     gap: 1.88vw;
-
     margin-top: 1.25vw;
 
-    flex-direction: column;
-}
-
-.firstglass-article__text {
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 
     color: #333333;
+
+    flex-direction: column;
 }
 
 .firstglass__wr-article-img_mobile {
@@ -162,7 +159,7 @@
 }
 
 @media ( max-width: 435px ) { 
-    .firstglass-article__text {
+    .firstglass-article__wr-text p {
         font-size: 3.73vw;
     }
 }

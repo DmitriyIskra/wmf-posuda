@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.tt-serv-collections__line-right {
+.tt-serv-collections__line-right { 
     margin-top: 4.22vw;
 }
 
@@ -64,9 +64,6 @@
 }
 
 @media ( max-width: 435px ) { 
-    .wr-description-card__text-tt-pure-urban {
-        margin-top: 0;
-    }
     
     .wr-description-card__text-tt-pure-exclusiv  {
         font-size: initial;

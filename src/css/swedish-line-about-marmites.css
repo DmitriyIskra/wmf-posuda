@@ -19,7 +19,7 @@
     background-size: 100%;
 }
 
-.about-marmites__banner-text {
+.about-marmites__banner-text p {
     display: flex;
 
     font-family: 'WMFRotis-Bold';
@@ -32,6 +32,10 @@
 
 .about-marmites__banner-text-mobile {
     display: none;
+}
+
+.about-marmites__banner-text-mobile p {
+    display: flex;
 
     font-family: 'WMFRotis-Bold';
     font-size: 3.5vw;
@@ -49,11 +53,7 @@
 
     flex-direction: column;
     align-items: center;
-}
-
-.wr-description-card__description-marmites {
-    width: 37vw;
-}
+} 
 
 .presentation__title_marmites {
     font-size: 2.08vw;
@@ -64,7 +64,7 @@
         width: 40.46vw;
     }
 
-    .presentation__text_mobile {
+    .presentation__text_mobile p {
         font-size: 1.15vw;
     }
 }
@@ -126,7 +126,9 @@
 
 .advantages-bc__text {
     margin-top: 2.40vw;
+}
 
+.advantages-bc__text p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.15vw;
 }
@@ -141,7 +143,7 @@
 
 .advantages-bc__wr-card-list {
     display: flex;
-
+ 
     justify-content: space-between;
 }
 
@@ -211,7 +213,9 @@
 
 .advantages-bc__wr-card-text {
     margin-top: 0.94vw;
+}
 
+.advantages-bc__wr-card-text p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.15vw;
 
@@ -247,7 +251,7 @@
     }
 
     .about-marmites__banner-text-mobile {
-        display: flex;
+        display: block;
     }
 }
 
@@ -331,7 +335,7 @@
 }
 
 @media ( max-width: 435px ) { 
-    .advantages-bc__text {
+    .advantages-bc__text p {
         font-size: 3.73vw;
     }
 }
@@ -399,7 +403,9 @@
 @media ( max-width: 435px ) { 
     .advantages-bc__wr-card-text {
         margin-top: 5.33vw;
+    }
 
+    .advantages-bc__wr-card-text p {
         font-size: 3.73vw;
     }
 }

@@ -7,7 +7,7 @@
 }
 
 .tw-finishing__banner {
-    padding-top: 15.2vw;
+    padding-top: 15.2vw; 
     padding-left: 11.85vw;
 
     background: no-repeat url(../img/banner-special-finishing.png);
@@ -15,7 +15,7 @@
     background-size: 100%;
 }
 
-.tw-finishing__banner-text {
+.tw-finishing__banner p {
     width: 22.76vw;
 
     font-family: 'WMFRotis-Regular';
@@ -60,21 +60,25 @@
 .tw-finishing__card-text_big {
     width: 46.88vw;
     margin-top: 1.15vw;
+}
 
+.tw-finishing__card-text_big p {
     font-family: 'WMFRotis-Regular';
     font-size: 2.08vw;
 }
 
-.tw-finishing__card-text_two-rows {
+.tw-finishing__card-text_two-rows p {
     display: flex;
 
     flex-direction: column;
 }
 
-.tw-finishing__card-text_small {
+.tw-finishing__card-text_small { 
     width: 46vw;
     margin-top: 1.46vw;
+}
 
+.tw-finishing__card-text_small p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 }
@@ -203,7 +207,7 @@
 }
 
 @media ( max-width: 435px ) { 
-    .tw-finishing__banner-text {
+    .tw-finishing__banner p {
         width: 51.76vw;
 
         font-size: 3.73vw;
@@ -252,7 +256,11 @@
     .tw-finishing__card-text_small {
         width: 100%;
         margin-top: 4.80vw;
-    
+    }
+}
+
+@media ( max-width: 435px ) { 
+    .tw-finishing__card-text_small p {
         font-family: 'WMFRotis-Regular';
         font-size: 3.73vw;
     }

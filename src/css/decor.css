@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
 }
-
+ 
 .decor__banner {
     background: no-repeat url(../img/banner-decor.png);
     background-position: center;
@@ -65,7 +65,7 @@
     margin-top: 3.33vw;
 }
 
-.decor__description-wr-text {
+.decor__description-article p {
     font-family: 'WMFRotis-Regular';
     font-size: 1.46vw;
 
@@ -131,7 +131,7 @@
     gap: 1.82vw;
 }
 
-.decor__cards-text {
+.decor__cards-article p {
     display: flex;
 
     font-family: 'WMFRotis-Regular';
@@ -277,7 +277,7 @@
 }
 
 @media ( max-width: 435px ) {
-    .decor__description-wr-text {
+    .decor__description-article p {
         font-size: 3.73vw;
     }
 }
@@ -340,12 +340,16 @@
 }
 
 @media ( max-width: 435px ) {
-    .decor__cards-text {
+    .decor__cards-article p {
         font-size: 5.33vw;
         text-align: center;
     }
 
     .decor__cards-text_mobile {
+        display: block;
+    }
+
+    .decor__cards-text_mobile p {
         display: flex;
         font-size: 5.33vw;
         text-align: center;
