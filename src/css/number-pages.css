@@ -3,7 +3,7 @@
     width: 76vw;
     margin-top: 2.71vw;
 
-    justify-content: flex-end;
+    justify-content: flex-end; 
 }
 
 .number-pages {
@@ -24,18 +24,28 @@
     cursor: pointer;
 }
 
+.number-pages__arrow-left_unactive {
+    display: none;
+}
+
 .number-pages-list {
     display: flex;
     gap: 1.04vw;
 }
 
-.number-page-item {
+.number-page-link {
     font-family: 'WMFRotis-Bold';
     font-size: 1.04vw;
 
     color: #777;
 
     cursor: pointer;
+}
+
+.number-page-link_active {
+    color: rgba(119, 119, 119, 0.7);
+
+    pointer-events: none;
 }
 
 .number-pages__arrow-right {
@@ -51,20 +61,20 @@
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .wr-number-pages {
         width: 87vw;
         margin-top: 14.13vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .number-pages {
         gap: 1.1vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .number-pages__arrow-left {
         height: 8vw;
         width: 8vw;
@@ -73,19 +83,19 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .number-pages-list {
         gap: 1.5vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .number-page-item {
         font-size: 4.27vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .number-pages__arrow-right {
         height: 8vw;
         width: 8vw;

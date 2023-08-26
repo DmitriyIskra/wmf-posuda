@@ -388,7 +388,7 @@
 
 /* М О Б И Л Ь Н А Я  В Е Р С И Я */
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .header__wr-content {
         max-width: 86.67vw;
 
@@ -396,39 +396,39 @@
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .header__icon-mobile-nav {
         display: block;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .nav {
         display: none;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .logo {
         height: 10.93vw;
         width: 9.33vw;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .header__icon-search {
         height: 6.5vw;
         width: 6.5vw;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .header__wr-content {
         align-items: center;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .header__long-underline {
         height: 3px;
         width: 95%;
@@ -440,32 +440,32 @@
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .header__wr-place-search {
         padding-top: 4.80vw;
         padding-bottom: 3.47vw;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .header__form-search {
         width: 86.5%;
     }
 }
 
-@media(max-width: 435px) { 
+@media( max-width: 961px ) { 
     .header__place-search {
         font-size: 4.27vw;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .close-submenu {
         display: none;
     }
 } 
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .mask-sub-menu {
         top: 13.12vw;
     }

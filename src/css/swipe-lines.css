@@ -16,7 +16,7 @@
 }
 
 
-@media( max-width: 435px ) { 
+@media( max-width: 961px ) { 
     .swipe-lines__cards-arrow {
         display: flex;
         height: 18.67vw;
@@ -34,7 +34,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .swipe-lines__cards-swipe-circle {
         height: 14.67vw;
         width: 14.67vw;
@@ -46,7 +46,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .swipe-lines__cards-arrow-link {
         height: 0;
         width: 0;

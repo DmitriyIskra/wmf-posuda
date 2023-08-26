@@ -286,13 +286,13 @@
 
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .main-about-tablewares {
         padding-bottom: 25.60vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__banner {    
         background: no-repeat url(../img/banner-about-tablewares-mobile.png); 
         background-position: center;
@@ -300,7 +300,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__banner p {
         width: 51.58vw;
         margin-top: 25.78vw;
@@ -310,13 +310,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__line-right {
         display: none;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wrapper-main-content {
         margin-top: 8.53vw;
         padding-top: 1.87vw;
@@ -327,7 +327,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-card-description {
         width: 87vw;
 
@@ -335,13 +335,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__card-description {
         width: 100%;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__card-description-title_desctop {
         display: none;
     }
@@ -355,7 +355,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__card-description-text {
         width: 100%;
         margin-top: 2.93vw;
@@ -367,7 +367,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__card-img_big {
         width: 100%;
         height: 112vw;
@@ -379,7 +379,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__card-img_small-first {
         width: 100%;
         height: 112vw;
@@ -391,13 +391,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__card-description-title_big {
         font-size: 6.67vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__card-img_small-second {
         width: 100%;
         height: 112vw;
@@ -409,13 +409,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-card-description-link_desctop {
         display: none; 
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-card-description-link_mobile {
         display: block;
         width: 100%;
@@ -424,7 +424,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__card-description-link_mobile {
         display: flex;
 
@@ -442,7 +442,7 @@
 
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__advantages-img_knives {
         background: no-repeat url(../img/advantages-img_knives-mobile.png);
         background-size: 101% auto;
@@ -465,25 +465,25 @@
 
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-durability {
         width: 87vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__durability-title {
         font-size: 6.67vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__durability-text p {
         font-size: 3.73vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-durability-card-list {
         margin-top: 6.67vw;
         gap: 1.5vw;
@@ -492,7 +492,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-durability-card-item {
         width: 100%;
         min-height: 71.20vw;
@@ -504,20 +504,20 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-durability-card-title {
         font-size: 6.67vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-durability-card-icon {
         height: 8vw;
         width: 8vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-durability-card-text {
         margin-top: 5.33vw;
     }
@@ -527,13 +527,13 @@
     }
 } 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-durability-card-text_knive {
         width: 52vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-durability-card-text_cromargan {
         width: 60vw;
     }

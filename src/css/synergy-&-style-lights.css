@@ -268,14 +268,14 @@ div.ssl__cards-arrow-link {
 
 /* МОБИЛЬНАЯ ВЕРСИЯ */
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl {
         padding-bottom: 24vw;
     }
 }
     
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-banner {
         padding-top: 16.66vw;
 
@@ -285,13 +285,13 @@ div.ssl__cards-arrow-link {
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-banner-text {
         margin-left: 4.4vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-banner-title-top {
         font-family: 'WMFRotis-Bold';
         font-size: 8.53vw;
@@ -306,7 +306,7 @@ div.ssl__cards-arrow-link {
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-description {
         margin-top: 3.47vw;
         padding-top: 5.07vw;
@@ -317,13 +317,13 @@ div.ssl__cards-arrow-link {
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__description-line-top {
         width: 63%;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__description-content { 
         display: flex;
         width: 86.67vw;
@@ -334,7 +334,7 @@ div.ssl__cards-arrow-link {
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__description-title {
         font-size: 6.1vw;
     }
@@ -357,7 +357,7 @@ div.ssl__cards-arrow-link {
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__description-line-bottom {
         width: 66%;
     }
@@ -368,21 +368,21 @@ div.ssl__cards-arrow-link {
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__cards-atmosphere-list {
         width: 86.67vw;
         margin-top: 6.67vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__cards-atmosphere-item {
         width: 100%;
         height: 78.67vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .cards-atmosphere-vogue {
         background: no-repeat url(../img/en-vogue-mobile.png);
         background-position: center;
@@ -412,39 +412,39 @@ div.ssl__cards-arrow-link {
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-collections {
         width: 86.67vw;
         margin-top: 17.33vw; 
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-collections-title {
         font-size: 6.1vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-collections-cards {
         margin-top: 6.67vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__cards-list {
         gap: 2px;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__cards-item {
         width: 100%;
         height: 112vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .cards-item-breakfast {
         background: no-repeat url(../img/breakfast-mobile.png);
         background-position: center;
@@ -476,7 +476,7 @@ div.ssl__cards-arrow-link {
     }
 }
 
-@media( max-width: 435px ) { 
+@media( max-width: 961px ) { 
     div.ssl__cards-arrow {
         position: static;
 
@@ -496,7 +496,7 @@ div.ssl__cards-arrow-link {
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     div.ssl__cards-swipe-circle {
         display: block;
         height: 14.67vw;
@@ -509,14 +509,14 @@ div.ssl__cards-arrow-link {
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     div.ssl__cards-arrow-link {
         height: 0;
         width: 0;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__cards-link-card {
         display: none;
     }
@@ -525,32 +525,32 @@ div.ssl__cards-arrow-link {
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-catalog {
         margin-top: 6.67vw; 
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-catalog-line-top {
         width: 93.4vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__catalog-content {
         width: 86.67vw;
         margin-top: 8vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__catalog-title {
         font-size: 6.67vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__catalog-card {
         width: 53.87vw;
         height: 76.27vw;
@@ -558,7 +558,7 @@ div.ssl__cards-arrow-link {
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__catalog-link {
         width: 53.87vw;
         height: 10.67vw;
@@ -570,7 +570,7 @@ div.ssl__cards-arrow-link {
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .ssl__wr-catalog-line-bottom {
         width: 93.5vw;
         margin-top: 8vw;
@@ -581,70 +581,3 @@ div.ssl__cards-arrow-link {
 
 
 
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}
-
-@media( max-width: 435px ) {
-    
-}

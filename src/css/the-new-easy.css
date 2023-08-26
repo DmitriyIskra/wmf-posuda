@@ -180,7 +180,7 @@
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .new-easy-card {
         width: 87vw;
         height: auto;
@@ -188,7 +188,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .new-easy-card__description {
         position: relative;
 
@@ -197,13 +197,13 @@
     }
 } 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .new-easy-card__description-text {
         gap: 4.53vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .new-easy-card__header {
         padding-top: 15.47vw;
         padding-left: 1.07vw;
@@ -211,13 +211,13 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .new-easy-card__main-title {
         font-size: 8.53vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .new-easy-card__sub-title {
         font-size: 4vw;
 
@@ -225,13 +225,13 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .new-easy-card__wr-text {
         margin-left: 1.07vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .new-easy-card__wr-text {
         width: 56vw;
 
@@ -239,7 +239,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .new-easy-card__wr-link {
         display: none;
     }
@@ -371,13 +371,13 @@
 
 /* М О Б И Л Ь Н А Я  В Е Р С И Я */
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .main-new-easy {
         padding-bottom: 38.67vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .new-easy__banner {
         background: no-repeat url(../img/banner-new-easy-mobile.png); /* не забыть поменять */
         background-position: center;
@@ -385,7 +385,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .new-easy__wrapper-main-content {
         margin-top: 0;
         gap: 6.67vw;
@@ -396,13 +396,13 @@
 /* Н А Ч А Л О  С Т А Т Ь Я */
 
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__description-line-top {
         margin-top: 8.53vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__description {
         width: 87vw;
         padding-top: 1.87vw;
@@ -412,7 +412,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__description-title {
         display: none;
     }
@@ -427,7 +427,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__description-article {
         margin-top: 6.93vw;
 
@@ -435,7 +435,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__description-line-bottom {
         width: 60vw;
     }
@@ -446,7 +446,7 @@
 
 /* Н А Ч А Л О  К А Р Т О Ч К И */
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy-card__card-wmf-edita {
         background: no-repeat url(../img/card-description-wmf-edita-mobile.png);
         background-size: auto 100%;
@@ -488,7 +488,7 @@
 
 /* Н А Ч А Л О  С Т О Л О В Ы Е  П Р И Б О Р Ы */
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__tableware-list {
         width: 87vw;
         gap: 2.67vw;
@@ -498,33 +498,33 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__tableware-item {
         width: 100%;
         min-height: 124.67vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__wr-tableware-img {
         width: 100%;
         height: 89.33vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__wr-tableware-text {
         width: 100%;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__tableware-text_desctop {
         display: none;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__tableware-text_mobile {
         display: block;
     }
@@ -546,31 +546,31 @@
 
 /* Н А Ч А Л О  P D F */
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     div.line-left_mobile-long {
         width: 100%;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__pdf-catalog-content {
         width: 100%;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__pdf-catalog-title {
         font-size: 5.87vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .new-easy__pdf-catalog-card {
         margin-top: 7.47vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .line-left_mobile-short {
         display: block;
         height: 0.10vw;

@@ -107,20 +107,20 @@
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .good-card__wr-content {
         width: 87vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .good-card__wr-card-list {
         padding-left: 0;
         gap: 10vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .good-card__wr-card-item {
         width: 100%;
 
@@ -128,25 +128,25 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .good-card__wrapper-link {
         width: 100%;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .good-card__wr-card-img {
         height: 73.33vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .good-card__wr-card-line {
         height: 0.80vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .good-card__wr-card-title {
         margin-top: 9.33vw;
     }
@@ -156,7 +156,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .good-card__card-link-button {
         height: 13.33vw;
         margin-top: 9vw;

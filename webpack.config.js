@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-module.exports = {
+module.exports = { 
   devServer: {
     port: 8800,
   },
@@ -84,6 +84,7 @@ module.exports = {
           filename: 'fonts/[name][ext]',  // указываем путь сборки
         }
       },
+      
 
     ],
   },

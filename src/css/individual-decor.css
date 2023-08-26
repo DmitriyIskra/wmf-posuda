@@ -133,7 +133,7 @@
 
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .main-individual-decor {
         padding-bottom: 38.67vw;
     }
@@ -141,19 +141,19 @@
 
 /* Н А Ч А Л О  С Т А Т Ь Я */
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .individual-decor__wrapper-main-content {
         margin-top: 0;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__description-line-top {
         margin-top: 13.07vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__description {
         width: 87vw;
         padding-top: 1.87vw;
@@ -163,7 +163,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__description-title {
         display: none;
     }
@@ -178,19 +178,19 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__description-article {
         margin-top: 6.93vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__description-article p {
         font-size: 3.73vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__description-line-bottom {
         width: 87vw;
     }
@@ -198,13 +198,13 @@
 
 /* К О Н Е Ц   С Т А Т Ь Я */
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__plates-list {
         width: 87vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__plates-item {
         padding: 5.87vw 0;
     
@@ -213,20 +213,20 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__plates-wr-description {
         width: 100%;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__plates-item-title {
         font-size: 6.40vw;
         text-align: center;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__pletes-item-text_mobile span {
         text-align: center;
     }
@@ -238,7 +238,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__plates-list-img {
         margin-top: 6.67vw;
 
@@ -247,13 +247,9 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .individual-decor__plates-item-img {
         width: 40vw;
         height: 40vw;
     }
-}
-
-@media ( max-width: 435px ) {
-    
 }

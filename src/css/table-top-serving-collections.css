@@ -33,13 +33,13 @@
 }
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .tt-serv-collections__main {
         padding-bottom: 25.60vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .tt-serv-collections__banner {
         padding-top: 13.66vw;
 
@@ -49,13 +49,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .tt-serv-collections__line-right {
         margin-top: 6.67vw; 
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .tt-serv-collections__wrapper-main-content {
         margin-top: 5.53vw;
         padding-top: 0;
@@ -63,7 +63,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     
     .wr-description-card__text-tt-pure-exclusiv  {
         font-size: initial;

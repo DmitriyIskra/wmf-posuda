@@ -225,13 +225,13 @@
 
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .main-decor {
         padding-bottom: 44.80vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .decor__banner {
         background: no-repeat url(../img/banner-decor-mobile.png);
         background-position: center;
@@ -239,13 +239,13 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__description-line-top {
         margin-top: 8.53vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__description {
         width: 87vw;
         padding-top: 1.87vw;
@@ -255,7 +255,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__description-title {
         display: none;
     }
@@ -270,32 +270,32 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__description-article {
         margin-top: 6.93vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__description-article p {
         font-size: 3.73vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__description-line-bottom {
         width: 65.5%;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__wr-cards-list {
         width: 87vw;
         margin-top: 6.67vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__cards-list {
         gap: 1.33vw;
 
@@ -303,7 +303,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__cards-item {
         min-height: 127.2vw;
         flex-direction: column;
@@ -313,33 +313,33 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__cards-description {
         width: 77.07vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__cards-header {
         margin-top: 4.80vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__cards-title {
         font-size: 9.60vw;
         text-align: center;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__cards-article {
         margin-top: 3.47vw;
         gap: 7.73vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__cards-article p {
         font-size: 5.33vw;
         text-align: center;
@@ -365,7 +365,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__cards-img {
         height: 51.47vw;
         width: 78.13vw;
@@ -375,7 +375,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__cards-img-innature {
         background: no-repeat url(../img/innature-mobile.png);
         background-size: auto 100%;
@@ -401,7 +401,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__wr-tink-to-collection {
         height: 13.33vw;
         width: 87vw;
@@ -410,7 +410,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .decor__tink-to-collection {
         font-size: 5.33vw;
 

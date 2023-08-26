@@ -275,10 +275,12 @@
     gap: 0.26vw;
 }
 
-.main_info-file-icon-pdf  {
+.main_info-file-icon  {
     width: 3.13vw;
     height: 3.13vw;
+}
 
+.pdf {
     background: no-repeat url(../svg/icon-pdf.svg);
     background-size: 100% auto;
     background-position: center;
@@ -310,39 +312,39 @@
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__wr-content-product {
         width: 100%;
         margin-top: 15.73vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__slider-container {
         width: 100%;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .swiper-page-product {
         display: block;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__wr-description-product {
         width: 100%;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__title-description-card {
         font-family: 'WMFRotis-Bold';
         font-size: 8.53vw;
     }
 } 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__wr-text-description-card {
         gap: 5.6vw;
 
@@ -352,7 +354,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__article-number {
         margin-top: 5.33vw;
 
@@ -361,7 +363,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__wr-button-feedback {
         position: static;
 
@@ -369,7 +371,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__button-feedback {
         height: 13.33vw;
         width: 100%;
@@ -381,26 +383,26 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__button-feedback::after {
         display: none;
     }
 }
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__line-page-product {
         display: block;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__wr-tech-info {
         padding-top: 0;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__nav-tech-info {
         border-bottom: 0;
         gap: 5px;
@@ -409,7 +411,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__nav-tech-info-item {
         display: flex;
         height: 13.33vw;
@@ -439,14 +441,14 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__tech-info-container {
         margin-top: 10.67vw;
         padding-left: 0;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__table-tech-list {
         width: 100%;
 
@@ -454,13 +456,13 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__table-tech-item {
         height: 13.33vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__tech-title-text {
         width: 50%;
         padding-left: 2.33vw;
@@ -485,7 +487,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__info-files-list {
         margin-left: 3.73vw;
         gap: 8vw;
@@ -494,14 +496,14 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .main__info-files-item {
         gap: 2.67vw;
     }
-}
+} 
 
-@media( max-width: 435px ) {
-    .main_info-file-icon-pdf  {
+@media( max-width: 961px ) {
+    .main_info-file-icon  {
         height: 21.33vw;
         width: 21.33vw;
     }

@@ -35,25 +35,25 @@
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .wr-number-pages-top {
         margin-top: 8.53vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .goods-content__main {
         padding-bottom: 14.13vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .wr-bread-crumbs {
         display: none;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .goods-content__banner {
         padding-top: 13.66vw;
 
@@ -63,7 +63,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .goods-content__wrapper-main-content {
         width: auto; 
         gap: 16vw;
@@ -74,14 +74,14 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .goods-content__aside {
         width: 100%;
         padding-right: 0;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .goods-content__wr-filter {
         display: flex;
         width: 100%;
@@ -91,7 +91,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .goods-content__wr-content {
         width: 87vw;
     }

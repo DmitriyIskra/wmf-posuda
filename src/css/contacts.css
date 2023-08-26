@@ -116,14 +116,14 @@
 }
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__main {
         padding-top: 7.60vw;
         padding-bottom: 25.60vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__line-right {
         display: none;
     }
@@ -133,13 +133,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__line-right {
         margin-top: 6.67vw; 
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__wrapper-main-content {
         margin-top: 5.53vw;
         padding-top: 0;
@@ -148,13 +148,13 @@
 }
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__wrapper {
         background: none;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__info {
         width: 87vw;
 
@@ -163,7 +163,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__wr-info-text {
         width: 100%;
 
@@ -171,25 +171,25 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__info-main-title {
         font-size: 6.67vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__info-title {
         text-align: center;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__info-title {
         font-size: 5.53vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__wr-info-address-text_desctop {
         display: none;
     }
@@ -199,7 +199,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__wr-info-address-text {
         font-size: 5.53vw;
 
@@ -207,21 +207,21 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__wr-social-links {
         margin-top: 4vw;
         gap: 6.46vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__wr-social-icon {
         width: 8.6vw;
         height: 8.6vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .contacts__wr-info-map {
         width: 100%;
         height: 55.65vw;
@@ -229,22 +229,3 @@
     }
 }
 
-@media ( max-width: 435px ) { 
-    
-}
-
-@media ( max-width: 435px ) { 
-    
-}
-
-@media ( max-width: 435px ) { 
-    
-}
-
-@media ( max-width: 435px ) { 
-    
-}
-
-@media ( max-width: 435px ) { 
-    
-}

@@ -203,7 +203,7 @@
 
 
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     div.wr-description-card {
         width: 87vw;
         height: auto;
@@ -212,45 +212,45 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .wr-description-card__description {
         width: 100%;
         padding: 0;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .wr-description-card__header {
         padding: 0;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .wr-description-card__title {
         font-size: 6.67vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .wr-description-card__wr-text {
         margin-top: 5.33vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .wr-description-card__wr-text p {
         font-size: 3.73vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .wr-description-card__banner_mobile {
         display: block;
         margin-top: 8vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .wr-description-card__wr-link {
         width: 100%;
         height: 13.33vw;
@@ -258,7 +258,7 @@
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .wr-description-card__link {
         font-size: 5.33vw;
 
@@ -266,7 +266,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .wr-description-card__banner_mobile-barock {
         background: no-repeat url(../img/about-tablewares-two-wmf-barock-mobile.png);
         background-position: center;
@@ -447,7 +447,7 @@
 
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .wr-description-card__banner_mobile-divine {
         background: no-repeat url(../img/about-tablewares-two-wmf-barock-mobile.png);
         background-position: center;

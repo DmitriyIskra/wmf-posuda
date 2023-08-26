@@ -107,19 +107,19 @@
 
 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .filter {
         width: 87vw;
     } 
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .filter__main-item-title-box {
         padding: 2vw 2.13vw 2vw 6.40vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .filter__main-item-static-title {
         padding: 2vw 2.13vw 2vw 6.40vw;
 
@@ -127,13 +127,13 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .filter__main-item-title {
         font-size: 6.40vw;
     }
 } 
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .filter__main-item-box {
         height: 8vw;
         width: 8vw;
@@ -142,7 +142,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .filter__sub-item-title-box { 
         padding: 1.7vw 2.13vw 1.52vw 6.40vw;
 
@@ -154,13 +154,13 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .filter__sub-item-title {
         font-size: 5.33vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .filter__sub-item-box {
         height: 5.33vw;
         width: 5.33vw;
@@ -174,28 +174,3 @@
     }
 }
 
-
-
-@media( max-width: 435px ) {
-
-}
-
-@media( max-width: 435px ) {
-
-}
-
-@media( max-width: 435px ) {
-
-}
-
-@media( max-width: 435px ) {
-
-}
-
-@media( max-width: 435px ) {
-
-}
-
-@media( max-width: 435px ) {
-
-}

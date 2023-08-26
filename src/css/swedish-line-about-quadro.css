@@ -221,13 +221,13 @@
 
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-quadro__main {
         padding-bottom: 25.60vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .about-quadro__banner {
         padding-top: 31.66vw;
         padding-left: 5.5vw;
@@ -238,7 +238,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-quadro__banner-text {
         display: none;
     }
@@ -248,13 +248,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-quadro__line-right {
         margin-top: 6.67vw; 
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-quadro__wrapper-main-content {
         margin-top: 5.53vw;
         padding-top: 0;
@@ -262,7 +262,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .presentation__img-quadro-1 {
         background: no-repeat url(../img/presentation-about-quadro-img-1-mobile.png);
         background-position: center;
@@ -276,7 +276,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-quadro__advantages__card-text p {
         gap: 5.07vw;
     }

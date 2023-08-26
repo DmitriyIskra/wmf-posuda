@@ -191,7 +191,7 @@
 
 
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal {
         width: 87vw;
         padding-bottom: 5.01vw;
@@ -201,19 +201,19 @@
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__form {
         margin-top: 3.98vw;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__form-list {
         gap: 3vw;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__title {
         padding-left: 7vw;
 
@@ -221,7 +221,7 @@
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__close {
         height: 4.8vw;
         width: 6.8vw;
@@ -230,19 +230,19 @@
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__wr-form-item {
         width: 73%;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__label {
         font-size: 3vw;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__form-element {
         height: 6.6vw;
         width: 100%;
@@ -251,13 +251,13 @@
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__wr-button {
         width: 100%;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__button {
         width: 73%;
         height: 6.6vw;
@@ -268,24 +268,17 @@
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__social-list {
         margin-top: 5.82vw;
         gap: 2.5vw;
     }
 }
 
-@media(max-width: 435px) {
+@media( max-width: 961px ) {
     .modal__social-item {
         width: 6.6vw;
         height: 6.6vw;
     }
 }
 
-@media(max-width: 435px) {
-    
-}
-
-@media(max-width: 435px) {
-    
-}

@@ -228,13 +228,13 @@
 
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-marmites__main {
         padding-bottom: 25.60vw;
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .about-marmites__banner {
         padding-left: 5vw;
         padding-top: 16.66vw;
@@ -245,7 +245,7 @@
     }
 }
 
-@media( max-width: 435px ) {
+@media( max-width: 961px ) {
     .about-marmites__banner-text {
         display: none;
     }
@@ -255,13 +255,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-marmites__line-right {
         margin-top: 6.67vw; 
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .about-marmites__wrapper-main-content {
         margin-top: 5.53vw;
         padding-top: 0;
@@ -269,13 +269,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .presentation__title_marmites {
         font-size: 6.5vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .presentation__img-marmites-1 {
         background: no-repeat url(../img/presentation-about-marmites-img-1-mobile.png);
         background-position: center;
@@ -322,32 +322,32 @@
 
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__wrapper {
         width: 87vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__title {
         font-size: 6.67vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__text p {
         font-size: 3.73vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__cards-wrapper {
         margin-top: 6.67vw;
         gap: 2.67vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__wr-card-list {
         gap: 2.67vw;
 
@@ -355,7 +355,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__wr-card-item {
         width: 100%;
         min-height: 71.20vw;
@@ -368,7 +368,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__wr-card-header_desctop {
         display: none;
     }
@@ -378,14 +378,14 @@
     }
 } 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__wr-card-title {
         font-size: 6.45vw;
     }
 }
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__wr-card-title_top-str {
         display: flex;
 
@@ -393,14 +393,14 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__wr-card-icon {
         height: 8vw;
         width: 8vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .advantages-bc__wr-card-text {
         margin-top: 5.33vw;
     }

@@ -17,13 +17,13 @@
 }
 
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .line-write {
         margin-top: 13.07vw;
     }
 }
 
-@media ( max-width: 435px ) {
+@media ( max-width: 961px ) {
     .line-left {
         width: 60%;
     }

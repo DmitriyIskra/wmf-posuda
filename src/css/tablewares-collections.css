@@ -55,13 +55,13 @@
 /* К О Н Е Ц  К А Р Т О Ч К И  */
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .main-about-tablewares {
         padding-bottom: 25.60vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .tw-collections__banner { 
         padding-top: 64.9vw; 
         padding-left: 7.9vw;
@@ -72,7 +72,7 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .tw-collections__banner-link {    
         height: 10.67vw;
         width: 52.53vw;
@@ -83,13 +83,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .tw-collections__line-right {
         margin-top: 6.67vw; 
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .tw-collections__wrapper-main-content {
         margin-top: 5.53vw;
         padding-top: 0;

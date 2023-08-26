@@ -37,13 +37,13 @@
 /* К О Н Е Ц  К А Р Т О Ч К И  */
 
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .main-fd-all-collections {
         padding-bottom: 25.60vw;
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .fd-all-collections__banner { 
         padding-top: 64.9vw; 
         padding-left: 7.9vw;
@@ -54,13 +54,13 @@
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .fd-all-collections__line-right {
         margin-top: 6.67vw; 
     }
 }
 
-@media ( max-width: 435px ) { 
+@media ( max-width: 961px ) { 
     .fd-all-collections__wrapper-main-content {
         margin-top: 5.53vw;
         padding-top: 0;
