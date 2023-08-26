@@ -49,7 +49,7 @@
 
     background: no-repeat url(../svg/logo-article-index.svg);
     background-position: top right 13.9%;
-    background-size: auto 91.6%;
+    background-size: auto 90.6%;
 
     align-items: center;
     flex-direction: column;
@@ -74,7 +74,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
+    font-size: 2.60vw;
 
     flex-direction: column;
 }
@@ -82,10 +82,10 @@
 .ssl__wr-description-text {
     display: flex;
     margin-top: 3.33vw;
-    gap: 2vw;
+    gap: 2vw; 
 
     font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
+    font-size: 1.30vw;
 
     color: #333333;
 
@@ -157,7 +157,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
+    font-size: 2.60vw;
 
     flex-direction: column;
     align-items: flex-start;

@@ -160,7 +160,7 @@ if(getFormButton) {
 
     const validationForm = new ValidationForm(regExpPhone, regExpEmail)
     const redrawCallback = new RedrawCallback();// 
-    const http = new Http('https://dmitriyiskra.github.io/mf-proect-show/modal-form.html'); // ../modal-form.html
+    const http = new Http('https://dmitriyiskra.github.io/mf-show/modal-form.html'); // ../modal-form.html
     const controlCallback = new ControlCallback(getFormButton, http, redrawCallback, validationForm, IMask);
     controlCallback.init();
 }

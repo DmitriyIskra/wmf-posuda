@@ -15,7 +15,7 @@
     width: 31.98vw;
     padding-left: 2.34vw;
     padding-bottom: 1vw;
-    padding-right: 1vw;
+    padding-right: 2.5vw;
     
     background-color: rgba(255, 255, 255, 0.77);
 
@@ -42,12 +42,12 @@
 
 .wr-description-card__title {
     font-family: 'WMFRotis-Bold';
-    font-size: 3.65vw;
+    font-size: 2.60vw;
 }
 
 .wr-description-card__wr-text p {
     font-family: 'WMFRotis-Regular';
-    font-size: 1.4vw;
+    font-size: 1.30vw;
 
     color: #333333;
 }
