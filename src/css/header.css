@@ -147,10 +147,12 @@
 }
 
 .header__form-search {
+    height: 100%;
     width: 76%;
 }
 
 .header__place-search {
+    height: 100%;
     width: 100%;
     margin-left: 0.42vw; 
 
@@ -449,12 +451,15 @@
 
 @media( max-width: 961px ) {
     .header__form-search {
+        height: auto;
         width: 86.5%;
     }
 }
 
 @media( max-width: 961px ) { 
     .header__place-search {
+        height: auto;
+
         font-size: 4.27vw;
     }
 }

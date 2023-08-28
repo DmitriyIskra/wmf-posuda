@@ -8,7 +8,7 @@ export default class RedrawAsideFilter {
         // актуальный дочерний лист
         this.activeSubList = null;
         // список элементов активного листа
-        this.activeSubItems = null;
+        this.activeSubItems = null; 
         // общая высота списка элементов
         this.amountHeight = null;
 
@@ -16,6 +16,9 @@ export default class RedrawAsideFilter {
         this.activeSubTitle = null;
         // актуальный чекбокс пункта фильтра
         this.activeSubCheckboks = null;
+
+        // Коллекция измененных чекбоксав
+        this.chengedCheckbox = new Set(); 
 
         this.lastHover = null;
 
@@ -73,12 +76,17 @@ export default class RedrawAsideFilter {
     }
 
 
-    // выделяем чекбокс
+    // выделяем чекбокс или снимаем выделение чекбокса
     redrawSubItem(target) {
         this.activeSubTitle = target.children[0];
         this.activeSubCheckboks = target.children[1];
 
-        this.activeSubCheckboks.classList.toggle('filter__sub-item-box_active');        
+        this.activeSubCheckboks.classList.toggle('filter__sub-item-box_active');   
+        
+        // При изменении чекбокса собираем его в коллекцию
+        this.chengedCheckbox.add(this.activeSubCheckboks);
+
+        console.log(this.chengedCheckbox)
     }
 
     // !!! Подчеркивание добавляется и удаляется всегда не по клику а по наведению

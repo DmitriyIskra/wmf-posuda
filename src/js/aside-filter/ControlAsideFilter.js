@@ -7,7 +7,7 @@ export default class ControlAsideFilter {
         this.onClick = this.onClick.bind(this);
         this.onMouseOver = this.onMouseOver.bind(this);
         this.onMouseOut = this.onMouseOut.bind(this); 
-        this.onTouchStart = this.onTouchStart.bind(this);
+        this.onTouchStart = this.onTouchStart.bind(this); 
     }
 
     init() {

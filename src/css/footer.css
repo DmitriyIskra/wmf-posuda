@@ -2,11 +2,11 @@
     display: flex;
     padding-top: 2.97vw;
 
-    background: #333333;
+    background: #333333; 
 
     justify-content: center;
 }
-
+ 
 .footer__wr-content {
     display: flex;
     max-width: 85.94vw;
@@ -28,7 +28,7 @@
 }
 
 .footer__nav-item {
-    width: 13.2vw;
+    width: 14vw;
 }
 
 .footer__nav-link {
@@ -86,7 +86,7 @@
 }
 
 .footer__wr-logo {
-    width: 13.2vw;
+    width: 14vw;
 }
 
 .footer__logo-mf {
@@ -98,6 +98,8 @@
     background: no-repeat url(../svg/logo-footer.svg);
     background-position: center;
     background-size: 100%;
+
+    transition: all 0.2s ease; 
 }
 
 .footer__logo-ist {
@@ -115,22 +117,39 @@
 
 .footer__info-list {
     display: flex;
-    width: 13.2vw;
+    width: 14vw;
 
     flex-direction: column;
     gap: 1.56vw;
 }
 
 .footer__info-link {
-    display: inline;
+    display: flex;
     font-family: 'WMFRotis-Regular';
     font-size: 1.15vw;
+
+    flex-direction: column;
 
     color: #D9D9D9;
 }
 
+.footer__info-link span {
+    width: fit-content;
+}
+
+.footer__info-link span::after {
+    content: "";
+
+    display: block;
+    height: 1px;
+}
+
+.footer__info-link:hover span::after {
+    background: #ffffff;
+}
+
 .address {
-    width: 13.2vw;
+    width: 14vw;
 
     color: #D9D9D9;
 }
@@ -165,10 +184,23 @@
 }
 
 .address__phone-number-link {
+    width: fit-content;
+
     font-family: 'WMFRotis-Regular';
     font-size: 1.15vw;
 
     color: inherit;
+}
+
+.address__phone-number-link::after {
+    content: "";
+
+    display: block;
+    height: 1px;
+}
+
+.address__phone-number-link:hover::after {
+    background: #ffffff;
 }
 
 .address__social-icons-list {

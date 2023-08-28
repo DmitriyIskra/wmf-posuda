@@ -37,7 +37,7 @@
     font-family: 'WMFRotis-Bold';
     font-size: 1.04vw;
 
-    color: #777;
+    color: #777; 
 
     cursor: pointer;
 }
@@ -90,7 +90,7 @@
 }
 
 @media( max-width: 961px ) {
-    .number-page-item {
+    .number-page-link {
         font-size: 4.27vw;
     }
 }
