@@ -1,5 +1,5 @@
 .culture-cup__banner {
-    background: no-repeat url(../img/banner-culture-cup.png);
+    background: no-repeat url(../img/banner-culture-cup.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -10,7 +10,7 @@
     .culture-cup__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-culture-cup-mobile.png);
+        background: no-repeat url(../img/banner-culture-cup-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

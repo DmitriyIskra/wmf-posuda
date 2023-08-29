@@ -7,7 +7,7 @@
 }
  
 .decor__banner {
-    background: no-repeat url(../img/banner-decor.png);
+    background: no-repeat url(../img/banner-decor.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -153,25 +153,25 @@
 }
 
 .decor__cards-img-innature {
-    background: no-repeat url(../img/in-nature.png);
+    background: no-repeat url(../img/in-nature.webp);
     background-size: auto 100%;
     background-position: center;
 }
 
 .decor__cards-img-geometric {
-    background: no-repeat url(../img/geometric.png);
+    background: no-repeat url(../img/geometric.webp);
     background-size: auto 100%;
     background-position: center;
 }
 
 .decor__cards-img-darckrock {
-    background: no-repeat url(../img/dark-rock.png);
+    background: no-repeat url(../img/dark-rock.webp);
     background-size: auto 100%;
     background-position: center;
 }
 
 .decor__cards-img-concrete {
-    background: no-repeat url(../img/concrete.png);
+    background: no-repeat url(../img/concrete.webp);
     background-size: auto 100%;
     background-position: center;
 }
@@ -210,13 +210,13 @@
 
 
 .pdf__catalog-card_decor-collections {
-    background: no-repeat url(../img/pdf-decor-collections.png);
+    background: no-repeat url(../img/pdf-decor-collections.webp);
     background-size: auto 100%;
     background-position: center;
 }
 
 .pdf__catalog-card_decor-dark-rock {
-    background: no-repeat url(../img/pdf-decor-collections-2.png);
+    background: no-repeat url(../img/pdf-decor-collections-2.webp);
     background-size: auto 100%;
     background-position: center;
 }
@@ -233,7 +233,7 @@
 
 @media ( max-width: 961px ) { 
     .decor__banner {
-        background: no-repeat url(../img/banner-decor-mobile.png);
+        background: no-repeat url(../img/banner-decor-mobile.webp);
         background-position: center;
         background-size: 100%;
     }
@@ -377,25 +377,25 @@
 
 @media ( max-width: 961px ) {
     .decor__cards-img-innature {
-        background: no-repeat url(../img/innature-mobile.png);
+        background: no-repeat url(../img/innature-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
 
     .decor__cards-img-geometric {
-        background: no-repeat url(../img/geometric-mobile.png);
+        background: no-repeat url(../img/geometric-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
 
     .decor__cards-img-darckrock {
-        background: no-repeat url(../img/dark-rock-mobile.png);
+        background: no-repeat url(../img/dark-rock-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
 
     .decor__cards-img-concrete {
-        background: no-repeat url(../img/concrete-mobile.png);
+        background: no-repeat url(../img/concrete-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }

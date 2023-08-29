@@ -44,19 +44,19 @@
 }
 
 .swiper-slide-card1 {
-    background: no-repeat url(../img/img_slider_1.png);
+    background: no-repeat url(../img/img_slider_1.webp);
     background-size: auto 100%;
     background-position: center;
 }
 
 .swiper-slide-card2 {
-    background: no-repeat url(../img/img_slider_2.png);
+    background: no-repeat url(../img/img_slider_2.webp);
     background-size: auto 100%;
     background-position: center;
 }
 
 .swiper-slide-card3 {
-    background: no-repeat url(../img/img_slider_3.png);
+    background: no-repeat url(../img/img_slider_3.webp);
     background-size: auto 100%;
     background-position: center;
 }

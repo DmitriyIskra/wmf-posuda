@@ -1,5 +1,5 @@
 .quadro-module__banner {
-    background: no-repeat url(../img/banner-quadro-module.png);
+    background: no-repeat url(../img/banner-quadro-module.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -10,7 +10,7 @@
     .quadro-module__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-quadro-module-module.png);
+        background: no-repeat url(../img/banner-quadro-module-module.webp);
         background-position: center;
         background-size: auto 100%;
     }

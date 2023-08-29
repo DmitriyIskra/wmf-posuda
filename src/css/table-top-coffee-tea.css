@@ -1,6 +1,6 @@
 
 .coffee-tea__banner {
-    background: no-repeat url(../img/banner-coffee-tea.png);
+    background: no-repeat url(../img/banner-coffee-tea.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -11,7 +11,7 @@
     .coffee-tea__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-coffee-tea-mobile.png);
+        background: no-repeat url(../img/banner-coffee-tea-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

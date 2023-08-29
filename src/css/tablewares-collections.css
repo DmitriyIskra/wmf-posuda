@@ -10,7 +10,7 @@
     padding-top: 27.2vw;
     padding-left: 18.2vw;
 
-    background: no-repeat url(../img/banner-tw-collections.png);
+    background: no-repeat url(../img/banner-tw-collections.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -66,7 +66,7 @@
         padding-top: 64.9vw; 
         padding-left: 7.9vw;
         
-        background: no-repeat url(../img/banner-tw-collections-mobile.png); 
+        background: no-repeat url(../img/banner-tw-collections-mobile.webp); 
         background-position: center;
         background-size: auto 100%;
     }

@@ -14,7 +14,7 @@
     padding-top: 20.2vw;
     padding-left: 12.3vw;
 
-    background: no-repeat url(../img/banner-about-quadro.png);
+    background: no-repeat url(../img/banner-about-quadro.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -60,13 +60,13 @@
 
 
 .presentation__img-quadro-1 {
-    background: no-repeat url(../img/presentation-about-quadro-img-1.png);
+    background: no-repeat url(../img/presentation-about-quadro-img-1.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .presentation__img-quadro-2 {
-    background: no-repeat url(../img/presentation-about-quadro-img-2.png);
+    background: no-repeat url(../img/presentation-about-quadro-img-2.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -84,25 +84,25 @@
 }
 
 .advantages__img_skeleton {
-    background: no-repeat url(../img/advantages__img_skeleton.png);
+    background: no-repeat url(../img/advantages__img_skeleton.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .advantages__img_bridge {
-    background: no-repeat url(../img/advantages__img_bridge.png);
+    background: no-repeat url(../img/advantages__img_bridge.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .advantages__img_stand {
-    background: no-repeat url(../img/advantages__img_stand.png);
+    background: no-repeat url(../img/advantages__img_stand.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .advantages__img_materials {
-    background: no-repeat url(../img/advantages__img_materials.png);
+    background: no-repeat url(../img/advantages__img_materials.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -112,13 +112,13 @@
 /* P D F */
 
 .pdf__catalog-card_quadro-instruction {
-    background: no-repeat url(../img/pdf-about-quadro-instruction.png);
+    background: no-repeat url(../img/pdf-about-quadro-instruction.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .pdf__catalog-card_quadro-solution {
-    background: no-repeat url(../img/pdf-about-quadro-solution.png);
+    background: no-repeat url(../img/pdf-about-quadro-solution.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -187,7 +187,7 @@
     width: 32.50vw;
     height: 23.23vw;
 
-    background: no-repeat url(../img/about-quadro-map.png);
+    background: no-repeat url(../img/about-quadro-map.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -232,7 +232,7 @@
         padding-top: 31.66vw;
         padding-left: 5.5vw;
 
-        background: no-repeat url(../img/banner-about-quadro-mobile.png);
+        background: no-repeat url(../img/banner-about-quadro-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -264,13 +264,13 @@
 
 @media ( max-width: 961px ) { 
     .presentation__img-quadro-1 {
-        background: no-repeat url(../img/presentation-about-quadro-img-1-mobile.png);
+        background: no-repeat url(../img/presentation-about-quadro-img-1-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .presentation__img-quadro-2 {
-        background: no-repeat url(../img/presentation-about-quadro-img-2-mobile.png);
+        background: no-repeat url(../img/presentation-about-quadro-img-2-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -286,25 +286,25 @@
 
 @media (max-width: 435px) {
     .advantages__img_skeleton {
-        background: no-repeat url(../img/advantages__img_skeleton-mobile.png);
+        background: no-repeat url(../img/advantages__img_skeleton-mobile.webp);
         background-position: center;
         background-size: auto 101%;
     }
     
     .advantages__img_bridge {
-        background: no-repeat url(../img/advantages__img_bridge-mobile.png);
+        background: no-repeat url(../img/advantages__img_bridge-mobile.webp);
         background-position: center;
         background-size: auto 101%;
     }
     
     .advantages__img_stand {
-        background: no-repeat url(../img/advantages__img_stand-mobile.png);
+        background: no-repeat url(../img/advantages__img_stand-mobile.webp);
         background-position: center;
         background-size: auto 101%;
     }
     
     .advantages__img_materials {
-        background: no-repeat url(../img/advantages__img_materials-mobile.png);
+        background: no-repeat url(../img/advantages__img_materials-mobile.webp);
         background-position: center;
         background-size: auto 101%;
     }

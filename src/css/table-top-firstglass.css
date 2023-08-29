@@ -11,7 +11,7 @@
 }
 
 .firstglass__banner {
-    background: no-repeat url(../img/banner-firstglass.png);
+    background: no-repeat url(../img/banner-firstglass.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -92,7 +92,7 @@
     width: 31.41vw;
     height: 39.84vw;
 
-    background: no-repeat url(../img/firstglass__wr-description-img.png);
+    background: no-repeat url(../img/firstglass__wr-description-img.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -111,7 +111,7 @@
     .firstglass__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-firstglass-mobile.png);
+        background: no-repeat url(../img/banner-firstglass-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -175,7 +175,7 @@
         height: 112vw;
         margin-top: 5.07vw;
 
-        background: no-repeat url(../img/firstglass__wr-description-img-mobile.png);
+        background: no-repeat url(../img/firstglass__wr-description-img-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }

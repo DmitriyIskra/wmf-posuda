@@ -14,7 +14,7 @@
     padding-top: 13vw;
     padding-left: 11.7vw;
 
-    background: no-repeat url(../img/banner-about-marmites.png);
+    background: no-repeat url(../img/banner-about-marmites.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -70,13 +70,13 @@
 }
 
 .presentation__img-marmites-1 {
-    background: no-repeat url(../img/presentation-about-marmites-img-1.png);
+    background: no-repeat url(../img/presentation-about-marmites-img-1.webp);
     background-position: center;
     background-size: auto 100%;
 } 
 
 .presentation__img-marmites-2 {
-    background: no-repeat url(../img/presentation-about-marmites-img-2.png);
+    background: no-repeat url(../img/presentation-about-marmites-img-2.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -89,19 +89,19 @@
 
 
 .advantages__img_recycling {
-    background: no-repeat url(../img/advantages__img_recycling.png);
+    background: no-repeat url(../img/advantages__img_recycling.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .advantages__img_door-closer {
-    background: no-repeat url(../img/advantages__img_door-closer.png);
+    background: no-repeat url(../img/advantages__img_door-closer.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .advantages__img_cap {
-    background: no-repeat url(../img/advantages__img_cap.png);
+    background: no-repeat url(../img/advantages__img_cap.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -239,7 +239,7 @@
         padding-left: 5vw;
         padding-top: 16.66vw;
 
-        background: no-repeat url(../img/banner-about-marmites-mobile.png);
+        background: no-repeat url(../img/banner-about-marmites-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -277,7 +277,7 @@
 
 @media ( max-width: 961px ) { 
     .presentation__img-marmites-1 {
-        background: no-repeat url(../img/presentation-about-marmites-img-1-mobile.png);
+        background: no-repeat url(../img/presentation-about-marmites-img-1-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -287,7 +287,7 @@
 
         border: 1px solid #777777;
 
-        background: no-repeat url(../img/presentation-about-marmites-img-2-mobile.png);
+        background: no-repeat url(../img/presentation-about-marmites-img-2-mobile.webp);
         background-position: center;
         background-size: auto 101%;
     }
@@ -299,19 +299,19 @@
 
 @media (max-width: 435px) {
     .advantages__img_recycling {
-        background: no-repeat url(../img/advantages__img_recycling-mobile.png);
+        background: no-repeat url(../img/advantages__img_recycling-mobile.webp);
         background-position: center;
         background-size: auto 101%;
     }
     
     .advantages__img_door-closer {
-        background: no-repeat url(../img/advantages__img_door-closer-mobile.png);
+        background: no-repeat url(../img/advantages__img_door-closer-mobile.webp);
         background-position: center;
         background-size: auto 101%;
     }
     
     .advantages__img_cap {
-        background: no-repeat url(../img/advantages__img_cap-mobile.png);
+        background: no-repeat url(../img/advantages__img_cap-mobile.webp);
         background-position: center;
         background-size: auto 101%;
     }

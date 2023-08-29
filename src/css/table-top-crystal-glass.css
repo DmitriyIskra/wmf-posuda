@@ -10,7 +10,7 @@
     padding-top: 7.2vw;
     padding-left: 11.2vw;
 
-    background: no-repeat url(../img/banner-crystal-glass.png);
+    background: no-repeat url(../img/banner-crystal-glass.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -111,19 +111,19 @@
     width: 26.61vw;
     height: 44.43vw;
 
-    background: no-repeat url(../img/crystal-glass__wr-smell-right-img.png);
+    background: no-repeat url(../img/crystal-glass__wr-smell-right-img.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .glass__smell-small-img1 {
-    background: no-repeat url(../img/crystal-glass__smell-small-img1.png);
+    background: no-repeat url(../img/crystal-glass__smell-small-img1.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .glass__smell-small-img2 {
-    background: no-repeat url(../img/crystal-glass__smell-small-img2.png);
+    background: no-repeat url(../img/crystal-glass__smell-small-img2.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -228,7 +228,7 @@
         padding-top: 12.9vw; 
         padding-left: 4.8vw;
         
-        background: no-repeat url(../img/banner-crystal-glass-mobile.png); 
+        background: no-repeat url(../img/banner-crystal-glass-mobile.webp); 
         background-position: center;
         background-size: auto 100%;
     }
@@ -302,7 +302,7 @@
         width: 100%;
         height: 112vw;
 
-        background: no-repeat url(../img/crystal-glass__smell-small-img_mobile.png); 
+        background: no-repeat url(../img/crystal-glass__smell-small-img_mobile.webp); 
         background-position: center;
         background-size: auto 100%;
     }
@@ -313,13 +313,13 @@
     }
 
     .glass__smell-small-img1 {
-        background: no-repeat url(../img/crystal-glass__smell-small-img1.png);
+        background: no-repeat url(../img/crystal-glass__smell-small-img1.webp);
         background-position: center;
         background-size: 100%;
     }
     
     .glass__smell-small-img2 {
-        background: no-repeat url(../img/crystal-glass__smell-small-img2.png);
+        background: no-repeat url(../img/crystal-glass__smell-small-img2.webp);
         background-position: center;
         background-size: 100%;
     }

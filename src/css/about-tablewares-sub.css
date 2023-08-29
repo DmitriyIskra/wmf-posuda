@@ -7,7 +7,7 @@
 }
 
 .about-tablewares-sub__banner {
-    background: no-repeat url(../img/banner-about-tablewares.png);
+    background: no-repeat url(../img/banner-about-tablewares.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -92,7 +92,7 @@
     width: 27.24vw;
     height: 48.44vw;
 
-    background: no-repeat url(../img/about-tablewares__card-description-img_big.png);
+    background: no-repeat url(../img/about-tablewares__card-description-img_big.webp);
     background-size: auto 100%;
     background-position: center;
 }
@@ -101,7 +101,7 @@
     width: 27.24vw;
     height: 34.11vw;
 
-    background: no-repeat url(../img/about-tablewares__card-description-img_small-first.png);
+    background: no-repeat url(../img/about-tablewares__card-description-img_small-first.webp);
     background-size: auto 100%;
     background-position: center;
 }
@@ -127,7 +127,7 @@
     width: 27.08vw;
     height: 32.71vw;
 
-    background: no-repeat url(../img/about-tablewares__card-description-img_small-second.png);
+    background: no-repeat url(../img/about-tablewares__card-description-img_small-second.webp);
     background-size: auto 100%;
     background-position: center;
 }
@@ -162,19 +162,19 @@
 /* Н А Ч А Л О  П Р Е И М У Щ Е С Т В А */
 
 .advantages__img_knives {
-    background: no-repeat url(../img/advantages-img_knives.png);
+    background: no-repeat url(../img/advantages-img_knives.webp);
     background-size: 100%;
     background-position: center;
 }
 
 .advantages__img_balancing {
-    background: no-repeat url(../img/advantages-img_balancing.png);
+    background: no-repeat url(../img/advantages-img_balancing.webp);
     background-size: 100%;
     background-position: center;
 }
 
 .advantages__img_individuality {
-    background: no-repeat url(../img/advantages-img_individuality.png);
+    background: no-repeat url(../img/advantages-img_individuality.webp);
     background-size: 100%;
     background-position: center;
 }
@@ -294,7 +294,7 @@
 
 @media ( max-width: 961px ) { 
     .about-tablewares-sub__banner {    
-        background: no-repeat url(../img/banner-about-tablewares-mobile.png); 
+        background: no-repeat url(../img/banner-about-tablewares-mobile.webp); 
         background-position: center;
         background-size: auto 100%;
     }
@@ -373,7 +373,7 @@
         height: 112vw;
         margin-top: 8vw;
 
-        background: no-repeat url(../img/about-tablewares__card-description-img_big-mobile.png);
+        background: no-repeat url(../img/about-tablewares__card-description-img_big-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
@@ -385,7 +385,7 @@
         height: 112vw;
         margin-top: 8vw;
 
-        background: no-repeat url(../img/about-tablewares__card-description-img_small-first-mobile.png);
+        background: no-repeat url(../img/about-tablewares__card-description-img_small-first-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
@@ -403,7 +403,7 @@
         height: 112vw;
         margin-top: 8vw;
 
-        background: no-repeat url(../img/about-tablewares__card-description-img_small-second-mobile.png);
+        background: no-repeat url(../img/about-tablewares__card-description-img_small-second-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
@@ -444,19 +444,19 @@
 
 @media ( max-width: 961px ) { 
     .about-tablewares-sub__advantages-img_knives {
-        background: no-repeat url(../img/advantages-img_knives-mobile.png);
+        background: no-repeat url(../img/advantages-img_knives-mobile.webp);
         background-size: 101% auto;
         background-position: center;
     }
 
     .about-tablewares-sub__advantages-img_balancing {
-        background: no-repeat url(../img/advantages-img_balancing-mobile.png);
+        background: no-repeat url(../img/advantages-img_balancing-mobile.webp);
         background-size: 101% auto;
         background-position: center;
     }
 
     .about-tablewares-sub__advantages-img_individuality {
-        background: no-repeat url(../img/advantages-img_individuality-mobile.png);
+        background: no-repeat url(../img/advantages-img_individuality-mobile.webp);
         background-size: 101% auto;
         background-position: center;
     }

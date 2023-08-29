@@ -1,5 +1,5 @@
 .dispensers-all-position__banner {
-    background: no-repeat url(../img/banner-swedish-line-dispensers.png);
+    background: no-repeat url(../img/banner-swedish-line-dispensers.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -10,7 +10,7 @@
     .dispensers-all-position__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-swedish-line-dispensers-mobile.png);
+        background: no-repeat url(../img/banner-swedish-line-dispensers-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

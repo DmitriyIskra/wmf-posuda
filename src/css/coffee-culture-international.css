@@ -1,5 +1,5 @@
 .c-c-international__banner {
-    background: no-repeat url(../img/banner__c-c-international.png);
+    background: no-repeat url(../img/banner__c-c-international.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -10,7 +10,7 @@
     .c-c-international__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner__c-c-international-mobile.png);
+        background: no-repeat url(../img/banner__c-c-international-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
 
 module.exports = { 
   devServer: {
@@ -16,7 +17,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[hash].js',
-    assetModuleFilename: "img/[hash][ext][query]", // [name] или [hash], путь куда сохранять изображения
+    assetModuleFilename: "img/[name][ext][query]", // [name] или [hash], путь куда сохранять изображения
     clean: true, // очищает папку dist
   },
   module: {
@@ -67,7 +68,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpg|gif)$/i,
+        test: /\.(png|jpg|gif|webp)$/i, // 
         type: 'asset/resource',
       },
       {
@@ -88,20 +89,22 @@ module.exports = {
 
     ],
   },
-  plugins: [
+  plugins: [ 
     new HtmlWebPackPlugin({
       template: './src/pug/index.pug',
       filename: './index.html',   // куда компилировать
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false
       },
+      scriptLoading: 'blocking',
     }),
-    new HtmlWebPackPlugin({
+    new HtmlWebPackPlugin({ 
       template: './src/pug/page-vase.pug',
       filename: './page-vase.html',   // куда компилировать
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/synergy-&-style-lights.pug',
@@ -109,6 +112,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false 
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/ssl-collections-breakfast.pug',
@@ -116,6 +120,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false 
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/ssl-collections-supper.pug',
@@ -123,6 +128,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false 
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/ssl-collections-cuisine.pug',
@@ -130,6 +136,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/ssl-collections-furshet.pug',
@@ -137,6 +144,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/ssl-collections-banquet.pug',
@@ -144,6 +152,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/porcelain-synergy.pug',
@@ -151,6 +160,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/product-line-lifestyle.pug',
@@ -158,6 +168,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/decor.pug',
@@ -165,6 +176,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/individual-decor.pug',
@@ -172,6 +184,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/the-new-easy.pug',
@@ -179,6 +192,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/about-tablewares-sub.pug',
@@ -186,6 +200,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/tablewares-collections.pug',
@@ -193,6 +208,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/tablewares-all-tablewares.pug',
@@ -200,6 +216,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/serving-devices-all-collections.pug',
@@ -207,6 +224,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/serving-devices-all-serving-devices.pug',
@@ -214,6 +232,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/serving-devices-rodeo.pug',
@@ -221,6 +240,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/tablewares-special-finishing.pug',
@@ -228,6 +248,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/finishing-devices-all-collections.pug',
@@ -235,6 +256,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-crystal-glass.pug',
@@ -242,6 +264,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-coffee-tea.pug',
@@ -249,6 +272,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-coolers.pug',
@@ -256,6 +280,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-drinks-all-position.pug',
@@ -263,6 +288,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-drinks-all-collections.pug',
@@ -270,6 +296,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/coffee-culture-international.pug',
@@ -277,6 +305,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/culture-cup.pug',
@@ -284,6 +314,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-firstglass.pug',
@@ -291,6 +323,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-serving-all-positions.pug',
@@ -298,6 +332,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-serving-collections.pug',
@@ -305,6 +341,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-decor-all-positions.pug',
@@ -312,6 +350,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-decor-collections.pug',
@@ -319,6 +359,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-spices-all-positions.pug',
@@ -326,6 +368,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/table-top-spices-collections.pug',
@@ -333,6 +377,8 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
+
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/swedish-line-quadro-all-positions.pug',
@@ -340,6 +386,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/swedish-line-quadro-modules.pug',
@@ -347,6 +394,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/swedish-line-quadro-sets.pug',
@@ -354,6 +402,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/swedish-line-marmites-all-position.pug',
@@ -361,6 +410,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/swedish-line-marmites-collections.pug',
@@ -368,6 +418,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/swedish-line-dispensers-all-position.pug',
@@ -375,6 +426,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/swedish-line-serving-food-all-position.pug',
@@ -382,6 +434,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/contacts.pug',
@@ -389,6 +442,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/swedish-line-about-quadro.pug',
@@ -396,6 +450,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/swedish-line-about-marmites.pug',
@@ -403,6 +458,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     new HtmlWebPackPlugin({
       template: './src/pug/modal-form.pug',
@@ -410,6 +466,7 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
+      scriptLoading: 'blocking',
     }),
     
     
@@ -417,6 +474,19 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'css/[hash].css', // куда компилировать
       chunkFilename: '[id].css',
+    }),
+
+    new ImageminWebpWebpackPlugin({
+      config: [{
+        test: /.(jpe?g|png)/,
+        options: {
+          quality: 90,
+        },
+      }],
+      overrideExtension: true,
+      detailedLogs: false,
+      silent: false,
+      strict: true,
     }),
   ],
 };

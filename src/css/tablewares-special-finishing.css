@@ -10,7 +10,7 @@
     padding-top: 15.2vw; 
     padding-left: 11.85vw;
 
-    background: no-repeat url(../img/banner-special-finishing.png);
+    background: no-repeat url(../img/banner-special-finishing.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -131,31 +131,31 @@
 }
 
 .tw-finishing__card-img-pvd {
-    background: no-repeat url(../img/special-finishing-pvd.png);
+    background: no-repeat url(../img/special-finishing-pvd.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .tw-finishing__card-img-stonewashed {
-    background: no-repeat url(../img/special-finishing-stonewashed.png);
+    background: no-repeat url(../img/special-finishing-stonewashed.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .tw-finishing__card-img-highlights {
-    background: no-repeat url(../img/special-finishing-highlights.png);
+    background: no-repeat url(../img/special-finishing-highlights.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .tw-finishing__card-img-brushed {
-    background: no-repeat url(../img/special-finishing-brushed.png);
+    background: no-repeat url(../img/special-finishing-brushed.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .tw-finishing__card-img-individualization {
-    background: no-repeat url(../img/special-finishing-individualization.png);
+    background: no-repeat url(../img/special-finishing-individualization.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -200,7 +200,7 @@
         padding-top: 24.9vw; 
         padding-left: 7.6vw;
         
-        background: no-repeat url(../img/banner-special-finishing-mobile.png); 
+        background: no-repeat url(../img/banner-special-finishing-mobile.webp); 
         background-position: center;
         background-size: auto 100%;
     }
@@ -310,31 +310,31 @@
 
 @media ( max-width: 961px ) { 
     .tw-finishing__card-img-pvd {
-        background: no-repeat url(../img/special-finishing-pvd-mobile.png); 
+        background: no-repeat url(../img/special-finishing-pvd-mobile.webp); 
         background-position: center;
         background-size: auto 100%;
     }
 
     .tw-finishing__card-img-stonewashed {
-        background: no-repeat url(../img/special-finishing-stonewashed-mobile.png);
+        background: no-repeat url(../img/special-finishing-stonewashed-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .tw-finishing__card-img-highlights {
-        background: no-repeat url(../img/special-finishing-highlights-mobile.png);
+        background: no-repeat url(../img/special-finishing-highlights-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .tw-finishing__card-img-brushed {
-        background: no-repeat url(../img/special-finishing-brushed-mobile.png);
+        background: no-repeat url(../img/special-finishing-brushed-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .tw-finishing__card-img-individualization {
-        background: no-repeat url(../img/special-finishing-individualization-mobile.png);
+        background: no-repeat url(../img/special-finishing-individualization-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

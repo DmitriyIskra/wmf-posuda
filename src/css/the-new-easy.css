@@ -7,7 +7,7 @@
 }
  
 .new-easy__banner {
-    background: no-repeat url(../img/banner-new-easy.png);
+    background: no-repeat url(../img/banner-new-easy.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -252,19 +252,19 @@
 
 
 .new-easy-card__card-wmf-edita {
-    background: no-repeat url(../img/card-description-wmf-edita.png);
+    background: no-repeat url(../img/card-description-wmf-edita.webp);
 }
 
 .new-easy-card__card-wmf-elea {
-    background: no-repeat url(../img/card-description-wmf-elea.png);
+    background: no-repeat url(../img/card-description-wmf-elea.webp);
 }
 
 .new-easy-card__card-wmf-enia {
-    background: no-repeat url(../img/card-description-wmf-enia.png);
+    background: no-repeat url(../img/card-description-wmf-enia.webp);
 }
 
 .new-easy-card__card-wmf-sara {
-    background: no-repeat url(../img/card-description-wmf-sara.png);
+    background: no-repeat url(../img/card-description-wmf-sara.webp);
 }
 
 /* К О Н Е Ц  К А Р Т О Ч К И */
@@ -330,11 +330,11 @@
 
 
 .new-easy-card__card-wmf-sofia {
-    background: no-repeat url(../img/card-description-wmf-sofia.png);
+    background: no-repeat url(../img/card-description-wmf-sofia.webp);
 }
 
 .new-easy-card__card-wmf-scala {
-    background: no-repeat url(../img/card-description-wmf-scala.png);
+    background: no-repeat url(../img/card-description-wmf-scala.webp);
 }
 
 
@@ -354,7 +354,7 @@
 
 
 .new-easy__pdf-catalog-card {
-    background: no-repeat url(../img/pdf-new-easy.png);
+    background: no-repeat url(../img/pdf-new-easy.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -379,7 +379,7 @@
 
 @media ( max-width: 961px ) { 
     .new-easy__banner {
-        background: no-repeat url(../img/banner-new-easy-mobile.png); /* не забыть поменять */
+        background: no-repeat url(../img/banner-new-easy-mobile.webp); /* не забыть поменять */
         background-position: center;
         background-size: 100%;
     }
@@ -448,37 +448,37 @@
 
 @media ( max-width: 961px ) {
     .new-easy-card__card-wmf-edita {
-        background: no-repeat url(../img/card-description-wmf-edita-mobile.png);
+        background: no-repeat url(../img/card-description-wmf-edita-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
     
     .new-easy-card__card-wmf-elea {
-        background: no-repeat url(../img/card-description-wmf-elea-mobile.png);
+        background: no-repeat url(../img/card-description-wmf-elea-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
     
     .new-easy-card__card-wmf-enia {
-        background: no-repeat url(../img/card-description-wmf-enia-mobile.png);
+        background: no-repeat url(../img/card-description-wmf-enia-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
     
     .new-easy-card__card-wmf-sara {
-        background: no-repeat url(../img/card-description-wmf-sara-mobile.png);
+        background: no-repeat url(../img/card-description-wmf-sara-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
 
     .new-easy-card__card-wmf-sofia {
-        background: no-repeat url(../img/card-description-wmf-sofia-mobile.png);
+        background: no-repeat url(../img/card-description-wmf-sofia-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
     
     .new-easy-card__card-wmf-scala {
-        background: no-repeat url(../img/card-description-wmf-scala-mobile.png);
+        background: no-repeat url(../img/card-description-wmf-scala-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }

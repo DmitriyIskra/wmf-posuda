@@ -1,7 +1,7 @@
 
 
 .line-lifestyle__banner {
-    background: no-repeat url(../img/banner-line-product-lifestyle.png);
+    background: no-repeat url(../img/banner-line-product-lifestyle.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -12,7 +12,7 @@
     .line-lifestyle__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-line-product-lifestyle-mobile.png);
+        background: no-repeat url(../img/banner-line-product-lifestyle-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

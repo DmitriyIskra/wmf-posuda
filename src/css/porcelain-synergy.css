@@ -1,6 +1,6 @@
 
 .porcelain__banner {
-    background: no-repeat url(../img/banner-porcelain-synergy.png);
+    background: no-repeat url(../img/banner-porcelain-synergy.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -10,7 +10,7 @@
     .porcelain__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-porcelain-synergy-mobile.png);
+        background: no-repeat url(../img/banner-porcelain-synergy-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

@@ -1,7 +1,7 @@
 
 
 .sd-all-collections__banner {
-    background: no-repeat url(../img/banner-all-tablewares.png);
+    background: no-repeat url(../img/banner-all-tablewares.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -12,7 +12,7 @@
     .sd-all-collections__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-all-tablewares-mobile.png);
+        background: no-repeat url(../img/banner-all-tablewares-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

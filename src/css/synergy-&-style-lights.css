@@ -14,7 +14,7 @@
 .ssl__wr-banner { 
     padding-top: 7.66vw;
 
-    background: no-repeat url(../img/banner-ssl.png);
+    background: no-repeat url(../img/banner-ssl.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -122,25 +122,25 @@
 }
 
 .cards-atmosphere-vogue {
-    background: no-repeat url(../img/en-vogue.png);
+    background: no-repeat url(../img/en-vogue.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .cards-atmosphere-nature {
-    background: no-repeat url(../img/in-nature.png);
+    background: no-repeat url(../img/in-nature.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .cards-atmosphere-industrial {
-    background: no-repeat url(../img/loft-&-industrial.png);
+    background: no-repeat url(../img/loft-&-industrial.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .cards-atmosphere-cozy {
-    background: no-repeat url(../img/cozy.png);
+    background: no-repeat url(../img/cozy.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -186,31 +186,31 @@
 }
 
 .cards-item-breakfast {
-    background: no-repeat url(../img/breakfast.png);
+    background: no-repeat url(../img/breakfast.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .cards-item-supper {
-    background: no-repeat url(../img/supper.png);
+    background: no-repeat url(../img/supper.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .cards-item-haute-cuisine {
-    background: no-repeat url(../img/haute-cuisine.png);
+    background: no-repeat url(../img/haute-cuisine.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .cards-item-furshet {
-    background: no-repeat url(../img/furshet.png);
+    background: no-repeat url(../img/furshet.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .cards-item-banquet {
-    background: no-repeat url(../img/banquet.png);
+    background: no-repeat url(../img/banquet.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -279,7 +279,7 @@ div.ssl__cards-arrow-link {
     .ssl__wr-banner {
         padding-top: 16.66vw;
 
-        background: no-repeat url(../img/banner-ssl-mobile.png);
+        background: no-repeat url(../img/banner-ssl-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -351,7 +351,7 @@ div.ssl__cards-arrow-link {
         height: 80vw;
         margin-top: 6.67vw;
 
-        background: no-repeat url(../img/set-table-mobile.png);
+        background: no-repeat url(../img/set-table-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -384,25 +384,25 @@ div.ssl__cards-arrow-link {
 
 @media( max-width: 961px ) {
     .cards-atmosphere-vogue {
-        background: no-repeat url(../img/en-vogue-mobile.png);
+        background: no-repeat url(../img/en-vogue-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .cards-atmosphere-nature {
-        background: no-repeat url(../img/in-nature-mobile.png);
+        background: no-repeat url(../img/in-nature-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .cards-atmosphere-industrial {
-        background: no-repeat url(../img/loft-&-industrial-mobile.png);
+        background: no-repeat url(../img/loft-&-industrial-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .cards-atmosphere-cozy {
-        background: no-repeat url(../img/cozy-mobile.png);
+        background: no-repeat url(../img/cozy-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -446,31 +446,31 @@ div.ssl__cards-arrow-link {
 
 @media( max-width: 961px ) {
     .cards-item-breakfast {
-        background: no-repeat url(../img/breakfast-mobile.png);
+        background: no-repeat url(../img/breakfast-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .cards-item-supper {
-        background: no-repeat url(../img/supper-mobile.png);
+        background: no-repeat url(../img/supper-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .cards-item-haute-cuisine {
-        background: no-repeat url(../img/haute-cuisine-mobile.png);
+        background: no-repeat url(../img/haute-cuisine-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .cards-item-furshet {
-        background: no-repeat url(../img/furshet-mobile.png);
+        background: no-repeat url(../img/furshet-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .cards-item-banquet {
-        background: no-repeat url(../img/banquet-mobile.png);
+        background: no-repeat url(../img/banquet-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

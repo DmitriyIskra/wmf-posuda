@@ -1,5 +1,5 @@
 .coolers__banner {
-    background: no-repeat url(../img/banner-coolers.png);
+    background: no-repeat url(../img/banner-coolers.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -10,7 +10,7 @@
     .coolers__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-coolers-mobile.png);
+        background: no-repeat url(../img/banner-coolers-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

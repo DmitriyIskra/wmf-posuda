@@ -17,25 +17,25 @@
 }
 
 .swiper-slide1 {
-    background: no-repeat url(../img/mobile-slider-index-img-1.png);
+    background: no-repeat url(../img/mobile-slider-index-img-1.webp);
     background-position: center;
     background-size: 100% auto;
 }
 
 .swiper-slide2 {
-    background: no-repeat url(../img/mobile-slider-index-img-1.png);
+    background: no-repeat url(../img/mobile-slider-index-img-1.webp);
     background-position: center;
     background-size: 100% auto;
 }
 
 .swiper-slide3 {
-    background: no-repeat url(../img/mobile-slider-index-img-1.png);
+    background: no-repeat url(../img/mobile-slider-index-img-1.webp);
     background-position: center;
     background-size: 100% auto;
 }
 
 .swiper-slide4 {
-    background: no-repeat url(../img/mobile-slider-index-img-1.png);
+    background: no-repeat url(../img/mobile-slider-index-img-1.webp);
     background-position: center;
     background-size: 100% auto;
 }
@@ -174,19 +174,19 @@
 }
 
 .slider-item-first {
-    background: no-repeat url(../img/slider-index-img-1.png);
+    background: no-repeat url(../img/slider-index-img-1.webp);
     background-position: center;
     background-size: 100%;
 }
 
 .slider-item-second {
-    background: no-repeat url(../img/slider-index-img-1.png);
+    background: no-repeat url(../img/slider-index-img-1.webp);
     background-position: center;
     background-size: 100%;
 }
 
 .slider-item-third {
-    background: no-repeat url(../img/slider-index-img-1.png);
+    background: no-repeat url(../img/slider-index-img-1.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -351,19 +351,19 @@
 }
 
 .cards-item-finishing {
-    background: no-repeat url(../img/finishing-index.png);
+    background: no-repeat url(../img/finishing-index.webp);
     background-size: auto 100%;
     background-position: center;
 }
 
 .cards-item-serve {
-    background: no-repeat url(../img/serve-apartments.png);
+    background: no-repeat url(../img/serve-apartments.webp);
     background-size: auto 100%;
     background-position: center;
 }
 
 .cards-item-quadro {
-    background: no-repeat url(../img/WMFQuattro.png);
+    background: no-repeat url(../img/WMFQuattro.webp);
     background-size: auto 100%;
     background-position: center;
 }

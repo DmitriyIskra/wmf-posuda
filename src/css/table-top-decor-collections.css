@@ -11,7 +11,7 @@
 }
 
 .tt-decor-collections__banner {
-    background: no-repeat url(../img/banner-table-top-serving-all-collection.png);
+    background: no-repeat url(../img/banner-table-top-serving-all-collection.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -44,7 +44,7 @@
     .tt-decor-collections__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-table-top-serving-all-collection-mobile.png);
+        background: no-repeat url(../img/banner-table-top-serving-all-collection-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

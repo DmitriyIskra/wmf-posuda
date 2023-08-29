@@ -1,5 +1,5 @@
 .quadro-sets__banner {
-    background: no-repeat url(../img/banner-quadro-sets.png);
+    background: no-repeat url(../img/banner-quadro-sets.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -10,7 +10,7 @@
     .quadro-sets__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-quadro-module-sets.png);
+        background: no-repeat url(../img/banner-quadro-module-sets.webp);
         background-position: center;
         background-size: auto 100%;
     }
