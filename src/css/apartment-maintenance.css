@@ -120,7 +120,11 @@
 
 /* A D V A N T A G E S */
 
-.advantages-bc__cards-wrapper_maintenance {
+div.advantages-bc__wrapper_maintenance {
+    margin-top: 0;
+}
+
+div.advantages-bc__cards-wrapper_maintenance {
     margin-top: 0;
 }
 
@@ -131,10 +135,153 @@
     flex-direction: column;
 }
 
+.advantages-bc__wr-brends_maintenance {
+    display: flex;
+    width: 27.65vw;
+
+    flex-grow: 1;
+    align-items: center;
+}
+
 /* К О Н Е Ц  A D V A N T A G E S */
 
 
+/* К О М Н А Т А  В  К О Р О Б К Е */
 
+.apartment-maintenance__wr-room-in-box {
+    display: flex;
+    width: 76vw;
+
+    justify-content: space-between;
+}
+
+.room-in-box__title {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 2.34vw;
+
+    flex-direction: column;
+}
+
+.room-in-box__text {
+    display: flex;
+    width: 42vw;
+    margin-top: 1.20vw;
+    gap: 1.41vw;
+
+    flex-direction: column;
+}
+
+.room-in-box__text p {
+    display: flex;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.15vw;
+
+    color: #333;
+
+    flex-direction: column;
+}
+
+.room-in-box__img {
+    width: 33.18vw;
+    height: 24.01vw;
+
+    background: no-repeat url(../img/apartment-maintenance-room-in-box.png);
+    background-size: auto 100%;
+    background-position: center;
+}
+
+/* К О Н Е Ц  К О М Н А Т А  В  К О Р О Б К Е */
+
+
+/* Т Р И  У Р О В Н Я  П Р Е Д С Т А В Л Е Н И Я  */
+
+.apartment-maintenance__representations {
+    width: 76vw;
+}
+
+.representations__title {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 2.34vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.representations__cards-list {
+    display: flex;
+    margin-top: 2.08vw;
+
+    flex-wrap: wrap;
+}
+
+.representations__cards-item {
+    width: 33.333%;
+}
+
+.representations__card-img {
+    width: 100%;
+    height: 20.63vw;
+}
+
+.representations__card-img-perform {
+    background: no-repeat url(../img/representations-perform.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.representations__card-img-advance {
+    background: no-repeat url(../img/representations-advance.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.representations__card-img-supreme {
+    background: no-repeat url(../img/representations-supreme.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.representations__card-text {
+    display: flex;
+    margin-top: 0.99vw;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.15vw;
+
+    color: #333333;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.representations__card-text_mobile {
+    display: none;
+}
+
+/* К О Н Е Ц  Т Р И  У Р О В Н Я  П Р Е Д С Т А В Л Е Н И Я  */
+
+
+/* C A R D  D O W N L O A D*/
+
+.wrapper_maintenance__pdf-catalog-card {
+    background: no-repeat url(../img/wrapper_maintenance-pdf-catalog-card.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+/* E N D  C A R D  D O W N L O A D */
+
+
+
+
+
+
+/* ------------------------------ */
 
 @media ( max-width: 961px ) { 
     .apartment-maintenance__main {
@@ -169,7 +316,14 @@
 
 /* ---------------------------------- */
 
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__wrapper-video {
+        width: 87vw;
+        height: 69.33vw;
+    }
+}
 
+/* ------------------------------------ */
 @media ( max-width: 961px ) { 
     .apartment-maintenance__wr-smell {
         width: 87vw;
@@ -236,4 +390,151 @@
     .apartment-maintenance__wr-smell-right-img {
         display: none;
     }
+}
+
+/* ------------------------------- */
+
+ 
+@media ( max-width: 961px ) { 
+    .advantages-bc__wr-brends_maintenance {
+        width: 76.53vw;
+        height: 21.60vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .advantages-bc__wr-card-text_maintenance p {
+        gap: 4.82vw;
+    }
+}
+
+/* ------------------------------- */
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__wr-room-in-box {
+        width: 87vw;
+
+        flex-direction: column;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .room-in-box__title {
+        font-size: 6.67vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .room-in-box__text {
+        width: 100%;
+        margin-top: 1.87vw;
+        gap: 5.33vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .room-in-box__text p {
+        font-size: 3.73vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .room-in-box__img {
+        width: 100%;
+        height: 64.53vw;
+        margin-top: 6.67vw;
+    }
+}
+
+/* ------------------------------- */
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__representations {
+        width: 87vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .representations__header {
+        display: flex;
+
+        justify-content: center;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .representations__title {
+        width: 83%;
+
+        font-size: 6.67vw;
+        text-align: center;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .representations__cards-list {
+        margin-top: 6.67vw;
+        gap: 8vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .representations__cards-item {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .representations__card-img {
+        width: 100%;
+        height: 112vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .representations__card-img-perform {
+        background: no-repeat url(../img/representations-perform-mobile.png);
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .representations__card-img-advance {
+        background: no-repeat url(../img/representations-advance-mobile.png);
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .representations__card-img-supreme {
+        background: no-repeat url(../img/representations-supreme-mobile.png);
+        background-size: auto 100%;
+        background-position: center;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .representations__card-text_desctop {
+        display: none;
+    }
+
+    .representations__card-text_mobile {
+        display: flex;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .representations__card-text {
+        margin-top: 6.40vw;
+
+        font-size: 5.65vw;
+    }
+}
+
+/* --------------------------------------------- */
+
+@media ( max-width: 961px ) { 
+    
+}
+
+@media ( max-width: 961px ) { 
+    
 }
