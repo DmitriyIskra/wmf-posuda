@@ -13,7 +13,7 @@ export default class DrawHeader {
         this.mobileList1 = this.wrMobileMenu.querySelector('.mobile-menu-main-list');
         this.lastMobileList2 = null;
         this.lastMobileList3 = null;
-        this.lastTargetLevel1 = null;
+        this.lastTargetLevel1 = null; 
         this.lastTargetLevel2 = null;
 
         // Отмечаем активно ли мобильное меню

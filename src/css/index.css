@@ -5,7 +5,7 @@
 }
 
 .main {
-    padding-bottom: 8.85vw;
+    padding-bottom: 8.85vw; 
 }
 
 /* Н А Ч А Л О  С Л А Й Д Е Р */
@@ -216,17 +216,7 @@
     cursor: pointer;
 }
 
-.slider-arrows-item-left {
-    background: no-repeat url(../svg/arrow-left-slider-index.svg);
-    background-position: center;
-    background-size: 100%;
-}
 
-.slider-arrows-item-right {
-    background: no-repeat url(../svg/arrow-right-slider-index.svg);
-    background-position: center;
-    background-size: 100%;
-}
 /* К О Н Е Ц  С Л А Й Д Е Р */
 
  
@@ -409,9 +399,6 @@ div.sw-cards__cards-arrow-link {
     height: 100%;
     width: 100%;
 
-    background:  no-repeat url(../svg/arrow-cards-index.svg);
-    background-size: 100%;
-    background-position: center;
     border-radius: 50%;
 }
 

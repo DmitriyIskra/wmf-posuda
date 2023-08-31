@@ -57,6 +57,8 @@ import './css/swedish-line-serving-food-all-position.css';
 import './css/contacts.css';
 import './css/presentation-quadro-marmites.css';
 import './css/swedish-line-about-marmites.css';
+import './css/apartment-maintenance.css';
 import './css/advantages-cards.css';
+import './css/advantages-black-cards.css';
 import './css/modal.css';
 import './css/banner.css';

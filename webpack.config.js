@@ -468,6 +468,14 @@ module.exports = {
       },
       scriptLoading: 'blocking',
     }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/apartment-maintenance.pug',
+      filename: './apartment-maintenance.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+      scriptLoading: 'blocking',
+    }),
     
     
     
@@ -476,17 +484,17 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
 
-    new ImageminWebpWebpackPlugin({
-      config: [{
-        test: /.(jpe?g|png)/,
-        options: {
-          quality: 90,
-        },
-      }],
-      overrideExtension: true,
-      detailedLogs: false,
-      silent: false,
-      strict: true,
-    }),
+    // new ImageminWebpWebpackPlugin({
+    //   config: [{
+    //     test: /.(jpe?g|png)/,
+    //     options: {
+    //       quality: 90,
+    //     },
+    //   }],
+    //   overrideExtension: true,
+    //   detailedLogs: false,
+    //   silent: false,
+    //   strict: true,
+    // }),
   ],
 };

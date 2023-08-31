@@ -182,106 +182,26 @@
 /* К О Н Е Ц  П Р Е И М У Щ Е С Т В А */
 
 
-/* Н А Ч А Л О  Д О Л Г О В Е Ч Н О С Т Ь */
+/* Н А Ч А Л О  Ч Е Р Н Ы Е  К А Р Т О Ч К И */
 
-.about-tablewares-sub__wr-durability {
-    width: 76vw;
-    margin-top: 0.52vw;
-}
-
-.about-tablewares-sub__durability-title {
-    display: flex;
-
-    font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
-
-    flex-direction: column;
-}
-
-.about-tablewares-sub__durability-text {
-    margin-top: 2.40vw;
-}
-
-.about-tablewares-sub__durability-text p {
-    font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
-}
-
-.about-tablewares-sub__wr-durability-card-list {
-    display: flex;
-    margin-top: 2.35vw;
-
-    justify-content: space-between;
-}
-
-.about-tablewares-sub__wr-durability-card-item {
-    display: flex;
-    width: 37.85vw;
-    padding-left: 1.04vw;
-    padding-right: 1.04vw;
-    padding-bottom: 5.17vw;
-
-    background-color: #403B40;
-
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.about-tablewares-sub__wr-durability-card-header {
-    display: flex;
-    margin-top: 1.04vw;
-
-    justify-content: space-between;
-}
-
-.about-tablewares-sub__wr-durability-card-header_knive {
-    align-items: center;
-}
-
-.about-tablewares-sub__wr-durability-card-title {
-    display: flex;
-
-    font-family: 'WMFRotis-Bold';
-    font-size: 3.33vw;
-
-    color: #ffffff;
-
-    flex-direction: column;
-}
-
-.about-tablewares-sub__wr-durability-card-title_knive {
-    padding-bottom: 0.8vw;
-}
-
-.about-tablewares-sub__wr-durability-card-icon {
-    height: 3.65vw;
-    width: 3.65vw;
-}
-
-.about-tablewares-sub__wr-durability-icon_knive {
+.advantages-bc__wr-icon_knive {
     background: no-repeat url(../svg/durability-card-icon-knive.svg);
     background-size: 100%;
     background-position: center;
 }
 
-.about-tablewares-sub__wr-durability-icon_cromargan {
+.advantages-bc__wr-icon_letter {
     background: no-repeat url(../svg/durability-card-icon-letter.svg);
     background-size: 100%;
     background-position: center;
 }
 
-.about-tablewares-sub__wr-durability-card-text {
-    margin-top: 0.94vw;
+div.advantages-bc__wr-card-text_about-tablewares {
+    margin-top: 3.4vw;
 }
 
-.about-tablewares-sub__wr-durability-card-text p {
-    font-family: 'WMFRotis-Regular';
-    font-size: 1.36vw;
 
-    color: #ffffff;
-}
-
-/* К О Н Е Ц  Д О Л Г О В Е Ч Н О С Т Ь */
+/* К О Н Е Ц  Ч Е Р Н Ы Е  К А Р Т О Ч К И */
 
 
 
@@ -536,6 +456,12 @@
 @media ( max-width: 961px ) { 
     .about-tablewares-sub__wr-durability-card-text_cromargan {
         width: 60vw;
+    }
+}
+
+@media ( max-width: 961px ) {
+    .advantages-bc__wr-card-text_about-tablewares {
+        margin-top: auto;
     }
 }
 

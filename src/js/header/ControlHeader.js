@@ -8,7 +8,7 @@ export default class ControlHeader {
     }
 
     init() {
-        this.registerEvents();
+        this.registerEvents(); 
 
         // собираем массив элементов короткого подчеркивания
         this.draw.arrShortLine = [...this.draw.header.querySelectorAll('.header__short-line')];
@@ -54,7 +54,7 @@ export default class ControlHeader {
 
 
         // РАБОТА МОБИЛЬНОГО МЕНЮ
-        if(e.target.matches('.header__icon-mobile-nav')) {
+        if(e.target.closest('.header__icon-mobile-nav')) {
             this.draw.openMobileMenu();
         }
 

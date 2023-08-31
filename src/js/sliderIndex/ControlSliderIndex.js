@@ -16,11 +16,11 @@ export default class ControlSliderIndex {
     }
 
     onClick(e) {
-        if(e.target.matches('.slider-arrows-item-right')) {
+        if(e.target.closest('.slider-arrows-item-right')) {
             this.draw.moveRight()
         }
 
-        if(e.target.matches('.slider-arrows-item-left')) {
+        if(e.target.closest('.slider-arrows-item-left')) {
             this.draw.moveLeft()
         }
     }

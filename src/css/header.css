@@ -19,10 +19,6 @@
     display: none;
     width: 8vw;
     height: 5.33vw;
-
-    background: no-repeat url(../svg/icon-mobile.svg);
-    background-size: 100%;
-    background-position: center;
 }
 
 .logo {
@@ -30,10 +26,8 @@
     width: 3.18vw;
 }
 
-.logo-link {
-    background: no-repeat url(../svg/logo.svg);
-    background-position: center;
-    background-size: 100% 100%;
+.header-logo-icon-mobile {
+    display: none;
 }
 
 .nav {
@@ -70,25 +64,29 @@
     height: 3px;
 }
 
-.short-line-lifestyle,
+/* .short-line-lifestyle,
  .short-line-serve {
     background: no-repeat url(../svg/short-line-life-serve.svg);
     background-position: center;
     background-size: 100% 3px;
-}
+} */
 
-.short-line-tableware,
+/* .short-line-tableware,
  .short-line-swedish {
     background: no-repeat url(../svg/short-line-canteens-swedish.svg);
     background-position: center;
     background-size: 100% 3px;
-}
+} */
 
-.short-line-tabletop,
+/* .short-line-tabletop,
  .short-line-contacts {
     background: no-repeat url(../svg/short-line-table-contacts.svg);
     background-position: center;
     background-size: 100% 3px;
+} */
+
+.short-line-nav {
+    display: block;
 }
 
 .short-line-active {
@@ -128,16 +126,15 @@
     height: 3px;
     width: 95%;
     margin-top: 0.47vw;
-
-    background: no-repeat url(../svg/long-line-nav.svg);
-    background-position: center;
-    background-size: 100% 3px;
 }
 
+.header-long-underline {
+    display: block;
+}
 
 .header__wr-place-search {
     display: flex;
-    height: 2.2vw;
+    height: 2.6vw;
     width: 100%;
 
     background: #ffffff;
@@ -375,10 +372,6 @@
     height: 1.3vw;
     margin-right: -6.75vw;
 
-    background: no-repeat url(../svg/close-submenu.svg);
-    background-position: center;
-    background-size: 100%;
-
     cursor: pointer;
 }
 
@@ -415,6 +408,16 @@
         height: 10.93vw;
         width: 9.33vw;
     }
+} 
+
+@media( max-width: 961px ) {
+    .header-logo-icon-desctop {
+        display: none;
+    }
+
+    .header-logo-icon-mobile {
+        display: block;
+    }
 }
 
 @media( max-width: 961px ) {
@@ -445,7 +448,7 @@
 @media( max-width: 961px ) {
     .header__wr-place-search {
         padding-top: 4.80vw;
-        padding-bottom: 3.47vw;
+        padding-bottom: 3.47vw; 
     }
 }
 

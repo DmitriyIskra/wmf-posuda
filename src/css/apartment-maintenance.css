@@ -1,0 +1,239 @@
+.apartment-maintenance__main {
+    display: flex;
+    padding-bottom: 8.85vw;
+
+    flex-direction: column;
+    align-items: center; 
+}
+
+.apartment-maintenance__banner {
+    padding-top: 13vw;
+    padding-left: 11.7vw;
+
+    background: no-repeat url(../img/banner-apartment-maintenance.png);
+    background-position: center;
+    background-size: 100%;
+}
+
+.apartment-maintenance__line-right { 
+    margin-top: 4.17vw;
+}
+
+.apartment-maintenance__wrapper-main-content {
+    display: flex;
+    gap: 3.75vw;
+    width: 100%;
+    padding-top: 3.75vw;
+
+    flex-direction: column;
+    align-items: center;
+} 
+
+.apartment-maintenance__wrapper-video {
+    width: 76vw;
+    height: 36.46vw;
+}
+
+.video-content {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* О Б С Л У Ж И В А Н И Е  А П А Р Т А М Е Н Т О В  М О Д Е Л И Р О В А Н И Е */
+
+.apartment-maintenance__wr-smell{
+    display: flex;
+    width: 76vw;
+
+    justify-content: space-between;
+}
+
+.apartment-maintenance__wr-smell-left {
+    display: flex;
+    width: 48vw;
+
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.apartment-maintenance__smell-title {
+    display: flex;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 2.34vw;
+
+    flex-direction: column;
+}
+
+.apartment-maintenance__wr-smell-text p {
+    display: flex;
+    margin-top: 1.77vw;
+    gap: 1.4vw;
+
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.15vw;
+
+    color: #333333;
+
+    flex-direction: column;
+}
+
+.apartment-maintenance__wr-smell-small-img {
+    display: flex;
+    margin-top: 2.81vw;
+
+    justify-content: space-between;
+}
+
+.apartment-maintenance__smell-small-img {
+    width: 23.38vw;
+    height: 25.31vw;
+}
+
+.apartment-maintenance__smell-small-img_mobile {
+    display: none;
+}
+
+.apartment-maintenance__wr-smell-right-img {
+    width: 26.61vw;
+
+    background: no-repeat url(../img/maintenance__wr-smell-right-img.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.maintenance__smell-small-img1 {
+    background: no-repeat url(../img/maintenance__smell-small-img1.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.maintenance__smell-small-img2 {
+    background: no-repeat url(../img/maintenance__smell-small-img2.png);
+    background-position: center;
+    background-size: auto 100%;
+}
+
+/* К О Н Е Ц  О Б С Л У Ж И В А Н И Е  А П А Р Т А М Е Н Т О В  М О Д Е Л И Р О В А Н И Е */
+
+
+/* A D V A N T A G E S */
+
+.advantages-bc__cards-wrapper_maintenance {
+    margin-top: 0;
+}
+
+.advantages-bc__wr-card-text_maintenance p {
+    display: flex;
+    gap: 1.82vw;
+
+    flex-direction: column;
+}
+
+/* К О Н Е Ц  A D V A N T A G E S */
+
+
+
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__main {
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media( max-width: 961px ) {
+    .apartment-maintenance__banner {
+        padding-left: 5vw;
+        padding-top: 16.66vw;
+
+        background: no-repeat url(../img/banner-apartment-maintenance-mobile.png);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__line-right {
+        margin-top: 6.67vw; 
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__wrapper-main-content {
+        margin-top: 5.53vw;
+        padding-top: 0;
+        gap: 6.67vw;
+    }
+}
+
+/* ---------------------------------- */
+
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__wr-smell {
+        width: 87vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__wr-smell-left {
+        width: 100%;
+        gap: 5.20vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__smell-title {
+        font-size: 6.67vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__wr-smell-text p {
+        margin-top: 4.80vw;
+        gap: 5.33vw;
+
+        font-size: 3.73vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__wr-smell-small-img {
+        flex-direction: column;
+        gap: 2.67vw;
+    }
+
+    .apartment-maintenance__smell-small-img_mobile {
+        display: block;
+        width: 100%;
+        height: 112vw;
+
+        background: no-repeat url(../img/maintenance__smell-small-img_mobile.png); 
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .apartment-maintenance__smell-small-img {
+        width: 100%;
+        height: 71.20vw;
+    }
+
+    .maintenance__smell-small-img1 {
+        background: no-repeat url(../img/maintenance__smell-small-img1-mobile.png);
+        background-position: center;
+        background-size: 100%;
+    }
+    
+    .maintenance__smell-small-img2 {
+        background: no-repeat url(../img/maintenance__smell-small-img2-mobile.png);
+        background-position: center;
+        background-size: 100%;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .apartment-maintenance__wr-smell-right-img {
+        display: none;
+    }
+}
