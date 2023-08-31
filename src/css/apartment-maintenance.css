@@ -10,7 +10,7 @@
     padding-top: 13vw;
     padding-left: 11.7vw;
 
-    background: no-repeat url(../img/banner-apartment-maintenance.png);
+    background: no-repeat url(../img/banner-apartment-maintenance.webp);
     background-position: center;
     background-size: 100%;
 }
@@ -98,19 +98,19 @@
 .apartment-maintenance__wr-smell-right-img {
     width: 26.61vw;
 
-    background: no-repeat url(../img/maintenance__wr-smell-right-img.png);
+    background: no-repeat url(../img/maintenance__wr-smell-right-img.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .maintenance__smell-small-img1 {
-    background: no-repeat url(../img/maintenance__smell-small-img1.png);
+    background: no-repeat url(../img/maintenance__smell-small-img1.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .maintenance__smell-small-img2 {
-    background: no-repeat url(../img/maintenance__smell-small-img2.png);
+    background: no-repeat url(../img/maintenance__smell-small-img2.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -188,7 +188,7 @@ div.advantages-bc__cards-wrapper_maintenance {
     width: 33.18vw;
     height: 24.01vw;
 
-    background: no-repeat url(../img/apartment-maintenance-room-in-box.png);
+    background: no-repeat url(../img/apartment-maintenance-room-in-box.webp);
     background-size: auto 100%;
     background-position: center;
 }
@@ -229,19 +229,19 @@ div.advantages-bc__cards-wrapper_maintenance {
 }
 
 .representations__card-img-perform {
-    background: no-repeat url(../img/representations-perform.png);
+    background: no-repeat url(../img/representations-perform.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .representations__card-img-advance {
-    background: no-repeat url(../img/representations-advance.png);
+    background: no-repeat url(../img/representations-advance.webp);
     background-position: center;
     background-size: auto 100%;
 }
 
 .representations__card-img-supreme {
-    background: no-repeat url(../img/representations-supreme.png);
+    background: no-repeat url(../img/representations-supreme.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -269,7 +269,7 @@ div.advantages-bc__cards-wrapper_maintenance {
 /* C A R D  D O W N L O A D*/
 
 .wrapper_maintenance__pdf-catalog-card {
-    background: no-repeat url(../img/wrapper_maintenance-pdf-catalog-card.png);
+    background: no-repeat url(../img/wrapper_maintenance-pdf-catalog-card.webp);
     background-position: center;
     background-size: auto 100%;
 }
@@ -294,7 +294,7 @@ div.advantages-bc__cards-wrapper_maintenance {
         padding-left: 5vw;
         padding-top: 16.66vw;
 
-        background: no-repeat url(../img/banner-apartment-maintenance-mobile.png);
+        background: no-repeat url(../img/banner-apartment-maintenance-mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -363,7 +363,7 @@ div.advantages-bc__cards-wrapper_maintenance {
         width: 100%;
         height: 112vw;
 
-        background: no-repeat url(../img/maintenance__smell-small-img_mobile.png); 
+        background: no-repeat url(../img/maintenance__smell-small-img_mobile.webp); 
         background-position: center;
         background-size: auto 100%;
     }
@@ -374,13 +374,13 @@ div.advantages-bc__cards-wrapper_maintenance {
     }
 
     .maintenance__smell-small-img1 {
-        background: no-repeat url(../img/maintenance__smell-small-img1-mobile.png);
+        background: no-repeat url(../img/maintenance__smell-small-img1-mobile.webp);
         background-position: center;
         background-size: 100%;
     }
     
     .maintenance__smell-small-img2 {
-        background: no-repeat url(../img/maintenance__smell-small-img2-mobile.png);
+        background: no-repeat url(../img/maintenance__smell-small-img2-mobile.webp);
         background-position: center;
         background-size: 100%;
     }
@@ -493,19 +493,19 @@ div.advantages-bc__cards-wrapper_maintenance {
 
 @media ( max-width: 961px ) { 
     .representations__card-img-perform {
-        background: no-repeat url(../img/representations-perform-mobile.png);
+        background: no-repeat url(../img/representations-perform-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
 
     .representations__card-img-advance {
-        background: no-repeat url(../img/representations-advance-mobile.png);
+        background: no-repeat url(../img/representations-advance-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
 
     .representations__card-img-supreme {
-        background: no-repeat url(../img/representations-supreme-mobile.png);
+        background: no-repeat url(../img/representations-supreme-mobile.webp);
         background-size: auto 100%;
         background-position: center;
     }
