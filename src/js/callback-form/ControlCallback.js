@@ -24,6 +24,7 @@ export default class ControlCallback {
 
     registerEvents() {
         // если формы на странице еще нет то собыие только на кнопку
+        // не привязываемся к классу чтоб можно было вызывать из разных страниц
         if(!this.modal) {
             this.buttonGetForm.addEventListener('click', this.onClick);
 

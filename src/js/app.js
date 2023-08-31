@@ -152,7 +152,10 @@ if(advantages) {
 
 // S T A R T  C A L B A C K  F O R M
 
-const getFormButton = document.querySelector('.main__button-feedback');
+const pageVase = document.querySelector('.main__button-feedback');
+const errorPage = document.querySelector('.not-found__link-callback-form');
+
+const getFormButton = pageVase || errorPage;
 
 if(getFormButton) {
     const regExpPhone = /^\+7\(\d{1,3}\)\d{3}-\d{2}-\d{2}$/ ///^\+7(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/;

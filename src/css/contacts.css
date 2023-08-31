@@ -134,15 +134,10 @@
 }
 
 @media ( max-width: 961px ) { 
-    .contacts__line-right {
-        margin-top: 6.67vw; 
-    }
-}
-
-@media ( max-width: 961px ) { 
     .contacts__wrapper-main-content {
         margin-top: 5.53vw;
         padding-top: 0;
+        padding-bottom: 11vw;
         gap: 6.67vw;
     }
 }
