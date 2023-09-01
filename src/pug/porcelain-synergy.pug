@@ -8,7 +8,7 @@ html(lang="ru")
         title Фарфор SYNERGY
     body
  
-        include modules/header
+        include modules/header 
 
         main(class="main goods-content__main porcelain")
             .wr-bread-crumbs
@@ -19,62 +19,66 @@ html(lang="ru")
             .goods-content__wrapper-main-content
                 aside.aside.goods-content__aside
                     .goods-content__wr-filter
-                        ul.filter
-                            li.filter__main-item
-                                .filter__main-item-title-box 
-                                    .filter__main-item-title Чашки и блюдца
-                                    .filter__main-item-box
-                                ul.filter__sub-list
-                                    li.filter__sub-item-title-box 
-                                        a(href="#0" title="").filter__sub-item-title Barista & Чай
-                                        .filter__sub-item-box
-                                    li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
-                                        a(href="#0" title="").filter__sub-item-title.filter__sub-item-title_two-rows 
-                                            span Штабелируемые чашки
-                                            span & кружки
-                                        .filter__sub-item-box.filter__sub-item-box_two-rows
-                                    li.filter__sub-item-title-box 
-                                        a(href="#0" title="").filter__sub-item-title Блюдца
-                                        .filter__sub-item-box
+                        .filter
+                            ul.filter-list
+                                li.filter__main-item
+                                    .filter__main-item-title-box 
+                                        .filter__main-item-title Чашки и блюдца
+                                        .filter__main-item-box
+                                    ul.filter__sub-list
+                                        li.filter__sub-item-title-box 
+                                            a(href="#0" title="").filter__sub-item-title Barista & Чай
+                                            .filter__sub-item-box
+                                        li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
+                                            a(href="#0" title="").filter__sub-item-title.filter__sub-item-title_two-rows 
+                                                span Штабелируемые чашки
+                                                span & кружки
+                                            .filter__sub-item-box.filter__sub-item-box_two-rows
+                                        li.filter__sub-item-title-box 
+                                            a(href="#0" title="").filter__sub-item-title Блюдца
+                                            .filter__sub-item-box
 
-                            
-                            li.filter__main-item
-                                .filter__main-item-title-box 
-                                    .filter__main-item-title Тарелки
-                                    .filter__main-item-box
-                                ul.filter__sub-list
-                                    li.filter__sub-item-title-box 
-                                        .filter__sub-item-title Тарелки мелкие
-                                        .filter__sub-item-box
-                                    li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
-                                        a(href="#0" title="").filter__sub-item-title Тарелки мелкие чашеобразные
-                                        .filter__sub-item-box
-                                    li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
-                                        a(href="#0" title="").filter__sub-item-title Тарелки глубокие
-                                        .filter__sub-item-box
-                                    li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
-                                        a(href="#0" title="").filter__sub-item-title Тарелки глубокие чашеобразные
-                                        .filter__sub-item-box
+                                
+                                li.filter__main-item
+                                    .filter__main-item-title-box 
+                                        .filter__main-item-title Тарелки
+                                        .filter__main-item-box
+                                    ul.filter__sub-list
+                                        li.filter__sub-item-title-box 
+                                            .filter__sub-item-title Тарелки мелкие
+                                            .filter__sub-item-box
+                                        li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
+                                            a(href="#0" title="").filter__sub-item-title Тарелки мелкие чашеобразные
+                                            .filter__sub-item-box
+                                        li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
+                                            a(href="#0" title="").filter__sub-item-title Тарелки глубокие
+                                            .filter__sub-item-box
+                                        li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
+                                            a(href="#0" title="").filter__sub-item-title Тарелки глубокие чашеобразные
+                                            .filter__sub-item-box
 
-                            li.filter__main-item
-                                .filter__main-item-title-box 
-                                    a(href="#0" title="").filter__main-item-title Овальные блюда
+                                li.filter__main-item
+                                    .filter__main-item-title-box 
+                                        a(href="#0" title="").filter__main-item-title Овальные блюда
 
-                            li.filter__main-item
-                                .filter__main-item-title-box 
-                                    a(href="#0" title="").filter__main-item-title Чаши
+                                li.filter__main-item
+                                    .filter__main-item-title-box 
+                                        a(href="#0" title="").filter__main-item-title Чаши
 
-                            li.filter__main-item
-                                .filter__main-item-title-box 
-                                    a(href="#0" title="").filter__main-item-title Фирменные изделия
+                                li.filter__main-item
+                                    .filter__main-item-title-box 
+                                        a(href="#0" title="").filter__main-item-title Фирменные изделия
 
-                            li.filter__main-item
-                                .filter__main-item-title-box 
-                                    a(href="./decor.html").filter__main-item-title Декор
+                                li.filter__main-item
+                                    .filter__main-item-title-box 
+                                        a(href="./decor.html").filter__main-item-title Декор
 
-                            li.filter__main-item
-                                .filter__main-item-title-box 
-                                    a(href="./individual-decor.html").filter__main-item-title Индивидуальный дизайн
+                                li.filter__main-item
+                                    .filter__main-item-title-box 
+                                        a(href="./individual-decor.html").filter__main-item-title Индивидуальный дизайн
+
+                            .filter__wr-reset-button
+                                button.filter__reset-button Сбросить фильтр
 
                 article.goods-content__wr-content 
                     ul.good-card__wr-card-list  

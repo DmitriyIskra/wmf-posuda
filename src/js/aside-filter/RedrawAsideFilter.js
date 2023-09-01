@@ -6,7 +6,7 @@ export default class RedrawAsideFilter {
         // актуальный главный чекбокс
         this.activeMainBox = null;
         // актуальный дочерний лист
-        this.activeSubList = null;
+        this.activeSubList = null; 
         // список элементов активного листа
         this.activeSubItems = null; 
         // общая высота списка элементов
@@ -86,6 +86,7 @@ export default class RedrawAsideFilter {
         // При изменении чекбокса собираем его в коллекцию
         this.chengedCheckbox.add(this.activeSubCheckboks);
 
+        // Выводим в консоль чекбокс подвергшийся изменениям (для Андрея)
         console.log(this.chengedCheckbox)
     }
 
@@ -142,5 +143,22 @@ export default class RedrawAsideFilter {
             this.lastHover = null;
             this.lastItemHover = null;
         }
+    }
+
+    clearFilter() {
+        this.chengedCheckbox.forEach( el => {
+            if(el.matches('.filter__sub-item-box_active')) {
+                // деактивируем checkbox
+                el.classList.remove('filter__sub-item-box_active');
+                // убираем нижнее подчеркивание у тайтла строки
+                const titleEl = el.previousElementSibling;
+                titleEl.classList.remove('filter__sub-item-title_active');
+
+                // При изменении чекбокса собираем его в коллекцию
+                this.chengedCheckbox.add(el);
+            };
+        })
+
+        console.log(this.chengedCheckbox);
     }
 }

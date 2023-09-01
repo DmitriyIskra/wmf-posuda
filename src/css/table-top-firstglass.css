@@ -3,7 +3,7 @@
     padding-bottom: 8.85vw;
 
     flex-direction: column; 
-    align-items: center;
+    align-items: center; 
 }
 
 .firstglass__line-right {
@@ -48,7 +48,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
+    font-size: 2.34vw;
 
     flex-direction: column;
 }
@@ -59,7 +59,7 @@
     margin-top: 1.25vw;
 
     font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
+    font-size: 1.15vw;
 
     color: #333333;
 

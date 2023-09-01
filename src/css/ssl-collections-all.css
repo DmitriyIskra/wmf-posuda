@@ -5,7 +5,7 @@
  
 .ssl-collection {
     display: flex;
-    padding-bottom: 14.64vw;
+    padding-bottom: 8.85vw;
 
     align-items: center;    
     flex-direction: column;
@@ -138,7 +138,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
+    font-size: 2.34vw;
 
     flex-direction: column;
 }
@@ -157,7 +157,7 @@
 
 .ssl-collection__wr-description-text p {
     font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
+    font-size: 1.15vw;
 
     color: #333333;
 }
@@ -336,11 +336,11 @@
 .ssl-collection__wr-description-combi-block-bottom {
     margin-top: 3.13vw;
 }
-
+ 
 .breakfast__img-combi1 {
     height: 29.53vw;
 
-    background: no-repeat url(../img/collection-combi-img-1.webp);
+    background: no-repeat url(../img/collection-combi-img-1.webp); 
     background-position: center;
     background-size: 100% auto;
 }
@@ -681,7 +681,7 @@
         background-size: auto 100%;
     }
 
-    .cuisine__img-porcelain1 {
+    .cuisine__img-porcelain1 { 
         background: no-repeat url(../img/collection-cuisine-img-1-mobile.webp);
         background-position: center;
         background-size: auto 100%;

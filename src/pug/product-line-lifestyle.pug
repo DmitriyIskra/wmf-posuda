@@ -3,7 +3,7 @@
 doctype html
 html(lang="ru")
     head
-        meta(charset="UTF-8")
+        meta(charset="UTF-8") 
         meta(name='viewport' content='width=device-width, initial-scale=1.0')
         title Линейка продуктов Lifestyle
     body
@@ -19,31 +19,34 @@ html(lang="ru")
             .goods-content__wrapper-main-content
                 aside.aside.goods-content__aside
                     .goods-content__wr-filter
-                        ul.filter
-                            li.filter__main-item
-                                .filter__main-item-title-box 
-                                    .filter__main-item-title Линейка Lifestyle
-                                    .filter__main-item-box
-                                ul.filter__sub-list
-                                    li.filter__sub-item-title-box 
-                                        a(href="#0" title="").filter__sub-item-title Керамика
-                                        .filter__sub-item-box
-                                    li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
-                                        a(href="#0" title="").filter__sub-item-title Стекло
-                                        .filter__sub-item-box.filter__sub-item-box_two-rows
-                                    li.filter__sub-item-title-box 
-                                        a(href="#0" title="").filter__sub-item-title Мрамор
-                                        .filter__sub-item-box
-                                    li.filter__sub-item-title-box 
-                                        a(href="#0" title="").filter__sub-item-title Дерево
-                                        .filter__sub-item-box
-                                    li.filter__sub-item-title-box 
-                                        a(href="#0" title="").filter__sub-item-title Чугун
-                                        .filter__sub-item-box
-                                    li.filter__sub-item-title-box 
-                                        a(href="#0" title="").filter__sub-item-title Ткань
-                                        .filter__sub-item-box
-
+                        .filter
+                            ul.filter-list
+                                li.filter__main-item
+                                    .filter__main-item-title-box 
+                                        .filter__main-item-title Линейка Lifestyle
+                                        .filter__main-item-box
+                                    ul.filter__sub-list
+                                        li.filter__sub-item-title-box 
+                                            a(href="#0" title="").filter__sub-item-title Керамика
+                                            .filter__sub-item-box
+                                        li.filter__sub-item-title-box.filter__sub-item-title-box_two-rows
+                                            a(href="#0" title="").filter__sub-item-title Стекло
+                                            .filter__sub-item-box.filter__sub-item-box_two-rows
+                                        li.filter__sub-item-title-box 
+                                            a(href="#0" title="").filter__sub-item-title Мрамор
+                                            .filter__sub-item-box
+                                        li.filter__sub-item-title-box 
+                                            a(href="#0" title="").filter__sub-item-title Дерево
+                                            .filter__sub-item-box
+                                        li.filter__sub-item-title-box 
+                                            a(href="#0" title="").filter__sub-item-title Чугун
+                                            .filter__sub-item-box
+                                        li.filter__sub-item-title-box 
+                                            a(href="#0" title="").filter__sub-item-title Ткань
+                                            .filter__sub-item-box
+                            .filter__wr-reset-button
+                                button.filter__reset-button Сбросить фильтр
+                                
                 article.goods-content__wr-content  
                     ul.good-card__wr-card-list 
                         li.good-card__wr-card-item.catalog-good-first-line

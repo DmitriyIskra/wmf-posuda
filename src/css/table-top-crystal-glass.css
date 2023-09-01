@@ -8,7 +8,7 @@
 
 .crystal-glass__banner { 
     padding-top: 7.2vw;
-    padding-left: 11.2vw;
+    padding-left: 11.2vw; 
 
     background: no-repeat url(../img/banner-crystal-glass.webp);
     background-position: center;
@@ -75,7 +75,7 @@
 
 .crystal-glass__smell-title {
     font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
+    font-size: 2.34vw;
 }
 
 .crystal-glass__wr-smell-text p {
@@ -84,7 +84,7 @@
     gap: 1.98vw;
 
     font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
+    font-size: 1.15vw;
 
     color: #333333;
 
@@ -172,8 +172,8 @@
     content: "";
 
     display: inline-block;
-    width: 2.60vw;
-    height: 2.60vw;
+    width: 2.08vw;
+    height: 2.08vw;
 
     border-radius: 0.16vw;
     background: #777;
@@ -183,7 +183,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 1.82vw;
+    font-size: 1.56vw;
 
     flex-direction: column;
     justify-content: center;

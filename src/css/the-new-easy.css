@@ -3,7 +3,7 @@
     padding-bottom: 8.85vw;
 
     flex-direction: column; 
-    align-items: center;
+    align-items: center; 
 }
  
 .new-easy__banner {
@@ -57,7 +57,7 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
+    font-size: 2.34vw;
 
     flex-direction: column;
 }
@@ -70,7 +70,7 @@
     margin-top: 3.33vw;
 
     font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
+    font-size: 1.15vw;
 
     color: #333;
 }
@@ -104,7 +104,7 @@
 .new-easy-card__description {
     display: flex;
     width: 23.28vw;
-    padding-left: 2.34vw;
+    padding-left: 1.04vw;
     padding-bottom: 1vw;
     
     background-color: #ffffff97;
@@ -117,7 +117,7 @@
 .new-easy-card__description-text {
     display: flex;
     width: 100%;
-    gap: 0.7vw;
+    gap: 2vw;
 
     flex-direction: column;
 }
@@ -125,21 +125,21 @@
 .new-easy-card__header {
     display: flex;
     padding-top: 2.03vw;
-    gap: 0.7vw;
+    gap: 2vw;
 
     flex-direction: column;
 }
 
 .new-easy-card__main-title {
     font-family: 'WMFRotis-Bold';
-    font-size: 3.65vw;
+    font-size: 2.60vw;
 }
 
 .new-easy-card__sub-title {
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 2.50vw;
+    font-size: 2.08vw;
 
     color: #333333;
 
@@ -147,8 +147,10 @@
 }
 
 .new-easy-card__wr-text {
+    width: 17.97vw;
+
     font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
+    font-size: 1.15vw;
 }
 
 .new-easy-card__wr-link {

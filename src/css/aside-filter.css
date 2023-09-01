@@ -1,4 +1,4 @@
-.filter {
+.filter-list {
     width: 100%;
 }
 
@@ -105,7 +105,33 @@
     background-position: center;
 }
 
+.filter__wr-reset-button {
+    margin-top: 1.82vw;
+}
 
+.filter__reset-button {
+    width: 100%;
+    height: 2.45vw;
+
+    font-family: 'WMFRotis-Medium';
+    font-size: 1.25vw;
+
+    color: #ffffff;
+    border-radius: 8px;
+    background: #333;
+
+    cursor: pointer;
+}
+
+
+
+@media( max-width: 961px ) {
+    .goods-content__wr-filter {
+        display: flex;
+
+        flex-direction: column;
+    } 
+}
 
 @media( max-width: 961px ) {
     .filter {
@@ -171,6 +197,22 @@
 
     .filter__sub-item-box_two-rows {
         margin-top: 2.25vw;
+    }
+}
+
+@media( max-width: 961px ) {
+    .filter__wr-reset-button {
+        margin-top: 6.40vw;
+    }
+}
+
+@media( max-width: 961px ) {
+    .filter__reset-button {
+        height: 13.33vw;
+
+        font-size: 6.40vw;
+
+        border-radius: 2.13vw;
     }
 }
 

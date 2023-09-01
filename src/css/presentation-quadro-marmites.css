@@ -13,14 +13,14 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 3.13vw;
+    font-size: 2.34vw;
 
     flex-direction: column;
 }
 
 .presentation__wr-text {
     display: flex;
-    width: 100%;
+    width: 93%;
     margin-top: 1.72vw;
     gap: 2.34vw;
 
@@ -29,7 +29,7 @@
 
 .presentation__wr-text p {
     font-family: 'WMFRotis-Regular';
-    font-size: 1.406vw;
+    font-size: 1.15vw;
 
     color: #333333;
 }

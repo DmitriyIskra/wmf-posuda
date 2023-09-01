@@ -81,6 +81,7 @@
 
 .modal__wr-form-item {
     display: flex;
+    gap: 0.15vw;
 
     flex-direction: column;
 }
@@ -193,8 +194,8 @@
 
 @media( max-width: 961px ) {
     .modal {
-        width: 87vw;
-        padding-bottom: 5.01vw;
+        width: 80vw;
+        padding-bottom: 14.13vw;
         padding-top: 2.5vw;
 
         border-radius: 1.52vw;
@@ -203,7 +204,7 @@
 
 @media( max-width: 961px ) {
     .modal__form {
-        margin-top: 3.98vw;
+        margin-top: 9.87vw;
     }
 }
 
@@ -214,71 +215,108 @@
 }
 
 @media( max-width: 961px ) {
-    .modal__title {
-        padding-left: 7vw;
+    .modal__header {
+        flex-direction: column;
+        align-items: baseline;
+    }
+}
 
-        font-size: 6.25vw;
+@media( max-width: 961px ) {
+    .modal__title {
+        padding-left: 0;
+        /* padding-top: 14.4vw; */
+
+        font-size: 5.33vw;
+
+        align-self: center;
+        order: 2;
     }
 }
 
 @media( max-width: 961px ) {
     .modal__close {
-        height: 4.8vw;
-        width: 6.8vw;
+        height: 8.33vw;
+        width: 8.33vw;
+        margin-top: 2.13vw;
+        margin-right: 1.87vw;
 
         background-size: 65%;
+
+        align-self: flex-end;
+        order: 1;
+    }
+}
+
+@media( max-width: 961px ) {
+    .modal__underline {
+        margin-top: 2.13vw;
     }
 }
 
 @media( max-width: 961px ) {
     .modal__wr-form-item {
-        width: 73%;
+        width: 93.1%;
     }
 }
 
 @media( max-width: 961px ) {
     .modal__label {
-        font-size: 3vw;
+        font-size: 4.27vw;
+    }
+}
+
+@media( max-width: 961px ) {
+    .modal__text-invalid {
+        font-size: 4.27vw;
     }
 }
 
 @media( max-width: 961px ) {
     .modal__form-element {
-        height: 6.6vw;
+        height: 13.33vw;
         width: 100%;
-        font-size: 3.04vw;
-        border-radius: 1vw;
+        padding-left: 1.87vw;
+
+        font-size: 5.33vw;
+        
+        border-radius: 2.13vw;
+        color: #666;
+    }
+
+    .modal__required-mark {
+        background-position: top 1.8vw right 1.8vw;
     }
 }
 
 @media( max-width: 961px ) {
     .modal__wr-button {
         width: 100%;
+        margin-top: 2.13vw;
     }
 }
 
 @media( max-width: 961px ) {
     .modal__button {
-        width: 73%;
-        height: 6.6vw;
+        width: 93.1%;
+        height: 13.33vw;
 
-        font-size: 3vw;
+        font-size: 5.33vw;
 
-        border-radius: 1vw;
+        border-radius: 1.33vw;
     }
 }
 
 @media( max-width: 961px ) {
     .modal__social-list {
-        margin-top: 5.82vw;
-        gap: 2.5vw;
+        margin-top: 10.13vw;
+        gap: 14.5vw;
     }
 }
 
 @media( max-width: 961px ) {
     .modal__social-item {
-        width: 6.6vw;
-        height: 6.6vw;
+        width: 13.33vw;
+        height: 13.33vw;
     }
 }
 

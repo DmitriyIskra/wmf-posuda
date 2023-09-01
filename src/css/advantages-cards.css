@@ -7,7 +7,7 @@
 
 .advantages__control-list { 
     display: flex;
-    gap: 3.75vw;
+    gap: 5.26vw;
 }
 
 .advantages__wr-control-item {
@@ -40,7 +40,7 @@
     justify-content: space-between;
 }
 
-.advantages__content_active {
+.advantages__content_active { 
     display: flex;
 }
 
@@ -60,6 +60,7 @@
 }
 
 .advantages__wr-card-text p {
+    width: 65%;
     margin-top: 1.15vw;
     
     font-family: 'WMFRotis-Regular';

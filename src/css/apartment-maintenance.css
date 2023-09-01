@@ -6,7 +6,7 @@
     align-items: center; 
 }
 
-.apartment-maintenance__banner {
+.apartment-maintenance__banner { 
     padding-top: 13vw;
     padding-left: 11.7vw;
 
@@ -126,6 +126,10 @@ div.advantages-bc__wrapper_maintenance {
 
 div.advantages-bc__cards-wrapper_maintenance {
     margin-top: 0;
+}
+
+div.advantages-bc__wr-card-text_correct-maint {
+    padding-right: 0;
 }
 
 .advantages-bc__wr-card-text_maintenance p {

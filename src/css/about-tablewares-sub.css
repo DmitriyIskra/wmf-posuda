@@ -61,10 +61,14 @@
     display: flex;
 
     font-family: 'WMFRotis-Bold';
-    font-size: 2.99vw;
+    font-size: 2.34vw;
     line-height: 1.1;
 
     flex-direction: column;
+}
+
+.about-tablewares-sub__card-description-title_desctop {
+    margin-top: 1.5vw;
 }
 
 .about-tablewares-sub__card-description-title_mobile {
@@ -78,10 +82,14 @@
 
 .about-tablewares-sub__card-description-text p {
     font-family: 'WMFRotis-Regular';
-    font-size: 1.46vw;
+    font-size: 1.15vw;
     line-height: 1;
 
     color: #333333;
+}
+
+.about-tablewares-sub__card-text_first-article {
+    margin-top: 3.18vw;
 }
 
 .about-tablewares-sub__card-text_first-article p {
@@ -115,8 +123,16 @@
 
 .about-tablewares-sub__card-description-title_big {
     font-family: 'WMFRotis-Bold';
-    font-size: 3.65vw;
+    font-size: 2.34vw;
     line-height: 1;
+}
+
+.about-tablewares-sub__text_bottom-1 {
+    margin-top: 4.95vw;
+}
+
+.about-tablewares-sub__text_bottom-2 {
+    margin-top: 3.75vw;
 }
 
 .about-tablewares-sub__card-description-text_bottom p {
@@ -190,7 +206,7 @@
     background-position: center;
 }
 
-.advantages-bc__wr-icon_letter {
+.advantages-bc__wr-icon_letter { 
     background: no-repeat url(../svg/durability-card-icon-letter.svg);
     background-size: 100%;
     background-position: center;

@@ -18,6 +18,8 @@ export default class RedrawCallback {
         const modalHtml = text.replace(/^<head>.*<\/head>/g, '');
         // получаем высоту страницы для обертки модалки
         const pageHeight = document.body.offsetHeight;
+        // получаем ширину для позиционирования модалки по верху
+        const pageWidth = document.body.offsetWidth;
         // активируем парсер DOM
         const parser = new DOMParser();
 
@@ -30,13 +32,20 @@ export default class RedrawCallback {
         const result = parser.parseFromString(modalHtml, 'text/html');
 
         const modal = result.querySelector('.modal');
-        modal.style = `top: ${scrollY}px;`
+        // если страница по ширине больше 961 даем top для десктопа
+        // что то ттипа медиазапроса в css
+        if(pageWidth > 961) {
+            modal.style = `top: ${scrollY + (innerHeight * 5.5 / 100)}px;`;
+        } else {
+            modal.style = `top: ${scrollY}px;`;
+        }
         
         modalWrapper.append(modal);
 
         document.body.append(modalWrapper);
 
         this.modalWrapper = document.querySelector('.modal-wrapper');
+        // сохраняем так, так как нужно получить ссылку на элемент именно в DOM
         this.modal = this.modalWrapper.querySelector('.modal');
         this.form = this.modalWrapper.querySelector('.modal__form');
         this.wrPhone = this.form.querySelector('.modal__wr-form-item_phone');
@@ -47,11 +56,20 @@ export default class RedrawCallback {
     }
 
     openModal() {
-        // получаем высоту страницы для обертки модалки
+        // получаем высоту и ширину страницы для обертки модалки
         const pageHeight = document.body.offsetHeight;
+        const pageWidth = document.body.offsetWidth;
 
         this.modalWrapper.style = `height: ${pageHeight}px;`;
-        this.modal.style = `top: ${scrollY}px;`
+
+        // если страница по ширине больше 961 даем top для десктопа
+        // что то ттипа медиазапроса в css
+        if(pageWidth > 961) {
+            this.modal.style = `top: ${scrollY + (innerHeight * 5.5 / 100)}px;`;
+        } else {
+            this.modal.style = `top: ${scrollY}px;`;
+        }
+        
         this.modalWrapper.classList.remove('modal-wrapper_unactive');
     }
 

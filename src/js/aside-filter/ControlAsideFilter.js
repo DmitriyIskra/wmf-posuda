@@ -4,7 +4,7 @@ export default class ControlAsideFilter {
         this.filter = this.draw.filter;
         // this.sub = this.draw.sub
 
-        this.onClick = this.onClick.bind(this);
+        this.onClick = this.onClick.bind(this); 
         this.onMouseOver = this.onMouseOver.bind(this);
         this.onMouseOut = this.onMouseOut.bind(this); 
         this.onTouchStart = this.onTouchStart.bind(this); 
@@ -28,6 +28,11 @@ export default class ControlAsideFilter {
 
         if(e.target.closest('.filter__sub-item-title-box')) {
             this.draw.redrawSubItem(e.target.closest('.filter__sub-item-title-box'));
+        }
+
+        if(e.target.closest('.filter__reset-button')) {
+            console.log('work button')
+            this.draw.clearFilter();
         }
     }
 

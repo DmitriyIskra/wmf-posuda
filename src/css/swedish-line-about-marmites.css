@@ -6,7 +6,7 @@
     align-items: center; 
 }
 
-.about-marmites__line-right { 
+.about-marmites__line-right {  
     margin-top: 4.22vw;
 }
 
@@ -55,20 +55,6 @@
     align-items: center;
 } 
 
-.presentation__title_marmites {
-    font-size: 2.08vw;
-}
-
-@media ( min-width: 436px) {
-    .presentation__wr-info_marmites {
-        width: 40.46vw;
-    }
-
-    .presentation__text_mobile p {
-        font-size: 1.15vw;
-    }
-}
-
 .presentation__img-marmites-1 {
     background: no-repeat url(../img/presentation-about-marmites-img-1.webp);
     background-position: center;
@@ -76,6 +62,8 @@
 } 
 
 .presentation__img-marmites-2 {
+    height: 23.49vw;
+
     background: no-repeat url(../img/presentation-about-marmites-img-2.webp);
     background-position: center;
     background-size: auto 100%;
@@ -87,6 +75,9 @@
 
 /* Н А Ч А Л О  П Р Е И М У Щ Е С Т В А */
 
+section.advantages__wr-card-text_marmites p {
+    width: 85%;
+}
 
 .advantages__img_recycling {
     background: no-repeat url(../img/advantages__img_recycling.webp);
@@ -181,11 +172,6 @@
     }
 }
 
-@media ( max-width: 961px ) { 
-    .presentation__title_marmites {
-        font-size: 6.5vw;
-    }
-}
 
 @media ( max-width: 961px ) { 
     .presentation__img-marmites-1 {
