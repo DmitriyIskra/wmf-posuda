@@ -7,7 +7,7 @@
 }
  
 .not-found__line-right {
-    margin-top: 3.02vw;
+    margin-top: 3.02vw; 
 }
 
 .not-found__wr-content {
@@ -65,6 +65,10 @@
     align-items: center;
 }
 
+.not-found__info-text_mobile {
+    display: none;
+}
+
 .not-found__wr-buttons {
     display: flex;
     margin-top: 2vw;
@@ -112,4 +116,77 @@
     .not-found__line-left {
         display: none;
     }
+}
+
+@media ( max-width: 961px ) { 
+    .not-found__oops-error {
+        font-size: 7vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .not-found__wr-num-error {
+        margin-top: 12.73vw;
+
+        font-size: 34.13vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .not-found__wr-img {
+        width: 25.33vw;
+        height: 25.33vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .not-found__info-text_desctop {
+        display: none;
+    }
+
+    .not-found__info-text_mobile {
+        display: flex;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .not-found__info-text {
+        margin-top: 16.47vw;
+
+        font-size: 7vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .not-found__wr-buttons {
+        margin-top: 10.13vw;
+        gap: 3vw;
+
+        flex-direction: column;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .not-found__button {
+        height: 13.33vw;
+        width: 87vw;
+
+        font-size: 7vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    
+}
+
+@media ( max-width: 961px ) { 
+    
+}
+
+@media ( max-width: 961px ) { 
+    
+}
+
+@media ( max-width: 961px ) { 
+    
 }
