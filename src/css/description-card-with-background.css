@@ -8,7 +8,7 @@
 
     flex-direction: column;
     align-items: flex-start;
-}
+} 
 
 .wr-description-card__description {
     display: flex;
@@ -449,55 +449,55 @@
 
 @media ( max-width: 961px ) { 
     .wr-description-card__banner_mobile-divine {
-        background: no-repeat url(../img/about-tablewares-two-wmf-barock-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-divine.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-flavour {
-        background: no-repeat url(../img/about-tablewares-two-wmf-baguette-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-flavour.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-royal {
-        background: no-repeat url(../img/about-tablewares-two-wmf-base-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-royal.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-smart {
-        background: no-repeat url(../img/about-tablewares-two-wmf-base-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-smart.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-manhattan {
-        background: no-repeat url(../img/about-tablewares-two-wmf-casino-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-manhattan.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-diva {
-        background: no-repeat url(../img/about-tablewares-two-wmf-club-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-diva.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-compo {
-        background: no-repeat url(../img/about-tablewares-two-wmf-contour-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-compo.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-international {
-        background: no-repeat url(../img/about-tablewares-two-wmf-flair-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-international.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-culturecup {
-        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-culturecup.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -546,37 +546,31 @@
 
 @media (max-width: 435px) {
     .wr-description-card__banner_mobile-tt-classic {
-        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.webp);
-        background-position: center;
-        background-size: auto 100%;
-    }
-
-    .wr-description-card__banner_mobile-tt-diva {
-        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-tt-classic.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-tt-pure {
-        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-tt-pure.webp);
         background-position: center;
         background-size: auto 100%;
     }
  
     .wr-description-card__banner_mobile-tt-urban {
-        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-tt-urban.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-tt-bistro {
-        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-tt-bistro.webp);
         background-position: center;
         background-size: auto 100%;
     }
 
     .wr-description-card__banner_mobile-tt-pure-exclusive {
-        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-tt-pure-exclusive.webp);
         background-position: center;
         background-size: auto 100%;
     }
@@ -602,13 +596,13 @@
 
 @media (max-width: 435px) {
     .wr-description-card__banner_mobile-marmites-fresh {
-        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-marmites-fresh.webp);
         background-position: center;
         background-size: auto 100%; 
     }
 
     .wr-description-card__banner_mobile-marmites-economy {
-        background: no-repeat url(../img/about-tablewares-two-wmf-gastro-mobile.webp);
+        background: no-repeat url(../img/wr-description-card__banner_mobile-marmites-economy.webp);
         background-position: center;
         background-size: auto 100%;
     }
