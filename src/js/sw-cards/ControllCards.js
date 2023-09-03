@@ -13,8 +13,8 @@ export default class ControllCards {
     }
 
     registerEvents() {
-        this.element.addEventListener('touchstart', this.onTouchStart);
-        this.element.addEventListener('touchend', this.onTouchEnd)
+        this.element.addEventListener('touchstart', this.onTouchStart, {passive: true});
+        this.element.addEventListener('touchend', this.onTouchEnd, {passive: true})
     }
 
     onTouchStart(e) {
