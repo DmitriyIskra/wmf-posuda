@@ -51,7 +51,7 @@
 }
 
 .good-card__wrapper-link:hover .good-card__card-content {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0.52vw rgba(0, 0, 0, 0.4), 0 0 0.52vw rgba(0, 0, 0, 0.4);
 }
 
 .good-card__wr-card-img {
