@@ -26,12 +26,14 @@
     padding-top: 3.75vw;
 
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
 } 
 
 .apartment-maintenance__wrapper-video {
     width: 76vw;
     height: 43.46vw;
+
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 .video-content {
