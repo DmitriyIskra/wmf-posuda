@@ -8,7 +8,7 @@
     padding-bottom: 8.85vw;
  
     align-items: center;    
-    flex-direction: column; 
+    flex-direction: column;  
 }
 
 .ssl__wr-banner { 
@@ -32,12 +32,6 @@
     flex-direction: column;
 }
 
-.ssl__wr-banner-title-bottom {
-    font-family: 'WMFRotis-Bold';
-    font-size: 3.33vw;
-
-    color: #333333;
-}
 
 
 
@@ -295,11 +289,6 @@ div.ssl__cards-arrow-link {
     .ssl__wr-banner-title-top {
         font-family: 'WMFRotis-Bold';
         font-size: 8.53vw;
-    }
-
-    .ssl__wr-banner-title-bottom {
-        font-family: 'WMFRotis-Bold';
-        font-size: 5.33vw;
     }
 }
 

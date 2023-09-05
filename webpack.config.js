@@ -85,7 +85,18 @@ module.exports = {
           filename: 'fonts/[name][ext]',  // указываем путь сборки
         }
       },
-      
+      // {
+      //   test: /\.(webmanifest)$/i,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name: '[name].[ext]',
+      //         outputPath: 'webmanifest/', // копируем файл webmanifest
+      //       },
+      //     },
+      //   ],
+      // }
 
     ],
   },

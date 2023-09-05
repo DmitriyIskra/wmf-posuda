@@ -137,7 +137,7 @@ export default class DrawHeader {
         }
     }
 
-    closeSubMenu() {
+    closeSubMenu() { 
         // закрываем последнее открытое подменю и возвращаем все элементы на место
         this.lastSubMenu.classList.add('unactive-sub');
         this.lastActiveNavElement.classList.remove('active');
@@ -151,6 +151,7 @@ export default class DrawHeader {
         // Убираем высоту маске подменю для main
         this.maskSubMenu.style.height = ``;
     }
+
 
 
     // Перерисовка иконки поиска

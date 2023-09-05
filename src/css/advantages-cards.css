@@ -7,7 +7,7 @@
 
 .advantages__control-list { 
     display: flex;
-    gap: 5.26vw;
+    gap: 5.73vw;
 }
 
 .advantages__wr-control-item {
@@ -47,6 +47,8 @@
 .advantages__card-img {
     width: 28.91vw;
     height: 21.77vw;
+
+    box-shadow: 0 0.52vw 0.83vw 0 rgb(0 0 0 / 20%), 0 0.31vw 1.04vw 0 rgb(0 0 0 / 19%);
 }
 
 .advantages__wr-card-text {
@@ -60,7 +62,7 @@
 }
 
 .advantages__wr-card-text p {
-    width: 65%;
+    width: 59%;
     margin-top: 1.15vw;
     
     font-family: 'WMFRotis-Regular';
@@ -113,7 +115,7 @@
     .advantages__underline_active {
         display: none;
     }
-}
+} 
 
 @media ( max-width: 961px ) { 
     .advantages__card {
@@ -124,12 +126,12 @@
 }
 
 @media ( max-width: 961px ) { 
-    .advantages__card-img {
+    .advantages__card-img { 
         width: 100%;
         height: 67.47vw;
         margin-top: 8vw;
 
-        border: 1px solid #777777;
+        box-shadow: 0 1.52vw 2.83vw 0 rgb(0 0 0 / 20%), 0 0.31vw 1.04vw 0 rgb(0 0 0 / 19%);
 
         order: 2;
     }

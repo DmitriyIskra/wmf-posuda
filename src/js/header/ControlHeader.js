@@ -5,6 +5,7 @@ export default class ControlHeader {
         this.onClick = this.onClick.bind(this);
         this.onMouseOver = this.onMouseOver.bind(this);
         this.onMouseOut = this.onMouseOut.bind(this);
+        this.onScroll = this.onScroll.bind(this);
     }
 
     init() {
@@ -19,12 +20,9 @@ export default class ControlHeader {
     }
 
     registerEvents() {
-
         this.draw.header.addEventListener('click', this.onClick);
         this.draw.header.addEventListener('mouseover', this.onMouseOver);
         this.draw.header.addEventListener('mouseout', this.onMouseOut);
-
-        
     }
 
     onClick(e) {
@@ -36,12 +34,22 @@ export default class ControlHeader {
         // открытие под меню по клику на элемент меню
         if(e.target.matches('.header__nav-link')) {
             this.draw.openSubMenu(e.target.closest('.header__nav-item'));
+            document.addEventListener('scroll', this.onScroll);
         }
 
-        // Закрытие подменю по нажатию на крестик
-        if(e.target.closest('.close-submenu')) {
+
+        // Закрытие подменю по нажатию на крестик или на свободное поле хедера
+        if( 
+            (
+                this.draw.lastSubMenu
+                && !e.target.matches('.submenu-link')
+                && !e.target.matches('.header__nav-link')
+            ) 
+            || e.target.closest('.close-submenu')    
+        ) {
             this.draw.closeSubMenu();
-        }
+            document.removeEventListener('scroll', this.onScroll);
+        };
 
         // РАБОТА КНОПКИ ПОИСК СТАРТ
         if(e.target.matches('.header__icon-search')) {
@@ -76,6 +84,16 @@ export default class ControlHeader {
     onMouseOut(e) {
         if(e.target.closest('.header__nav-link')) { 
             this.draw.removeMask();
+        }
+    }
+
+    onScroll(e) {
+        // Закрытие мню при скролле вниз
+        // если нижний край подменю становится не виден закрываем
+        // и снмаем слушатель
+        if(this.draw.lastSubMenu.getBoundingClientRect().bottom <= 0) {
+            this.draw.closeSubMenu();
+            document.removeEventListener('scroll', this.onScroll);
         }
     }
 }

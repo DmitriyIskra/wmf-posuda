@@ -16,7 +16,7 @@
 }
 
 .pdf__catalog-title {
-    font-family: 'WMFRotis-Bold';
+    font-family: 'WMFRotis-Bold'; 
     font-size: 2.34vw;
 }
 
@@ -28,7 +28,7 @@
     background: no-repeat url(../img/catalog-SYNERGY_STYLE_LIGHTS_ES-11.webp);
     background-position: center;
     background-size: auto 100%;
-    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    box-shadow: 0 0.52vw 0.83vw 0 rgb(0 0 0 / 20%), 0 0.31vw 1.04vw 0 rgb(0 0 0 / 19%);
 }
 
 .pdf__catalog-link {
@@ -76,6 +76,8 @@
     .pdf__catalog-card {
         width: 53.87vw;
         height: 76.27vw;
+
+        box-shadow: 0 1.52vw 2.83vw 0 rgb(0 0 0 / 20%), 0 0.31vw 1.04vw 0 rgb(0 0 0 / 19%);
     }
 }
 

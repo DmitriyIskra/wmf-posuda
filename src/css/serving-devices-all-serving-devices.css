@@ -1,10 +1,10 @@
 
 
 .sd-all-serving-devices__banner {
-    background: no-repeat url(../img/banner-all-tablewares.webp); 
+    background: no-repeat url(../img/banner-tablewares-serving-devices.webp); 
     background-position: center;
     background-size: 100%;
-}
+} 
 
 
 
@@ -12,7 +12,7 @@
     .sd-all-serving-devices__banner {
         padding-top: 13.66vw;
 
-        background: no-repeat url(../img/banner-all-tablewares-mobile.webp);
+        background: no-repeat url(../img/banner-tablewares-serving-devices_mobile.webp);
         background-position: center;
         background-size: auto 100%;
     }

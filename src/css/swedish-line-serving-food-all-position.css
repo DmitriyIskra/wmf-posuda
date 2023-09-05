@@ -7,7 +7,7 @@
 
 
 @media( max-width: 961px ) {
-    .serving-food-all-position__banner {
+    .serving-food-all-position__banner { 
         padding-top: 13.66vw;
 
         background: no-repeat url(../img/banner-swedish-line-serving-food-mobile.webp);

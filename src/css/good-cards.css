@@ -37,7 +37,10 @@
 }
 
 .good-card__wrapper-link {
-    width: 13.2vw;
+    width: 15.57vw;
+    padding: 0.99vw 1.20vw 1.46vw;
+
+    border-radius: 0.42vw;
 }
 
 .catalog-good-first-line {
@@ -46,11 +49,9 @@
 
 .good-card__card-content {
     min-height: 18.23vw;
-
-    border-radius: 0.42vw;
 }
 
-.good-card__wrapper-link:hover .good-card__card-content {
+.good-card__wrapper-link:hover {
     box-shadow: 0 0 0.52vw rgba(0, 0, 0, 0.4), 0 0 0.52vw rgba(0, 0, 0, 0.4);
 }
 
