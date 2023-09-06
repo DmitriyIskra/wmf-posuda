@@ -107,7 +107,7 @@
     padding-left: 1.04vw;
     padding-bottom: 1vw;
     
-    background-color: #ffffff97;
+    background-color: rgba(255, 255, 255, 0.77);
 
     flex-grow: 1;
     flex-direction: column;
@@ -151,6 +151,12 @@
 
     font-family: 'WMFRotis-Regular';
     font-size: 1.15vw;
+}
+
+.new-easy-card__wr-text p {
+    display: flex;
+
+    flex-direction: column;
 }
 
 .new-easy-card__wr-link {
@@ -367,7 +373,7 @@
     display: none;
 }
 
-
+ 
 
 
 

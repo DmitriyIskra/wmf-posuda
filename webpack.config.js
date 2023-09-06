@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ImageminWebpWebpackPlugin = require("imagemin-webp-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = { 
   devServer: {
@@ -203,11 +204,11 @@ module.exports = {
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
-      scriptLoading: 'blocking',
+      scriptLoading: 'blocking', 
     }),
     new HtmlWebPackPlugin({
-      template: './src/pug/about-tablewares-sub.pug',
-      filename: './about-tablewares-sub.html',   // куда компилировать
+      template: './src/pug/tablewares-about-tablewares.pug',
+      filename: './tablewares-about-tablewares.html',   // куда компилировать
       minify: {
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
@@ -514,6 +515,14 @@ module.exports = {
       detailedLogs: false,
       silent: false,
       strict: true,
+    }),
+
+    new CopyWebpackPlugin({
+      patterns: [ 
+        { from: 'src/pug/site.webmanifest', to: 'dist/webmanifest' },
+        { from: 'src/img/webmanifest/android-chrome-192x192.webp', to: 'dist/img/webmanifest' },
+        { from: 'src/img/webmanifest/android-chrome-256x256.webp', to: 'dist/img/webmanifest' },
+      ],
     }),
   ],
 };

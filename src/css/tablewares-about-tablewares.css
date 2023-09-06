@@ -12,8 +12,8 @@
     background-size: 100%;
 }
 
-.about-tablewares-sub__banner p {
-    width: 22.58vw;
+.about-tablewares-sub__wr-banner-text {
+    width: 25vw;
     margin-top: 21.41vw;
     margin-left: 9.95vw;
 
@@ -21,6 +21,14 @@
     font-size: 1.30vw;
 
     color: #333;
+}
+
+.about-tablewares-sub__wr-banner-text_medium p {
+    display: flex;
+
+    font-family: 'WMFRotis-Medium';
+
+    flex-direction: column;
 }
 
 .about-tablewares-sub__line-right {
@@ -200,7 +208,7 @@
 
 /* Н А Ч А Л О  Ч Е Р Н Ы Е  К А Р Т О Ч К И */
 
-.advantages-bc__wr-icon_knive {
+.advantages-bc__wr-icon_knive { 
     background: no-repeat url(../svg/durability-card-icon-knive.svg);
     background-size: 100%;
     background-position: center;

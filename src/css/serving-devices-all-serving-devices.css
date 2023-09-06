@@ -9,7 +9,7 @@
 
 
 @media( max-width: 961px ) {
-    .sd-all-serving-devices__banner {
+    .sd-all-serving-devices__banner { 
         padding-top: 13.66vw;
 
         background: no-repeat url(../img/banner-tablewares-serving-devices_mobile.webp);
