@@ -500,7 +500,7 @@ module.exports = {
     
     
     new MiniCssExtractPlugin({
-      filename: 'css/[hash].css', // куда компилировать
+      filename: 'css/main.css', // куда компилировать
       chunkFilename: '[id].css',
     }),
 
@@ -519,9 +519,11 @@ module.exports = {
 
     new CopyWebpackPlugin({
       patterns: [ 
-        { from: 'src/pug/site.webmanifest', to: 'dist/webmanifest' },
-        { from: 'src/img/webmanifest/android-chrome-192x192.webp', to: 'dist/img/webmanifest' },
-        { from: 'src/img/webmanifest/android-chrome-256x256.webp', to: 'dist/img/webmanifest' },
+        { from: 'src/pug/site.webmanifest', to: 'webmanifest' },
+        { from: 'src/img/webmanifest/android-chrome-192x192.webp', to: 'img/webmanifest' },
+        { from: 'src/img/webmanifest/android-chrome-256x256.webp', to: 'img/webmanifest' },
+        { from: 'src/img/slider-index-img-1.webp', to: 'img' },
+        { from: 'src/img/mobile-slider-index-img-1.webp', to: 'img' },
       ],
     }),
   ],

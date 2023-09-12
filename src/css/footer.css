@@ -237,9 +237,6 @@
     display: none;
 }
 
-.line-mobile-footer {
-    display: block;
-}
 
 
 @media( max-width: 961px ) {

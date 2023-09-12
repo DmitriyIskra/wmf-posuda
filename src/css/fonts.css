@@ -1,36 +1,42 @@
 @font-face { 
     font-family: 'WMFRotis-Bold'; /*700*/
-    src: url('../fonts/WMFRotis-Bold.otf');
+    src: url('../fonts/WMFRotis-Bold.otf'),
+    url('../fonts/WMFRotis-Bold.woff2') format('woff2');
     font-display: swap;
     /* font-weight: 700; */
 }
 
 @font-face { 
     font-family: 'WMFRotis-Italic'; 
-    src: url('../fonts/WMFRotis-Italic.otf');
+    src: url('../fonts/WMFRotis-Italic.otf'),
+    url('../fonts/WMFRotis-Italic.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face { 
     font-family: 'WMFRotis-Light'; /*300*/
-    src: url('../fonts/WMFRotis-Light.otf');
+    src: url('../fonts/WMFRotis-Light.otf'),
+    url('../fonts/WMFRotis-Light.woff2');
     font-display: swap;
 }
 
 @font-face { 
     font-family: 'WMFRotis-LightItalic';
-    src: url('../fonts/WMFRotis-LightItalic.otf');
+    src: url('../fonts/WMFRotis-LightItalic.otf'),
+    url('../fonts/WMFRotis-LightItalic.woff2');
     font-display: swap;
 }
 
 @font-face { 
     font-family: 'WMFRotis-Medium'; /*500*/
-    src: url('../fonts/WMFRotis-Medium.otf');
+    src: url('../fonts/WMFRotis-Medium.otf'),
+    url('../fonts/WMFRotis-Medium.woff2');
     font-display: swap;
 }
 
 @font-face { 
     font-family: 'WMFRotis-Regular'; /*400*/
-    src: url('../fonts/WMFRotis-Regular.otf');
+    src: url('../fonts/WMFRotis-Regular.otf'),
+    url('../fonts/WMFRotis-Regular.woff2');
     font-display: swap;
 }
