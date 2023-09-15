@@ -17,7 +17,7 @@ module.exports = {
   // },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/[hash].js',
+    filename: 'js/main.js',
     assetModuleFilename: "img/[name][ext][query]", // [name] или [hash], путь куда сохранять изображения
     clean: true, // очищает папку dist
   },

@@ -20,3 +20,7 @@ a {
 
     color: #000;
 }
+
+#bx-panel a {
+    width: auto;
+}

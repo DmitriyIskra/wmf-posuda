@@ -170,6 +170,7 @@
 .main__slider-arrows-item {
     height: 4.22vw;
     width: 2.45vw;
+    cursor: pointer;
 }
 
 .main__slider-arrows-list {
@@ -182,8 +183,6 @@
 
     transform: translate(-50%, -50%);
     justify-content: space-between;
-
-    cursor: pointer;
 }
 
 
