@@ -10,7 +10,7 @@ export default class ControlHeader {
 
     init() {
         this.registerEvents(); 
-
+ 
         // собираем массив элементов короткого подчеркивания
         this.draw.arrShortLine = [...this.draw.header.querySelectorAll('.header__short-line')];
 
@@ -37,15 +37,21 @@ export default class ControlHeader {
             document.addEventListener('scroll', this.onScroll);
         }
 
-
+        
         // Закрытие подменю по нажатию на крестик или на свободное поле хедера
         if( 
-            (
+            (   // this.draw.lastSubMenu если true значит подменю открыто
                 this.draw.lastSubMenu
                 && !e.target.matches('.submenu-link')
                 && !e.target.matches('.header__nav-link')
+                && !e.target.matches('.submenu')
+                && !e.target.matches('.submenu-list')
+                && !e.target.matches('.columns-item') 
+                && !e.target.matches('.submenu-columns')
+                && !e.target.matches('.wr-sub-menu')
+                && !e.target.matches('.header__nav-list')
             ) 
-            || e.target.closest('.close-submenu')    
+            || e.target.closest('.close-submenu')    // header__nav-list
         ) {
             this.draw.closeSubMenu();
             document.removeEventListener('scroll', this.onScroll);

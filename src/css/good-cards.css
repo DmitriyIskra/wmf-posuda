@@ -6,6 +6,7 @@
 .good-card__wr-card-list {
     display: flex;
     padding-left: 2.3vw;
+    margin-top: -2.6vw;
 
     flex-wrap: wrap;
 }
@@ -41,10 +42,6 @@
     padding: 0.99vw 1.20vw 1.46vw;
 
     border-radius: 0.42vw;
-}
-
-.catalog-good-first-line {
-    margin-top: 0;
 }
 
 .good-card__card-content {
