@@ -76,7 +76,7 @@ module.exports = {
         test: /\.svg$/i,
         type: 'asset/resource',
         generator: {
-          filename: 'svg/[hash][ext]',  // указываем путь сборки
+          filename: 'svg/[name][ext]',  // указываем путь сборки
         }
       },
       {

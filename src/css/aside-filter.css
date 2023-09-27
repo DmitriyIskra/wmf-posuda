@@ -116,9 +116,12 @@
     font-family: 'WMFRotis-Medium';
     font-size: 1.25vw;
 
-    color: #ffffff;
+    color: #000000;
+
+
     border-radius: 8px;
-    background: #333;
+    border: 0.05vw solid #000;
+    background: #ffffff;
 
     cursor: pointer;
 }

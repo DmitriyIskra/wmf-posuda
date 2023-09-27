@@ -50,6 +50,8 @@
 
 .good-card__wrapper-link:hover {
     box-shadow: 0 0 0.52vw rgba(0, 0, 0, 0.4), 0 0 0.52vw rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    color: #000;
 }
 
 .good-card__wr-card-img {

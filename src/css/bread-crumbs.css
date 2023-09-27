@@ -2,6 +2,7 @@
     display: flex;
     width: 76vw;
     margin-top: 1.15vw;
+    margin-bottom: 0;
     gap: 0.26vw;
 }
 
@@ -28,6 +29,11 @@
     font-family: 'WMFRotis-Light', sans-serif;
     font-size: 0.83vw;
 
+    color: #333333;
+}
+
+.bread-crumbs-item-link:hover {
+    text-decoration: none;
     color: #333333;
 }
 
