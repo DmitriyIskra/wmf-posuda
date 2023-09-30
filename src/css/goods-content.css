@@ -13,12 +13,13 @@
 
 .goods-content__wrapper-main-content {
     display: flex;
+    flex-wrap: wrap;
     width: 76vw;
     margin-top: 3.28vw;
 }
 
 .goods-content__aside {
-    min-width: 23vw;
+    width: 23vw;
     padding-right: 1.82vw;
 }
 
@@ -31,6 +32,7 @@
 
 .goods-content__wr-content {
     flex-grow: 1;
+    width: calc(100% - 24.82vw);
 }
 
 

@@ -168,7 +168,6 @@
 /* Контейнер */
 .main__tech-info-container {
     display: flex;
-    min-height: 18.39vw;
 
     margin-top: 2.60vw;
     padding-left: 5.13vw;
@@ -287,7 +286,7 @@
 }
 
 .main__info-file-text {
-    width: 4.90vw;
+    width: 8vw;
     font-family: 'WMFRotis-Regular', sans-serif;
     font-size: 0.83vw;
 }
@@ -509,7 +508,7 @@
     }
 
     .main__info-file-text {
-        width: 26.9vw;
+        width: 56.9vw;
         font-size: 5.33vw;
     }
 }
