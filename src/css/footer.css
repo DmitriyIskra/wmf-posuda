@@ -127,10 +127,13 @@
     display: flex;
     font-family: 'WMFRotis-Regular';
     font-size: 1.15vw;
-
     flex-direction: column;
-
     color: #D9D9D9;
+}
+
+.footer__info-link:hover {
+    color: #D9D9D9;
+    text-decoration: none;
 }
 
 .footer__info-link span {
@@ -179,16 +182,13 @@
     display: flex;
     margin-top: 0.21vw;
     gap: 0.21vw;
-
     flex-direction: column;
 }
 
 .address__phone-number-link {
     width: fit-content;
-
     font-family: 'WMFRotis-Regular';
     font-size: 1.15vw;
-
     color: inherit;
 }
 
@@ -197,6 +197,11 @@
 
     display: block;
     height: 1px;
+}
+
+.address__phone-number-link:hover {
+    color: #D9D9D9;
+    text-decoration: none;
 }
 
 .address__phone-number-link:hover::after {
