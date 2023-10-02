@@ -106,6 +106,7 @@
 
     width: 100vw;
     height: 37.50vw;
+    background-size: cover;
 }
 
 .main__slider-content-header {
