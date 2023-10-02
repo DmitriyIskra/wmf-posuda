@@ -17,10 +17,12 @@ html(lang="ru")
 
             .banner.serving-food-all-position__banner
 
-            .wr-number-pages.wr-number-pages-top
-                include modules/number-pages
+            
 
             .goods-content__wrapper-main-content
+                .wr-number-pages.wr-number-pages-top
+                    include modules/number-pages
+
                 aside.aside.goods-content__aside
                     .goods-content__wr-filter
                         .filter
@@ -77,7 +79,7 @@ html(lang="ru")
                                 button.filter__reset-button Сбросить фильтры
 
                 article.goods-content__wr-content 
-                    ul.good-card__wr-card-list  
+                    ul.good-card__wr-card-list   
                         li.good-card__wr-card-item
                             a(href="./page-vase.html" title="").good-card__wrapper-link
                                 .good-card__card-content 

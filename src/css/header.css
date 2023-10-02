@@ -48,6 +48,8 @@
 .header__nav-link {
     font-family: 'WMFRotis-Regular';
     font-size: 1.15vw;
+
+    cursor: pointer;
 }
 
 .header__nav-link:hover {

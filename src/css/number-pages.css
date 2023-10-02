@@ -6,11 +6,15 @@
     justify-content: flex-end; 
 }
 
+.wr-number-pages-top {
+    margin-bottom: 1.67vw;
+}
+
 .number-pages {
     display: flex;
     gap: 1.1vw;
 
-    align-items: center;
+    align-items: center; 
 }
 
 .number-pages__arrow-left {
@@ -66,6 +70,10 @@
     .wr-number-pages {
         width: 87vw;
         margin-top: 14.13vw;
+    }
+
+    .wr-number-pages-top {
+        margin-bottom: 0;
     }
 }
 
