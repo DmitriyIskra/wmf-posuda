@@ -93,14 +93,14 @@
     font-size: 1.25vw;
 }
 
-.main__wr-button-feedback {
+.main__wr-button-feedback, .wr-button-feedback {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
 }
 
-.main__button-feedback {
+.main__button-feedback, .button-feedback {
     position: relative;
 
     width: 100%;
@@ -117,7 +117,7 @@
     cursor: pointer;
 }
 
-.main__button-feedback::after {
+.main__button-feedback::after, .button-feedback::after {
     content: "";
     position: absolute;
     top: 0;
@@ -144,7 +144,7 @@
     cursor: pointer;
 }
 
-.main__button-feedback:hover:after {
+.main__button-feedback:hover:after, .button-feedback:hover:after {
     left: 0;
     /* opacity: 1; */
     transition: all 0.4s ease-in-out;
@@ -363,7 +363,7 @@
 }
 
 @media( max-width: 961px ) {
-    .main__wr-button-feedback {
+    .main__wr-button-feedback, .wr-button-feedback {
         position: static;
 
         margin-top: 8vw;
@@ -371,7 +371,7 @@
 }
 
 @media( max-width: 961px ) {
-    .main__button-feedback {
+    .main__button-feedback, .button-feedback {
         height: 13.33vw;
         width: 100%;
 

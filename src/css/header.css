@@ -39,6 +39,7 @@
     width: 100%;
 
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 .header__nav-item {
