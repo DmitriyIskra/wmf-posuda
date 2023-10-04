@@ -475,7 +475,7 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: './src/pug/modal-form.pug',
       filename: './modal-form.html',   // куда компилировать
-      minify: {
+      minify: { 
         html: false // отключаем минификацию html, еще есть версия minify: false  
       },
       scriptLoading: 'blocking',
@@ -496,7 +496,14 @@ module.exports = {
       },
       scriptLoading: 'blocking',
     }),
-    
+    new HtmlWebPackPlugin({
+      template: './src/pug/manual.pug',
+      filename: './manual.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+      scriptLoading: 'blocking',
+    }),
     
     
     new MiniCssExtractPlugin({
