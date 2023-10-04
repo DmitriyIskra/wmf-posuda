@@ -1,0 +1,32 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        include modules/favicon-manifest
+        title Руководство по эксплуатации
+    body
+
+        include modules/header
+
+        main(class="main footer-certificate__main certificate")
+            .wr-bread-crumbs
+                include modules/bread-crumbs
+
+            .line-right.footer-certificate__line-right
+
+            .footer-certificate__wr-content
+                .footer-certificate__wr-title 
+                    h2.footer-certificate__title Сертификат официального дистрибьютора
+
+                ul.footer-certificate__list 
+                    li.footer-certificate__item 
+                        img(src="../img/certificate-page-1.png" alt="Сертификат первая страница").footer-certificate__img
+                    li.footer-certificate__item 
+                        img(src="../img/certificate-page-2.png" alt="Сертификат вторая страница").footer-certificate__img
+
+
+            .line-left.footer-certificate__line-left
+
+
+        include modules/footer

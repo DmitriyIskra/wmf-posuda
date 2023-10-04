@@ -1,0 +1,101 @@
+.footer-certificate__main {
+    display: flex;
+    padding-bottom: 8.85vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.footer-certificate__line-right {
+    margin-top: 2.97vw;   
+}
+ 
+.footer-certificate__wr-content {
+    display: flex;
+    width: 76vw;
+    padding-top: 2.08vw;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-certificate__title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 2.34vw;
+}
+
+.footer-certificate__list {
+    display: flex;
+    margin-top: 4.69vw;
+    gap: 2.55vw;
+}
+
+.footer-certificate__item {
+    height: 22.14vw;
+    width: 15.63vw;
+}
+
+.footer-certificate__img {
+    height: 100%;
+    width: 100%;
+
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+
+    object-fit: contain;
+    object-position: center;
+    cursor: pointer;
+}
+
+.footer-certificate__line-left {
+    margin-top: 6.41vw;
+}
+
+
+
+@media ( max-width: 961px ) { 
+    .footer-certificate__main {
+        padding-top: 8vw;
+        padding-bottom: 25.60vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .footer-certificate__line-right {
+        display: none;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .footer-certificate__wr-content {
+        width: 87vw;
+        padding-top: 0;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    .footer-certificate__title {
+        font-size: 6.67vw;
+    }
+}
+
+@media ( max-width: 961px ) { 
+    
+}
+
+@media ( max-width: 961px ) { 
+    
+}
+
+@media ( max-width: 961px ) { 
+    
+}
+
+@media ( max-width: 961px ) { 
+    
+}
+
+@media ( max-width: 961px ) { 
+    .footer-certificate__line-left {
+        margin-top: 10.93vw;
+    }
+}

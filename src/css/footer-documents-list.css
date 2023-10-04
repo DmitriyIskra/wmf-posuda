@@ -53,7 +53,7 @@
     flex-direction: column;
 }
 
-.nanual__line-left {
+.footer-doc__line-left {
     margin-top: 6.41vw;
 }
 
@@ -108,7 +108,7 @@
 }
 
 @media ( max-width: 961px ) { 
-    .nanual__line-left {
+    .footer-doc__line-left {
         margin-top: 10.93vw;
     }
 }
