@@ -1,12 +1,17 @@
 export default class RedrawCertificate {
     constructor(zoom) {
         this.zoom = zoom;
-        this.wrImg = this.zoom.querySelector('.cert-zoom__wr-certificates');
+        this.wrImgZoom = this.zoom.querySelector('.cert-zoom__wr-certificates');
 
         // коэффициент увеличения
         this.ratio = 1.8;
         // данные для первичного расположения блока с сертификатомпм
         this.data = null;
+        // актуальный родительский элемент для изображения
+        this.parrentEl = null;
+        // стартовые размеры блока с изображением
+        this.startWidth = null;
+        this.startHeight = null;
         // продолжительность анимации
         this.duration = 0.5;
         this.currentImg = null;
@@ -20,23 +25,24 @@ export default class RedrawCertificate {
         this.getData(el);
 
         // отрисовка блока с сертификатом 
-        this.renderingImg()
+        this.renderingImg();
     }
 
     getData(el) {
-        const parrentEl = el.parentElement;
-        console.log('parrentEl', parrentEl)
+        this.parrentEl = el.parentElement;
 
         const imgSrc = el.src;
-        console.log('imgSrc', imgSrc)
-        const parrentTop = parrentEl.getBoundingClientRect().top;
-        console.log('imgTop', parrentTop)
-        const parrentLeft = parrentEl.getBoundingClientRect().left;
-        console.log('imgLeft', parrentLeft)
-        const parrentWidth = parrentEl.offsetWidth;
-        console.log('imgWidth', parrentWidth)
-        const parrentHeight = parrentEl.offsetHeight;
-        console.log('imgHeight', parrentHeight)
+
+        const parrentTop = this.parrentEl.getBoundingClientRect().top;
+
+        const parrentLeft = this.parrentEl.getBoundingClientRect().left;
+
+        const parrentWidth = this.parrentEl.offsetWidth;
+        this.startWidth = parrentWidth;
+
+        const parrentHeight = this.parrentEl.offsetHeight;
+        this.startHeight = parrentHeight;
+
 
         this.data = {
             imgSrc,
@@ -52,46 +58,61 @@ export default class RedrawCertificate {
         this.currentImg.src = this.data.imgSrc;
         this.currentImg.classList.add('cert-zoom__img');
 
-        this.wrImg.append(this.currentImg);
-        this.wrImg.style = `transition: all ${this.duration}s linear;`
-        this.wrImg.style.top = `${this.data.parrentTop}px`;
-        this.wrImg.style.left = `${this.data.parrentLeft}px`;
-        this.wrImg.style.width = `${this.data.parrentWidth}px`;
-        this.wrImg.style.height = `${this.data.parrentHeight}px`;
+        this.wrImgZoom.append(this.currentImg);
+        this.wrImgZoom.style = `transition: all ${this.duration}s linear;`
+        this.wrImgZoom.style.top = `${this.data.parrentTop}px`;
+        this.wrImgZoom.style.left = `${this.data.parrentLeft}px`;
+        this.wrImgZoom.style.width = `${this.data.parrentWidth}px`;
+        this.wrImgZoom.style.height = `${this.data.parrentHeight}px`;
 
         setTimeout( () => this.moveImg());
     }
 
     moveImg() {
-        const width = this.wrImg.offsetWidth * this.ratio;
-        const height = this.wrImg.offsetHeight * this.ratio;
+        const width = this.wrImgZoom.offsetWidth * this.ratio;
+        const height = this.wrImgZoom.offsetHeight * this.ratio;
         const top = (innerHeight / 2) - (height / 2);
         const left = (innerWidth / 2) - (width / 2);
         
-        this.wrImg.style.top = `${top}px`;
-        this.wrImg.style.left = `${left}px`;
-        this.wrImg.style.width = `${width}px`;
-        this.wrImg.style.height = `${height}px`;
+        this.wrImgZoom.style.top = `${top}px`;
+        this.wrImgZoom.style.left = `${left}px`;
+        this.wrImgZoom.style.width = `${width}px`;
+        this.wrImgZoom.style.height = `${height}px`;
     }
 
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     removeImg() {
-        // !!!!! НАХОДИТЬ АКТУАЛЬНОЕ МЕСТОПОЛОЖЕНИЯ ЭЛЕМЕНТА
-        this.wrImg.style.top = `${this.data.parrentTop}px`;
-        this.wrImg.style.left = `${this.data.parrentLeft}px`;
-        this.wrImg.style.width = `${this.data.parrentWidth}px`;
-        this.wrImg.style.height = `${this.data.parrentHeight}px`;
+        const top = this.parrentEl.getBoundingClientRect().top;
+        const left = this.parrentEl.getBoundingClientRect().left;
 
-        this.hideZoom()
+        // !!!!! НАХОДИТЬ АКТУАЛЬНОЕ МЕСТОПОЛОЖЕНИЯ ЭЛЕМЕНТА
+        this.wrImgZoom.style.top = `${top}px`;
+        this.wrImgZoom.style.left = `${left}px`;
+        this.wrImgZoom.style.width = `${this.startWidth}px`;
+        this.wrImgZoom.style.height = `${this.startHeight}px`;
+
+        setTimeout( () => this.hideZoom(), this.duration * 1000 )
+        
     }
  
     hideZoom() {
-        setTimeout( () => {
             this.zoom.classList.remove('cert-zoom__active');
 
-            this.currentImg.remove();
-            console.log('this.currentImg.remove()', this.currentImg)
-            this.currentImg = null;
-        }, this.duration);
+            this.resetZoom();
+    }
+
+    resetZoom() {
+        this.currentImg.remove();
+
+        this.currentImg = null;
+
+        this.wrImgZoom.style = '';
+
+        this.data = null;
+
+        this.parrentEl = null;
+    
+        this.startWidth = null;
+        this.startHeight = null;
     }
 } 
