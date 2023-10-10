@@ -22,7 +22,7 @@
             this.draw.showZoom(e.target.closest('.footer-certificate__img'));
         }
 
-        if(e.target.matches('.cert-zoom__cover')) {
+        if(e.target.matches('.cert-zoom__cover') || e.target.closest('.cert-zoom__cloze')) {
             this.draw.removeImg();
         }
     }

@@ -69,7 +69,22 @@
 }
 
 .cert-zoom__active {
-    display: block;
+    display: block; 
+}
+ 
+.cert-zoom__wr-cloze {
+    display: flex;
+    margin-top: 1vw;
+    padding-right: 1vw;
+
+    justify-content: flex-end;
+}
+
+.cert-zoom__cloze {
+    height: 0.7vw;
+    width: 0.7vw;
+
+    cursor: pointer;
 }
 
 .cert-zoom__wr-certificates {
