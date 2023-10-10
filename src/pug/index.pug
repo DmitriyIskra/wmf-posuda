@@ -1,5 +1,5 @@
 doctype html
-html(lang="ru")
+html(lang="ru") 
     head
         meta(charset="UTF-8")
         meta(name='viewport' content='width=device-width, initial-scale=1.0')
@@ -15,62 +15,72 @@ html(lang="ru")
                     //- Additional required wrapper
                     .swiper-wrapper
                         //- // Slides
-                        .swiper-slide.swiper-slide(style="background-image:url('./img/mobile-slider-index-img-1.webp')")
+                        .swiper-slide.swiper-slide-1
                             .wrapper-swiper-slide-content
                                 .wrapper-swiper-slide-text 
                                     h2.swiper-slide-title 
                                         <span class="swiper-slide-title-item">InNature</span>
                                         <span class="swiper-slide-title-item">& Geometric </span>
-                                    .swiper-slide-text <span>Похвастайтесь своим</span> <span>прекрасно сервированным столом.</span>
+                                    .swiper-slide-text 
+                                        <span>Похвастайтесь своим</span> 
+                                        <span>прекрасно сервированным столом.</span>
                                 a(href="./404.html").wrapper-slide-button Подробнее 
-                        .swiper-slide.swiper-slide(style="background-image:url('./img/mobile-slider-index-img-1.webp')")
+                        .swiper-slide.swiper-slide-2
                             .wrapper-swiper-slide-content
                                 .wrapper-swiper-slide-text 
                                     h2.swiper-slide-title 
-                                        <span class="swiper-slide-title-item">InNature</span>
-                                        <span class="swiper-slide-title-item">& Geometric </span>
-                                    .swiper-slide-text <span>Похвастайтесь своим</span> <span>прекрасно сервированным столом.</span>
+                                        <span class="swiper-slide-title-item">Новинка:</span>
+                                        <span class="swiper-slide-title-item">TRUE FLAVOUR </span>
+                                    .swiper-slide-text 
+                                        <span>Инновационный способ подачи</span> 
+                                        <span>горячих напитков.</span>
                                 a(href="#").wrapper-slide-button Подробнее 
-                        .swiper-slide.swiper-slide(style="background-image:url('./img/mobile-slider-index-img-1.webp')")
+                        .swiper-slide.swiper-slide-3
                             .wrapper-swiper-slide-content
                                 .wrapper-swiper-slide-text 
-                                    h2.swiper-slide-title 
+                                    h2.swiper-slide-title.swiper-slide-title_slide-3
                                         <span class="swiper-slide-title-item">InNature</span>
                                         <span class="swiper-slide-title-item">& Geometric </span>
-                                    .swiper-slide-text <span>Похвастайтесь своим</span> <span>прекрасно сервированным столом.</span>
-                                a(href="#").wrapper-slide-button Подробнее 
-                        .swiper-slide.swiper-slide(style="background-image:url('./img/mobile-slider-index-img-1.webp')")
-                            .wrapper-swiper-slide-content
-                                .wrapper-swiper-slide-text 
-                                    h2.swiper-slide-title 
-                                        <span class="swiper-slide-title-item">InNature</span>
-                                        <span class="swiper-slide-title-item">& Geometric </span>
-                                    .swiper-slide-text <span>Похвастайтесь своим</span> <span>прекрасно сервированным столом.</span>
-                                a(href="#").wrapper-slide-button Подробнее 
+                                    .swiper-slide-text 
+                                        <span>Похвастайтесь своим</span> 
+                                        <span>прекрасно сервированным столом.</span>
+                                a(href="#").wrapper-slide-button.wrapper-slide-button_slide-3 Подробнее 
                     //- // If we need pagination
                     .swiper-pagination
 
 
                 .main__wr-slider-scroll-line
                     ul.main__slider-list
-                        li.main__slider-item.slider-item(style="background-image:url('./img/slider-index-img-1.webp')")
+                        li.main__slider-item.slider-item-1
                             .main__wr-slider-content
-                                header.main__slider-content-header <span>InNature</span> <span>& Geometric</span>
+                                header.main__slider-content-header 
+                                    <span>InNature</span> 
+                                    <span>& Geometric</span>
                                 .main__slider-content-text 
-                                    p <span>Похвастайтесь своим</span> <span>прекрасно сервированным столом.</span>
+                                    p 
+                                        <span>Похвастайтесь своим</span> 
+                                        <span>прекрасно сервированным столом.</span>
                                 a(href="./404.html").main__slider-content-button Подробнее
-                        li.main__slider-item.slider-item(style="background-image:url('./img/slider-index-img-1.webp')")
+                        li.main__slider-item.slider-item-2
                             .main__wr-slider-content
-                                header.main__slider-content-header <span>InNature</span> <span>& Geometric</span>
+                                header.main__slider-content-header 
+                                    <span>Новинка:</span> 
+                                    <span>TRUE FLAVOUR</span>
                                 .main__slider-content-text 
-                                    p <span>Похвастайтесь своим</span> <span>прекрасно сервированным столом.</span>
+                                    p 
+                                        <span>Инновационный способ подачи</span> 
+                                        <span>горячих напитков.</span>
                                 button.main__slider-content-button Подробнее
-                        li.main__slider-item.slider-item(style="background-image:url('./img/slider-index-img-1.webp')")
+                        li.main__slider-item.slider-item-3
                             .main__wr-slider-content
-                                header.main__slider-content-header <span>InNature</span> <span>& Geometric</span>
-                                .main__slider-content-text 
-                                    p <span>Похвастайтесь своим</span> <span>прекрасно сервированным столом.</span>
-                                button.main__slider-content-button Подробнее
+                                header.main__slider-content-header.main__slider-content-header_slide3
+                                    <span>InNature</span> 
+                                    <span>& Geometric</span>
+                                .main__slider-content-text.main__slider-content-text_slide3
+                                    p 
+                                        <span>Похвастайтесь своим</span> 
+                                        <span>прекрасно сервированным столом.</span>
+                                button.main__slider-content-button.main__slider-content-button_slide3 Подробнее
 
                 ul.main__slider-arrows-list 
                     li.main__slider-arrows-item.slider-arrows-item-left

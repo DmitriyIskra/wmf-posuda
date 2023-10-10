@@ -1,8 +1,8 @@
 
 /* количество изображений в слайдере */
 .main__slider-list {
-    --amount-img: 3;
-}
+    --amount-img: 3; 
+} 
 
 .main {
     padding-bottom: 8.85vw; 
@@ -16,8 +16,20 @@
     width: 100vw;
 }
 
-.swiper-slide {
-    background-repeat: no-repeat;
+.swiper-slide-1 {
+    background: no-repeat url(../img/mobile-slider-index-img-1.webp);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.swiper-slide-2 {
+    background: no-repeat url(../img/mobile-slider-index-img-2.png);
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.swiper-slide-3 {
+    background: no-repeat url(../img/mobile-slider-index-img-3.png);
     background-position: center;
     background-size: 100% auto;
 }
@@ -35,6 +47,10 @@
     font-size: 6.40vw;
 
     flex-direction: column;
+}
+
+.swiper-slide-title_slide-3 {
+    margin-top: 2vw;
 }
 
 .swiper-slide-text {
@@ -64,11 +80,16 @@
     align-items: center;
 }
 
+.wrapper-slide-button_slide-3 {
+    margin-top: 6.27vw;
+}
+
 .swiper div.swiper-pagination {
     bottom: 3.73vw; /*3.73vw .wrapper-swiper-slide-content*/
-    left: 17.60vw;
+    left: 21.60vw;
 
     display: flex;
+    width: fit-content;
     gap: 1.60vw;
 }
 
@@ -118,6 +139,10 @@
     flex-direction: column;
 }
 
+.main__slider-content-header_slide3 {
+    margin-top: 1.15vw;
+}
+
 .main__slider-content-header span {
     line-height: 1;
 }
@@ -130,6 +155,10 @@
     font-size: 1.56vw;
 
     flex-direction: column;
+}
+
+.main__slider-content-text_slide3 p {
+    margin-top: 1.15vw;
 }
 
 .main__slider-content-text span {
@@ -156,7 +185,26 @@
     cursor: pointer;
 }
 
-.slider-item {
+.main__slider-content-button_slide3 {
+    margin-top: 2.81vw;
+}
+
+.slider-item-1 {
+    background-image: url(../img/slider-index-img-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.slider-item-2 {
+    background-image: url(../img/slider-index-img-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.slider-item-3 {
+    background-image: url(../img/slider-index-img-3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
