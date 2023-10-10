@@ -3,7 +3,7 @@ import DrawHeader from './header/drawHeader.js';
 
 import ControlSliderIndex from './sliderIndex/ControlSliderIndex.js';
 import DrawSliderIndex from './sliderIndex/DrawSliderIndex.js';
-
+ 
 import ControlSlider from './slider-product-card/ControlSlider.js';
 import DrawSlider from './slider-product-card/DrawSlider.js';
 
@@ -29,7 +29,10 @@ import ControlCallback from './callback-form/ControlCallback.js';
 import Http from './callback-form/Http.js';
 import RedrawCallback from './callback-form/RedrawCallback.js';
 import ValidationForm from './callback-form/Validation.js';
-import IMask from 'imask'
+import IMask from 'imask';
+
+import ControllCertificat from './footer-certificate/ControlCertificate.js';
+import RedrawCertificate from './footer-certificate/RedrawCertificate.js';
 
 
 
@@ -169,3 +172,18 @@ if(getFormButton) {
 }
 
 // E N D  C A L B A C K  F O R M
+
+
+
+// S T A R T  C E R T I F I C A T E
+
+const certificate = document.querySelector('.footer-certificate__list');
+
+if(certificate) {
+
+    const zoom = document.querySelector('.cert-zoom__cover');
+
+    const redrawCertificate = new RedrawCertificate(zoom);
+    const controllCertificat = new ControllCertificat(certificate, redrawCertificate);
+    controllCertificat.init();
+}

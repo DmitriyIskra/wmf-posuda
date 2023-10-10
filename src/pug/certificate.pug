@@ -7,7 +7,7 @@ html(lang='en')
         title Руководство по эксплуатации
     body
 
-        include modules/header
+        include modules/header 
 
         main(class="main footer-certificate__main certificate")
             .wr-bread-crumbs
@@ -21,12 +21,16 @@ html(lang='en')
 
                 ul.footer-certificate__list 
                     li.footer-certificate__item 
-                        img(src="../img/certificate-page-1.png" alt="Сертификат первая страница").footer-certificate__img
+                        img(src="../img/certificate-page-1.webp" data-zoomitem="1" alt="Сертификат первая страница").footer-certificate__img
                     li.footer-certificate__item 
-                        img(src="../img/certificate-page-2.png" alt="Сертификат вторая страница").footer-certificate__img
+                        img(src="../img/certificate-page-2.webp" alt="Сертификат вторая страница").footer-certificate__img
 
 
             .line-left.footer-certificate__line-left
+
+        .cert-zoom__cover 
+            .cert-zoom__wr-certificates
+
 
 
         include modules/footer

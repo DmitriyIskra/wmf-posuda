@@ -1,0 +1,65 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        include modules/favicon-manifest
+        title Руководство по эксплуатации
+    body
+
+        include modules/header
+
+        main(class="main footer-doc__main footer-doc")
+            .wr-bread-crumbs
+                include modules/bread-crumbs
+
+            .line-right.footer-doc__line-right
+
+            .footer-doc__wr-content
+                .footer-doc__wr-title 
+                    h2.footer-doc__title Руководство по эксплуатации
+
+                ul.footer-doc__documents-list
+                    li.footer-doc__documents-item
+                        a(href="#00" title="Прайс 2023 WMF обслуживание апартаментов").footer-doc__file-link
+                            .footer-doc__file-icon
+                                include modules/icon-pdf
+                            .footer-doc__file-description
+                                span 2023 WMF
+                                span обслуживание апартаментов
+                    li.footer-doc__documents-item
+                        a(href="#00" title="Прайс WMF STYLE LIGHTS").footer-doc__file-link
+                            .footer-doc__file-icon
+                                include modules/icon-pdf
+                            .footer-doc__file-description
+                                span WMF STYLE LIGHTS
+                    li.footer-doc__documents-item
+                        a(href="#00" title="Прайс WMF SYNERGY").footer-doc__file-link
+                            .footer-doc__file-icon
+                                include modules/icon-pdf
+                            .footer-doc__file-description
+                                span WMF SYNERGY 
+                    li.footer-doc__documents-item
+                        a(href="#00" title="Прайс WMF Table Top").footer-doc__file-link
+                            .footer-doc__file-icon
+                                include modules/icon-pdf
+                            .footer-doc__file-description 
+                                span WMF Table Top 
+                    li.footer-doc__documents-item
+                        a(href="#00" title="Прайс WMF Столовые приборы").footer-doc__file-link
+                            .footer-doc__file-icon
+                                include modules/icon-pdf
+                            .footer-doc__file-description
+                                span WMF Столовые приборы
+                    li.footer-doc__documents-item
+                        a(href="#00" title="Прайс WMF Шведская линия").footer-doc__file-link
+                            .footer-doc__file-icon
+                                include modules/icon-pdf
+                            .footer-doc__file-description
+                                span WMF Шведская линия
+                            
+
+            .line-left.footer-doc__line-left
+
+
+        include modules/footer
