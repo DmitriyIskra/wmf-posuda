@@ -63,5 +63,6 @@ import './css/advantages-black-cards.css';
 import './css/404.css';
 import './css/footer-documents-list.css';
 import './css/footer-certificate.css';
+import './css/search-result.css'
 import './css/modal.css';
 import './css/banner.css';

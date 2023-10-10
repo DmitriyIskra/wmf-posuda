@@ -1,0 +1,65 @@
+.goods-content__wrapper-main-content-result-search {
+    margin-top: 2.08vw;
+}
+
+.line-right__result-search {
+    margin-top: 3.02vw;
+}
+
+.result-search__header {
+    width: 100%;
+}
+
+.result-search__title {
+    font-family: 'WMFRotis-Bold';
+    font-size: 2.34vw;
+    text-align: center;
+}
+
+.result-search__text-request {
+    font-family: 'WMFRotis-Regular';
+    font-size: 1.15vw;
+    text-align: center;
+}
+
+.wr-number-pages__result-search {
+    margin-top: 1.35vw;
+    margin-bottom: 3.28vw;
+}
+
+
+@media( max-width: 961px ) {
+    .goods-content__wrapper-main-content-result-search {
+        margin-top: 8vw;
+        gap: 0;
+    }
+}
+
+@media( max-width: 961px ) {
+    .line-right__result-search {
+        display: none;
+    }
+}
+
+@media( max-width: 961px ) {
+    .result-search__title {
+        font-family: 'WMFRotis-Bold';
+        font-size: 6.67vw;
+        text-align: center;
+    }
+}
+
+@media( max-width: 961px ) {
+    .result-search__text-request {
+        font-family: 'WMFRotis-Regular';
+        font-size: 4.27vw;
+        text-align: center;
+    }
+}
+
+@media( max-width: 961px ) {
+    .wr-number-pages__result-search {
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+}

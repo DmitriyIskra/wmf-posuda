@@ -36,6 +36,8 @@
 
 .good-card__wr-card-item_no-aside {
     width: 25%;
+
+    justify-content: center;
 }
 
 .good-card__wrapper-link {
