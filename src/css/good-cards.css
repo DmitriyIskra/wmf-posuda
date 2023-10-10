@@ -9,7 +9,7 @@
     margin-top: -2.6vw;
 
     flex-wrap: wrap;
-}
+} 
 
 /* если нет aside */
 .goods-content__wr-content_no-aside {
@@ -19,11 +19,8 @@
 }
 
 .good-card__wr-card-list_no-aside {
-    width: 80%;
+    width: auto;
     padding-left: 0;
-
-    /* justify-content: baseline; */
-    /* gap: calc(100% - (14.48vw * 4)); */
 }
 
 /* -------------- */
@@ -35,6 +32,10 @@
     margin-top: 2.60vw;
 
     justify-content: flex-end;
+}
+
+.good-card__wr-card-item_no-aside {
+    width: 25%;
 }
 
 .good-card__wrapper-link {

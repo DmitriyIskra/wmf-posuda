@@ -520,6 +520,14 @@ module.exports = {
       },
       scriptLoading: 'blocking',
     }),
+    new HtmlWebPackPlugin({
+      template: './src/pug/search-result.pug',
+      filename: './search-result.html',   // куда компилировать
+      minify: {
+        html: false // отключаем минификацию html, еще есть версия minify: false  
+      },
+      scriptLoading: 'blocking',
+    }),
     
     
     new MiniCssExtractPlugin({
