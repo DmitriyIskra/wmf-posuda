@@ -1,7 +1,7 @@
 
 /* количество изображений в слайдере */
 .main__slider-list {
-    --amount-img: 3; 
+    --amount-img: 3;  
 } 
 
 .main {
@@ -216,12 +216,6 @@
     top: 16.07vw;
 }
 
-.main__slider-arrows-item {
-    height: 4.22vw;
-    width: 2.45vw;
-    cursor: pointer;
-}
-
 .main__slider-arrows-list {
     position: absolute;
     top: 50%;
@@ -233,6 +227,34 @@
     transform: translate(-50%, -50%);
     justify-content: space-between;
 }
+
+.main__slider-arrows-item {
+    height: 4.22vw;
+    width: 2.45vw;
+    cursor: pointer;
+}
+
+.main__desc-slider-pagination {
+    display: flex;
+    gap: 0.36vw;
+}
+
+.main__slider-desc-pag-item {
+    width: 2.92vw;
+    height: 0.26vw;
+
+    border-radius: 0.26vw;
+    border:1px solid #333;
+
+    cursor: pointer;
+}
+
+.main__slider-desc-pag-item_active {
+    background: #333;
+
+    cursor: default;
+}
+
 
 
 /* К О Н Е Ц  С Л А Й Д Е Р */
@@ -439,6 +461,10 @@ div.sw-cards__cards-arrow-link {
     }
 
     .main__slider-arrows-list {
+        display: none;
+    }
+
+    .main__desc-slider-pagination {
         display: none;
     }
 }

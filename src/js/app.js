@@ -49,15 +49,14 @@ controlHeader.init();
 
 
 // START SLIDER MAIN PAGE
+    const sliderIndex = document.querySelector('.main_wrapper-slider');
 
-const sliderIndex = document.querySelector('.main_wrapper-slider');
-
-if(sliderIndex) {
-    const drawSliderIndex = new DrawSliderIndex(sliderIndex);
-    const controlSliderIndex = new ControlSliderIndex(drawSliderIndex);
-    controlSliderIndex.init();
-}
-
+    if(sliderIndex) {
+        console.log(document.readyState)
+        const drawSliderIndex = new DrawSliderIndex(sliderIndex);
+        const controlSliderIndex = new ControlSliderIndex(drawSliderIndex);
+        controlSliderIndex.init();
+    }
 
 // END SLIDER MAIN PAGE
 

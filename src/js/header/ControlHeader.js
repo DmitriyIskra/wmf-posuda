@@ -9,7 +9,7 @@ export default class ControlHeader {
     }
 
     init() {
-        this.registerEvents(); 
+        this.registerEvents();  
  
         // собираем массив элементов короткого подчеркивания
         this.draw.arrShortLine = [...this.draw.header.querySelectorAll('.header__short-line')];
