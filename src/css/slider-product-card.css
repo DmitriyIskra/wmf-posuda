@@ -8,7 +8,7 @@
     position: relative;
 
     display: flex;
-    width: 100%;
+    width: 100%; 
 
     flex-direction: column;
 }
@@ -38,9 +38,9 @@
 
 .slider-img {
     height: 100%;
-    width: auto;
+    width: 100%;
 
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 
     cursor: pointer;
@@ -165,11 +165,16 @@
     transition: all 0.3s linear;
 }
 
+.slider__zoom-img-item {
+    width: 41.46vw;
+    height: 36.46vw;
+}
+
 .slider-zoom-img {
     height: 100%;
-    width: auto;
+    width: 100%;
 
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 

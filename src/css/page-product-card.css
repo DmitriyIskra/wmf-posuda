@@ -5,7 +5,7 @@
 
 /* ________ MAIN ________ */
  
-.main-product-card {
+.main-product-card { 
     display: flex;
     padding-bottom: 8.85vw;
 
@@ -222,7 +222,7 @@
 
 .main__table-tech-item {
     display: flex;
-    height: 2.60vw;
+    min-height: 2.60vw;
 
     border-bottom: 1px solid #777;
 }
@@ -457,15 +457,14 @@
 
 @media( max-width: 961px ) {
     .main__table-tech-item {
-        height: 13.33vw;
+        min-height: 13.33vw;
     }
 }
 
 @media( max-width: 961px ) {
     .main__tech-title-text {
         width: 50%;
-        padding-left: 2.33vw;
-        padding-bottom: 2.33vw;
+        padding: 2.33vw;
 
         font-family: 'WMFRotis-Bold';
         font-size: 3.73vw;
@@ -475,9 +474,7 @@
 
     .main__tech-text {
         width: 50%;
-        padding-left: 2.33vw;
-        padding-bottom: 2.33vw;
-        padding-right: 0;
+        padding: 2.33vw;
 
         font-family: 'WMFRotis-Regular';
         font-size: 3.73vw;

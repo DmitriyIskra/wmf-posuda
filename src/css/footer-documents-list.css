@@ -34,7 +34,7 @@
 
 .footer-doc__file-link {
     display: flex;
-    gap: 0.63vw;
+    gap: 3vw;
 
     justify-content: center;
 }
