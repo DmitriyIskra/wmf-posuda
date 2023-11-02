@@ -6,7 +6,7 @@ html(lang="ru")
         meta(charset="UTF-8")
         meta(name='viewport' content='width=device-width, initial-scale=1.0')
         include modules/favicon-manifest
-        title все позиции
+        title все позиции 
     body
  
         include modules/header 
@@ -19,9 +19,7 @@ html(lang="ru")
 
             
             .goods-content__wrapper-main-content
-                .wr-number-pages.wr-number-pages-top
-                    include modules/number-pages
-
+                
                 aside.aside.goods-content__aside
                     .goods-content__wr-filter
                         .filter
@@ -52,6 +50,9 @@ html(lang="ru")
                                             .filter__sub-item-box
                             .filter__wr-reset-button
                                 button.filter__reset-button Сбросить фильтры
+
+                .wr-number-pages.wr-number-pages-top
+                    include modules/number-pages
 
                 article.goods-content__wr-content
                     ul.good-card__wr-card-list  

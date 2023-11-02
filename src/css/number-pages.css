@@ -8,6 +8,8 @@
 
 .wr-number-pages-top {
     margin-bottom: 1.67vw;
+
+    order: -1;
 }
 
 .number-pages {

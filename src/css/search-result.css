@@ -8,6 +8,8 @@
 
 .result-search__header {
     width: 100%;
+
+    order: -2;
 }
 
 .result-search__title {

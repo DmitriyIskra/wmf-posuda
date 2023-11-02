@@ -17,10 +17,8 @@ html(lang="ru")
 
             .banner.coffee-tea__banner
 
-            .wr-number-pages.wr-number-pages-top
-                include modules/number-pages
-
             .goods-content__wrapper-main-content
+
                 aside.aside.goods-content__aside
                     .goods-content__wr-filter
                         .filter
@@ -75,6 +73,10 @@ html(lang="ru")
                                             .filter__sub-item-box
                             .filter__wr-reset-button
                                 button.filter__reset-button Сбросить фильтры
+                
+                .wr-number-pages.wr-number-pages-top
+                    include modules/number-pages
+                
                 article.goods-content__wr-content
                     ul.good-card__wr-card-list   
                         li.good-card__wr-card-item
