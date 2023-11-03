@@ -6,7 +6,6 @@
 .good-card__wr-card-list {
     display: flex;
     padding-left: 2.3vw;
-    margin-top: -2.6vw;
 
     flex-wrap: wrap;
 } 
@@ -29,15 +28,22 @@
 .good-card__wr-card-item {
     display: flex;
     width: 33.333%;
-    margin-top: 2.60vw;
 
     justify-content: flex-end;
+}
+
+.good-card__wr-card-item:nth-child(n+4) {
+    margin-top: 2.60vw;
 }
 
 .good-card__wr-card-item_no-aside {
     width: 25%;
 
     justify-content: center;
+}
+
+li.good-card__wr-card-item_no-aside:nth-child(4) {
+    margin-top: 0;
 }
 
 .good-card__wrapper-link {
