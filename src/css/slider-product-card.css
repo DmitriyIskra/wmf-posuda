@@ -59,6 +59,10 @@
     pointer-events: none;
 }
 
+.slider__wr-arrows_unactive {
+    display: none;
+}
+
 .slider__arrow-size {
     height: 3.13vw;
     width: 3.13vw;

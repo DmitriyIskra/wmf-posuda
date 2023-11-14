@@ -7,14 +7,18 @@ export default class DrawSlider {
 
         this.zoomCtrlImg = this.zoom.querySelector('.slider__wr-ctlr-img');
         this.zoomSlider = this.zoom.querySelector('.slider__zoom-slider');
-
+ 
         this.sliderWrapper = this.slider.querySelector('.slider__wr-img-list');
         this.sliderImgList = this.slider.querySelector('.slider__img-list');
         this.amountImg = this.slider.querySelectorAll('img').length;
         this.sliderZoomImgList = this.zoomCtrlImg.querySelector('.slider__zoom-img-list');
 
+        // блок стрелок
+        this.wrArrows = this.slider.querySelector('.slider__wr-arrows');
+
         // массив поинтов
-        this.points = this.slider.querySelectorAll('.slider__point-item');
+        this.wrPoints = this.slider.querySelector('.slider__point-list');
+        this.points = null;
         this.zoomPoints = this.zoomCtrlImg.querySelectorAll('.slider__zoom-point-item')
 
         // Ширина окна слайдера, адаптивность будет работать когда
@@ -27,7 +31,7 @@ export default class DrawSlider {
         this.marginLeft = 0;
 
         // последний активный поинт контроллера 
-        this.lastActivePoint = this.points[0];
+        this.lastActivePoint = null;
         // вспомогательный счетчик
         this.counter = 0;
 
@@ -53,6 +57,27 @@ export default class DrawSlider {
         // ИНИЦИАЛИЗИРУЕМ SLIDER
         // Вычисляем ширину окна слайдера
         this.widthSlider = this.slider.offsetWidth;
+
+        if(this.amountImg <= 1) {
+            this.wrArrows.classList.add('slider__wr-arrows_unactive');
+
+            return;
+        }
+
+        // создаем элементы пагинации от колличества слайдов
+        for(let i = 0; i < this.amountImg; i += 1) {
+            const dot = document.createElement('li');
+            dot.classList.add('slider__point-item');
+            if(i === 0) dot.classList.add('slider__point-item_active');
+            dot.dataset.index = i;
+
+            this.wrPoints.append(dot);
+        }
+        
+        // находим все точки пагинации
+        this.points = this.slider.querySelectorAll('.slider__point-item');
+        // крайний активный поинт контроллера
+        this.lastActivePoint = this.points[0];
     }
 
     moveRight() {
@@ -62,7 +87,7 @@ export default class DrawSlider {
         this.counter += 1;
 
         // если при движении вправо счетчик стал юольше 2, т.е. крайней возможной цифры
-        if(this.counter > 2) {
+        if(this.counter > this.amountImg - 1) {
             this.counter = 0
             
             this.marginLeft -= this.widthSlider;
@@ -136,7 +161,7 @@ export default class DrawSlider {
 
         if(this.counter < 0) {
     
-            this.counter = 2
+            this.counter = this.amountImg - 1;
 
             // убираем класс с transition для последующих манипуляций
             this.sliderWrapper.classList.remove('slider__wr-img-list_transition');

@@ -7,7 +7,7 @@ export default class ControlSlider {
         this.onClick = this.onClick.bind(this);
     }
 
-    init() {
+    init() { 
         this.drawSlider.initSlider();
  
         this.registerEvents();
