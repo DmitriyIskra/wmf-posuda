@@ -13,13 +13,17 @@ export default class DrawSlider {
         this.amountImg = this.slider.querySelectorAll('img').length;
         this.sliderZoomImgList = this.zoomCtrlImg.querySelector('.slider__zoom-img-list');
 
-        // блок стрелок
+        // блок стрелок слайдер
         this.wrArrows = this.slider.querySelector('.slider__wr-arrows');
+        // блок стрелок zoom
+        this.wrArrowsZoom = this.zoomCtrlImg.querySelector('.slider__wr-zoom-arrows');
 
-        // массив поинтов
+        // обертка и массив поинтов слайдера
         this.wrPoints = this.slider.querySelector('.slider__point-list');
         this.points = null;
-        this.zoomPoints = this.zoomCtrlImg.querySelectorAll('.slider__zoom-point-item')
+        // обертка и массив поинтов zoom
+        this.wrPointZoom = this.zoomCtrlImg.querySelector('.slider__zoom-point-list');
+        this.zoomPoints = null;
 
         // Ширина окна слайдера, адаптивность будет работать когда
         //  картинка будет пропорционально меняться в размерах
@@ -47,7 +51,7 @@ export default class DrawSlider {
         this.marginLeftZoom = 0;
 
         // последний активный поинт контроллера 
-        this.lastActivePointZoom = this.zoomPoints[0];
+        this.lastActivePointZoom = null;
         // вспомогательный счетчик
         this.counterZoom = 0;
     }
@@ -276,16 +280,49 @@ export default class DrawSlider {
         }
     }
 
-    openZoom() {
+    initZoomControl() {
         this.zoom.classList.add('slider__zoom-active');
 
-
         this.widthZoomSlider = this.zoomSlider.offsetWidth;
+
+        if(this.amountImg <= 1) {
+            this.wrArrowsZoom.classList.add('slider__wr-zoom-arrows_unactive');
+
+            return;
+        }
+
+        // создаем элементы пагинации от колличества слайдов
+        // если поинты еще не были проинициализированы
+        if(this.wrPointZoom.children.length === 0) {
+            
+            for(let i = 0; i < this.amountImg; i += 1) {
+                const dot = document.createElement('li');
+                dot.classList.add('slider__zoom-point-item');
+                dot.dataset.index = i;
+
+                this.wrPointZoom.append(dot);
+            }
+        }
         
+
+        // собираем массив поинтов zoom
+        this.zoomPoints = this.wrPointZoom.querySelectorAll('.slider__zoom-point-item');
+
         // определяем и переназначаем активный поинт
-        let activePointIndex = this.lastActivePoint.dataset.index
+        let activePointIndex = this.lastActivePoint.dataset.index;
         this.lastActivePointZoom = this.zoomPoints[activePointIndex];
         this.lastActivePointZoom.classList.add('slider__zoom-point-item_active');
+
+        return activePointIndex;
+    }
+
+    openZoom() {
+        // инициализируем и настраиваем zoom
+        const activePointIndex = this.initZoomControl();
+                        // this.lastActivePointZoom = this.zoomPoints[0];
+        
+        // определяем ширину для обертки слайдов
+        this.sliderZoomImgList.style.width = `${100 * this.amountImg}%`
 
         // переопределяем коунтер исходя из активного поинта
         this.counterZoom = parseInt(activePointIndex)
@@ -314,7 +351,11 @@ export default class DrawSlider {
         this.zoomSlider.classList.remove('slider__img-list_transition');
 
         // очищаем последний поинт элемент
-        this.lastActivePointZoom.classList.remove('slider__zoom-point-item_active');
+        // если слайдов больше одного и этот элемент есть
+        if(this.lastActivePointZoom) {
+            this.lastActivePointZoom.classList.remove('slider__zoom-point-item_active');
+        }
+        
         this.lastActivePointZoom = null;
 
         // скрываем zoom
@@ -346,7 +387,7 @@ export default class DrawSlider {
         // }
 
         // если при движении вправо счетчик стал юольше 2, т.е. крайней возможной цифры
-        if(this.counterZoom > 2) {
+        if(this.counterZoom > this.amountImg - 1) {
             this.counterZoom = 0
             
             // Клонируем блок с изображениями
@@ -417,7 +458,7 @@ export default class DrawSlider {
         // Если пошли по кругу
         if(this.counterZoom < 0) {
     
-            this.counterZoom = 2
+            this.counterZoom = this.amountImg - 1;
 
 
             // Клонируем блок с изображениями
@@ -431,13 +472,13 @@ export default class DrawSlider {
             this.zoomSlider.prepend(this.cloneZoom);                                    // эту часть
 
             // меняем margin-left так как подставлен блок
-            this.zoomSlider.style.marginLeft = `${(this.widthZoomSlider * 3 ) * -1}px`; // и эту попробовать в timeout
+            this.zoomSlider.style.marginLeft = `${(this.widthZoomSlider * this.amountImg ) * -1}px`; // и эту попробовать в timeout
 
             // возвращаем transition двигаем блок
             setTimeout(() => {
                 this.zoomSlider.classList.add('slider__img-list_transition')
-                this.marginLeftZoom = (this.widthZoomSlider * 2) * -1;
-                this.zoomSlider.style.marginLeft = `${(this.widthZoomSlider * 2) * -1}px`;
+                this.marginLeftZoom = (this.widthZoomSlider * (this.amountImg - 1)) * -1;
+                this.zoomSlider.style.marginLeft = `${this.marginLeftZoom}px`;
             }, 0)
 
             

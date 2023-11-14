@@ -30,7 +30,7 @@
 
 .slider__img-item {
     display: flex; 
-    width: 34.80vw;
+    width: 34.56vw;/*  34.80vw */
     height: 31.25vw;
 
     justify-content: center;
@@ -160,7 +160,6 @@
 .slider__zoom-img-list {
     display: flex;
     height: 100%;
-    width: 300%;
 
     flex-grow: 1;
 }
@@ -194,6 +193,10 @@
 
     justify-content: space-between;
     transform: translate(-50%, -50%);
+}
+
+.slider__wr-zoom-arrows_unactive {
+    display: none;
 }
 
 .slider__zoom-arrow-size {
