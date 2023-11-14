@@ -162,7 +162,7 @@ const getFormButton = pageVase || errorPage;
 if(getFormButton) {
     const regExpPhone = /^\+7\(\d{1,3}\)\d{3}-\d{2}-\d{2}$/ ///^\+7(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/;
     const regExpEmail = /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}/i;
-
+ 
     const validationForm = new ValidationForm(regExpPhone, regExpEmail)
     const redrawCallback = new RedrawCallback();// 
     const http = new Http('https://v.isttrade.ru/wmfposuda/modal-form.html'); // ../modal-form.html

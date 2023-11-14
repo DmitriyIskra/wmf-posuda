@@ -6,15 +6,30 @@ export default class DrawSliderIndex {
         this.sliderList = this.slider.querySelector('.main__slider-list');
         this.slides = this.slider.querySelectorAll('.main__slider-item');
         this.wrPagination = this.slider.querySelector('.main__desc-slider-pagination');
+        this.controllArrows = this.slider.querySelector('.main__slider-arrows-list')
 
         // количество элементов пагинации
         this.amountDots = this.slides.length;
+        this.amountSlides = this.slides.length;
         this.activeDot = null;
         this.counter = 0
+        // ширина доступного окна браузера
+        this.widthDoc = document.documentElement.clientWidth;
     }
  
-    renderingPagination() {
+    initSlider() {
         
+        if(this.amountSlides <= 1) {
+            this.controllArrows.classList.add('main__slider-arrows-list_unactive')
+            
+            return;
+        }
+
+        // задаем ширину контейнеру слайдов
+        // слайдер расстягивается на всю ширину, поэтому 100 (мц)
+        this.sliderList.style.width = `${100 * this.amountSlides}vw`;
+
+        // Отрисовываем пагинацию
         for( let i = 0; i < this.amountDots; i += 1 ) {
 
             const dot = document.createElement('li');
@@ -31,14 +46,18 @@ export default class DrawSliderIndex {
 
         }
 
-        // вычислияем смещение пагинации во vw
-        // 26.51 это по центру, отнего сдвигаем влево на половину пагинации
+        // вычислияем смещение пагинации во vw влево
+        // должна быть половина от ширины обертки пагинации
+        // задаем margin-left чтоб левый край обертки пагинации
+        // был там где будет центр и смещаем влево на половину пагинации
         const widthPag = this.wrPagination.offsetWidth / 2;
-        const widthDoc = innerWidth;
-        const pxToVw = widthPag / widthDoc * 100;
-        const offsetX = 26.51 - pxToVw;
+        // расчет ширины доли пагинации в vw
+        const pxToVw = widthPag / this.widthDoc * 100;
 
-        this.wrPagination.style = `transform: translate(${-offsetX}vw, ${-2.34}vw);`;
+        this.wrPagination.style = `
+        margin-left:${27.95}vw;
+        transform: translate(${-pxToVw}vw, ${-2.34}vw);
+        `;
     }
 
     pagClick(element) {
@@ -66,11 +85,11 @@ export default class DrawSliderIndex {
 
         const widthSlider = innerWidth;
 
-        if(this.counter <= 2) {
+        if(this.counter <= this.amountSlides - 1) {
             this.scrollLine.style.transform = `translateX(${(widthSlider * this.counter) * -1}px)`;
         }
-        
-        if(this.counter > 2) {
+         
+        if(this.counter > this.amountSlides - 1) {
             const clone = this.sliderList.cloneNode(true);
 
             this.sliderList.after(clone);
@@ -108,9 +127,9 @@ export default class DrawSliderIndex {
 
             this.sliderList.before(clone);
 
-            this.scrollLine.style.transform = `translateX(${(widthSlider * this.slides.length) * -1}px)`;
+            this.scrollLine.style.transform = `translateX(${(widthSlider * this.amountSlides) * -1}px)`;
 
-            this.counter = 2
+            this.counter = this.amountSlides - 1
 
             setTimeout(() => {
                 this.scrollLine.style.transition = 'all 0.5s linear';

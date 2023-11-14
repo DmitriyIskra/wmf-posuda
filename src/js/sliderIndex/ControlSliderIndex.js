@@ -10,10 +10,10 @@ export default class ControlSliderIndex {
     init() { 
         this.registerEvents();
 
-        this.draw.renderingPagination();
+        this.draw.initSlider();
     }
 
-    registerEvents() {
+    registerEvents() { 
         this.slider.addEventListener('click', this.onClick);
     }
 
