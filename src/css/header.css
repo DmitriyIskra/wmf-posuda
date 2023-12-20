@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    padding-top: 1.15vw;
+    padding-top: 1.15vw; 
 
     flex-direction: column;
     align-items: center;
@@ -24,6 +24,27 @@
 .logo {
     height: 4.79vw;
     width: 3.18vw;
+}
+
+.header-logo-icon-desctop {
+    height: 100%;
+}
+
+.header-logo-icon-desctop svg {
+    width: 100%;
+    height: auto;
+}
+
+.header__logo-text {
+    display: flex;
+    margin-top: -0.05vw;
+
+    font-family: 'WMFRotis-Bold';
+    font-size: 0.52vw;
+    line-height: 0.75;
+
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-logo-icon-mobile {
