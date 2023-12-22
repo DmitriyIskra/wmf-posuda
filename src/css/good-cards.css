@@ -47,10 +47,14 @@ li.good-card__wr-card-item_no-aside:nth-child(4) {
 }
 
 .good-card__wrapper-link {
+    display: flex;
     width: 15.57vw;
     padding: 0.99vw 1.20vw 1.46vw;
 
     border-radius: 0.42vw;
+
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .good-card__card-content {
