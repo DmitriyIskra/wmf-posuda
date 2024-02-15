@@ -57,7 +57,6 @@ controlHeader.init();
         const controlSliderIndex = new ControlSliderIndex(drawSliderIndex);
         controlSliderIndex.init();
     }
-
 // END SLIDER MAIN PAGE
 
 
